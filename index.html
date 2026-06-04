@@ -2534,6 +2534,20 @@
         var qs2 = window.location.search || '';
         window.location.replace('last-chance.html' + qs2);
       });
+
+      // bfcache: quando o usuário volta do checkout (Stripe etc), o browser
+      // restaura a página do cache sem rodar scripts top-level nem popstate.
+      // Só o pageshow com persisted=true dispara — sem isso o usuário precisa
+      // dar refresh manual para o downsell aparecer.
+      window.addEventListener('pageshow', function (event) {
+        if (!event.persisted) return;
+        if (sessionStorage.getItem(FIRED)) return;
+        if (!sessionStorage.getItem(INTENT)) return;
+        sessionStorage.setItem(FIRED, '1');
+        sessionStorage.removeItem(INTENT);
+        var qs3 = window.location.search || '';
+        window.location.replace('last-chance.html' + qs3);
+      });
     })();
   </script>
 
