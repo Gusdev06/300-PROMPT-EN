@@ -2476,6 +2476,54 @@
     })();
   </script>
 
+  <!-- BACK REDIRECT (só dispara para quem clicou no plano de $12.99) -->
+  <script>
+    (function () {
+      var FIRED = 'back_redirect_fired';
+      var INTENT = 'intent_12_99';
+
+      // Se já redirecionou nessa sessão ou veio do last-chance, ignora
+      if (sessionStorage.getItem(FIRED)) return;
+      if (document.referrer && document.referrer.indexOf('last-chance') !== -1) return;
+
+      // Se a pessoa clicou no $12.99 e voltou ao recarregar a página → redireciona
+      if (sessionStorage.getItem(INTENT)) {
+        sessionStorage.setItem(FIRED, '1');
+        sessionStorage.removeItem(INTENT);
+        var qs1 = window.location.search || '';
+        window.location.replace('last-chance.html' + qs1);
+        return;
+      }
+
+      // Marca intent quando clica em QUALQUER link do plano de $12.99
+      function ready(fn) {
+        if (document.readyState !== 'loading') fn();
+        else document.addEventListener('DOMContentLoaded', fn);
+      }
+      ready(function () {
+        var links = document.querySelectorAll('a[href*="PPU38CQCKMH"]');
+        for (var i = 0; i < links.length; i++) {
+          links[i].addEventListener('click', function () {
+            sessionStorage.setItem(INTENT, '1');
+          });
+        }
+      });
+
+      // Captura também o botão "voltar" do navegador (bfcache / popstate)
+      history.pushState({ br: 1 }, '', location.href);
+      history.pushState({ br: 2 }, '', location.href);
+      window.addEventListener('popstate', function () {
+        if (sessionStorage.getItem(FIRED)) return;
+        // Só dispara o back redirect SE o usuário demonstrou intenção no $12.99
+        if (!sessionStorage.getItem(INTENT)) return;
+        sessionStorage.setItem(FIRED, '1');
+        sessionStorage.removeItem(INTENT);
+        var qs2 = window.location.search || '';
+        window.location.replace('last-chance.html' + qs2);
+      });
+    })();
+  </script>
+
 </body>
 
 </html>
