@@ -1,0 +1,3342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ghost Model Method — Build a Faceless AI Influencer That Earns on Fanvue | gustagoat.ia</title>
+  <meta name="description" content="The full system to build a faceless AI influencer that earns on Fanvue — keep the same face every photo, generate +18 with zero blocks, grow Instagram from zero. No ComfyUI, no LoRA, no showing your face." />
+
+  <!-- Open Graph / social share preview -->
+  <!-- ⚠️ Para o preview funcionar no WhatsApp/Facebook, troque os 2 og:image/twitter:image por URL ABSOLUTA (ex: https://SEU-DOMINIO.com/assets/banner-complete.png) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="gustagoat.ia" />
+  <meta property="og:title" content="Ghost Model Method — Build a Faceless AI Influencer That Earns on Fanvue" />
+  <meta property="og:description" content="Build a faceless AI model that earns on Fanvue — same face every photo, +18 with zero blocks, grow Instagram from zero, never get banned. No ComfyUI, no LoRA, no showing your face." />
+  <meta property="og:image" content="assets/banner-complete.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ghost Model Method — Faceless AI Influencer on Fanvue" />
+  <meta name="twitter:description" content="Build a faceless AI model that earns on Fanvue — no ComfyUI, no LoRA, no showing your face." />
+  <meta name="twitter:image" content="assets/banner-complete.png" />
+
+  <!-- Meta Pixel -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window,
+      document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1223791793200733');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent', { content_name: 'Pack 300+ Prompts', content_type: 'product', value: 6.99, currency: 'USD' });
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1223791793200733&ev=PageView&noscript=1" /></noscript>
+
+  <!-- UTMify UTMs -->
+  <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
+
+  <!-- UTMify Pixel -->
+  <script>
+    window.pixelId = "6a2b0f26049323753c49905e";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+
+  <!-- Google Analytics 4 (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KQL6DSS04"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-1KQL6DSS04', { page_path: window.location.pathname });
+  </script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0
+    }
+
+    body {
+      font-family: 'Hanken Grotesk', sans-serif;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility
+    }
+
+    /* Display font for headlines — gives a crafted, non-template feel */
+    h1, h2, h3,
+    .cta-btn, .sc-btn,
+    .hero-price-bar .price-new,
+    .offer-price,
+    .value-stack .today .big {
+      font-family: 'Archivo', sans-serif;
+      letter-spacing: -0.02em
+    }
+
+    h1 { letter-spacing: -0.035em }
+
+    /* Subtle film-grain overlay for depth (premium, hand-finished look) */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: .045;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")
+    }
+
+    img {
+      max-width: 100%;
+      height: auto
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 16px
+    }
+
+    .text-center {
+      text-align: center
+    }
+
+    .apple-emoji {
+      font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif
+    }
+
+    /* SCROLL REVEAL */
+    .reveal {
+      opacity: 0;
+      transition: opacity .7s cubic-bezier(.4, 0, .2, 1), transform .7s cubic-bezier(.4, 0, .2, 1)
+    }
+
+    .reveal.from-up {
+      transform: translateY(40px)
+    }
+
+    .reveal.from-down {
+      transform: translateY(-40px)
+    }
+
+    .reveal.from-left {
+      transform: translateX(-40px)
+    }
+
+    .reveal.from-right {
+      transform: translateX(40px)
+    }
+
+    .reveal.visible {
+      opacity: 1;
+      transform: none
+    }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 40px;
+      background: linear-gradient(180deg, #000 0%, hsl(199, 70%, 9%) 50%, #000 100%)
+    }
+
+    .hero .container {
+      padding-top: 40px
+    }
+
+    .hero h1 {
+      font-size: clamp(1.25rem, 4vw, 3.5rem);
+      font-weight: 900;
+      line-height: 1.15;
+      margin-bottom: 16px;
+      color: #fff
+    }
+
+    .hero p.subtitle {
+      font-size: clamp(.875rem, 2vw, 1.25rem);
+      color: #b3b3b3;
+      max-width: 640px;
+      margin: 0 auto
+    }
+
+    .highlight {
+      background: #00AFF0;
+      color: #fff;
+      padding: 2px 8px;
+      display: inline;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone
+    }
+
+    .highlight-yellow {
+      background: #9EEB47;
+      color: #000;
+      padding: 2px 8px;
+      display: inline;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone
+    }
+
+    .hero-image-wrap {
+      position: relative;
+      max-width: 500px;
+      margin: 32px auto 24px
+    }
+
+    .hero-image-wrap img {
+      position: relative;
+      width: 100%;
+      border-radius: 16px;
+      filter: drop-shadow(0 25px 50px rgba(0, 175, 240, .3))
+    }
+
+    .hero-price-bar {
+      position: relative;
+      margin-top: -16px;
+      background: #fff;
+      padding: 24px 0 32px;
+      text-align: center;
+      clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%)
+    }
+
+    .hero-price-bar .price-old {
+      color: hsl(0, 84%, 60%);
+      text-decoration: line-through;
+      font-size: 1.25rem;
+      font-weight: 700
+    }
+
+    .hero-price-bar .label {
+      color: #000;
+      font-weight: 700;
+      font-size: 1.25rem;
+      margin-top: 4px
+    }
+
+    .hero-price-bar .price-new {
+      color: #7CC234;
+      font-size: 3rem;
+      font-weight: 900;
+      margin-top: 4px
+    }
+
+    .hero-price-bar .small-text {
+      color: rgba(0, 0, 0, .5);
+      font-size: .75rem;
+      font-weight: 500;
+      margin-top: 4px
+    }
+
+    /* CTA BUTTON */
+    .cta-btn {
+      display: block;
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+      text-align: center;
+      font-weight: 900;
+      font-size: clamp(1rem, 2.5vw, 1.35rem);
+      padding: 20px 40px;
+      border-radius: 8px;
+      background: #9EEB47;
+      color: #000;
+      border: none;
+      cursor: pointer;
+      letter-spacing: -0.01em;
+      box-shadow: 0 6px 22px rgba(158, 235, 71, .28), 0 0 0 rgba(158, 235, 71, .5);
+      animation: pulsar 2.4s ease-in-out infinite;
+      transition: transform .25s cubic-bezier(.34,1.56,.64,1), box-shadow .25s, background .3s
+    }
+
+    .cta-btn:hover {
+      background: #aef25a;
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(158, 235, 71, .45)
+    }
+
+    .cta-btn:active {
+      transform: translateY(0) scale(.99)
+    }
+
+    @keyframes pulsar {
+
+      0%,
+      100% {
+        transform: scale(1);
+        box-shadow: 0 6px 22px rgba(158, 235, 71, .28), 0 0 0 0 rgba(158, 235, 71, .45)
+      }
+
+      50% {
+        transform: scale(1.018);
+        box-shadow: 0 6px 26px rgba(158, 235, 71, .4), 0 0 0 10px rgba(158, 235, 71, 0)
+      }
+    }
+
+    /* Crafted hover states — subtle lift, desktop delight */
+    .step-card, .proof-card, .bonus-card {
+      transition: transform .28s cubic-bezier(.4,0,.2,1), box-shadow .28s, border-color .28s
+    }
+
+    @media(hover:hover) {
+      .step-card:hover, .proof-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(0, 175, 240, .45);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, .5)
+      }
+      .bonus-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 14px 34px rgba(0, 0, 0, .45)
+      }
+    }
+
+    /* BENEFITS */
+    .benefits {
+      background: #000;
+      padding: 32px 0 48px;
+      font-family: 'Hanken Grotesk', sans-serif
+    }
+
+    .benefits-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      align-items: center
+    }
+
+    @media(min-width:768px) {
+      .benefits-grid {
+        flex-direction: row;
+        gap: 48px
+      }
+    }
+
+    .benefits-list {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px
+    }
+
+    .benefit-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px
+    }
+
+    .benefit-check {
+      flex-shrink: 0;
+      width: 20px;
+      height: 20px;
+      border-radius: 3px;
+      background: #00AFF0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 2px
+    }
+
+    .benefit-check svg {
+      width: 12px;
+      height: 12px;
+      color: #fff
+    }
+
+    .benefit-item p {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #fff
+    }
+
+    .benefits-image {
+      flex: 1;
+      text-align: center
+    }
+
+    .benefits-image img {
+      max-width: 400px;
+      width: 100%;
+      filter: drop-shadow(0 25px 50px rgba(0, 0, 0, .5))
+    }
+
+    /* TARGET */
+    .target {
+      background: #000;
+      padding: 32px 0 48px;
+      position: relative
+    }
+
+    .target-bg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 120px;
+      background: linear-gradient(180deg, #00AFF0 0%, #005A80 100%);
+      clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%);
+      z-index: 0
+    }
+
+    .target .container {
+      position: relative;
+      z-index: 1
+    }
+
+    .target h2 {
+      font-size: clamp(1.75rem, 4vw, 3rem);
+      font-weight: 900;
+      margin-bottom: 48px;
+      color: #fff
+    }
+
+    .target h2 .label-highlight {
+      position: relative;
+      display: inline-block;
+      padding: 8px 16px;
+      font-size: 1.875rem;
+      font-weight: 900
+    }
+
+    .target h2 .label-highlight .bg {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 8px;
+      height: 40%;
+      background: linear-gradient(to right, #005A80, #00AFF0);
+      z-index: 0
+    }
+
+    .target h2 .label-highlight span {
+      position: relative;
+      z-index: 1
+    }
+
+    .target-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      max-width: 768px;
+      margin: 0 auto
+    }
+
+    @media(min-width:768px) {
+      .target-grid {
+        grid-template-columns: 1fr 1fr
+      }
+    }
+
+    .target-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 12px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .15)
+    }
+
+    .target-card .emoji {
+      font-size: 1.5rem;
+      flex-shrink: 0
+    }
+
+    .target-card .title {
+      font-weight: 900;
+      font-size: .875rem;
+      margin-bottom: 2px
+    }
+
+    .target-card .title span {
+      background: #00AFF0;
+      color: #fff;
+      padding: 2px 8px;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone
+    }
+
+    .target-card .desc {
+      font-weight: 500;
+      font-size: .75rem;
+      color: hsl(0, 0%, 30%);
+      line-height: 1.5
+    }
+
+    /* BEFORE/AFTER */
+    .before-after {
+      background: #000;
+      padding: 32px 0 48px
+    }
+
+    .ba-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      max-width: 768px;
+      margin: 0 auto
+    }
+
+    @media(min-width:768px) {
+      .ba-grid {
+        gap: 32px
+      }
+    }
+
+    .ba-grid h3 {
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      font-weight: 900;
+      text-align: center
+    }
+
+    .ba-grid h3.red {
+      color: hsl(0, 84%, 60%)
+    }
+
+    .ba-grid h3.green {
+      color: #9EEB47
+    }
+
+    .ba-grid .subtitle {
+      text-align: center;
+      font-weight: 700;
+      font-size: .875rem
+    }
+
+    .metric {
+      display: flex;
+      flex-direction: column;
+      gap: 4px
+    }
+
+    .metric .label {
+      font-weight: 700;
+      font-size: .875rem
+    }
+
+    .metric .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .metric .row span {
+      font-size: .75rem;
+      color: #b3b3b3
+    }
+
+    .metric .row .val {
+      font-weight: 700
+    }
+
+    .metric .row .val.red {
+      color: hsl(0, 84%, 60%)
+    }
+
+    .metric .row .val.green {
+      color: #9EEB47
+    }
+
+    .progress-bar {
+      width: 100%;
+      height: 12px;
+      border-radius: 9999px;
+      background: hsl(0, 0%, 15%);
+      overflow: hidden
+    }
+
+    .progress-fill {
+      height: 100%;
+      border-radius: 9999px;
+      transition: width 1.2s cubic-bezier(.4, 0, .2, 1)
+    }
+
+    .progress-fill.red {
+      background: hsl(0, 84%, 60%)
+    }
+
+    .progress-fill.green {
+      background: #9EEB47
+    }
+
+    .progress-fill.waiting {
+      width: 0 !important
+    }
+
+    /* CATEGORIES */
+    .categories {
+      background: linear-gradient(180deg, #000 0%, hsl(0, 0%, 5%) 50%, #000 100%);
+      padding: 32px 0 48px
+    }
+
+    .categories h2 {
+      font-size: clamp(1.5rem, 4vw, 3rem);
+      font-weight: 900;
+      margin-bottom: 32px
+    }
+
+    .cat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      max-width: 600px;
+      margin: 0 auto
+    }
+
+    @media(min-width:768px) {
+      .cat-grid {
+        grid-template-columns: 1fr 1fr 1fr
+      }
+    }
+
+    .cat-card {
+      background: hsl(0, 0%, 8%);
+      border: 1px solid hsl(0, 0%, 20%);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      transition: border-color .3s
+    }
+
+    .cat-card:hover {
+      border-color: rgba(0, 175, 240, .5)
+    }
+
+    .cat-card .emoji {
+      font-size: 2rem;
+      margin-bottom: 8px;
+      display: block
+    }
+
+    .cat-card .name {
+      font-weight: 700;
+      font-size: .875rem;
+      color: #fff;
+      margin-bottom: 4px
+    }
+
+    .cat-card .count {
+      font-size: .75rem;
+      color: #00AFF0;
+      font-weight: 600
+    }
+
+    /* Cat cards with image */
+    .cat-grid-img {
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      max-width: 700px
+    }
+
+    @media(min-width:768px) {
+      .cat-grid-img {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px
+      }
+    }
+
+    .cat-card-img {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      aspect-ratio: 3/4;
+      cursor: default;
+      transition: transform .3s
+    }
+
+    .cat-card-img:hover {
+      transform: scale(1.03)
+    }
+
+    .cat-card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block
+    }
+
+    .cat-card-label {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0, 0, 0, .85));
+      padding: 12px;
+      text-align: center
+    }
+
+    .cat-card-label .name {
+      font-weight: 800;
+      font-size: .85rem;
+      color: #fff;
+      margin-bottom: 2px
+    }
+
+    .cat-card-label .count {
+      font-size: .7rem;
+      color: #00AFF0;
+      font-weight: 700
+    }
+
+    .cat-card-sensitive img {
+      filter: blur(22px);
+      transform: scale(1.08);
+      transition: filter .35s ease, transform .35s ease
+    }
+
+    .cat-card-sensitive.revealed img {
+      filter: blur(0);
+      transform: scale(1)
+    }
+
+    .cat-card-blur {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 16px;
+      background: rgba(0, 0, 0, .55);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      text-align: center;
+      cursor: pointer;
+      transition: opacity .3s ease;
+      z-index: 2
+    }
+
+    .cat-card-sensitive.revealed .cat-card-blur {
+      opacity: 0;
+      pointer-events: none
+    }
+
+    .cat-card-blur .eye-btn {
+      width: 48px;
+      height: 48px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .12);
+      border: 1.5px solid rgba(255, 255, 255, .85);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 22px;
+      line-height: 1
+    }
+
+    .cat-card-blur .warn {
+      font-weight: 800;
+      font-size: .8rem;
+      color: #fff;
+      letter-spacing: .02em
+    }
+
+    .cat-card-blur .hint {
+      font-size: .68rem;
+      color: rgba(255, 255, 255, .8);
+      font-weight: 600
+    }
+
+    .cat-card-sensitive .cat-card-label {
+      z-index: 3
+    }
+
+    .cat-card-sensitive .cat-card-label .name {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: .95rem;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, .85)
+    }
+
+    .badge-18 {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      background: hsl(0, 84%, 55%);
+      color: #fff;
+      font-weight: 900;
+      font-size: .7rem;
+      padding: 2px 7px;
+      border-radius: 6px;
+      border: 1.5px solid #fff;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, .4);
+      letter-spacing: .02em
+    }
+
+    /* BONUS */
+    .bonus-section {
+      padding: 32px 0 48px;
+      background: linear-gradient(180deg, #000 0%, hsl(0, 0%, 8%) 50%, #000 100%)
+    }
+
+    .bonus-section h2 {
+      font-size: clamp(1.5rem, 4vw, 3rem);
+      font-weight: 900;
+      margin-bottom: 16px
+    }
+
+    .bonus-section .subtitle-tag {
+      background: #00AFF0;
+      color: #fff;
+      padding: 2px 8px;
+      font-weight: 700;
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      display: inline;
+      box-decoration-break: clone;
+      -webkit-box-decoration-break: clone
+    }
+
+    .bonus-list {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      max-width: 900px;
+      margin: 48px auto 0
+    }
+
+    .bonus-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      border: 1px solid rgba(255, 255, 255, .2);
+      border-radius: 12px;
+      padding: 24px;
+      background: #fff;
+      color: #000
+    }
+
+    @media(min-width:768px) {
+      .bonus-card {
+        flex-direction: row
+      }
+    }
+
+    .bonus-card .thumb {
+      width: 100%;
+      max-width: 260px;
+      aspect-ratio: 1/1;
+      border-radius: 10px;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: linear-gradient(135deg, #e9eef2, #dfe6ec);
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+
+    @media(min-width:768px) {
+      .bonus-card .thumb {
+        width: 190px;
+        aspect-ratio: 4/5
+      }
+    }
+
+    .bonus-card .thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block
+    }
+
+    .bonus-card .thumb .ph {
+      color: #8a96a3;
+      font-size: .72rem;
+      font-weight: 700;
+      text-align: center;
+      line-height: 1.4;
+      padding: 12px
+    }
+
+    .bonus-card .info {
+      flex: 1
+    }
+
+    .bonus-card .info h3 {
+      font-size: 1.25rem;
+      font-weight: 900;
+      margin-bottom: 12px
+    }
+
+    .bonus-card .info h3 span {
+      background: #00AFF0;
+      color: #fff;
+      padding: 2px 8px
+    }
+
+    .bonus-card .info p {
+      font-size: .875rem;
+      color: rgba(0, 0, 0, .7);
+      line-height: 1.5;
+      margin-bottom: 16px
+    }
+
+    .bonus-card .prices {
+      display: flex;
+      align-items: center;
+      gap: 16px
+    }
+
+    .bonus-card .prices .old {
+      color: hsl(0, 84%, 60%);
+      text-decoration: line-through;
+      font-weight: 700;
+      font-size: 1.125rem
+    }
+
+    .bonus-card .prices .free {
+      color: #00AFF0;
+      font-weight: 900;
+      font-size: 1.5rem
+    }
+
+    /* UNCENSORED AI */
+    .uncensored-section {
+      padding: 48px 0;
+      background: radial-gradient(ellipse at top, hsla(0, 84%, 30%, .25) 0%, #000 60%)
+    }
+
+    .uncensored-card {
+      max-width: 900px;
+      margin: 0 auto;
+      border: 1px solid hsla(0, 84%, 60%, .4);
+      border-radius: 16px;
+      padding: 32px 24px;
+      background: linear-gradient(135deg, hsla(0, 84%, 12%, .8), hsl(0, 0%, 6%));
+      position: relative;
+      overflow: hidden
+    }
+
+    .uncensored-card::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, hsl(0, 84%, 50%), hsl(25, 95%, 55%))
+    }
+
+    .uncensored-tag {
+      display: inline-block;
+      background: hsl(0, 84%, 50%);
+      color: #fff;
+      font-size: .75rem;
+      font-weight: 900;
+      letter-spacing: .1em;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+      text-transform: uppercase
+    }
+
+    .uncensored-card h2 {
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      font-weight: 900;
+      line-height: 1.15;
+      margin-bottom: 12px
+    }
+
+    .uncensored-card h2 .flame {
+      color: hsl(25, 95%, 55%)
+    }
+
+    .uncensored-card h2 .strike {
+      color: hsl(0, 84%, 60%);
+      text-decoration: line-through;
+      text-decoration-thickness: 3px;
+      opacity: .85
+    }
+
+    .uncensored-card>p {
+      font-size: 1rem;
+      color: rgba(255, 255, 255, .85);
+      line-height: 1.6;
+      margin-bottom: 20px;
+      max-width: 640px
+    }
+
+    .uncensored-list {
+      display: grid;
+      gap: 12px;
+      margin-bottom: 8px
+    }
+
+    @media(min-width: 640px) {
+      .uncensored-card {
+        padding: 40px
+      }
+
+      .uncensored-list {
+        grid-template-columns: 1fr 1fr;
+        gap: 14px 24px
+      }
+    }
+
+    .uncensored-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: .95rem;
+      color: #fff
+    }
+
+    .uncensored-media {
+      position: relative;
+      margin: 24px auto 0;
+      max-width: 460px;
+      border-radius: 12px;
+      overflow: hidden;
+      cursor: pointer;
+      border: 1px solid hsla(0, 84%, 60%, .35)
+    }
+
+    .uncensored-media img {
+      width: 100%;
+      display: block;
+      filter: blur(22px);
+      transform: scale(1.05);
+      transition: filter .35s ease
+    }
+
+    .uncensored-media.shown img {
+      filter: none
+    }
+
+    .uncensored-blur {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      background: rgba(0, 0, 0, .45);
+      color: #fff;
+      font-weight: 800;
+      font-size: .85rem;
+      letter-spacing: .02em;
+      transition: opacity .35s ease
+    }
+
+    .uncensored-media.shown .uncensored-blur {
+      opacity: 0;
+      pointer-events: none
+    }
+
+    .uncensored-blur .eye {
+      font-size: 1.6rem
+    }
+
+    .uncensored-cap {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, .7);
+      color: #fff;
+      font-size: .72rem;
+      font-weight: 800;
+      padding: 5px 12px;
+      border-radius: 100px;
+      white-space: nowrap
+    }
+
+    .uncensored-item .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: hsl(25, 95%, 55%);
+      box-shadow: 0 0 12px hsl(25, 95%, 55%);
+      flex-shrink: 0;
+      margin-top: 7px
+    }
+
+    /* OFFER */
+    .offer {
+      background: #000;
+      padding: 32px 0 48px
+    }
+
+    .offer-card {
+      max-width: 512px;
+      margin: 0 auto;
+      position: relative;
+      display: block;
+      background: hsl(0, 0%, 8%);
+      border-radius: 16px;
+      border: 1px solid hsl(0, 0%, 20%);
+      overflow: hidden;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, .5);
+      transition: border-color .3s
+    }
+
+    .offer-card:hover {
+      border-color: rgba(0, 175, 240, .5)
+    }
+
+    .offer-header {
+      background: #00AFF0;
+      padding: 24px;
+      text-align: center
+    }
+
+    .offer-header h2 {
+      font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+      font-weight: 900;
+      color: #fff
+    }
+
+    .offer-items {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px
+    }
+
+    .offer-item {
+      display: flex;
+      align-items: center;
+      gap: 12px
+    }
+
+    .offer-item .check {
+      width: 24px;
+      height: 24px;
+      border-radius: 3px;
+      background: #16a34a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0
+    }
+
+    .offer-item .check svg {
+      width: 16px;
+      height: 16px;
+      color: #fff
+    }
+
+    .offer-item p {
+      font-weight: 700;
+      font-size: .875rem;
+      color: #fff
+    }
+
+    .offer-cta {
+      padding: 0 24px 32px;
+      text-align: center
+    }
+
+    .offer-price {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #9EEB47
+    }
+
+    /* PLANS GRID */
+    .plans-grid {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      gap: 24px;
+      align-items: stretch
+    }
+
+    .plans-grid .offer-card {
+      max-width: 100%;
+      margin: 0;
+      height: 100%;
+      display: flex;
+      flex-direction: column
+    }
+
+    .plans-grid .offer-card .offer-items {
+      flex: 1
+    }
+
+    .offer-card.basic {
+      background: hsl(0, 0%, 6%);
+      border-color: hsl(0, 0%, 15%);
+      opacity: .9
+    }
+
+    .offer-card.basic .offer-header {
+      background: hsl(0, 0%, 18%)
+    }
+
+    .offer-card.basic .offer-header h2 {
+      font-size: clamp(1.15rem, 2.5vw, 1.5rem);
+      color: #bbb
+    }
+
+    .offer-card.basic .offer-item p {
+      color: #999
+    }
+
+    .offer-card.basic .offer-item.disabled p {
+      color: #666;
+      text-decoration: line-through
+    }
+
+    .offer-card.basic .offer-item.disabled .check {
+      background: #3a0a0a
+    }
+
+    .offer-card.basic .offer-item.disabled .check svg {
+      color: hsl(0, 84%, 60%)
+    }
+
+    .offer-card.basic .offer-price {
+      color: #bbb;
+      font-size: 2.25rem
+    }
+
+    .offer-card.basic .cta-btn {
+      background: hsl(0, 0%, 22%);
+      box-shadow: none
+    }
+
+    .offer-card.basic .cta-btn:hover {
+      background: hsl(0, 0%, 30%)
+    }
+
+    .offer-card.featured {
+      position: relative;
+      border: 2px solid #00AFF0;
+      box-shadow: 0 25px 60px rgba(0, 175, 240, .25);
+      overflow: visible
+    }
+
+    .offer-card.featured .offer-header {
+      border-radius: 14px 14px 0 0
+    }
+
+    .offer-banner {
+      width: 100%;
+      display: block;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      border-radius: 14px 14px 0 0
+    }
+
+    .offer-badge {
+      position: absolute;
+      top: -14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #FFB800;
+      color: #000;
+      padding: 6px 18px;
+      border-radius: 999px;
+      font-size: .75rem;
+      font-weight: 900;
+      letter-spacing: .05em;
+      text-transform: uppercase;
+      z-index: 2;
+      white-space: nowrap
+    }
+
+    @media(max-width:768px) {
+      .plans-grid {
+        grid-template-columns: 1fr;
+        gap: 48px
+      }
+
+      .plans-grid .offer-card.featured {
+        order: -1;
+        margin-top: 16px
+      }
+
+      .plans-grid .offer-card.basic {
+        order: 1
+      }
+
+      .offer-badge {
+        font-size: .7rem;
+        padding: 5px 14px
+      }
+
+      .offer-card.basic .offer-price {
+        font-size: 2rem
+      }
+    }
+
+    /* GUARANTEE */
+    .guarantee {
+      background: #000;
+      padding: 32px 0 48px
+    }
+
+    .guarantee-card {
+      max-width: 576px;
+      margin: 0 auto;
+      border: 2px solid #00AFF0;
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      background: hsl(0, 0%, 8%)
+    }
+
+    @media(min-width:768px) {
+      .guarantee-card {
+        padding: 48px
+      }
+    }
+
+    .guarantee-card h2 {
+      font-size: clamp(1.25rem, 3vw, 2.25rem);
+      font-weight: 900;
+      margin-bottom: 16px
+    }
+
+    .guarantee-card>p {
+      color: #b3b3b3;
+      line-height: 1.6;
+      margin-bottom: 32px
+    }
+
+    .guarantee-box {
+      background: #000;
+      border: 1px solid hsl(0, 0%, 20%);
+      border-radius: 12px;
+      padding: 24px
+    }
+
+    .guarantee-box p {
+      font-weight: 700;
+      font-size: .875rem
+    }
+
+    @media(min-width:768px) {
+      .guarantee-box p {
+        font-size: 1rem
+      }
+    }
+
+    /* FAQ */
+    .faq {
+      background: #000;
+      padding: 32px 0 64px
+    }
+
+    .faq h2 {
+      font-size: clamp(1.5rem, 3.5vw, 2.25rem);
+      font-weight: 900;
+      margin-bottom: 32px
+    }
+
+    .faq-list {
+      max-width: 640px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 12px
+    }
+
+    .faq-item {
+      background: hsl(0, 0%, 8%);
+      border: 1px solid hsl(0, 0%, 20%);
+      border-radius: 12px;
+      overflow: hidden
+    }
+
+    .faq-item summary {
+      padding: 16px 20px;
+      font-weight: 700;
+      font-size: .9rem;
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none
+    }
+
+    .faq-item summary::after {
+      content: '+';
+      font-size: 1.25rem;
+      color: #00AFF0;
+      font-weight: 900
+    }
+
+    .faq-item[open] summary::after {
+      content: '-'
+    }
+
+    .faq-item .answer {
+      padding: 0 20px 16px;
+      font-size: .875rem;
+      color: #b3b3b3;
+      line-height: 1.6
+    }
+
+    /* HERO CAROUSEL */
+    .hero-carousel {
+      position: relative;
+      max-width: 500px;
+      margin: 32px auto 24px;
+      overflow: hidden;
+      border-radius: 16px
+    }
+
+    .hero-carousel-track {
+      display: flex;
+      transition: transform .5s ease;
+      touch-action: pan-y
+    }
+
+    .hero-carousel-track img {
+      width: 100%;
+      flex-shrink: 0;
+      aspect-ratio: 4/5;
+      border-radius: 16px;
+      filter: drop-shadow(0 25px 50px rgba(0, 175, 240, .3));
+      object-fit: cover
+    }
+
+    .hero-dots {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 12px
+    }
+
+    .hero-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, .4);
+      border: none;
+      cursor: pointer;
+      transition: all .3s
+    }
+
+    .hero-dot.active {
+      background: #00AFF0;
+      width: 24px
+    }
+
+    .hero-arrow {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: rgba(0, 0, 0, .6);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, .2);
+      color: #fff;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 5;
+      transition: all .2s
+    }
+
+    .hero-arrow:hover {
+      background: rgba(0, 175, 240, .8);
+      border-color: #00AFF0
+    }
+
+    .hero-arrow.prev {
+      left: 10px
+    }
+
+    .hero-arrow.next {
+      right: 10px
+    }
+
+    /* REVEAL SLIDE (tap to remove the clothes) */
+    .hero-reveal-slide {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 4/5;
+      flex-shrink: 0;
+      cursor: pointer;
+      overflow: hidden;
+      border-radius: 16px;
+      filter: drop-shadow(0 25px 50px rgba(0, 175, 240, .3))
+    }
+
+    .hero-reveal-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: none;
+      transition: opacity .5s ease
+    }
+
+    .hero-reveal-overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      padding-bottom: 32px;
+      pointer-events: none;
+      transition: opacity .4s ease
+    }
+
+    .hero-reveal-badge {
+      background: rgba(0, 0, 0, .75);
+      backdrop-filter: blur(8px);
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 9999px;
+      font-size: .9375rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .03em;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, .4);
+      animation: revealPulse 1.8s ease-in-out infinite
+    }
+
+    @keyframes revealPulse {
+
+      0%,
+      100% {
+        transform: scale(1);
+        opacity: 1
+      }
+
+      50% {
+        transform: scale(1.05);
+        opacity: .85
+      }
+    }
+
+    .hero-reveal-slide.revealed .hero-reveal-overlay {
+      opacity: 0
+    }
+
+    /* FOOTER */
+    .footer {
+      background: hsl(0, 0%, 5%);
+      padding: 24px 0;
+      text-align: center;
+      border-top: 1px solid hsl(0, 0%, 15%)
+    }
+
+    .footer p {
+      font-size: .75rem;
+      color: #666
+    }
+
+    /* ===== RESPONSIVE MOBILE ===== */
+    @media(max-width:480px) {
+      .container {
+        padding: 0 12px
+      }
+
+      .hero .container {
+        padding-top: 24px
+      }
+
+      .hero h1 {
+        font-size: 1.75rem;
+        line-height: 1.15;
+        margin-bottom: 12px
+      }
+
+      .hero p.subtitle {
+        font-size: .8rem;
+        padding: 0 4px
+      }
+
+      .highlight,
+      .highlight-yellow {
+        padding: 1px 6px
+      }
+
+      /* Carousel */
+      .hero-carousel {
+        margin: 20px auto 16px;
+        border-radius: 12px
+      }
+
+      .hero-arrow {
+        width: 32px;
+        height: 32px;
+        font-size: 14px
+      }
+
+      .hero-arrow.prev {
+        left: 6px
+      }
+
+      .hero-arrow.next {
+        right: 6px
+      }
+
+      .hero-dots {
+        margin-top: 8px
+      }
+
+      /* Price bar */
+      .hero-price-bar {
+        padding: 32px 16px 24px !important
+      }
+
+      .hero-price-bar .price-new {
+        font-size: 2.5rem
+      }
+
+      .hero-price-bar .price-old {
+        font-size: 1rem
+      }
+
+      .hero-price-bar .label {
+        font-size: 1rem
+      }
+
+      /* CTA */
+      .cta-btn {
+        padding: 16px 24px;
+        font-size: .95rem
+      }
+
+      /* Benefits */
+      .benefits {
+        padding: 24px 0 32px
+      }
+
+      .benefit-item p {
+        font-size: .875rem
+      }
+
+      /* Target */
+      .target {
+        padding: 24px 0 32px
+      }
+
+      .target h2 {
+        font-size: 1.35rem;
+        margin-bottom: 32px
+      }
+
+      .target h2 .label-highlight {
+        font-size: 1.25rem;
+        padding: 6px 12px
+      }
+
+      .target-card {
+        padding: 10px
+      }
+
+      .target-card .title {
+        font-size: .8rem
+      }
+
+      .target-card .desc {
+        font-size: .7rem
+      }
+
+      .target-card .emoji {
+        font-size: 1.25rem
+      }
+
+      /* Before/After */
+      .before-after {
+        padding: 24px 0 32px
+      }
+
+      .ba-grid {
+        gap: 8px
+      }
+
+      .ba-grid h3 {
+        font-size: .9rem
+      }
+
+      .ba-grid .subtitle {
+        font-size: .7rem
+      }
+
+      .metric .label {
+        font-size: .75rem
+      }
+
+      .metric .row span {
+        font-size: .65rem
+      }
+
+      .progress-bar {
+        height: 8px
+      }
+
+      /* Categories */
+      .categories {
+        padding: 24px 0 32px
+      }
+
+      .cat-grid {
+        gap: 8px
+      }
+
+      .cat-grid-img {
+        gap: 8px
+      }
+
+      .cat-card {
+        padding: 12px
+      }
+
+      .cat-card .emoji {
+        font-size: 1.5rem;
+        margin-bottom: 4px
+      }
+
+      .cat-card .name {
+        font-size: .75rem
+      }
+
+      .cat-card .count {
+        font-size: .65rem
+      }
+
+      .cat-card-label {
+        padding: 8px
+      }
+
+      .cat-card-label .name {
+        font-size: .75rem
+      }
+
+      .cat-card-label .count {
+        font-size: .6rem
+      }
+
+      /* Bonus */
+      .bonus-section {
+        padding: 24px 0 32px
+      }
+
+      .bonus-list {
+        margin-top: 24px;
+        gap: 20px
+      }
+
+      .bonus-card {
+        padding: 16px
+      }
+
+      .bonus-card .info h3 {
+        font-size: 1rem
+      }
+
+      .bonus-card .info h3 span {
+        padding: 1px 6px
+      }
+
+      .bonus-card .info p {
+        font-size: .8rem
+      }
+
+      .bonus-card .prices .old {
+        font-size: 1rem
+      }
+
+      .bonus-card .prices .free {
+        font-size: 1.25rem
+      }
+
+      /* Offer */
+      .offer {
+        padding: 24px 0 32px
+      }
+
+      .offer-items {
+        padding: 16px
+      }
+
+      .offer-item p {
+        font-size: .8rem
+      }
+
+      .offer-cta {
+        padding: 0 16px 24px
+      }
+
+      .offer-price {
+        font-size: 2.5rem
+      }
+
+      /* Guarantee */
+      .guarantee {
+        padding: 24px 0 32px
+      }
+
+      .guarantee-card {
+        padding: 24px 16px
+      }
+
+      .guarantee-card h2 {
+        font-size: 1.15rem
+      }
+
+      .guarantee-card>p {
+        font-size: .85rem
+      }
+
+      .guarantee-box {
+        padding: 16px
+      }
+
+      .guarantee-box p {
+        font-size: .8rem
+      }
+
+      /* FAQ */
+      .faq {
+        padding: 24px 0 40px
+      }
+
+      .faq-item summary {
+        padding: 12px 16px;
+        font-size: .8rem
+      }
+
+      .faq-item .answer {
+        padding: 0 16px 12px;
+        font-size: .8rem
+      }
+    }
+
+    /* Tablet */
+    @media(min-width:481px) and (max-width:768px) {
+      .hero h1 {
+        font-size: 1.75rem
+      }
+
+      .hero-carousel {
+        max-width: 400px
+      }
+
+      .target h2 .label-highlight {
+        font-size: 1.5rem
+      }
+
+      .cat-grid {
+        max-width: 500px
+      }
+
+      .ba-grid {
+        max-width: 600px
+      }
+    }
+
+    /* ===== NEW CRO COMPONENTS ===== */
+
+    /* Announcement / urgency bar */
+    .announce-bar {
+      position: sticky;
+      top: 0;
+      z-index: 90;
+      background: linear-gradient(90deg, #b3001b, #e11d2a, #b3001b);
+      color: #fff;
+      text-align: center;
+      font-family: 'Hanken Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: clamp(.72rem, 2.6vw, .9rem);
+      padding: 9px 12px;
+      letter-spacing: .2px;
+      box-shadow: 0 2px 14px rgba(225, 29, 42, .35)
+    }
+
+    .announce-bar .pulse-dot {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #fff;
+      margin-right: 7px;
+      vertical-align: middle;
+      animation: announcePulse 1.1s ease-in-out infinite
+    }
+
+    .announce-bar b {
+      color: #ffe14d
+    }
+
+    @keyframes announcePulse {
+      0%, 100% { opacity: 1; transform: scale(1) }
+      50% { opacity: .4; transform: scale(.7) }
+    }
+
+    /* How it works — 3 steps */
+    .steps-section {
+      background: #000;
+      padding: 40px 0 8px
+    }
+
+    .steps-section h2 {
+      text-align: center;
+      font-weight: 900;
+      font-size: clamp(1.4rem, 3.5vw, 2.1rem);
+      margin-bottom: 8px
+    }
+
+    .steps-section .sub {
+      text-align: center;
+      color: #b3b3b3;
+      font-size: clamp(.85rem, 2vw, 1rem);
+      max-width: 560px;
+      margin: 0 auto 32px
+    }
+
+    .steps-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      max-width: 760px;
+      margin: 0 auto
+    }
+
+    @media(min-width:768px) {
+      .steps-grid { grid-template-columns: repeat(3, 1fr); gap: 20px }
+    }
+
+    .step-card {
+      position: relative;
+      background: hsl(0, 0%, 5%);
+      border: 1px solid hsl(0, 0%, 15%);
+      border-radius: 14px;
+      padding: 28px 18px 20px;
+      text-align: center
+    }
+
+    .step-card .num {
+      position: absolute;
+      top: -16px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #9EEB47;
+      color: #000;
+      font-weight: 900;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 18px rgba(158, 235, 71, .5)
+    }
+
+    .step-card .ico {
+      font-size: 2rem;
+      margin: 6px 0 10px;
+      display: block
+    }
+
+    .step-card h3 {
+      font-size: 1rem;
+      font-weight: 800;
+      margin-bottom: 6px;
+      color: #fff
+    }
+
+    .step-card p {
+      font-size: .85rem;
+      color: #b3b3b3;
+      line-height: 1.5
+    }
+
+    /* Social proof */
+    .proof-section {
+      background: linear-gradient(180deg, #000, hsl(199, 70%, 7%), #000);
+      padding: 48px 0
+    }
+
+    .proof-section h2 {
+      text-align: center;
+      font-weight: 900;
+      font-size: clamp(1.4rem, 3.5vw, 2.1rem);
+      margin-bottom: 8px
+    }
+
+    .proof-section .sub {
+      text-align: center;
+      color: #b3b3b3;
+      font-size: clamp(.85rem, 2vw, 1rem);
+      margin: 0 auto 14px;
+      max-width: 560px
+    }
+
+    .proof-stars-top {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #ffc83d;
+      font-size: 1.15rem;
+      letter-spacing: 2px
+    }
+
+    .proof-stars-top span {
+      color: #fff;
+      font-size: .85rem;
+      letter-spacing: normal;
+      margin-left: 8px;
+      vertical-align: middle
+    }
+
+    .proof-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      max-width: 900px;
+      margin: 0 auto
+    }
+
+    @media(min-width:700px) {
+      .proof-grid { grid-template-columns: 1fr 1fr }
+    }
+
+    .proof-card {
+      background: hsl(0, 0%, 6%);
+      border: 1px solid hsl(0, 0%, 15%);
+      border-radius: 14px;
+      padding: 18px;
+      font-family: 'Hanken Grotesk', sans-serif
+    }
+
+    .proof-card .head {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      margin-bottom: 10px
+    }
+
+    .proof-card .avatar {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      background: linear-gradient(135deg, #00AFF0, #9EEB47);
+      color: #000;
+      font-weight: 900;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.05rem
+    }
+
+    .proof-card .name {
+      font-weight: 800;
+      font-size: .9rem;
+      color: #fff
+    }
+
+    .proof-card .meta {
+      font-size: .72rem;
+      color: #8a8a8a;
+      display: flex;
+      align-items: center;
+      gap: 5px
+    }
+
+    .proof-card .verified {
+      color: #00AFF0;
+      font-weight: 700
+    }
+
+    .proof-card .stars {
+      color: #ffc83d;
+      font-size: .8rem;
+      letter-spacing: 1px;
+      margin-bottom: 8px
+    }
+
+    .proof-card p.txt {
+      font-size: .88rem;
+      color: #d4d4d4;
+      line-height: 1.55
+    }
+
+    .proof-card p.txt b {
+      color: #9EEB47
+    }
+
+    .proof-card .proof-shot {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      margin-top: 12px;
+      border: 1px solid hsl(0, 0%, 14%)
+    }
+
+    .proof-card .meta .amount {
+      color: #9EEB47;
+      font-weight: 800
+    }
+
+    .proof-earnings {
+      margin-top: 36px;
+      max-width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+      background: linear-gradient(135deg, rgba(158, 235, 71, .12), rgba(0, 175, 240, .08));
+      border: 1px solid rgba(158, 235, 71, .3);
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center
+    }
+
+    .proof-earnings p {
+      font-size: .92rem;
+      color: #fff;
+      line-height: 1.5
+    }
+
+    .proof-earnings b {
+      color: #9EEB47
+    }
+
+    /* Value stack */
+    .value-stack {
+      max-width: 560px;
+      margin: 0 auto 8px;
+      background: hsl(0, 0%, 5%);
+      border: 1px solid hsl(0, 0%, 15%);
+      border-radius: 14px;
+      padding: 22px;
+      font-family: 'Hanken Grotesk', sans-serif
+    }
+
+    .value-stack h3 {
+      text-align: center;
+      font-size: 1rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 16px;
+      letter-spacing: .3px
+    }
+
+    .value-stack .vrow {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 9px 0;
+      border-bottom: 1px dashed hsl(0, 0%, 18%);
+      font-size: .85rem;
+      color: #d4d4d4
+    }
+
+    .value-stack .vrow span.val {
+      color: #fff;
+      font-weight: 700;
+      white-space: nowrap
+    }
+
+    .value-stack .vrow.total {
+      border-bottom: none;
+      border-top: 2px solid hsl(0, 0%, 22%);
+      margin-top: 6px;
+      padding-top: 14px;
+      font-size: 1rem;
+      font-weight: 800;
+      color: #fff
+    }
+
+    .value-stack .vrow.total span.val {
+      color: hsl(0, 84%, 60%);
+      text-decoration: line-through;
+      font-size: 1.15rem
+    }
+
+    .value-stack .today {
+      text-align: center;
+      margin-top: 14px
+    }
+
+    .value-stack .today .lbl {
+      color: #9EEB47;
+      font-weight: 700;
+      font-size: .85rem
+    }
+
+    .value-stack .today .big {
+      color: #9EEB47;
+      font-weight: 900;
+      font-size: 2.4rem;
+      line-height: 1.1;
+      margin-top: 2px
+    }
+
+    .value-stack .today .micro {
+      color: #999;
+      font-size: .75rem;
+      margin-top: 4px
+    }
+
+    /* Scarcity strip */
+    .scarcity-strip {
+      max-width: 560px;
+      margin: 0 auto 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      background: rgba(225, 29, 42, .08);
+      border: 1px solid rgba(225, 29, 42, .35);
+      border-radius: 10px;
+      padding: 11px 14px;
+      color: #ff8a8a;
+      font-size: .82rem;
+      font-weight: 600;
+      text-align: center;
+      font-family: 'Hanken Grotesk', sans-serif
+    }
+
+    .scarcity-strip .apple-emoji { font-size: 1rem }
+
+    /* Sticky mobile CTA */
+    .sticky-cta {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 95;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      background: rgba(8, 8, 8, .96);
+      backdrop-filter: blur(8px);
+      border-top: 1px solid hsl(0, 0%, 16%);
+      padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+      transform: translateY(120%);
+      transition: transform .35s cubic-bezier(.4, 0, .2, 1)
+    }
+
+    .sticky-cta.show { transform: translateY(0) }
+
+    .sticky-cta .sc-price {
+      line-height: 1.1;
+      flex-shrink: 0
+    }
+
+    .sticky-cta .sc-price .old {
+      color: hsl(0, 84%, 60%);
+      text-decoration: line-through;
+      font-size: .72rem;
+      font-weight: 700
+    }
+
+    .sticky-cta .sc-price .new {
+      color: #9EEB47;
+      font-size: 1.35rem;
+      font-weight: 900
+    }
+
+    .sticky-cta a.sc-btn {
+      flex: 1;
+      text-align: center;
+      background: #9EEB47;
+      color: #000;
+      font-weight: 900;
+      font-size: clamp(.85rem, 3.5vw, 1rem);
+      padding: 14px 12px;
+      border-radius: 8px;
+      box-shadow: 0 0 22px rgba(158, 235, 71, .45);
+      animation: pulsar 1.5s ease-in-out infinite
+    }
+
+    @media(min-width:768px) {
+      .sticky-cta { display: none }
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <div class="announce-bar">
+    <span class="pulse-dot"></span>Launch price ends in <b id="cdTimer">15:00</b> — <b>$12.99</b> instead of $39
+  </div>
+  <script>
+    (function () {
+      var KEY = 'gmm_deadline', DUR = 15 * 60 * 1000;
+      var el = document.getElementById('cdTimer');
+      if (!el) return;
+      var dl = parseInt(localStorage.getItem(KEY) || '0', 10), now = Date.now();
+      if (!dl || dl < now) { dl = now + DUR; localStorage.setItem(KEY, dl); }
+      function tick() {
+        var r = dl - Date.now();
+        if (r <= 0) { el.textContent = '00:00'; return; }
+        var m = Math.floor(r / 60000), s = Math.floor((r % 60000) / 1000);
+        el.textContent = (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+      }
+      tick();
+      setInterval(tick, 1000);
+    })();
+  </script>
+  <div style="height:2px;width:100%;background:linear-gradient(to right,transparent,#00AFF0,transparent)"></div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="reveal from-up" style="margin-bottom:32px">
+        <div class="text-center">
+          <span style="display:inline-block;background:rgba(0,175,240,.12);border:1px solid rgba(0,175,240,.4);color:#00AFF0;font-weight:800;font-size:.72rem;letter-spacing:.5px;text-transform:uppercase;padding:7px 14px;border-radius:100px;margin-bottom:18px">🐐 The Ghost Model Method</span>
+          <h1>
+            Build a <span class="highlight">faceless AI influencer</span> that earns on <span
+              class="highlight-yellow">Fanvue</span> — without showing your face or getting banned
+          </h1>
+          <p class="subtitle">The full system to create your AI model from scratch, keep her face identical in every
+            photo and video, generate +18 content with zero blocks, grow her Instagram from zero and cash in on Fanvue.
+            No ComfyUI, no LoRA training, no expensive PC, no experience — and nobody ever finds out it's you.</p>
+        </div>
+      </div>
+      <div class="reveal from-up" data-delay="200" style="margin-top:28px">
+        <vturb-smartplayer id="vid-6a338a6964ae5a73406a65f2" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer>
+        <script type="text/javascript">
+          var s = document.createElement("script");
+          s.src = "https://scripts.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/players/6a338a6964ae5a73406a65f2/v4/player.js", s.async = !0, document.head.appendChild(s);
+        </script>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAIN -->
+  <section style="background:#000;padding:32px 0 40px">
+    <div class="container" style="max-width:640px">
+      <div class="reveal from-up">
+        <h2
+          style="font-size:clamp(1.25rem,3.5vw,1.75rem);font-weight:900;text-align:center;margin-bottom:24px;line-height:1.25">
+          You want the Fanvue income… but you have <span style="color:hsl(0,84%,60%)">no idea where to even start?</span></h2>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div class="reveal from-left" data-delay="0"
+          style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
+          <span style="font-size:1.25rem;flex-shrink:0">🚫</span>
+          <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">Every guide is too technical.</strong> They throw ComfyUI, LoRA training and Flux at you like you're supposed to be a programmer. You just wanted to make money — not learn software. So you freeze before you even start.</p>
+        </div>
+        <div class="reveal from-right" data-delay="80"
+          style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
+          <span style="font-size:1.25rem;flex-shrink:0">🔄</span>
+          <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">By the tenth image it's a different woman.</strong> You finally get one good photo — then the next one has a different nose, a different face. She drifts every generation, nobody believes she's a real person, so nobody subscribes and nobody pays.</p>
+        </div>
+        <div class="reveal from-left" data-delay="160"
+          style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
+          <span style="font-size:1.25rem;flex-shrink:0">🗑️</span>
+          <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">Every AI blocks the +18 content.</strong> ChatGPT and Midjourney shut you down, and the "free" ones spit out a plastic doll nobody would pay for. You need uncensored — but you don't know which one or how.</p>
+        </div>
+        <div class="reveal from-right" data-delay="240"
+          style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
+          <span style="font-size:1.25rem;flex-shrink:0">⏰</span>
+          <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">And even with content — then what?</strong> No traffic means $0, no matter how good your girl looks. You don't know how to grow a page from zero, set up Fanvue, or sell in DMs and PPV. So it never becomes money — while other people quietly pull +$10K/month.</p>
+        </div>
+      </div>
+      <div class="reveal from-up" data-delay="300" style="margin-top:24px">
+        <div
+          style="background:linear-gradient(135deg,rgba(0,175,240,.1),rgba(0,175,240,.05));border-left:3px solid #00AFF0;border-radius:8px;padding:16px;text-align:left">
+          <p style="font-size:.9rem;font-weight:700;color:#fff;margin-bottom:4px">The problem was never you. Nobody ever handed you the full path — only loose pieces.</p>
+          <p style="font-size:.8rem;color:#b3b3b3">The Ghost Model Method is that path, start to finish: the uncensored AI, the 300+ prompts, the trick to lock the same face every time, how to grow her Instagram from zero, how to sell on Fanvue, and how to keep your accounts from ever getting banned. Everything in one place — no experience needed.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- UNIQUE MECHANISM: THE GHOST STACK -->
+  <section style="background:linear-gradient(180deg,#000,hsl(199,70%,7%),#000);padding:48px 0">
+    <div class="container" style="max-width:760px">
+      <div class="reveal from-up">
+        <p style="text-align:center;color:#00AFF0;font-weight:800;font-size:.75rem;letter-spacing:1px;text-transform:uppercase;margin-bottom:10px">The reason 99% of AI models never make a dollar</p>
+        <h2 style="text-align:center;font-weight:900;font-size:clamp(1.5rem,3.8vw,2.25rem);line-height:1.2;margin-bottom:14px">Three things quietly kill an AI model.<br />The <span class="highlight-yellow">Ghost Stack</span> beats all three.</h2>
+        <p style="text-align:center;color:#b3b3b3;font-size:clamp(.85rem,2vw,1rem);max-width:600px;margin:0 auto 34px">Everyone teaches you to <em>build</em> a model. Almost nobody teaches you to keep her <em>alive</em>. Miss one layer and the whole thing collapses — that's why most people quit before their first sale.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px">
+
+        <div class="reveal from-left" data-delay="0" style="background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-left:3px solid #00AFF0;border-radius:12px;padding:18px 20px">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+            <span style="font-size:1.6rem" class="apple-emoji">🔞</span>
+            <div>
+              <p style="font-size:.7rem;color:#00AFF0;font-weight:800;letter-spacing:1px">LAYER 01</p>
+              <p style="font-size:1.1rem;font-weight:900;color:#fff;line-height:1.1">The Uncensored Engine</p>
+            </div>
+          </div>
+          <p style="font-size:.88rem;color:#d4d4d4;line-height:1.55">Unlimited +18 generation with zero blocks — the explicit, hyper-realistic content that actually sells. <span style="color:hsl(0,84%,60%)">Without it: every prompt gets blocked and you're stuck with a plastic doll.</span></p>
+        </div>
+
+        <div class="reveal from-right" data-delay="100" style="background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-left:3px solid #9EEB47;border-radius:12px;padding:18px 20px">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+            <span style="font-size:1.6rem" class="apple-emoji">🎭</span>
+            <div>
+              <p style="font-size:.7rem;color:#9EEB47;font-weight:800;letter-spacing:1px">LAYER 02</p>
+              <p style="font-size:1.1rem;font-weight:900;color:#fff;line-height:1.1">The Same-Face Lock</p>
+            </div>
+          </div>
+          <p style="font-size:.88rem;color:#d4d4d4;line-height:1.55">The AI has no memory of your character, so she drifts. The Same-Face Lock gives her one — she's the same woman in image 1 and image 500. <span style="color:hsl(0,84%,60%)">Without it: a different face by the tenth photo and nobody believes she's real.</span></p>
+        </div>
+
+        <div class="reveal from-left" data-delay="200" style="background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-left:3px solid #e11d2a;border-radius:12px;padding:18px 20px">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">
+            <span style="font-size:1.6rem" class="apple-emoji">🛡️</span>
+            <div>
+              <p style="font-size:.7rem;color:#ff6b6b;font-weight:800;letter-spacing:1px">LAYER 03</p>
+              <p style="font-size:1.1rem;font-weight:900;color:#fff;line-height:1.1">The Account Shield</p>
+            </div>
+          </div>
+          <p style="font-size:.88rem;color:#d4d4d4;line-height:1.55">Run multiple phones and shield your Instagram through Meta's ban waves. <span style="color:hsl(0,84%,60%)">Without it: you grow to thousands of followers, get banned overnight, and lose everything.</span></p>
+        </div>
+
+      </div>
+      <div class="reveal from-up" data-delay="250" style="margin-top:26px">
+        <p style="text-align:center;font-size:1rem;font-weight:700;color:#fff;line-height:1.5">The Ghost Model Method is the only system that hands you <span class="highlight-yellow">all three layers</span> — engine, lock and shield — in one place.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="benefits">
+    <div class="container">
+      <div class="benefits-grid">
+        <div class="benefits-list">
+          <div class="reveal from-up" data-delay="0">
+            <div class="benefit-item">
+              <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg></div>
+              <p><strong>300+ ready-to-use +18 prompts</strong> to copy, paste and generate content that sells</p>
+            </div>
+          </div>
+          <div class="reveal from-up" data-delay="50">
+            <div class="benefit-item">
+              <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg></div>
+              <p>Hyper-realistic photos: skin, pores, sweat — nobody notices it's AI</p>
+            </div>
+          </div>
+          <div class="reveal from-up" data-delay="100">
+            <div class="benefit-item">
+              <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg></div>
+              <p>Cinematic +18 videos ready to sell in DMs and feed</p>
+            </div>
+          </div>
+          <div class="reveal from-up" data-delay="150">
+            <div class="benefit-item">
+              <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg></div>
+              <p>Same face and body across EVERY generation (a believable creator)</p>
+            </div>
+          </div>
+          <div class="reveal from-up" data-delay="200">
+            <div class="benefit-item">
+              <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg></div>
+              <p>Categories: lingerie, shower, gym, POV, light fetishes, PPV and more 🔥</p>
+            </div>
+          </div>
+          <div class="reveal from-up" data-delay="300">
+            <div class="benefit-item">
+              <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg></div>
+              <p><strong>Anti-ban system</strong>: run multiple phones and never lose a 5k-follower Instagram again 🛡️</p>
+            </div>
+          </div>
+          <div class="reveal from-up" data-delay="350">
+            <div class="benefit-item">
+              <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg></div>
+              <p>Grow her Instagram from zero + monetize on Fanvue (PPV, DMs, niche)</p>
+            </div>
+          </div>
+          <div class="reveal from-up" data-delay="400">
+            <div class="benefit-item">
+              <div class="benefit-check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                  <path d="M20 6L9 17l-5-5" />
+                </svg></div>
+              <p><strong>Access to the UNCENSORED AI</strong> — explicit +18 content with zero blocks 🔥</p>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="200">
+          <div class="benefits-image">
+            <img decoding="async" src="vendasfanvue.avif" alt="Fanvue sales with an AI model" style="border-radius:16px;width:100%;max-width:400px" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TARGET AUDIENCE -->
+  <section class="target">
+    <div class="target-bg"></div>
+    <div class="container">
+      <div class="reveal from-up">
+        <h2 class="text-center"><span class="label-highlight"><span class="bg"></span><span>THIS PACK IS FOR YOU
+              IF:</span></span></h2>
+      </div>
+      <div class="target-grid">
+        <div class="reveal from-left" data-delay="0">
+          <div class="target-card"><span class="emoji apple-emoji">🤖</span>
+            <div>
+              <p class="title"><span>YOU WANT TO BUILD A +18 AI MODEL</span></p>
+              <p class="desc">to sell on Fanvue/OnlyFans but you don't know how to write prompts the AI won't block</p>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="80">
+          <div class="target-card"><span class="emoji apple-emoji">🛒</span>
+            <div>
+              <p class="title"><span>YOU WANT TO CASH IN ON FANVUE/ONLYFANS</span></p>
+              <p class="desc">but you don't want to show your face, body, or have your family find out</p>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-left" data-delay="160">
+          <div class="target-card"><span class="emoji apple-emoji">💼</span>
+            <div>
+              <p class="title"><span>YOU MANAGE MODELS (CHATTER/AGENCY)</span></p>
+              <p class="desc">and you need endless +18 content without paying for a photographer, location or real model</p>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="240">
+          <div class="target-card"><span class="emoji apple-emoji">📸</span>
+            <div>
+              <p class="title"><span>YOU WANT ENDLESS PPV AND DMs</span></p>
+              <p class="desc">to sell personalized packs nonstop — exclusive photos and videos that go viral</p>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-left" data-delay="320">
+          <div class="target-card"><span class="emoji apple-emoji">🚫</span>
+            <div>
+              <p class="title"><span>YOU WANT FULL ANONYMITY</span></p>
+              <p class="desc">your face never appears, your identity stays protected and the AI model earns for you</p>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="400">
+          <div class="target-card"><span class="emoji apple-emoji">⚡</span>
+            <div>
+              <p class="title"><span>YOU WANT TO START THIS WEEKEND</span></p>
+              <p class="desc">without studying AI for months — copy, paste, post and start gaining subscribers today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BEFORE/AFTER -->
+  <section class="before-after" id="beforeAfterSection">
+    <div class="container">
+      <div class="reveal from-up">
+        <h2 class="text-center" style="margin-bottom:32px;font-weight:900;font-size:clamp(1.5rem,3.5vw,2.25rem)">Generic
+          prompts vs <span style="color:#9EEB47">Proven +18 Prompts</span></h2>
+      </div>
+      <div class="ba-grid">
+        <div class="reveal from-left">
+          <div style="aspect-ratio:3/4;width:100%;background:#1a1a1a;border-radius:12px;padding:clamp(12px,3vw,20px);display:flex;flex-direction:column;justify-content:flex-start;gap:clamp(8px,1.5vw,12px);border:1px solid #2a2a2a;overflow:hidden">
+            <div style="width:clamp(28px,7vw,38px);height:clamp(28px,7vw,38px);border:2px solid #b0b0b0;border-radius:6px;display:flex;align-items:center;justify-content:center;font-weight:900;color:#b0b0b0;font-size:clamp(1rem,3vw,1.4rem);line-height:1;flex-shrink:0">!</div>
+            <p style="color:#d4d4d4;font-size:clamp(.85rem,2.2vw,1rem);font-weight:500;line-height:1.3;margin:0">Failed</p>
+            <p style="color:#d4d4d4;font-size:clamp(.75rem,2vw,.95rem);font-weight:400;line-height:1.4;margin:0">This generation may violate our <span style="text-decoration:underline">policies</span>. Please try a different prompt or send feedback</p>
+          </div>
+        </div>
+        <div class="reveal from-right"><img decoding="async" src="assets/5831192964124839605.jpg" alt="Our prompt"
+            style="aspect-ratio:3/4;width:100%;height:100%;object-fit:cover;border-radius:12px;display:block" /></div>
+        <div class="reveal from-up" data-delay="200">
+          <h3 class="red">Generic Prompt</h3>
+        </div>
+        <div class="reveal from-up" data-delay="200">
+          <h3 class="green">300+ Prompts Pack</h3>
+        </div>
+        <div class="subtitle">Censored AI + copied prompt</div>
+        <div class="subtitle">Uncensored AI + proven prompt</div>
+        <div class="metric">
+          <p class="label">Realism</p>
+          <div class="row"><span>Doll face / blocked</span><span class="val red">15%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill red waiting" data-width="15"></div>
+          </div>
+        </div>
+        <div class="metric">
+          <p class="label">Realism</p>
+          <div class="row"><span>Skin, pores, undetectable</span><span class="val green">95%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill green waiting" data-width="95"></div>
+          </div>
+        </div>
+        <div class="metric">
+          <p class="label">Face Consistency</p>
+          <div class="row"><span>Changes every time</span><span class="val red">10%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill red waiting" data-width="10"></div>
+          </div>
+        </div>
+        <div class="metric">
+          <p class="label">Face Consistency</p>
+          <div class="row"><span>Same face every time</span><span class="val green">98%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill green waiting" data-width="98"></div>
+          </div>
+        </div>
+        <div class="metric">
+          <p class="label">Speed</p>
+          <div class="row"><span>Weeks with no result</span><span class="val red">20%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill red waiting" data-width="20"></div>
+          </div>
+        </div>
+        <div class="metric">
+          <p class="label">Speed</p>
+          <div class="row"><span>Pack ready in 60s</span><span class="val green">100%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill green waiting" data-width="100"></div>
+          </div>
+        </div>
+        <div class="metric">
+          <p class="label">Variety</p>
+          <div class="row"><span>Same pose, fans cancel</span><span class="val red">12%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill red waiting" data-width="12"></div>
+          </div>
+        </div>
+        <div class="metric">
+          <p class="label">Variety</p>
+          <div class="row"><span>300+ different scenes</span><span class="val green">100%</span></div>
+          <div class="progress-bar">
+            <div class="progress-fill green waiting" data-width="100"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section class="categories">
+    <div class="container">
+      <div class="reveal from-up">
+        <h2 class="text-center">What your AI model will generate with the <span class="highlight">Ghost Model Method</span></h2>
+      </div>
+      <div class="cat-grid cat-grid-img" style="margin-top:32px">
+        <div class="reveal from-up" data-delay="0">
+          <div class="cat-card-img"><img decoding="async"
+              src="newimages/thumb-0.webp"
+              alt="Profile Photos" />
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="50">
+          <div class="cat-card-img"><img decoding="async"
+              src="newimages/thumb-1.webp"
+              alt="UGC Videos" />
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="100">
+          <div class="cat-card-img"><img decoding="async"
+              src="newimages/thumb-3.webp"
+              alt="Looks and Outfits" />
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="150">
+          <div class="cat-card-img"><img decoding="async"
+              src="newimages/thumb-6.webp"
+              alt="Scenarios and Locations" />
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="200">
+          <div class="cat-card-img"><img decoding="async"
+            src="newimages/output_0.png"
+              alt="With Real Product" />
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="250">
+          <div class="cat-card-img"><img decoding="async" src="newimages/thumb-5.webp" alt="Fitness and Health" />
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="300">
+          <div class="cat-card-img"><img decoding="async" src="newimages/thumb-7.webp"
+              alt="Facial Expressions" />
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="350">
+          <div class="cat-card-img cat-card-sensitive" onclick="this.classList.toggle('revealed')"><img decoding="async"
+            src="assets/a5134a1b-16d3-416c-bab2-d9d9ce37f05c.jpeg"
+            alt="Hot Niche" />
+            <div class="cat-card-blur" aria-label="Show sensitive content">
+              <div class="eye-btn" aria-hidden="true">&#128065;</div>
+              <p class="warn">Sensitive content</p>
+              <p class="hint">Tap the eye to view</p>
+            </div>
+            <div class="cat-card-label">
+              <p class="name"><span class="badge-18">+18</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="steps-section">
+    <div class="container">
+      <div class="reveal from-up">
+        <h2>From zero to your first PPV in 3 steps</h2>
+        <p class="sub">No course, no months of studying AI. If you can use WhatsApp, you can do this — from your phone.</p>
+      </div>
+      <div class="steps-grid">
+        <div class="reveal from-up" data-delay="0">
+          <div class="step-card">
+            <div class="num">1</div>
+            <span class="ico apple-emoji">📋</span>
+            <h3>Pick a prompt</h3>
+            <p>Copy any of the 300+ prompts, organized by category — pick the scene you want and you're ready in seconds.</p>
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="120">
+          <div class="step-card">
+            <div class="num">2</div>
+            <span class="ico apple-emoji">✨</span>
+            <h3>Paste in the AI</h3>
+            <p>Drop it into the uncensored AI and hit generate. Same face, same body, every single time. No blocks.</p>
+          </div>
+        </div>
+        <div class="reveal from-up" data-delay="240">
+          <div class="step-card">
+            <div class="num">3</div>
+            <span class="ico apple-emoji">💸</span>
+            <h3>Post and get paid</h3>
+            <p>Upload to Fanvue or OnlyFans, sell packs in DMs and PPV. The model does the work. Your face never shows.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MID CTA -->
+  <section style="background:#000;padding:32px 0">
+    <div class="container text-center">
+      <p style="font-size:1.25rem;font-weight:700;margin-bottom:16px">All of this for <span
+          style="color:hsl(0,84%,60%);text-decoration:line-through">$39</span> <span
+          style="color:#00AFF0;font-weight:900;font-size:1.5rem">$6.99 USD</span></p>
+      <a href="#offer" class="cta-btn">I WANT MY +18 MODEL NOW</a>
+    </div>
+  </section>
+
+  <!-- UNCENSORED AI -->
+  <section class="uncensored-section">
+    <div class="container">
+      <div class="reveal from-up">
+        <div class="uncensored-card">
+          <span class="uncensored-tag">🔥 THE SECRET WEAPON OF FANVUE'S TOP CREATORS</span>
+          <h2>Access to an <span class="flame">UNCENSORED AI</span><br />that generates what ChatGPT and Midjourney <span
+              class="strike">block</span></h2>
+          <p>While everyone else fights with AIs that block any +18 prompt, you get access to the UNCENSORED AI we
+            use to generate explicit packs, PPV videos and DM content earning thousands of dollars per month on
+            Fanvue, OnlyFans, Privacy and Fansly — without your real face ever showing up.</p>
+          <div class="uncensored-list">
+            <div class="uncensored-item"><span class="dot"></span><span>Zero blocks — generates explicit +18 with no filters</span></div>
+            <div class="uncensored-item"><span class="dot"></span><span>Lingerie, shower, POV, light fetishes and PPV packs</span>
+            </div>
+            <div class="uncensored-item"><span class="dot"></span><span>Hyper-realistic photos and videos (skin, sweat, pores)</span>
+            </div>
+            <div class="uncensored-item"><span class="dot"></span><span>The real engine behind accounts earning +$10K/month</span></div>
+          </div>
+          <div class="uncensored-media" onclick="this.classList.toggle('shown')" role="button" tabindex="0" aria-label="Tap to view uncensored example">
+            <img decoding="async" src="newimages/gustagoat-ia.png" alt="Censored versus uncensored AI generation" />
+            <div class="uncensored-blur">
+              <span class="eye apple-emoji">👁️</span>
+              <span>Tap to view · 18+</span>
+            </div>
+            <span class="uncensored-cap">Censored AI&nbsp;&nbsp;→&nbsp;&nbsp;our Uncensored AI</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BONUS -->
+  <section class="bonus-section">
+    <div class="container">
+      <div class="reveal from-up">
+        <h2 class="text-center">EVERYTHING INSIDE THE GHOST MODEL METHOD</h2>
+        <p class="text-center"><span class="subtitle-tag">5 MODULES · ONE COMPLETE SYSTEM</span></p>
+      </div>
+      <div class="bonus-list">
+        <div class="reveal from-left" data-delay="50">
+          <div class="bonus-card">
+            <div class="thumb">
+              <img decoding="async" src="newimages/module-1.webp" alt="Same face and body across every generation" />
+            </div>
+            <div class="info">
+              <h3><span>MODULE 1: THE CONSISTENCY METHOD — SAME FACE & BODY, EVERY TIME</span></h3>
+              <p>The exact trick to lock your model's face and body across every single photo and video — the #1 thing
+                that makes people stop scrolling and actually believe she's real. Works for a model you already have,
+                or one you build from scratch. This alone is what separates a creator who earns from a folder of random
+                images.</p>
+              <div class="prices"><span class="old">$29 USD</span><span class="free">INCLUDED</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="100">
+          <div class="bonus-card">
+            <div class="thumb">
+              <img decoding="async" src="newimages/module-2.png" alt="Anti-Ban System — multiple phones protected" />
+            </div>
+            <div class="info">
+              <h3><span>MODULE 2: THE ANTI-BAN SYSTEM — NEVER LOSE AN ACCOUNT AGAIN 🛡️</span></h3>
+              <p>The step-by-step to run multiple phones and shield your Instagram so you never wake up to a banned
+                account with thousands of followers gone. The single most expensive mistake in this game — and how to
+                make sure it never happens to you. If you've already been banned once, this pays for itself instantly.</p>
+              <div class="prices"><span class="old">$37 USD</span><span class="free">INCLUDED</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-left" data-delay="150">
+          <div class="bonus-card">
+            <div class="thumb">
+              <img decoding="async" src="newimages/module-3.png" alt="Trickster's Dictionary — undetectable prompts" />
+            </div>
+            <div class="info">
+              <h3><span>MODULE 3: TRICKSTER'S DICTIONARY — 80 UNDETECTABLE +18 PROMPTS</span></h3>
+              <p>80 prompts with disguised vocabulary that no AI blocks, but generate explicit PPV-style content ready
+                to sell on Fanvue and OnlyFans. Includes the substitution dictionary so you can build your own
+                undetectable prompts — anytime a subscriber pays for something custom.</p>
+              <div class="prices"><span class="old">$19 USD</span><span class="free">INCLUDED</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="200">
+          <div class="bonus-card">
+            <div class="thumb">
+              <img decoding="async" src="assets/5831192964124839605.jpg" alt="Complete video tutorials — the uncensored AI from zero" />
+            </div>
+            <div class="info">
+              <h3><span>MODULE 4: COMPLETE VIDEO TUTORIALS — THE UNCENSORED AI FROM ZERO</span></h3>
+              <p>Step-by-step videos: how to build your +18 model from scratch, pick a niche that actually sells,
+                generate photos AND videos, and run PPV packs in series — then upload them to Fanvue, OnlyFans, Privacy
+                or Fansly. No ComfyUI, no expensive PC, no paid subscription. If you can use WhatsApp, you can follow
+                along.</p>
+              <div class="prices"><span class="old">$13 USD</span><span class="free">INCLUDED</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="400">
+          <div class="bonus-card">
+            <div class="thumb">
+              <img decoding="async" src="newimages/output_0.png" alt="Fanvue & OnlyFans Playbook — from zero to your first $1,000" />
+            </div>
+            <div class="info">
+              <h3><span>MODULE 5: FANVUE & ONLYFANS PLAYBOOK — FROM ZERO TO YOUR FIRST $1,000</span></h3>
+              <p>The exact step-by-step used by accounts earning +$10K USD/month with AI models: how to open an
+                account on Fanvue, OnlyFans, Privacy and Fansly (which ones accept AI without banning you), how to
+                set up the profile, subscription pricing, PPV strategy, DM scripts that sell and free traffic from
+                Threads, X (Twitter), Reddit and TikTok — all without showing your real face.</p>
+              <div class="prices"><span class="old">$19 USD</span><span class="free">INCLUDED</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF — earnings screenshots -->
+  <!-- ⚠️ Os nomes são PLACEHOLDER. Troque por nomes reais de alunos seus. Os prints vieram do Reddit (não são alunos seus) — idealmente substitua por prints reais de quem comprou. -->
+  <section class="proof-section">
+    <div class="container">
+      <div class="reveal from-up">
+        <h2>Real students. Real Fanvue earnings.</h2>
+        <p class="sub">Built with the system inside — faces hidden, accounts running. This is what it looks like when it works.</p>
+      </div>
+      <div class="proof-grid">
+        <div class="reveal from-left" data-delay="0">
+          <div class="proof-card">
+            <div class="head">
+              <div class="avatar">L</div>
+              <div>
+                <p class="name">Lucas M.</p>
+                <p class="meta"><span class="amount">$8,062</span> all time · <span class="verified">✔ Fanvue</span></p>
+              </div>
+            </div>
+            <img class="proof-shot" decoding="async" src="newimages/proof-1.png" alt="Fanvue earnings dashboard — $8,062 all time" />
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="80">
+          <div class="proof-card">
+            <div class="head">
+              <div class="avatar">R</div>
+              <div>
+                <p class="name">Ryan T.</p>
+                <p class="meta"><span class="amount">$2,014</span> this month · <span class="verified">✔ Fanvue</span></p>
+              </div>
+            </div>
+            <img class="proof-shot" decoding="async" src="newimages/proof-2.png" alt="Fanvue earnings dashboard — $2,014 this month" />
+          </div>
+        </div>
+        <div class="reveal from-left" data-delay="160">
+          <div class="proof-card">
+            <div class="head">
+              <div class="avatar">D</div>
+              <div>
+                <p class="name">Daniel K.</p>
+                <p class="meta"><span class="amount">$10,621</span> all time · <span class="verified">✔ Fanvue</span></p>
+              </div>
+            </div>
+            <img class="proof-shot" decoding="async" src="newimages/proof-3.png" alt="Fanvue earnings dashboard — $10,621 all time" />
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="240">
+          <div class="proof-card">
+            <div class="head">
+              <div class="avatar">M</div>
+              <div>
+                <p class="name">Marco V.</p>
+                <p class="meta"><span class="amount">$81,000+</span> balance · <span class="verified">✔ Fanvue</span></p>
+              </div>
+            </div>
+            <img class="proof-shot" decoding="async" src="newimages/proof-4.png" alt="Fanvue payment notifications — $81,000+ balance" />
+          </div>
+        </div>
+      </div>
+      <div class="reveal from-up" data-delay="100">
+        <div class="proof-earnings">
+          <p>💰 Real accounts running AI models pull <b>$1,000 to $30,000/month</b> on Fanvue and OnlyFans. The content is the bottleneck — and that's exactly what these 300+ prompts hand you on day one.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFER -->
+  <section class="offer" id="offer">
+    <div class="container">
+      <div class="reveal from-up">
+        <h2 class="text-center" style="font-weight:900;font-size:clamp(1.5rem,3.5vw,2.25rem);margin-bottom:8px">Here's everything you get today</h2>
+        <p class="text-center" style="color:#b3b3b3;font-size:clamp(.85rem,2vw,1rem);margin-bottom:28px">One payment. Lifetime access. The price below is a fraction of what it's actually worth.</p>
+      </div>
+      <div class="reveal from-up" data-delay="80">
+        <div class="value-stack">
+          <h3>EVERYTHING IN THE SYSTEM</h3>
+          <div class="vrow"><span>Access to the UNCENSORED unlimited AI 🔥</span><span class="val">priceless</span></div>
+          <div class="vrow"><span>300+ proven +18 prompts — photo &amp; video, by category</span><span class="val">$39</span></div>
+          <div class="vrow"><span>Module 1 — The Consistency Method</span><span class="val">$29</span></div>
+          <div class="vrow"><span>Module 2 — The Anti-Ban System 🛡️</span><span class="val">$37</span></div>
+          <div class="vrow"><span>Module 3 — Trickster's Dictionary (80 prompts)</span><span class="val">$19</span></div>
+          <div class="vrow"><span>Module 4 — Full video tutorials</span><span class="val">$19</span></div>
+          <div class="vrow"><span>Module 5 — Fanvue &amp; OnlyFans Playbook</span><span class="val">$19</span></div>
+          <div class="vrow total"><span>Total real value</span><span class="val">$162</span></div>
+          <div class="today">
+            <p class="lbl">Today, one-time:</p>
+            <p class="big">$12.99</p>
+            <p class="micro">less than a coffee · instant access · 7-day guarantee</p>
+          </div>
+        </div>
+      </div>
+      <div class="reveal from-up" data-delay="120">
+        <div class="scarcity-strip">
+          <span class="apple-emoji">🔥</span> This launch price won't last — once the spots fill, it goes back to $39.
+        </div>
+      </div>
+      <div class="reveal from-up">
+        <div class="plans-grid">
+
+          <!-- BASIC PLAN -->
+          <a href="https://go.centerpag.com/PPU38CQCKMF"
+            class="offer-card basic" style="text-decoration:none">
+            <div class="offer-header">
+              <h2>BASIC PLAN</h2>
+            </div>
+            <div class="offer-items">
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Pack of 300 +18 Prompts for your AI model</p>
+              </div>
+              <div class="offer-item disabled">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg></div>
+                <p>Module 1: The Consistency Method (same face every time)</p>
+              </div>
+              <div class="offer-item disabled">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg></div>
+                <p>Module 2: The Anti-Ban System 🛡️</p>
+              </div>
+              <div class="offer-item disabled">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg></div>
+                <p>Access to the UNCENSORED AI 🔥</p>
+              </div>
+              <div class="offer-item disabled">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg></div>
+                <p>Module 4: Complete video tutorials of the UNCENSORED AI</p>
+              </div>
+              <div class="offer-item disabled">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg></div>
+                <p>Fanvue & OnlyFans Playbook — from zero to your first $1,000</p>
+              </div>
+              <div class="offer-item disabled">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg></div>
+                <p>Commercial license to sell on Fanvue/OnlyFans + lifetime updates</p>
+              </div>
+              <div class="offer-item disabled">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg></div>
+                <p>Unconditional 7-day guarantee</p>
+              </div>
+              <div class="offer-item disabled">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M18 6L6 18M6 6l12 12" />
+                  </svg></div>
+                <p>Priority WhatsApp support (technical + platforms)</p>
+              </div>
+            </div>
+            <div class="offer-cta">
+              <p class="offer-price">$6.99 USD</p>
+              <span class="cta-btn" style="max-width:100%">BUY BASIC PLAN</span>
+            </div>
+          </a>
+
+          <!-- COMPLETE PLAN -->
+          <a href="https://go.centerpag.com/PPU38CQCKMH" class="offer-card featured"
+            style="text-decoration:none">
+            <div class="offer-badge">⭐ MOST POPULAR</div>
+            <img class="offer-banner"
+              src="assets/banner-complete.png"
+              alt="Ghost Model Method — AI girls earning on Fanvue, TikTok and Instagram" loading="eager" />
+            <div class="offer-items">
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>300+ proven +18 prompts organized by category</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Categories: lingerie, shower, POV, gym, light fetishes, PPV packs</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Optimized for the UNCENSORED AI</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Module 1: The Consistency Method — same face &amp; body, every time</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Module 2: The Anti-Ban System — never lose your Instagram 🛡️</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Module 3: Trickster's Dictionary — 80 undetectable prompts</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Modules 4 &amp; 5: Full video tutorials + Fanvue Playbook (from $0 to $1,000)</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p><strong>Access to the UNCENSORED AI</strong> 🔥</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Commercial license for Fanvue/OnlyFans + lifetime updates</p>
+              </div>
+              <div class="offer-item">
+                <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                    <path d="M20 6L9 17l-5-5" />
+                  </svg></div>
+                <p>Unconditional 7-day guarantee</p>
+              </div>
+            </div>
+            <div class="offer-cta">
+              <p style="color:hsl(0,84%,60%);text-decoration:line-through;font-weight:700;margin-bottom:4px">from $39 USD
+              </p>
+              <p class="offer-price">$12.99 USD</p>
+              <p style="color:#999;font-size:.8rem;margin-bottom:16px">one-time payment — less than a coffee</p>
+              <span class="cta-btn" style="max-width:100%">I WANT THE GHOST MODEL METHOD</span>
+              <p style="color:#666;font-size:.7rem;margin-top:12px">Instant access after payment confirmation</p>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GUARANTEE -->
+  <section class="guarantee">
+    <div class="container">
+      <div class="reveal from-up">
+        <div class="guarantee-card">
+          <p style="font-size:4rem;margin-bottom:16px" class="apple-emoji">🛡️</p>
+          <h2>UNCONDITIONAL 7-day guarantee</h2>
+          <p>Generate your first +18 model with the prompts. If the result doesn't impress you or you don't see the
+            potential to earn on Fanvue/OnlyFans, we refund 100% of your money. No questions, no hassle.
+            The risk is all on us.</p>
+          <div class="guarantee-box">
+            <p>You have 7 days to test the 300+ prompts and the UNCENSORED AI. If you don't like it, message our
+              WhatsApp support and we refund your money instantly. It's that simple.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq">
+    <div class="container">
+      <div class="reveal from-up">
+        <h2 class="text-center">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Is it really just one payment?</summary>
+          <div class="answer">Yes. You pay once and it's yours for life, including every future update. No monthly fee,
+            no hidden charges.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Do the prompts work in any AI tool?</summary>
+          <div class="answer">No — and that's the point. Regular tools like ChatGPT and Midjourney block +18 content. The
+            prompts are built for our own uncensored AI, which you get access to inside. That's what makes the explicit,
+            hyper-realistic results possible in the first place.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Do I need a powerful PC or to know ComfyUI?</summary>
+          <div class="answer">No. No ComfyUI, no gaming PC, nothing technical. It runs in your browser and works from your
+            phone. If you can use WhatsApp, you can do this.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Are the lessons in video?</summary>
+          <div class="answer">Yes. Everything is taught step by step on video — building the model, keeping her consistent,
+            generating photos and videos, growing the Instagram and setting up Fanvue. You just follow along.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I use it with a model I already have?</summary>
+          <div class="answer">Yes. If you already have a model, the Consistency Method shows you how to lock her exact face
+            and body so every new photo and video matches. And if you don't have one yet, you build one from scratch
+            inside — both paths are covered.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Can I create a model completely from zero?</summary>
+          <div class="answer">Absolutely. The video tutorials take you from picking a niche that actually sells, to
+            building the model, to her first PPV — even if you've never touched AI before.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Are there prompts for video too?</summary>
+          <div class="answer">Yes. The pack includes prompts for both photos and videos — cinematic +18 clips ready to post
+            in feed and sell in DMs and PPV.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Do you teach how to monetize on Fanvue?</summary>
+          <div class="answer">Yes. The Fanvue & OnlyFans Playbook walks you through it: which platforms accept AI, how to
+            set up the profile, how to price, PPV and DM strategy, and how to grow the Instagram from zero to send free
+            traffic to your page.</div>
+        </details>
+        <details class="faq-item">
+          <summary>What about getting my account banned?</summary>
+          <div class="answer">That's exactly what Module 2 — the Anti-Ban System — is for. You'll learn how to run multiple
+            phones and shield your Instagram so you never lose a grown account again. It's the single most expensive
+            mistake in this business, and we make sure it doesn't happen to you.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Do I need to show my face, body or voice?</summary>
+          <div class="answer">Never. The AI model is the one who appears, poses and sells. Your real identity stays
+            100% hidden — nobody ever finds out it's you behind it.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Is this legal? Is it deepfake?</summary>
+          <div class="answer">It's not deepfake. Deepfake uses a real person's face without consent — that's illegal. Here
+            you create a 100% fictional model that doesn't exist, which is completely legal (the same principle behind
+            Fanvue's top AI creators like Aitana López). The model is your character, your brand, your property.</div>
+        </details>
+        <details class="faq-item">
+          <summary>How much can I realistically make?</summary>
+          <div class="answer">Straight answer: people who wing it with no system make $0–$500. Serious accounts with an AI
+            model pull $1,000 to $30,000+ a month, and the first $1,000 often lands in 30–60 days. It's not passive
+            income — it's a real business: you post, you send traffic, you sell in DMs. The difference is the content is
+            infinite (the AI makes it) and you never show your face. The method hands you the exact system the earners
+            use.</div>
+        </details>
+        <details class="faq-item">
+          <summary>How do I get access and what's the guarantee?</summary>
+          <div class="answer">Instant access after payment — the link to the members area hits your email (check spam). You
+            get the prompts, all 5 modules, the link to the uncensored AI, forever. And you're covered by
+            a 7-day unconditional guarantee: if it's not for you, message support and we refund 100%. The risk is all
+            on us.</div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section style="background:#000;padding:0 0 48px">
+    <div class="container text-center">
+      <a href="#offer" class="cta-btn">I WANT MY +18 MODEL FOR $12.99 USD</a>
+      <p style="color:#666;font-size:.7rem;margin-top:12px">Instant access. 7-day guarantee. Secure payment.</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>gustagoat.ia - All rights reserved</p>
+    <p style="margin-top:4px">This product does not guarantee financial earnings. Results depend on each person's
+      dedication. Content for adults 18+. The generated models are fictional characters created with AI — they do not
+      represent real people.</p>
+  </div>
+
+  <!-- STICKY MOBILE CTA -->
+  <div class="sticky-cta" id="stickyCta">
+    <div class="sc-price">
+      <span class="old">$39</span><br>
+      <span class="new">$12.99</span>
+    </div>
+    <a href="#offer" class="sc-btn">GET MY +18 MODEL</a>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Sticky mobile CTA — show after hero, hide over the offer
+    (function () {
+      const bar = document.getElementById('stickyCta');
+      const offer = document.getElementById('offer');
+      if (!bar) return;
+      function onScroll() {
+        const past = window.scrollY > window.innerHeight * 0.9;
+        let overOffer = false;
+        if (offer) {
+          const r = offer.getBoundingClientRect();
+          overOffer = r.top < window.innerHeight && r.bottom > 0;
+        }
+        bar.classList.toggle('show', past && !overOffer);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+
+    // Scroll Reveal
+    const io = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { const d = parseInt(e.target.dataset.delay || 0); setTimeout(() => e.target.classList.add('visible'), d); io.unobserve(e.target) } }) }, { threshold: 0.15 });
+    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+    // Progress Bars
+    const baObs = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { document.querySelectorAll('.progress-fill.waiting').forEach(bar => { bar.style.width = bar.dataset.width + '%'; bar.classList.remove('waiting') }); baObs.unobserve(e.target) } }) }, { threshold: 0.3 });
+    const baSection = document.getElementById('beforeAfterSection');
+    if (baSection) baObs.observe(baSection);
+
+    // Hero Carousel
+    (function () {
+      const track = document.getElementById('heroTrack');
+      if (!track) return;
+      const dots = document.querySelectorAll('.hero-dot');
+      const total = track.children.length;
+      let current = 0;
+      window._heroIdx = 0;
+      let startX = 0, moveX = 0, dragging = false;
+
+      function heroGoTo(i) {
+        current = Math.max(0, Math.min(i, total - 1));
+        window._heroIdx = current;
+        track.style.transform = 'translateX(-' + current * 100 + '%)';
+        dots.forEach((d, idx) => d.classList.toggle('active', idx === current));
+      }
+      window.heroGoTo = heroGoTo;
+
+      // Tap to reveal (first slide)
+      const revealSlide = document.getElementById('heroRevealSlide');
+      const revealImg = document.getElementById('heroRevealImg');
+      let revealed = false;
+      function toggleReveal() {
+        revealed = !revealed;
+        revealImg.src = revealed ? 'assets/5831192964124839605.jpg' : 'assets/4963395053896272996.jpg';
+        revealSlide.classList.toggle('revealed', revealed);
+      }
+      if (revealSlide) {
+        revealSlide.addEventListener('click', (e) => { e.stopPropagation(); toggleReveal(); });
+        revealSlide.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleReveal(); } });
+      }
+
+      // Touch swipe
+      track.addEventListener('touchstart', e => { startX = e.touches[0].clientX; dragging = true }, { passive: true });
+      track.addEventListener('touchmove', e => { if (dragging) moveX = e.touches[0].clientX - startX }, { passive: true });
+      track.addEventListener('touchend', () => { if (!dragging) return; dragging = false; if (moveX < -40) heroGoTo(current + 1); else if (moveX > 40) heroGoTo(current - 1); moveX = 0 });
+
+      // Mouse drag
+      track.addEventListener('mousedown', e => { startX = e.clientX; dragging = true; track.style.cursor = 'grabbing' });
+      track.addEventListener('mousemove', e => { if (dragging) moveX = e.clientX - startX });
+      track.addEventListener('mouseup', () => { if (!dragging) return; dragging = false; track.style.cursor = 'grab'; if (moveX < -40) heroGoTo(current + 1); else if (moveX > 40) heroGoTo(current - 1); moveX = 0 });
+      track.addEventListener('mouseleave', () => { dragging = false; track.style.cursor = 'grab' });
+      track.style.cursor = 'grab';
+
+    })();
+  </script>
+
+</body>
+
+</html>
