@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Influencer Pack — Crea una influencer de IA que factura en Fanvue | gustagoat.ia</title>
+  <meta name="description" content="El error que casi todos cometen al crear su influencer de IA. El secreto no es la herramienta: es el postprocesamiento. Accede a la IA ultra sin censura + 300 prompts NSFW, consistencia total, desbloqueo de Grok y guía de Fanvue." />
+
+  <!-- ⚠️ Para el preview de WhatsApp/Facebook, cambia og:image/twitter:image por una URL ABSOLUTA -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="gustagoat.ia" />
+  <meta property="og:title" content="El error que casi todos cometen al crear su influencer de IA" />
+  <meta property="og:description" content="El secreto no es la herramienta: es el postprocesamiento. IA ultra sin censura + 300 prompts NSFW, consistencia total y guía de Fanvue." />
+  <meta property="og:image" content="../en-new2/assets/banner-complete.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="El error que casi todos cometen al crear su influencer de IA" />
+  <meta name="twitter:description" content="El secreto no es la herramienta: es el postprocesamiento." />
+  <meta name="twitter:image" content="../en-new2/assets/banner-complete.png" />
+
+  <!-- Meta Pixel -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1223791793200733');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent', { content_name: 'Influencer Pack ES', content_type: 'product', value: 12.99, currency: 'USD' });
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1223791793200733&ev=PageView&noscript=1" /></noscript>
+
+  <!-- UTMify -->
+  <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
+  <script>
+    window.pixelId = "6a2b0f26049323753c49905e";
+    var a = document.createElement("script");
+    a.setAttribute("async", ""); a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KQL6DSS04"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-1KQL6DSS04', { page_path: window.location.pathname });
+  </script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    :root {
+      --bg: #0a0a0d;
+      --pink: #ff2d78;
+      --pink-soft: #ff5c97;
+      --violet: #7c3aed;
+      --gold: #ffc83d;
+      --ink: #ffffff;
+      --muted: #a9a9b4;
+      --card: #131318;
+      --line: #26262f;
+    }
+
+    html { scroll-behavior: smooth }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+
+    body {
+      font-family: 'Hanken Grotesk', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    h1, h2, h3, .cta, .price-now, .stat .num {
+      font-family: 'Archivo', sans-serif;
+      letter-spacing: -.02em;
+    }
+
+    img { max-width: 100%; height: auto; display: block }
+    a { text-decoration: none; color: inherit }
+
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 0 18px }
+    .narrow { max-width: 720px }
+    .tc { text-align: center }
+
+    .emoji { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif }
+
+    .hl { color: var(--pink); }
+    .hl-g { color: var(--gold); }
+    .mark {
+      background: linear-gradient(120deg, var(--pink), var(--violet));
+      color: #fff; padding: 1px 8px; border-radius: 4px;
+      box-decoration-break: clone; -webkit-box-decoration-break: clone;
+    }
+
+    /* reveal */
+    .rv { opacity: 0; transform: translateY(28px); transition: opacity .7s cubic-bezier(.4,0,.2,1), transform .7s cubic-bezier(.4,0,.2,1) }
+    .rv.in { opacity: 1; transform: none }
+
+    /* CTA */
+    .cta {
+      display: inline-block; width: 100%; max-width: 480px; margin: 0 auto;
+      text-align: center; font-weight: 900; font-size: clamp(1rem, 2.5vw, 1.3rem);
+      padding: 19px 32px; border-radius: 10px; color: #1a1205;
+      background: linear-gradient(180deg, #ffd562, var(--gold));
+      box-shadow: 0 10px 30px rgba(255, 200, 61, .28);
+      animation: pulse 2.4s ease-in-out infinite; cursor: pointer;
+      transition: transform .2s, box-shadow .2s;
+    }
+    .cta:hover { transform: translateY(-2px); box-shadow: 0 14px 38px rgba(255, 200, 61, .45) }
+    .cta small { display: block; font-family: 'Hanken Grotesk'; font-weight: 700; font-size: .72rem; opacity: .7; margin-top: 3px; letter-spacing: 0 }
+    @keyframes pulse {
+      0%,100% { box-shadow: 0 10px 30px rgba(255,200,61,.28), 0 0 0 0 rgba(255,200,61,.5) }
+      50% { box-shadow: 0 10px 30px rgba(255,200,61,.4), 0 0 0 12px rgba(255,200,61,0) }
+    }
+
+    /* announce */
+    .announce {
+      position: sticky; top: 0; z-index: 90;
+      background: linear-gradient(90deg, #9d0742, var(--pink), #9d0742);
+      color: #fff; text-align: center; font-weight: 700;
+      font-size: clamp(.72rem, 2.6vw, .9rem); padding: 9px 12px;
+    }
+    .announce b { color: var(--gold) }
+    .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #fff; margin-right: 7px; vertical-align: middle; animation: blink 1.1s infinite }
+    @keyframes blink { 0%,100% { opacity: 1 } 50% { opacity: .3 } }
+
+    /* hero */
+    .hero { position: relative; overflow: hidden; padding: 36px 0 44px;
+      background: radial-gradient(ellipse at 50% -10%, rgba(124,58,237,.25), transparent 55%), radial-gradient(ellipse at 50% 0%, rgba(255,45,120,.18), transparent 45%), var(--bg) }
+    .badge {
+      display: inline-block; background: rgba(255,45,120,.12); border: 1px solid rgba(255,45,120,.4);
+      color: var(--pink-soft); font-weight: 800; font-size: .72rem; letter-spacing: .5px;
+      text-transform: uppercase; padding: 7px 14px; border-radius: 100px; margin-bottom: 18px;
+    }
+    .hero h1 { font-size: clamp(1.6rem, 5.2vw, 3.2rem); font-weight: 900; line-height: 1.12; margin-bottom: 16px }
+    .hero .sub { color: var(--muted); font-size: clamp(.9rem, 2vw, 1.15rem); max-width: 640px; margin: 0 auto; line-height: 1.55 }
+    .hero .sub strong { color: #fff }
+
+    .video-box { max-width: 420px; margin: 28px auto 22px; border-radius: 16px; overflow: hidden; border: 1px solid var(--line); box-shadow: 0 25px 60px rgba(124,58,237,.25) }
+
+    /* stats */
+    .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; max-width: 640px; margin: 26px auto 0 }
+    @media(min-width: 640px) { .stats { grid-template-columns: repeat(4, 1fr) } }
+    .stat { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 10px; text-align: center }
+    .stat .num { font-size: clamp(1.3rem, 4vw, 1.8rem); font-weight: 900; color: #fff }
+    .stat .num.pink { color: var(--pink) }
+    .stat .lbl { font-size: .72rem; color: var(--muted); margin-top: 2px; font-weight: 600 }
+
+    section { padding: 46px 0 }
+    .kicker { text-align: center; color: var(--pink-soft); font-weight: 800; font-size: .75rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 10px }
+    h2.sec { text-align: center; font-weight: 900; font-size: clamp(1.5rem, 4vw, 2.4rem); line-height: 1.18; margin-bottom: 14px }
+    .lead { text-align: center; color: var(--muted); font-size: clamp(.9rem, 2vw, 1.05rem); max-width: 620px; margin: 0 auto 30px; line-height: 1.6 }
+
+    /* reveal-gallery */
+    .gal { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; max-width: 620px; margin: 0 auto }
+    @media(min-width: 640px) { .gal { grid-template-columns: repeat(4, 1fr) } }
+    .gal img { aspect-ratio: 3/4; object-fit: cover; border-radius: 12px; width: 100% }
+    .gal-tools { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 22px }
+    .tool-chip { background: var(--card); border: 1px solid var(--line); color: #ddd; font-weight: 700; font-size: .8rem; padding: 8px 14px; border-radius: 100px }
+
+    /* secret */
+    .secret { background: radial-gradient(ellipse at top, rgba(124,58,237,.18), transparent 60%), var(--bg) }
+    .secret-card {
+      max-width: 880px; margin: 0 auto; border: 1px solid rgba(255,45,120,.35); border-radius: 18px;
+      padding: 30px 22px; background: linear-gradient(150deg, rgba(124,58,237,.12), rgba(255,45,120,.06), #0d0d12); position: relative; overflow: hidden;
+    }
+    .secret-card::before { content: ""; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--pink), var(--violet)) }
+    .tag { display: inline-block; background: var(--pink); color: #fff; font-size: .72rem; font-weight: 900; letter-spacing: .08em; padding: 4px 10px; border-radius: 5px; margin-bottom: 14px; text-transform: uppercase }
+    .secret-card h2 { font-size: clamp(1.4rem, 4vw, 2.2rem); font-weight: 900; line-height: 1.15; margin-bottom: 12px }
+    .secret-card > p { color: rgba(255,255,255,.85); line-height: 1.6; margin-bottom: 18px }
+    .secret-list { display: grid; gap: 12px }
+    @media(min-width: 640px) { .secret-list { grid-template-columns: 1fr 1fr; gap: 12px 24px } }
+    .sli { display: flex; gap: 10px; align-items: flex-start; font-size: .95rem }
+    .sli .b { width: 8px; height: 8px; border-radius: 50%; background: var(--pink); box-shadow: 0 0 12px var(--pink); flex-shrink: 0; margin-top: 7px }
+
+    /* blur reveal media */
+    .reveal-media { position: relative; margin: 24px auto 0; max-width: 460px; border-radius: 14px; overflow: hidden; cursor: pointer; border: 1px solid rgba(255,45,120,.35) }
+    .reveal-media img { width: 100%; filter: blur(22px); transform: scale(1.05); transition: filter .35s }
+    .reveal-media.shown img { filter: none; transform: none }
+    .reveal-veil { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; background: rgba(0,0,0,.5); color: #fff; font-weight: 800; font-size: .85rem; transition: opacity .35s }
+    .reveal-media.shown .reveal-veil { opacity: 0; pointer-events: none }
+    .reveal-cap { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); background: rgba(0,0,0,.7); color: #fff; font-size: .72rem; font-weight: 800; padding: 5px 12px; border-radius: 100px; white-space: nowrap }
+
+    /* fails / 3 reasons */
+    .fails { display: grid; gap: 14px; max-width: 760px; margin: 0 auto }
+    @media(min-width: 768px) { .fails { grid-template-columns: repeat(3, 1fr) } }
+    .fail { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 22px 18px }
+    .fail .ic { font-size: 1.8rem; display: block; margin-bottom: 8px }
+    .fail h3 { font-size: 1.02rem; font-weight: 800; margin-bottom: 6px }
+    .fail p { font-size: .86rem; color: var(--muted); line-height: 1.5 }
+    .fail .no { color: var(--pink-soft); font-weight: 700 }
+
+    /* deliverables */
+    .deliv { display: grid; grid-template-columns: 1fr; gap: 14px; max-width: 880px; margin: 0 auto }
+    @media(min-width: 640px) { .deliv { grid-template-columns: 1fr 1fr } }
+    .ditem { display: flex; gap: 14px; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px; align-items: flex-start; transition: border-color .25s, transform .25s }
+    .ditem:hover { border-color: rgba(255,45,120,.5); transform: translateY(-3px) }
+    .ditem .ic { flex-shrink: 0; width: 44px; height: 44px; border-radius: 11px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; background: linear-gradient(150deg, rgba(255,45,120,.18), rgba(124,58,237,.18)); border: 1px solid rgba(255,45,120,.25) }
+    .ditem h3 { font-size: 1rem; font-weight: 800; margin-bottom: 4px }
+    .ditem p { font-size: .85rem; color: var(--muted); line-height: 1.5 }
+    .ditem .badge18 { display: inline-block; background: #e11d2a; color: #fff; font-weight: 900; font-size: .62rem; padding: 1px 6px; border-radius: 5px; margin-left: 6px; vertical-align: middle }
+
+    /* target */
+    .targets { display: grid; grid-template-columns: 1fr; gap: 12px; max-width: 760px; margin: 0 auto }
+    @media(min-width: 640px) { .targets { grid-template-columns: 1fr 1fr } }
+    .tcard { display: flex; gap: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px }
+    .tcard .e { font-size: 1.5rem; flex-shrink: 0 }
+    .tcard b { display: block; font-size: .9rem; margin-bottom: 2px }
+    .tcard span { font-size: .8rem; color: var(--muted); line-height: 1.45 }
+
+    /* category grid */
+    .cats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; max-width: 720px; margin: 0 auto }
+    @media(min-width: 640px) { .cats { grid-template-columns: repeat(4, 1fr) } }
+    .cat { position: relative; border-radius: 12px; overflow: hidden; aspect-ratio: 3/4 }
+    .cat img { width: 100%; height: 100%; object-fit: cover }
+    .cat.sensitive img { filter: blur(20px); transform: scale(1.08) }
+    .cat.sensitive.shown img { filter: none; transform: none }
+    .cat-veil { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; background: rgba(0,0,0,.55); cursor: pointer; text-align: center; transition: opacity .3s }
+    .cat.sensitive.shown .cat-veil { opacity: 0; pointer-events: none }
+    .cat-veil .eye { width: 46px; height: 46px; border-radius: 999px; border: 1.5px solid #fff; display: flex; align-items: center; justify-content: center; font-size: 20px }
+    .cat-veil small { font-weight: 800; font-size: .72rem }
+
+    /* proof */
+    .proof-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; max-width: 820px; margin: 0 auto }
+    .pcard { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden }
+    .pcard .ph { display: flex; align-items: center; gap: 10px; padding: 12px 14px }
+    .pcard .av { width: 34px; height: 34px; border-radius: 50%; background: linear-gradient(150deg, var(--pink), var(--violet)); display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: .9rem }
+    .pcard .nm { font-weight: 800; font-size: .85rem }
+    .pcard .mt { font-size: .72rem; color: var(--muted) }
+    .pcard .mt .amt { color: #36d399; font-weight: 800 }
+    .pcard img { width: 100%; display: block }
+    .proof-note { max-width: 700px; margin: 22px auto 0; background: linear-gradient(150deg, rgba(255,45,120,.1), rgba(124,58,237,.06)); border: 1px solid var(--line); border-left: 3px solid var(--pink); border-radius: 10px; padding: 16px; font-size: .9rem; line-height: 1.55 }
+    .proof-note b { color: #fff }
+
+    /* offer */
+    .offer { background: radial-gradient(ellipse at top, rgba(124,58,237,.18), transparent 60%), var(--bg) }
+    .stack { max-width: 540px; margin: 0 auto 24px; background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden }
+    .stack h3 { background: linear-gradient(90deg, var(--pink), var(--violet)); color: #fff; text-align: center; padding: 16px; font-size: 1.05rem; font-weight: 900; letter-spacing: .02em }
+    .vrow { display: flex; justify-content: space-between; gap: 12px; padding: 13px 18px; border-bottom: 1px solid var(--line); font-size: .9rem }
+    .vrow span:first-child { color: #e7e7ee }
+    .vrow .v { color: var(--muted); font-weight: 700; white-space: nowrap }
+    .vrow.total { background: rgba(255,255,255,.03); font-weight: 800 }
+    .vrow.total .v { color: #fff }
+    .today { text-align: center; padding: 22px 18px 24px }
+    .today .pre { color: var(--muted); font-size: .85rem }
+    .price-old { color: #ff6b6b; text-decoration: line-through; font-weight: 700; font-size: 1.1rem }
+    .price-now { color: var(--gold); font-size: clamp(2.6rem, 9vw, 3.4rem); font-weight: 900; line-height: 1 }
+    .micro { color: var(--muted); font-size: .78rem; margin-top: 6px }
+    .scarcity { max-width: 540px; margin: 0 auto 20px; text-align: center; background: rgba(255,45,120,.08); border: 1px solid rgba(255,45,120,.3); border-radius: 10px; padding: 12px; font-size: .85rem; font-weight: 700 }
+
+    /* guarantee */
+    .guar { max-width: 600px; margin: 0 auto; border: 2px solid var(--pink); border-radius: 18px; padding: 34px 22px; text-align: center; background: var(--card) }
+    .guar .shield { font-size: 3.4rem; margin-bottom: 12px }
+    .guar h2 { font-size: clamp(1.3rem, 3.5vw, 2rem); font-weight: 900; margin-bottom: 12px }
+    .guar p { color: var(--muted); line-height: 1.6; font-size: .92rem }
+
+    /* faq */
+    .faq-list { max-width: 660px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px }
+    .faq-item { background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden }
+    .faq-item summary { padding: 16px 18px; font-weight: 700; font-size: .92rem; cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 12px; align-items: center }
+    .faq-item summary::-webkit-details-marker { display: none }
+    .faq-item summary::after { content: '+'; color: var(--pink); font-weight: 900; font-size: 1.3rem }
+    .faq-item[open] summary::after { content: '–' }
+    .faq-item .a { padding: 0 18px 16px; color: var(--muted); font-size: .88rem; line-height: 1.6 }
+
+    /* footer */
+    .footer { background: #060608; border-top: 1px solid var(--line); padding: 26px 0; text-align: center }
+    .footer p { font-size: .72rem; color: #666; max-width: 760px; margin: 0 auto; line-height: 1.5 }
+
+    /* sticky cta */
+    .sticky { position: fixed; left: 0; right: 0; bottom: 0; z-index: 80; background: rgba(10,10,13,.92); backdrop-filter: blur(10px); border-top: 1px solid var(--line); padding: 10px 14px; transform: translateY(120%); transition: transform .3s }
+    .sticky.on { transform: none }
+    .sticky .cta { padding: 15px; font-size: 1rem; max-width: 600px; animation: none }
+
+    @media(max-width: 480px) {
+      section { padding: 36px 0 }
+      .proof-grid { gap: 10px }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ANNOUNCE -->
+  <div class="announce">
+    <span class="dot"></span>Precio de lanzamiento termina en <b id="cd">15:00</b> · solo <b>$12.99</b> en vez de $39
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap tc">
+      <div class="rv">
+        <span class="badge">🐐 Influencer Pack · gustagoat.ia</span>
+        <h1>El error que comete <span class="hl">casi todo el mundo</span> al crear su influencer de IA — y por qué la tuya todavía <span class="mark">parece falsa</span></h1>
+        <p class="sub">Hola, soy <strong>Lia</strong>. Aunque no lo creas, soy una influencer de inteligencia artificial — y el mes pasado le generé <strong>$7.000</strong> a mi creador. En los próximos segundos te muestro el error exacto que hace que tu influencer parezca falsa… y el secreto que casi nadie conoce para arreglarlo.</p>
+      </div>
+
+      <!-- VSL — cambia el id por el player de la VSL en español -->
+      <div class="rv video-box">
+        <vturb-smartplayer id="vid-ES-PLACEHOLDER" style="display:block;margin:0 auto;width:100%;"></vturb-smartplayer>
+        <!--
+        <script type="text/javascript">
+          var s = document.createElement("script");
+          s.src = "https://scripts.converteai.net/TU-ACCOUNT/players/TU-PLAYER-ES/v4/player.js";
+          s.async = !0; document.head.appendChild(s);
+        </script>
+        -->
+      </div>
+
+      <div class="rv">
+        <a href="#oferta" class="cta">QUIERO CREAR MI INFLUENCER DE IA<small>acceso inmediato · garantía de 7 días</small></a>
+      </div>
+
+      <!-- STATS -->
+      <div class="rv stats">
+        <div class="stat"><div class="num pink">$7.000</div><div class="lbl">generados el mes pasado</div></div>
+        <div class="stat"><div class="num">+7</div><div class="lbl">meses activa</div></div>
+        <div class="stat"><div class="num">+4.000</div><div class="lbl">suscriptores</div></div>
+        <div class="stat"><div class="num">0</div><div class="lbl">veces mostré una cara real</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ¿SUERTE? NO. ESTRATEGIA -->
+  <section>
+    <div class="wrap narrow">
+      <div class="rv">
+        <p class="kicker">¿Es suerte? No. Es estrategia.</p>
+        <h2 class="sec">¿Ves esta imagen? ¿Y esta? <span class="hl">Ninguna</span> se hizo con una herramienta secreta.</h2>
+        <p class="lead">Todas salieron de herramientas comunes del mercado — las mismas que tú ya puedes usar. Entonces, si la herramienta es la misma… ¿por qué tu influencer queda con cara de plástico y la mía parece una persona real?</p>
+      </div>
+      <div class="rv gal">
+        <img src="../en-new2/assets/hero-carousel-1.webp" alt="Influencer de IA realista" loading="lazy" />
+        <img src="../en-new2/assets/hero-carousel-2.webp" alt="Influencer de IA realista" loading="lazy" />
+        <img src="../en-new2/assets/hero-carousel-3.webp" alt="Influencer de IA realista" loading="lazy" />
+        <img src="../en-new2/newimages/thumb-7.webp" alt="Influencer de IA realista" loading="lazy" />
+      </div>
+      <div class="rv gal-tools">
+        <span class="tool-chip">Nano Banana Pro</span>
+        <span class="tool-chip">Nano Banana 2</span>
+        <span class="tool-chip">GPT Image 2</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- EL SECRETO: POSTPROCESAMIENTO -->
+  <section class="secret">
+    <div class="wrap">
+      <div class="rv secret-card">
+        <span class="tag">🔥 El secreto no es la herramienta, es el postprocesamiento</span>
+        <h2>El secreto viene <span class="hl">después</span> de generarlas</h2>
+        <p>El postprocesamiento es lo que cambia el juego por completo. Después de generadas, estas imágenes pasan por una IA que muy poca gente conoce — prácticamente una <strong>versión ultra de Nano Banana Pro</strong>. Con ella quedo tan realista que ni parece que me hizo una inteligencia artificial. ¿Y lo mejor? También me convierto en videos como este.</p>
+        <div class="secret-list">
+          <div class="sli"><span class="b"></span><span>Genera de forma <strong>ilimitada</strong> — sin filas, sin créditos, sin pagar por imagen</span></div>
+          <div class="sli"><span class="b"></span><span><strong>Sin censura</strong> — el contenido +18 que de verdad vende, con cero bloqueos</span></div>
+          <div class="sli"><span class="b"></span><span>Tan realista que <strong>no parece hecho por IA</strong> (piel, poros, luz, textura)</span></div>
+          <div class="sli"><span class="b"></span><span>También genera <strong>videos</strong>, no solo fotos</span></div>
+        </div>
+        <div class="reveal-media" onclick="this.classList.toggle('shown')" role="button" tabindex="0" aria-label="Toca para ver">
+          <img src="../en-new2/newimages/gustagoat-ia.png" alt="IA censurada vs IA ultra sin censura" loading="lazy" />
+          <div class="reveal-veil"><span style="font-size:1.6rem" class="emoji">👁️</span><span>Toca para ver · 18+</span></div>
+          <span class="reveal-cap">IA común&nbsp;&nbsp;→&nbsp;&nbsp;nuestra IA ultra</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 RAZONES POR LAS QUE FRACASA -->
+  <section>
+    <div class="wrap">
+      <div class="rv">
+        <p class="kicker">Por qué el 99% nunca factura un dólar</p>
+        <h2 class="sec">Tres cosas matan a una influencer de IA</h2>
+        <p class="lead">Casi todos resuelven, como mucho, una de las tres — y ahí se traban. El Influencer Pack te entrega las tres.</p>
+      </div>
+      <div class="fails">
+        <div class="rv fail">
+          <span class="ic emoji">🔞</span>
+          <h3>La IA bloquea el +18</h3>
+          <p>ChatGPT y Midjourney tumban cualquier prompt caliente, y las "gratis" escupen una muñeca de plástico. <span class="no">Sin la IA sin censura correcta, no sales del lugar.</span></p>
+        </div>
+        <div class="rv fail">
+          <span class="ic emoji">🎭</span>
+          <h3>En la décima imagen es otra mujer</h3>
+          <p>La IA no recuerda tu personaje, así que el rostro cambia cada vez. <span class="no">Nadie cree que es real, nadie se suscribe, nadie paga.</span></p>
+        </div>
+        <div class="rv fail">
+          <span class="ic emoji">🛡️</span>
+          <h3>La cuenta se banea de la nada</h3>
+          <p>Creces a miles de seguidores y amaneces con todo bloqueado. <span class="no">Sin protección, construyes sobre arena.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUÉ HAY DENTRO -->
+  <section>
+    <div class="wrap">
+      <div class="rv">
+        <p class="kicker">Todo en un solo lugar</p>
+        <h2 class="sec">Qué recibes dentro del <span class="hl">Influencer Pack</span></h2>
+        <p class="lead">El camino completo, del cero a tu primera venta — sin ComfyUI, sin LoRA, sin PC caro. Si sabes usar WhatsApp, puedes hacer esto desde el celular.</p>
+      </div>
+      <div class="deliv">
+        <div class="rv ditem">
+          <div class="ic emoji">📸</div>
+          <div><h3>+300 prompts NSFW <span class="badge18">+18</span></h3><p>Prompts listos para <strong>foto y video</strong>, organizados por categoría. Copia, pega y genera contenido que vende — en un montón de escenarios.</p></div>
+        </div>
+        <div class="rv ditem">
+          <div class="ic emoji">🔓</div>
+          <div><h3>Cómo desbloquear Grok para prompts +18</h3><p>El método para liberar Grok y generar prompts explícitos sin que te bloquee — para crear tus propias escenas personalizadas cuando un suscriptor pague por algo a medida.</p></div>
+        </div>
+        <div class="rv ditem">
+          <div class="ic emoji">🎭</div>
+          <div><h3>Consistencia total de la influencer</h3><p>El truco exacto para fijar el <strong>mismo rostro y el mismo cuerpo</strong> en todas las imágenes y videos. La diferencia entre una creadora creíble y una carpeta de fotos aleatorias.</p></div>
+        </div>
+        <div class="rv ditem">
+          <div class="ic emoji">🤖</div>
+          <div><h3>Tutorial de la IA secreta</h3><p>Acceso y paso a paso de la <strong>IA ultra sin censura</strong> (la versión ultra de Nano Banana Pro): ilimitada, hiperrealista y con video. La misma del postprocesamiento.</p></div>
+        </div>
+        <div class="rv ditem">
+          <div class="ic emoji">💸</div>
+          <div><h3>Guía de monetización en Fanvue</h3><p>Del perfil en cero a tu primer dinero: cómo abrir la cuenta, fijar precios, vender en DM y PPV, y traer tráfico gratis — todo sin mostrar tu cara real.</p></div>
+        </div>
+        <div class="rv ditem">
+          <div class="ic emoji">🛡️</div>
+          <div><h3>Sistema Antiban</h3><p>Cómo manejar varios celulares y blindar tu Instagram para no perder una cuenta con miles de seguidores. El error más caro de este juego, resuelto.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARA QUIÉN ES -->
+  <section>
+    <div class="wrap">
+      <div class="rv"><h2 class="sec">Esto es para ti si…</h2></div>
+      <div class="targets">
+        <div class="rv tcard"><span class="e emoji">🤖</span><div><b>Quieres una influencer de IA +18</b><span>para vender en Fanvue/OnlyFans pero no sabes escribir prompts que la IA no bloquee.</span></div></div>
+        <div class="rv tcard"><span class="e emoji">🙈</span><div><b>Quieres facturar sin dar la cara</b><span>sin mostrar tu rostro, tu cuerpo, ni que tu familia se entere.</span></div></div>
+        <div class="rv tcard"><span class="e emoji">💼</span><div><b>Manejas modelos (chatter/agencia)</b><span>y necesitas contenido +18 infinito sin fotógrafo, locación ni modelo real.</span></div></div>
+        <div class="rv tcard"><span class="e emoji">⚡</span><div><b>Quieres empezar este fin de semana</b><span>sin estudiar IA por meses: copia, pega, publica y empieza a sumar suscriptores.</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA / CATEGORÍAS -->
+  <section>
+    <div class="wrap">
+      <div class="rv"><h2 class="sec">Lo que tu influencer va a generar</h2></div>
+      <div class="rv cats">
+        <div class="cat"><img src="../en-new2/newimages/thumb-0.webp" alt="Fotos de perfil" loading="lazy" /></div>
+        <div class="cat"><img src="../en-new2/newimages/thumb-1.webp" alt="Videos UGC" loading="lazy" /></div>
+        <div class="cat"><img src="../en-new2/newimages/thumb-5.webp" alt="Fitness" loading="lazy" /></div>
+        <div class="cat"><img src="../en-new2/newimages/thumb-6.webp" alt="Escenarios" loading="lazy" /></div>
+        <div class="cat"><img src="../en-new2/newimages/thumb-3.webp" alt="Looks y outfits" loading="lazy" /></div>
+        <div class="cat"><img src="../en-new2/newimages/output_0.png" alt="Con producto real" loading="lazy" /></div>
+        <div class="cat"><img src="../en-new2/newimages/thumb-7.webp" alt="Expresiones" loading="lazy" /></div>
+        <div class="cat sensitive" onclick="this.classList.toggle('shown')">
+          <img src="../en-new2/assets/a5134a1b-16d3-416c-bab2-d9d9ce37f05c.jpeg" alt="Nicho +18" loading="lazy" />
+          <div class="cat-veil"><div class="eye emoji">👁️</div><small>Contenido +18 · toca para ver</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRUEBA -->
+  <section>
+    <div class="wrap">
+      <div class="rv"><h2 class="sec">Cuentas reales. Ganancias reales.</h2>
+        <p class="lead">Con caras ocultas y cuentas corriendo. Así se ve cuando funciona.</p></div>
+      <!-- ⚠️ Reemplaza por capturas reales de tus alumnos -->
+      <div class="proof-grid">
+        <div class="rv pcard"><div class="ph"><div class="av">L</div><div><div class="nm">Lucas M.</div><div class="mt"><span class="amt">$8.062</span> en total · ✔ Fanvue</div></div></div><img src="../en-new2/newimages/proof-1.png" alt="Ganancias Fanvue" loading="lazy" /></div>
+        <div class="rv pcard"><div class="ph"><div class="av">R</div><div><div class="nm">Ryan T.</div><div class="mt"><span class="amt">$2.014</span> este mes · ✔ Fanvue</div></div></div><img src="../en-new2/newimages/proof-2.png" alt="Ganancias Fanvue" loading="lazy" /></div>
+        <div class="rv pcard"><div class="ph"><div class="av">D</div><div><div class="nm">Daniel K.</div><div class="mt"><span class="amt">$10.621</span> en total · ✔ Fanvue</div></div></div><img src="../en-new2/newimages/proof-3.png" alt="Ganancias Fanvue" loading="lazy" /></div>
+        <div class="rv pcard"><div class="ph"><div class="av">M</div><div><div class="nm">Marco V.</div><div class="mt"><span class="amt">$81.000+</span> de saldo · ✔ Fanvue</div></div></div><img src="../en-new2/newimages/proof-4.png" alt="Ganancias Fanvue" loading="lazy" /></div>
+      </div>
+      <div class="rv proof-note">💰 Cuentas reales con influencers de IA facturan entre <b>$1.000 y $30.000 al mes</b> en Fanvue y OnlyFans. El cuello de botella siempre fue el contenido — y eso es justo lo que estos 300+ prompts te entregan desde el día uno.</div>
+    </div>
+  </section>
+
+  <!-- OFERTA -->
+  <section class="offer" id="oferta">
+    <div class="wrap">
+      <div class="rv"><h2 class="sec">Todo lo que te llevas hoy</h2>
+        <p class="lead">Un solo pago. Acceso de por vida. El precio de abajo es una fracción de lo que vale.</p></div>
+
+      <div class="rv stack">
+        <h3>TODO EL SISTEMA</h3>
+        <div class="vrow"><span>Acceso a la IA ultra sin censura, ilimitada 🔥</span><span class="v">no tiene precio</span></div>
+        <div class="vrow"><span>+300 prompts NSFW (foto y video)</span><span class="v">$39</span></div>
+        <div class="vrow"><span>Desbloqueo de Grok para prompts +18</span><span class="v">$19</span></div>
+        <div class="vrow"><span>Método de Consistencia (mismo rostro y cuerpo)</span><span class="v">$29</span></div>
+        <div class="vrow"><span>Tutorial de la IA secreta</span><span class="v">$19</span></div>
+        <div class="vrow"><span>Guía de monetización en Fanvue</span><span class="v">$19</span></div>
+        <div class="vrow"><span>Sistema Antiban 🛡️</span><span class="v">$37</span></div>
+        <div class="vrow total"><span>Valor real total</span><span class="v">$162</span></div>
+        <div class="today">
+          <p class="pre">Hoy, pago único: <span class="price-old">$39</span></p>
+          <p class="price-now">$12.99</p>
+          <p class="micro">menos que un café · acceso inmediato · garantía de 7 días</p>
+        </div>
+      </div>
+
+      <div class="rv scarcity">🔥 El precio de lanzamiento no dura. Cuando se llenen los cupos, vuelve a $39.</div>
+
+      <div class="rv">
+        <!-- ⚠️ Cambia el link por tu checkout en español -->
+        <a href="https://go.centerpag.com/PPU38CQCKMH" class="cta">QUIERO EL INFLUENCER PACK POR $12.99<small>acceso inmediato tras el pago</small></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GARANTÍA -->
+  <section>
+    <div class="wrap">
+      <div class="rv guar">
+        <div class="shield emoji">🛡️</div>
+        <h2>Garantía incondicional de 7 días</h2>
+        <p>Genera tu primera influencer con los prompts y la IA sin censura. Si el resultado no te impresiona o no ves el potencial de facturar en Fanvue, escríbenos y te devolvemos el 100% de tu dinero. Sin preguntas, sin trabas. El riesgo es todo nuestro.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section>
+    <div class="wrap">
+      <div class="rv"><h2 class="sec">Preguntas frecuentes</h2></div>
+      <div class="faq-list">
+        <details class="rv faq-item"><summary>¿De verdad es un solo pago?</summary><div class="a">Sí. Pagas una vez y es tuyo de por vida, con todas las actualizaciones futuras. Sin mensualidades ni cargos ocultos.</div></details>
+        <details class="rv faq-item"><summary>¿Los prompts funcionan en cualquier IA?</summary><div class="a">No, y ese es el punto. Herramientas comunes como ChatGPT o Midjourney bloquean el +18. Los prompts están hechos para nuestra IA ultra sin censura, a la que tienes acceso por dentro. Eso es lo que hace posible el resultado explícito e hiperrealista.</div></details>
+        <details class="rv faq-item"><summary>¿Necesito un PC potente o saber ComfyUI?</summary><div class="a">No. Sin ComfyUI, sin PC gamer, nada técnico. Funciona en el navegador y desde el celular. Si sabes usar WhatsApp, puedes hacerlo.</div></details>
+        <details class="rv faq-item"><summary>¿Puedo usarlo con una influencer que ya tengo?</summary><div class="a">Sí. El Método de Consistencia te muestra cómo fijar su rostro y cuerpo exactos para que cada nueva foto y video coincidan. Y si aún no tienes una, la creas desde cero por dentro.</div></details>
+        <details class="rv faq-item"><summary>¿Hay prompts para video también?</summary><div class="a">Sí. El pack incluye prompts para foto y video — clips +18 listos para publicar en el feed y vender en DM y PPV.</div></details>
+        <details class="rv faq-item"><summary>¿Y si me banean la cuenta?</summary><div class="a">Para eso está el Sistema Antiban. Aprendes a manejar varios celulares y a blindar tu Instagram para no perder una cuenta crecida. Es el error más caro del negocio, y nos aseguramos de que no te pase.</div></details>
+        <details class="rv faq-item"><summary>¿Tengo que mostrar mi cara, cuerpo o voz?</summary><div class="a">Nunca. La influencer de IA es la que aparece, posa y vende. Tu identidad real queda 100% oculta.</div></details>
+        <details class="rv faq-item"><summary>¿Es legal? ¿Es deepfake?</summary><div class="a">No es deepfake. El deepfake usa el rostro de una persona real sin consentimiento, y eso es ilegal. Aquí creas un personaje 100% ficticio que no existe, lo cual es completamente legal (el mismo principio detrás de las top influencers de IA como Aitana López). La modelo es tu personaje, tu marca, tu propiedad.</div></details>
+        <details class="rv faq-item"><summary>¿Cómo recibo el acceso?</summary><div class="a">Acceso inmediato tras el pago: el enlace al área de miembros llega a tu correo (revisa spam). Recibes los prompts, todos los módulos y el acceso a la IA sin censura, para siempre. Y estás cubierto por la garantía de 7 días.</div></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="tc">
+    <div class="wrap">
+      <div class="rv"><a href="#oferta" class="cta">QUIERO MI INFLUENCER DE IA POR $12.99<small>acceso inmediato · garantía de 7 días · pago seguro</small></a></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>gustagoat.ia — Todos los derechos reservados. Este producto no garantiza ganancias económicas; los resultados dependen de la dedicación de cada persona. Contenido para adultos 18+. Las influencers generadas son personajes ficticios creados con IA y no representan a personas reales.</p>
+  </div>
+
+  <!-- STICKY CTA -->
+  <div class="sticky" id="sticky">
+    <a href="#oferta" class="cta">EMPEZAR POR $12.99 →</a>
+  </div>
+
+  <script>
+    /* countdown */
+    (function () {
+      var KEY = 'ip_es_deadline', DUR = 15 * 60 * 1000, el = document.getElementById('cd');
+      if (!el) return;
+      var dl = parseInt(localStorage.getItem(KEY) || '0', 10), now = Date.now();
+      if (!dl || dl < now) { dl = now + DUR; localStorage.setItem(KEY, dl); }
+      function t() {
+        var r = dl - Date.now();
+        if (r <= 0) { el.textContent = '00:00'; return; }
+        var m = Math.floor(r / 60000), s = Math.floor((r % 60000) / 1000);
+        el.textContent = (m < 10 ? '0' : '') + m + ':' + (s < 10 ? '0' : '') + s;
+      }
+      t(); setInterval(t, 1000);
+    })();
+
+    /* scroll reveal */
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { threshold: .12 });
+    document.querySelectorAll('.rv').forEach(function (n) { io.observe(n); });
+
+    /* sticky cta after hero */
+    var hero = document.querySelector('.hero'), sticky = document.getElementById('sticky');
+    var hio = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { sticky.classList.toggle('on', !e.isIntersecting); });
+    }, { threshold: 0 });
+    if (hero) hio.observe(hero);
+  </script>
+
+</body>
+
+</html>

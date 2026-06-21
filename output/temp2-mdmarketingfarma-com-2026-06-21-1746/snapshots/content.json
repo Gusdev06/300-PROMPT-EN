@@ -1,0 +1,262 @@
+{
+  "headings": [
+    {
+      "t": "H1",
+      "x": "500 PROMPTS PARA GERAR IMAGEM, VÍDEOS E DAR VIDA PARA SUA INFLUENCER DE IA QUE NINGUÉM SABE QUE É IA."
+    },
+    {
+      "t": "H2",
+      "x": "PROMPT GENÉRICO VS 500+ PROMPTS TESTADOS"
+    },
+    {
+      "t": "H2",
+      "x": "O QUE A SUA INFLUENCER DE IA VAI GERAR"
+    },
+    {
+      "t": "H2",
+      "x": "SIM, DÁ PRA CRIAR CONTEÚDO ADULTO COM A SUA INFLUENCER DE IA"
+    },
+    {
+      "t": "H2",
+      "x": "O QUE MUDA QUANDO VOCÊ TEM OS PROMPTS CERTOS:"
+    },
+    {
+      "t": "H2",
+      "x": "SIMPLES ASSIM — 4 PASSOS"
+    },
+    {
+      "t": "H3",
+      "x": "ABRE O PRODUTO"
+    },
+    {
+      "t": "H3",
+      "x": "COPIA O PROMPT"
+    },
+    {
+      "t": "H3",
+      "x": "COLA NA IA GRATUITA"
+    },
+    {
+      "t": "H3",
+      "x": "GERA E MONETIZA"
+    },
+    {
+      "t": "H2",
+      "x": "QUEM PRECISA DISSO AGORA:"
+    },
+    {
+      "t": "H2",
+      "x": "QUEM COMPRA HOJE LEVA JUNTO:"
+    },
+    {
+      "t": "H2",
+      "x": "A FERRAMENTA QUE GERA O QUE AS OUTRAS NÃO DEIXAM"
+    },
+    {
+      "t": "H2",
+      "x": "ESCOLHA COMO QUER ENTRAR"
+    },
+    {
+      "t": "H2",
+      "x": "7 DIAS DE GARANTIA — SEM CONDIÇÃO NENHUMA"
+    },
+    {
+      "t": "H2",
+      "x": "PERGUNTAS FREQUENTES"
+    },
+    {
+      "t": "H2",
+      "x": "ENQUANTO VOCÊ LÊ ISSO, ALGUÉM ESTÁ CRIANDO A INFLUENCER QUE VAI VENDER POR ELE AMANHÃ."
+    }
+  ],
+  "sections": [
+    {
+      "id": "",
+      "bg": "rgb(5, 5, 5)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "",
+      "bg": "rgb(5, 5, 5)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "",
+      "bg": "rgb(5, 5, 5)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "conteudo-adulto",
+      "bg": "rgb(5, 5, 5)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "beneficios",
+      "bg": "rgb(17, 17, 19)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "1px solid rgba(156, 156, 156, 0.15)"
+    },
+    {
+      "id": "como-funciona",
+      "bg": "rgb(5, 5, 5)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "para-quem",
+      "bg": "rgb(17, 17, 19)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "bonus",
+      "bg": "rgb(5, 5, 5)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "ia-sem-bloqueio",
+      "bg": "rgb(10, 10, 10)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "oferta",
+      "bg": "rgb(5, 5, 5)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "garantia",
+      "bg": "rgb(17, 17, 19)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "faq",
+      "bg": "rgb(5, 5, 5)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    },
+    {
+      "id": "cta-final",
+      "bg": "rgb(28, 30, 25)",
+      "color": "rgb(244, 244, 232)",
+      "pad": "56px 20px",
+      "borderTop": "0px none rgb(244, 244, 232)"
+    }
+  ],
+  "topColors": [
+    [
+      "rgb(244, 244, 232)",
+      876
+    ],
+    [
+      "rgb(0, 0, 0)",
+      144
+    ],
+    [
+      "rgb(156, 156, 156)",
+      120
+    ],
+    [
+      "rgb(209, 255, 0)",
+      107
+    ],
+    [
+      "rgb(5, 5, 5)",
+      50
+    ],
+    [
+      "rgba(156, 156, 156, 0.15)",
+      42
+    ],
+    [
+      "rgb(244, 244, 232) rgb(244, 244, 232) rgba(156, 156, 156, 0.15)",
+      22
+    ],
+    [
+      "rgba(209, 255, 0, 0.12)",
+      17
+    ],
+    [
+      "rgba(245, 240, 235, 0.6)",
+      14
+    ],
+    [
+      "rgb(255, 68, 68)",
+      14
+    ],
+    [
+      "rgba(209, 255, 0, 0.3)",
+      14
+    ],
+    [
+      "rgba(209, 255, 0, 0.28)",
+      12
+    ],
+    [
+      "rgb(10, 10, 12)",
+      11
+    ],
+    [
+      "rgba(209, 255, 0, 0.06)",
+      11
+    ],
+    [
+      "rgb(15, 15, 17)",
+      11
+    ],
+    [
+      "rgba(209, 255, 0, 0.4)",
+      11
+    ],
+    [
+      "rgba(209, 255, 0, 0.6)",
+      10
+    ],
+    [
+      "rgba(255, 255, 255, 0.08)",
+      8
+    ]
+  ],
+  "ctaStyle": {
+    "bg": "rgb(209, 255, 0)",
+    "color": "rgb(5, 5, 5)",
+    "radius": "999px",
+    "pad": "0px 36px",
+    "font": "\"Space Mono\", \"Roboto Mono\", monospace",
+    "weight": "700",
+    "size": "14px",
+    "ls": "1.4px",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 11.8387px, rgba(209, 255, 0, 0.15) 0px 4px 20px 0px",
+    "transform": "uppercase"
+  },
+  "offerText": "ESCOLHA COMO QUER ENTRAR Acesso liberado imediatamente após o pagamento. PLANO BÁSICO R$ 9,90 PAGAMENTO ÚNICO 500+ Prompts para Influencer de IA Aula: Construa sua Influencer do Zero Aula: Rosto Idêntico em Todas as Gerações Aula: Influencer Apresentando Produto Guia: 5 Formas de Monetizar Aula: Conteúdo Adulto (+18) 🔞 Licença Comercial + Atualizações ENTRAR NO PLANO BÁSICO ⭐ MAIS ESCOLHIDO PLANO COMPLETO de R$ 197,00 R$ 47,90 PAGAMENTO ÚNICO 500+ Prompts testados e organizados Aula: Construa sua Influencer do Zero Aula: Rosto Idêntico em Todas as Gerações Aula: Influencer Apresentando Produto Guia: 5 Formas de Monetizar Tutorial das IAs Gratuitas em Vídeo Aula: Conteúdo Adulto (+18) e Vídeo 🔞 Acesso à IA sem CENSURA 🔓 Licença Comercial + Atualizações Vitalícias Garantia Incondicional de 7 Dias QUERO O PLANO COMPLETO ACESSO LIBERADO IMEDIATAMENTE APÓS O PAGAMENTO",
+  "comoFunciona": "SIMPLES ASSIM — 4 PASSOS 01 ABRE O PRODUTO Tudo organizado por categoria. Você encontra o que precisa em segundos. 02 COPIA O PROMPT Pronto pra usar. Nenhuma edição necessária pra ter resultado profissional. 03 COLA NA IA GRATUITA O tutorial mostra qual usar e como. Gratuita, sem cadastro pago, sem cartão. 04 GERA E MONETIZA Resultado em menos de um minuto. Imagem pronta pra postar, vender ou entregar pra cliente.",
+  "bonus": "QUEM COMPRA HOJE LEVA JUNTO: Seis recursos extras inclusos sem custo adicional. 01 AULA: CONSTRUA SUA INFLUENCER DO ZERO Partindo do nada: como definir a persona, o estilo visual, o nicho e gerar as primeiras imagens com qualidade. Você termina a aula com a influencer criada e pronta pra usar. R$ 67,00 GRÁTIS 02 AULA: ROSTO IDÊNTICO EM TODAS AS GERAÇÕES A técnica que resolve o maior problema de quem cria influencer de IA: identidade inconsistente. Com esse método, a mesma pessoa aparece em todas as imagens, sempre. R$ 47,00 GRÁTIS 03 AULA: INFLUENCER APRESENTANDO PRODUTO Como posicionar a influencer com produto na mão, no corpo ou em cena — do jeito que gera clique e venda. Focado em TikTok Shop e afiliado. R$ 47,00 GRÁTIS 04 GUIA: 5 FORMAS DE MONETIZAR AGORA Afiliado, UGC pra marcas, prestação de serviço, perfis pagos e TikTok Shop. Cada modelo explicado com exemplo real de como funciona na prática. R$ 47,00 GRÁTIS 05 TUTORIAL DAS IAS GRATUITAS Quais usar, onde acessar e como configurar pra ter o melhor resultado com os prompts. Tudo em vídeo, sem enrolação. R$ 67,00 GRÁTIS 06 AULA: CONTEÚDO ADULTO COM SUA INFLUENCER 🔞 Como gerar imagens e vídeos de nível +18 com a persona que você criou. Ferramenta, prompt, configuração e monetização — passo a passo com o que realmente funciona. Somente no Plano Completo. R$ 67,00 GRÁTIS",
+  "faq": "PERGUNTAS FREQUENTES O que eu recebo assim que pagar? Vou precisar pagar por alguma ferramenta de IA? Preciso ter experiência com IA? Dá pra manter o mesmo rosto em todas as fotos? Posso usar pra vender produto no TikTok Shop? Tenho licença pra usar comercialmente? Dá pra criar conteúdo +18 com a influencer? Dá pra criar vídeo? A influencer que eu crio é baseada em alguma pessoa real? E se eu não gostar?",
+  "paraQuem": "QUEM PRECISA DISSO AGORA: Se você se encaixa em qualquer um desses perfis, esse produto foi feito pra você. 🤖 QUER CRIAR UMA INFLUENCER DO ZERO e não sabe por onde começar sem desperdiçar horas com resultado ruim 🛍️ TRABALHA COM TIKTOK SHOP OU AFILIADO e precisa de um rosto pra apresentar os produtos sem contratar modelo 🖥️ OFERECE SERVIÇO DE CRIAÇÃO COM IA e quer ter uma base sólida pra entregar resultado rápido aos clientes 📲 QUER ESCALAR PRESENÇA NAS REDES sem aparecer em câmera, sem depender de agenda, sem pagar produção 🔇 PREFERE FICAR POR TRÁS DAS CÂMERAS e quer uma persona trabalhando 24h por você enquanto cuida do resto ⏱️ NÃO TEM TEMPO PRA FICAR TESTANDO e quer chegar direto no resultado que funciona",
+  "adulto": "SIM, DÁ PRA CRIAR CONTEÚDO ADULTO COM A SUA INFLUENCER DE IA Muita gente me pergunta. \"Dá pra fazer conteúdo +18?\" \"Tem como gerar a influencer sem roupa?\" \"Dá pra criar vídeo adulto?\" Dá. Aqui dentro você aprende a construir uma persona fictícia do zero — e depois gerar qualquer tipo de imagem ou vídeo com ela. Lifestyle, fitness, sensual, nu artístico, conteúdo adulto explícito. O controle é seu. A diferença do que ensinamos aqui pra qualquer outra coisa que você encontra por aí: → Você cria a persona. Ela é 100% fictícia, gerada por IA, construída por você do zero. → O rosto é consistente. ",
+  "beneficios": "O QUE MUDA QUANDO VOCÊ TEM OS PROMPTS CERTOS: Resultados que pareciam impossíveis se tornam rotina. Mais de 500 prompts prontos — copia, cola, gera Fotos com nível de realismo que enganam até especialistas Mesma identidade visual em todas as imagens — sem variação de rosto Vídeos com movimento real e qualidade cinematográfica — prontos pra publicar Conteúdo adulto (+18) com o personagem que você criou — sem bloqueio, sem filtro Influencer apresentando produto físico com naturalidade — roupa, acessório, item de loja Funciona com ferramentas gratuitas — nenhuma assinatura necessária Cada prompt foi testado antes de entrar no produto — nada de prompt de internet aleatório Licença comercial inclusa — use pra vender, prestar serviço ou escalar IA sem bloqueio pra gerar o que as ferramentas comuns recusam 🔥",
+  "iaSemBloqueio": "A FERRAMENTA QUE GERA O QUE AS OUTRAS NÃO DEIXAM Acesso direto + tutorial em vídeo de como usar 🖼️ IMAGEM EXPLÍCITA Gera o que o ChatGPT e Midjourney recusam. Sem filtro, sem censura, sem ban. 🎛️ VOCÊ CONTROLA O NÍVEL Do lifestyle ao adulto explícito — você decide o nível de cada geração. 🎬 VÍDEO SEM FILTRO Cena real com movimento. Vai além da foto estática sem os bloqueios das outras ferramentas. 💎 REALISMO PROFISSIONAL Qualidade de estúdio mesmo nos conteúdos mais fora do padrão. Sem artefatos, sem distorção. Não é outra lista de prompts. É a ferramenta — com acesso direto e tutorial em vídeo de como usar. Disponível exclusivamente no Plano Completo.",
+  "garantia": "7 DIAS DE GARANTIA — SEM CONDIÇÃO NENHUMA Você testa tudo. Os prompts, as aulas, a ferramenta. Se em 7 dias você achar que não valeu o que pagou, me manda uma mensagem e devolvo cada centavo. Sem precisar explicar o motivo. A responsabilidade é minha.",
+  "ctaFinal": "ENQUANTO VOCÊ LÊ ISSO, ALGUÉM ESTÁ CRIANDO A INFLUENCER QUE VAI VENDER POR ELE AMANHÃ. QUERO OS 500+ PROMPTS AGORA ACESSO IMEDIATO · GARANTIA DE 7 DIAS · PAGAMENTO 100% SEGURO",
+  "hero": "500 PROMPTS PARA GERAR IMAGEM, VÍDEOS E DAR VIDA PARA SUA INFLUENCER DE IA QUE NINGUÉM SABE QUE É IA. Imagem ultra-realista. Vídeo com movimento real. Conteúdo livre — inclusive +18. Tudo com uma IA que é sua, feita do zero, com rosto consistente em qualquer geração. QUERO ACESSAR OS PROMPTS AGORA → ACESSO NA HORA · → GARANTIA DE 7 DIAS 500+ PROMPTS TESTADOS +18 IMAGENS SENSUAIS 9 CATEGORIAS 7 dias GARANTIA TOTAL 01 02 03 04 05 06 06 / 06"
+}
