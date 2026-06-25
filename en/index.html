@@ -1946,6 +1946,120 @@
         box-shadow: 0 12px 30px rgba(0, 0, 0, .5)
       }
     }
+
+    /* WHAT YOUR INFLUENCER WILL GENERATE — media gallery */
+    .generate-section {
+      background: #000;
+      padding: 48px 0
+    }
+
+    .generate-section .kicker {
+      display: inline-block;
+      font-family: 'Space Mono', 'Hanken Grotesk', monospace;
+      font-size: .68rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #00AFF0;
+      margin-bottom: 12px
+    }
+
+    .generate-section h2 {
+      text-align: center;
+      font-weight: 900;
+      font-size: clamp(1.5rem, 4.6vw, 2.4rem);
+      margin-bottom: 12px
+    }
+
+    .generate-section h2 .lime {
+      color: #9EEB47
+    }
+
+    .generate-section .sub {
+      text-align: center;
+      color: #b3b3b3;
+      font-size: clamp(.9rem, 2vw, 1.05rem);
+      line-height: 1.6;
+      max-width: 620px;
+      margin: 0 auto
+    }
+
+    .grid-ex {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      max-width: 760px;
+      margin: 28px auto 0
+    }
+
+    @media(min-width:640px) {
+      .grid-ex { grid-template-columns: repeat(4, 1fr) }
+    }
+
+    .grid-ex .cell {
+      position: relative;
+      aspect-ratio: 3/4;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid hsl(0, 0%, 15%)
+    }
+
+    .grid-ex img, .grid-ex video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block
+    }
+
+    .grid-ex .vtag {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      z-index: 2;
+      font-family: 'Space Mono', 'Hanken Grotesk', monospace;
+      font-size: .58rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background: rgba(5, 5, 5, .6);
+      color: #9EEB47;
+      padding: 3px 7px;
+      border-radius: 6px;
+      backdrop-filter: blur(4px)
+    }
+
+    .cell.sensitive img { filter: blur(20px); transform: scale(1.08) }
+    .cell.sensitive.shown img { filter: none; transform: none }
+
+    .cell-veil {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      align-items: center;
+      justify-content: center;
+      background: rgba(5, 5, 5, .55);
+      cursor: pointer;
+      text-align: center;
+      transition: opacity .3s;
+      font-family: 'Space Mono', 'Hanken Grotesk', monospace;
+      font-size: .66rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #fff
+    }
+
+    .cell.sensitive.shown .cell-veil { opacity: 0; pointer-events: none }
+
+    .cell-veil .eye {
+      width: 40px;
+      height: 40px;
+      border-radius: 999px;
+      border: 1px solid #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px
+    }
   </style>
 
 
@@ -2433,6 +2547,33 @@
               <div class="prices"><span class="old">$19 USD</span><span class="free">FREE</span></div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOUR INFLUENCER WILL GENERATE -->
+  <section class="generate-section">
+    <div class="container">
+      <div class="reveal from-up text-center">
+        <span class="kicker">// image · video · sensual · adult</span>
+        <h2>What your influencer <span class="lime">will generate</span></h2>
+        <p class="sub">All with the same face you created. Ultra-realistic images, video with real motion, and uncensored content.</p>
+      </div>
+      <div class="reveal from-up grid-ex">
+        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-1.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
+        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-2.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
+        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-3.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
+        <div class="cell"><img src="assets/thumb-0.webp" alt="example" loading="lazy" /></div>
+        <div class="cell"><img src="assets/thumb-1.webp" alt="example" loading="lazy" /></div>
+        <div class="cell"><img src="assets/thumb-3.webp" alt="example" loading="lazy" /></div>
+        <div class="cell"><img src="assets/thumb-5.webp" alt="example" loading="lazy" /></div>
+        <div class="cell"><img src="assets/thumb-6.webp" alt="example" loading="lazy" /></div>
+        <div class="cell"><img src="assets/thumb-7.webp" alt="example" loading="lazy" /></div>
+        <div class="cell"><img src="assets/output_0.png" alt="with product" loading="lazy" /></div>
+        <div class="cell sensitive" onclick="this.classList.toggle('shown')">
+          <img src="assets/a5134a1b-16d3-416c-bab2-d9d9ce37f05c.jpeg" alt="+18 content" loading="lazy" />
+          <div class="cell-veil"><div class="eye emoji">👁️</div>+18 · tap to view</div>
         </div>
       </div>
     </div>
