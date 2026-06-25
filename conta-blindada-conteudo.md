@@ -1,4 +1,4 @@
-# Conta Blindada — Conteúdo da Página de Vendas
+io# Conta Blindada — Conteúdo da Página de Vendas
 
 > Documento de conteúdo (copy) puro. Sem estilização, sem código, sem referências de layout.
 > Use este arquivo para recriar a página em qualquer ferramenta ou IA.
