@@ -1,0 +1,193 @@
+[     110ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     110ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5111ms] [LOG] error on getIpv6 TimeoutError: signal timed out @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5112ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5116ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[    5120ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[    7114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    9113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   11114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] link clicked v JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] check is checkout link:  http://localhost:8765/upsell-facial-consistency.html?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=&sck= @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] canSendIc false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] check can send lead:  No thanks, I'll keep posting a different face every time @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] canSendLead false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] check can send add to cart:  No thanks, I'll keep posting a different face every time @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] canAddToCart false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] link clicked v JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] check is checkout link:  http://localhost:8765/upsell-facial-consistency.html?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=&sck= @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] canSendIc false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] check can send lead:  No thanks, I'll keep posting a different face every time @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] canSendLead false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] check can send add to cart:  No thanks, I'll keep posting a different face every time @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12954ms] [LOG] canAddToCart false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13000ms] [LOG] scrolling 2178 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13002ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[   13004ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38669)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38164)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37909)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38565)
+[   13113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   15113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   19114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   23113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   25113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   29114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   31114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   33113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   35113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   37114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   39113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   41114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   43113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   45114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   47113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   53113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   55114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   59113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   65114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   67113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   69113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   73113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   75113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   77113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   79113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   81114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   83113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   85114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   87113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   89114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   91114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   93114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   95113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   97113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   99113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  101113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  103113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  105114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  107114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  109113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  111114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  113113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  115113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  117114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  119113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  121114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  123114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  125114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  127114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  129115ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  131114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  133113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  135114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  137113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  139113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  141113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  143114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  145114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  147114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  149113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  151114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  153114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  155116ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  157113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  159113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  161113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  163113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  165113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  167115ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  169113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  171113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  173114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  175113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  177113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  179114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  181113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  183113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  185113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  187113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  189114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  191113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  193114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  195114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  197113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  199113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  201113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  203113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  205113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  207113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  209114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  211114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  213114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  215113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  217113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  219113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  221114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  223113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  225114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  227114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  229114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  231113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  233113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  235114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  237114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  239113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  241113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  243113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  245113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  247113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  249113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  251113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  253113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  255114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  257113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  259113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  261113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  263114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  265114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  267114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  269114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  271113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  273114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  275113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  277113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  279114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  281113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  283114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  285114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  287113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  289114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  291113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  293113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  295113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  297114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  299114ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  301113ms] [LOG] buttons [button#modalClose.modal-close] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0

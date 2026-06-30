@@ -1,0 +1,44 @@
+- generic [ref=f7e2]:
+  - generic [ref=f7e3]:
+    - heading "Thank you so much for your purchase! 🎉" [level=1] [ref=f7e5]
+    - paragraph [ref=f7e6]: Your access is ready. Here's everything you need to log in.
+  - generic [ref=f7e7]:
+    - heading "🔓 Your login details" [level=2] [ref=f7e8]
+    - generic [ref=f7e9]:
+      - generic [ref=f7e10]: 🔗
+      - generic [ref=f7e11]:
+        - generic [ref=f7e12]: Access link
+        - link "area-membros-gamma.vercel.app" [ref=f7e14] [cursor=pointer]:
+          - /url: https://area-membros-gamma.vercel.app/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=&sck=
+    - generic [ref=f7e15]:
+      - generic [ref=f7e16]: 📧
+      - generic [ref=f7e17]:
+        - generic [ref=f7e18]: Email
+        - generic [ref=f7e19]: The same email you used at checkout
+    - generic [ref=f7e20]:
+      - generic [ref=f7e21]: 🔑
+      - generic [ref=f7e22]:
+        - generic [ref=f7e23]: Password
+        - generic [ref=f7e24]: "@aimodellab"
+      - button "Copy" [ref=f7e25] [cursor=pointer]
+    - link "Log in to my members area →" [ref=f7e26] [cursor=pointer]:
+      - /url: https://area-membros-gamma.vercel.app/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=&sck=
+  - generic [ref=f7e27]:
+    - heading "⚠️ Heads up" [level=3] [ref=f7e28]
+    - paragraph [ref=f7e29]:
+      - text: If the login doesn't work right away, please
+      - strong [ref=f7e30]: wait a few minutes and try again
+      - text: — your access may still be processing.
+    - paragraph [ref=f7e31]:
+      - text: Still can't get in?
+      - strong [ref=f7e32]: Reset your password
+      - text: on the login page (use the “Forgot password / Reset password” option with the same email you used at checkout) and log in with the new one.
+  - generic [ref=f7e33]:
+    - heading "Still stuck? I've got you 🙌" [level=2] [ref=f7e34]
+    - paragraph [ref=f7e35]: If you still can't log in after resetting, reach out and I'll sort it out for you personally.
+    - generic [ref=f7e36]:
+      - link "📩 coven688@gmail.com" [ref=f7e37] [cursor=pointer]:
+        - /url: mailto:coven688@gmail.com
+      - 'link "📱 WhatsApp: +55 11 94373-5978" [ref=f7e38] [cursor=pointer]':
+        - /url: https://wa.me/5511943735978?text=O%E2%81%AC%E2%81%AD%E2%81%AC%E2%81%AD%E2%81%AC%E2%81%AD%E2%81%AC%E2%81%ADl%C3%A1
+  - paragraph [ref=f7e39]: Enjoy! 🚀 — © gustagoat.ia

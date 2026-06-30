@@ -1,0 +1,120 @@
+[     130ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     130ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5132ms] [LOG] error on getIpv6 TimeoutError: signal timed out @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5132ms] [LOG] buttons [button#copyPwd.copy-btn] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5135ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[    5134ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[   13137ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[   13138ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38439)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37966)
+[   48610ms] [LOG] scrolling 1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   48611ms] [LOG] scrolling 2 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   48624ms] [LOG] scrolling 3 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   48640ms] [LOG] scrolling 4 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   48677ms] [LOG] scrolling 7 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   48691ms] [LOG] scrolling 9 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   48707ms] [LOG] scrolling 10 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   48731ms] [LOG] scrolling 11 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   48744ms] [LOG] scrolling 13 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49896ms] [LOG] scrolling 14 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49909ms] [LOG] scrolling 17 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49944ms] [LOG] scrolling 34 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49958ms] [LOG] scrolling 54 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49975ms] [LOG] scrolling 64 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50011ms] [LOG] scrolling 90 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50025ms] [LOG] scrolling 95 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50064ms] [LOG] scrolling 104 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50077ms] [LOG] scrolling 107 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50091ms] [LOG] scrolling 108 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50107ms] [LOG] scrolling 109 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50600ms] [LOG] scrolling 111 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50611ms] [LOG] scrolling 119 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50625ms] [LOG] scrolling 127 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50641ms] [LOG] scrolling 136 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50678ms] [LOG] scrolling 157 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50691ms] [LOG] scrolling 178 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50707ms] [LOG] scrolling 184 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50744ms] [LOG] scrolling 195 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50757ms] [LOG] scrolling 200 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50775ms] [LOG] scrolling 202 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50810ms] [LOG] scrolling 205 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51131ms] [LOG] scrolling 209 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51144ms] [LOG] scrolling 217 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51158ms] [LOG] scrolling 245 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51174ms] [LOG] scrolling 265 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51210ms] [LOG] scrolling 299 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51224ms] [LOG] scrolling 304 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51242ms] [LOG] scrolling 308 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51277ms] [LOG] scrolling 315 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51291ms] [LOG] scrolling 316 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51307ms] [LOG] scrolling 317 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51641ms] [LOG] scrolling 318 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51677ms] [LOG] scrolling 321 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51690ms] [LOG] scrolling 322 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51707ms] [LOG] scrolling 323 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51743ms] [LOG] scrolling 327 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51757ms] [LOG] scrolling 330 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51774ms] [LOG] scrolling 335 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51811ms] [LOG] scrolling 352 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51824ms] [LOG] scrolling 357 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51840ms] [LOG] scrolling 361 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51877ms] [LOG] scrolling 366 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51891ms] [LOG] scrolling 368 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   51908ms] [LOG] scrolling 369 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   52264ms] [LOG] scrolling 372 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   52277ms] [LOG] scrolling 380 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   52292ms] [LOG] scrolling 387 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   53678ms] [LOG] scrolling 385 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   53691ms] [LOG] scrolling 383 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   53707ms] [LOG] scrolling 381 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   53743ms] [LOG] scrolling 378 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   53757ms] [LOG] scrolling 376 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   53774ms] [LOG] scrolling 375 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   53824ms] [LOG] scrolling 374 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54608ms] [LOG] scrolling 372 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54624ms] [LOG] scrolling 356 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54640ms] [LOG] scrolling 341 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54677ms] [LOG] scrolling 293 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54690ms] [LOG] scrolling 276 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54707ms] [LOG] scrolling 252 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54744ms] [LOG] scrolling 169 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54757ms] [LOG] scrolling 140 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54774ms] [LOG] scrolling 112 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54811ms] [LOG] scrolling 18 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54824ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   56054ms] [LOG] link clicked v JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   56054ms] [LOG] check is checkout link:  https://area-membros-gamma.vercel.app/?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=&sck= @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   56054ms] [LOG] canSendIc false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   56054ms] [LOG] check can send lead:  
+        Log in to my members area →
+       @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   56055ms] [LOG] canSendLead false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   56055ms] [LOG] check can send add to cart:  
+        Log in to my members area →
+       @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   56055ms] [LOG] canAddToCart false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61495ms] [LOG] scrolling 3 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61508ms] [LOG] scrolling 14 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61544ms] [LOG] scrolling 107 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61558ms] [LOG] scrolling 155 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61597ms] [LOG] scrolling 329 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61610ms] [LOG] scrolling 387 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0

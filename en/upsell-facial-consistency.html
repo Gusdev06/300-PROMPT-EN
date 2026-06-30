@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>WAIT! UNLIMITED Access to Veo 3.1 | gustagoat.ia</title>
+  <title>WAIT! Lock In Your Influencer's Face | gustagoat.ia</title>
   <meta name="robots" content="noindex,nofollow" />
 
   <!-- Meta Pixel -->
@@ -18,13 +18,13 @@
     }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1068021188891348');
     fbq('track', 'PageView');
-    fbq('track', 'ViewContent', { content_name: 'Upsell Veo 3.1 Unlimited', content_type: 'product', value: 47.00, currency: 'USD' });
+    fbq('track', 'ViewContent', { content_name: 'Upsell Facial Consistency Guide', content_type: 'product', value: 17.90, currency: 'USD' });
   </script>
 
   <!-- UTMify -->
   <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-subids async defer></script>
   <script>
-    window.pixelId = "6a172053f70943021a30eaae";
+    window.pixelId = "6a308246efea7a08ff488a76";
     var a = document.createElement("script");
     a.setAttribute("async", "");
     a.setAttribute("defer", "");
@@ -49,10 +49,10 @@
     .container { max-width: 880px; margin: 0 auto; padding: 0 16px; }
     .apple-emoji { font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif }
 
-    /* VEO PALETTE: cyan/blue as premium accent (Google/AI vibe) */
+    /* PALETTE FACIAL CONSISTENCY: violet/magenta = identity / premium */
     :root {
-      --accent: hsl(195,100%,55%);
-      --accent-2: hsl(220,100%,60%);
+      --accent: hsl(270,90%,65%);
+      --accent-2: hsl(320,90%,62%);
       --gold: hsl(45,100%,55%);
       --green: #00A13C;
       --red: hsl(0,84%,60%);
@@ -91,15 +91,15 @@
       content: '';
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(0,180,255,.12), transparent 70%);
+      background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(168,85,247,.14), transparent 70%);
       pointer-events: none;
     }
     .hero-flag {
       display: inline-flex;
       align-items: center;
       gap: 8px;
-      background: rgba(0,180,255,.12);
-      border: 1px solid rgba(0,180,255,.4);
+      background: rgba(168,85,247,.12);
+      border: 1px solid rgba(168,85,247,.4);
       color: var(--accent);
       font-size: .72rem;
       font-weight: 800;
@@ -153,61 +153,92 @@
     }
     .hero-sub strong { color: #fff; font-weight: 700; }
 
-    /* ===== DEMO/VSL BOX ===== */
-    .demo-box {
-      max-width: 720px;
-      margin: 0 auto 40px;
-      background: linear-gradient(135deg, hsl(0,0%,7%), hsl(0,0%,4%));
-      border: 1px solid hsl(0,0%,15%);
-      border-radius: 16px;
-      padding: 6px;
-      overflow: hidden;
-      box-shadow: 0 20px 60px rgba(0,180,255,.1), 0 0 0 1px rgba(0,180,255,.08);
+    /* ===== BEFORE-AFTER GRID (same structure as main page) ===== */
+    .ba-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      max-width: 100%;
+      margin: 0 auto;
       position: relative;
       z-index: 1;
     }
-    .demo-aspect {
+    @media(min-width:768px){ .ba-grid { gap: 24px; } }
+    .ba-stack {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      max-width: 100%;
+      margin: 0 auto;
       position: relative;
+      z-index: 1;
+    }
+    @media(min-width:768px){ .ba-stack { gap: 24px; } }
+    .ba-block { display: grid; gap: 10px; }
+    .ba-grid h3, .ba-block h3 {
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      font-weight: 900;
+      text-align: center;
+    }
+    .ba-grid h3.red, .ba-block h3.red { color: hsl(0,84%,60%); }
+    .ba-grid h3.green, .ba-block h3.green { color: #9EEB47; }
+    .ba-grid .subtitle, .ba-block .subtitle {
+      text-align: center;
+      font-weight: 700;
+      font-size: .875rem;
+      color: #b3b3b3;
+    }
+    .ba-fail {
+      aspect-ratio: 3/4;
       width: 100%;
-      aspect-ratio: 16 / 9;
-      background: #000;
+      background: #1a1a1a;
       border-radius: 12px;
+      padding: clamp(12px,3vw,20px);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: clamp(8px,1.5vw,12px);
+      border: 1px solid #2a2a2a;
       overflow: hidden;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
-    .demo-placeholder { text-align: center; padding: 24px; }
-    .demo-placeholder .play {
-      width: 78px; height: 78px;
-      background: var(--accent);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin: 0 auto 14px;
-      box-shadow: 0 0 0 6px rgba(0,180,255,.18), 0 0 0 16px rgba(0,180,255,.08);
-      animation: pulse-play 2s ease-in-out infinite;
+    .ba-fail .icon {
+      width: clamp(28px,7vw,38px); height: clamp(28px,7vw,38px);
+      border: 2px solid #b0b0b0;
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 900; color: #b0b0b0;
+      font-size: clamp(1rem,3vw,1.4rem); line-height: 1; flex-shrink: 0;
     }
-    @keyframes pulse-play {
-      0%,100% { box-shadow: 0 0 0 6px rgba(0,180,255,.18), 0 0 0 16px rgba(0,180,255,.08); }
-      50% { box-shadow: 0 0 0 10px rgba(0,180,255,.25), 0 0 0 24px rgba(0,180,255,.12); }
+    .ba-fail p { color: #d4d4d4; line-height: 1.4; margin: 0; }
+    .ba-fail .t1 { font-size: clamp(.85rem,2.2vw,1rem); font-weight: 500; }
+    .ba-fail .t2 { font-size: clamp(.75rem,2vw,.95rem); font-weight: 400; }
+    .ba-img-cell img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
     }
-    .demo-placeholder .play::before {
-      content: '';
-      width: 0; height: 0;
-      border-left: 22px solid #fff;
-      border-top: 14px solid transparent;
-      border-bottom: 14px solid transparent;
-      margin-left: 6px;
-    }
-    .demo-placeholder p { font-size: .82rem; color: #888; font-weight: 600; }
+    .metric { display: flex; flex-direction: column; gap: 4px; }
+    .metric .label { font-weight: 700; font-size: .875rem; }
+    .metric .row { display: flex; justify-content: space-between; align-items: center; }
+    .metric .row span { font-size: .75rem; color: #b3b3b3; }
+    .metric .row .val { font-weight: 700; }
+    .metric .row .val.red { color: hsl(0,84%,60%); }
+    .metric .row .val.green { color: #9EEB47; }
+    .progress-bar { width: 100%; height: 12px; border-radius: 9999px; background: hsl(0,0%,15%); overflow: hidden; }
+    .progress-fill { height: 100%; border-radius: 9999px; transition: width 1.2s cubic-bezier(.4,0,.2,1); }
+    .progress-fill.red { background: hsl(0,84%,60%); }
+    .progress-fill.green { background: #9EEB47; }
+    .progress-fill.waiting { width: 0 !important; }
     .demo-caption {
       text-align: center;
       font-size: .8rem;
       color: #777;
-      margin-top: 14px;
+      margin: 28px auto 40px;
       font-style: italic;
+      max-width: 640px;
+      position: relative;
+      z-index: 1;
     }
 
     /* ===== SECTION DEFAULT ===== */
@@ -231,7 +262,7 @@
       margin: 0 auto 28px;
     }
 
-    /* ===== COMPARISON TABLE (PRICE ANCHORING — KILLER) ===== */
+    /* ===== COMPARISON TABLE ===== */
     .compare {
       max-width: 760px;
       margin: 0 auto;
@@ -253,18 +284,18 @@
       border: 1px solid hsl(0,0%,15%);
     }
     .compare-card.good {
-      background: linear-gradient(180deg, rgba(0,180,255,.08), rgba(0,180,255,.02));
+      background: linear-gradient(180deg, rgba(168,85,247,.08), rgba(168,85,247,.02));
       border: 2px solid var(--accent);
-      box-shadow: 0 12px 40px rgba(0,180,255,.15);
+      box-shadow: 0 12px 40px rgba(168,85,247,.15);
     }
     .compare-card.good::before {
-      content: 'YOU TODAY';
+      content: 'WITH THE GUIDE';
       position: absolute;
       top: 12px; right: 12px;
       background: var(--accent);
       color: #000;
-      font-size: .65rem;
-      letter-spacing: .12em;
+      font-size: .6rem;
+      letter-spacing: .1em;
       font-weight: 900;
       padding: 3px 8px;
       border-radius: 4px;
@@ -279,19 +310,14 @@
     }
     .compare-card.good h4 { color: var(--accent); }
     .compare-card .big-price {
-      font-size: 2.4rem;
+      font-size: 1.7rem;
       font-weight: 900;
-      letter-spacing: -.03em;
-      line-height: 1;
+      letter-spacing: -.02em;
+      line-height: 1.1;
       margin-bottom: 4px;
     }
     .compare-card.bad .big-price { color: hsl(0,84%,65%); }
     .compare-card.good .big-price { color: #fff; }
-    .compare-card .big-price small {
-      font-size: .9rem;
-      font-weight: 600;
-      color: #888;
-    }
     .compare-card .desc {
       font-size: .85rem;
       color: #aaa;
@@ -329,7 +355,7 @@
     }
     .compare-card.good .compare-list li::before {
       content: '✓';
-      background: rgba(0,180,255,.18);
+      background: rgba(168,85,247,.18);
       color: var(--accent);
     }
 
@@ -362,7 +388,7 @@
       align-items: center;
       justify-content: center;
       font-size: 1.2rem;
-      box-shadow: 0 6px 16px rgba(0,180,255,.25);
+      box-shadow: 0 6px 16px rgba(168,85,247,.25);
     }
     .benefit-item h4 {
       font-size: .98rem;
@@ -487,8 +513,8 @@
       text-align: center;
       margin-top: 20px;
       padding: 18px;
-      background: linear-gradient(135deg, rgba(0,180,255,.12), rgba(0,180,255,.03));
-      border: 1px solid rgba(0,180,255,.35);
+      background: linear-gradient(135deg, rgba(168,85,247,.12), rgba(168,85,247,.03));
+      border: 1px solid rgba(168,85,247,.35);
       border-radius: 10px;
     }
     .stack-final .lbl2 {
@@ -671,6 +697,106 @@
       margin: 0 auto 24px;
     }
 
+    /* ===== DECLINE / DOWNSELL MODAL ===== */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.82);
+      backdrop-filter: blur(6px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 100;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-box {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+      background: linear-gradient(180deg, hsl(0,0%,9%), hsl(0,0%,5%));
+      border: 1px solid rgba(168,85,247,.35);
+      border-radius: 18px;
+      padding: 30px 24px 26px;
+      text-align: center;
+      box-shadow: 0 30px 80px rgba(0,0,0,.7), 0 0 0 1px rgba(168,85,247,.1);
+      animation: modal-in .25s ease;
+    }
+    @keyframes modal-in {
+      from { opacity: 0; transform: translateY(16px) scale(.97); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .modal-close {
+      position: absolute;
+      top: 12px; right: 14px;
+      background: none;
+      border: none;
+      color: #777;
+      font-size: 1.8rem;
+      line-height: 1;
+      cursor: pointer;
+      transition: color .2s;
+    }
+    .modal-close:hover { color: #fff; }
+    .modal-flag {
+      display: inline-block;
+      font-size: .68rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: hsl(0,84%,65%);
+      background: rgba(220,38,38,.12);
+      border: 1px solid rgba(220,38,38,.3);
+      padding: 5px 12px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+    }
+    .modal-title {
+      font-size: clamp(1.25rem, 4vw, 1.6rem);
+      font-weight: 900;
+      letter-spacing: -.02em;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .modal-title .modal-num { color: hsl(0,84%,62%); }
+    .modal-text {
+      font-size: .9rem;
+      color: #bbb;
+      line-height: 1.55;
+    }
+    .modal-text strong { color: #fff; }
+    .modal-bar-wrap {
+      margin-top: 18px;
+      text-align: left;
+      background: hsl(0,0%,4%);
+      border: 1px solid hsl(0,0%,14%);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .modal-bar-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: .78rem;
+      color: #aaa;
+      margin-bottom: 6px;
+    }
+    .modal-bar-val { font-weight: 800; }
+    .modal-bar-val.red { color: hsl(0,84%,62%); }
+    .modal-bar-val.green { color: #9EEB47; }
+    .modal-bar {
+      width: 100%;
+      height: 10px;
+      border-radius: 999px;
+      background: hsl(0,0%,15%);
+      overflow: hidden;
+    }
+    .modal-bar-fill { height: 100%; border-radius: 999px; }
+    .modal-bar-fill.red { background: hsl(0,84%,60%); }
+    .modal-bar-fill.green { background: #9EEB47; }
+    .modal-box .cta-btn { margin-top: 22px; }
+    body.modal-open { overflow: hidden; }
+
     /* ===== FOOTER ===== */
     .footer {
       text-align: center;
@@ -688,7 +814,7 @@
 
   <!-- ALERT BAR -->
   <div class="alert-bar">
-    ⚠️ WAIT — Your order is NOT complete yet. This offer expires in <span class="timer" id="timer">09:59</span>
+    ⚠️ WAIT — Your order is NOT complete yet. This one-time offer expires in <span class="timer" id="timer">09:59</span>
   </div>
 
   <!-- HERO -->
@@ -696,163 +822,73 @@
     <div class="container">
       <span class="hero-flag">
         <span class="hero-flag-dot"></span>
-        Exclusive access — for new customers only
+        One-time add-on — new customers only
       </span>
       <h1>
         <span class="stop">WAIT!</span>
-        Before going to your members area,<br/>
-        unlock <span class="accent">VEO 3.1 UNLIMITED</span>
+        Before you go to your members area,<br/>
+        <span class="accent">lock in your influencer's face</span>
       </h1>
       <p class="hero-sub">
-        Google charges <strong>$249/month</strong> for its Veo 3.1 Ultra plan — and even then limits you to 80 videos per month.
+        <strong>90% of beginners</strong> create amazing photos… but a different face shows up in every post.
+        The result? It looks like a different person each time — and nobody believes she's “real”.
         <br/><br/>
-        Today, only on this page, we give you <strong>UNLIMITED lifetime access</strong> to the same model —
-        no subscription, no generation cap, no waiting in line.
+        <strong>Goodbye followers. Goodbye sales.</strong> The Facial Consistency Guide fixes this forever —
+        step by step, with screenshots.
       </p>
 
-      <!-- DEMO -->
-      <div class="demo-box">
-        <div class="demo-aspect">
-          <div class="demo-placeholder">
-            <div class="play"></div>
-            <p>▶ Video demo (60s) — Upload your VSL here</p>
+      <!-- BEFORE / AFTER -->
+      <div class="ba-stack">
+        <div class="ba-block">
+          <h3 class="red">Without the Guide</h3>
+          <div class="ba-img-cell">
+            <img src="Design sem nome.png" alt="Inconsistent influencer face — hair and features change in every shot" loading="lazy" />
           </div>
+          <div class="subtitle">A different face every time</div>
         </div>
-      </div>
-      <p class="demo-caption">↑ Watch a video generated with Veo 3.1 (1080p quality, synced audio, cinematic)</p>
-    </div>
-  </section>
-
-  <!-- COMPARISON / PRICE ANCHOR -->
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">
-        The access <span class="cyan">Hollywood pays thousands for</span>...
-        <br/>yours for a fraction
-      </h2>
-      <p class="section-sub">
-        Veo 3.1 is the most advanced video generation model from Google. These are the real prices:
-      </p>
-
-      <div class="compare">
-        <div class="compare-card bad">
-          <h4>Official Google AI Ultra Plan</h4>
-          <div class="big-price">$249<small> / month</small></div>
-          <p class="desc">What Google charges directly</p>
-          <ul class="compare-list">
-            <li>Only 80 generations per month</li>
-            <li>Waiting queue during peak hours</li>
-            <li>Recurring monthly subscription</li>
-            <li>Cancel and lose access</li>
-            <li>Limit on video duration</li>
-            <li>No access to native audio mode</li>
-          </ul>
-        </div>
-
-        <div class="compare-card good">
-          <h4>Unlimited Access · Today</h4>
-          <div class="big-price">$47<small> · one-time payment</small></div>
-          <p class="desc">Lifetime access through our integration</p>
-          <ul class="compare-list">
-            <li>UNLIMITED lifetime generations</li>
-            <li>No queues — permanent priority</li>
-            <li>Single payment, no recurring fee</li>
-            <li>Permanent access, never expires</li>
-            <li>Videos up to 60s with extensions</li>
-            <li>Native audio + lip sync included</li>
-          </ul>
+        <div class="ba-block">
+          <h3 class="green">With the Guide</h3>
+          <div class="ba-img-cell">
+            <img src="categoria-expressoes.webp" alt="The same influencer face kept consistent across many poses and expressions" loading="lazy" />
+          </div>
+          <div class="subtitle">The same face, every single post</div>
         </div>
       </div>
 
-      <div class="proof-bar">
-        <div class="proof-stat">
-          <div class="num">$2,988</div>
-          <div class="lbl">You save per year</div>
+      <div class="ba-grid" style="margin-top:24px">
+        <!-- Metrics -->
+        <div class="metric">
+          <p class="label">Face Consistency</p>
+          <div class="row"><span>Changes every generation</span><span class="val red">10%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="10"></div></div>
         </div>
-        <div class="proof-stat">
-          <div class="num">∞</div>
-          <div class="lbl">Videos generated</div>
+        <div class="metric">
+          <p class="label">Face Consistency</p>
+          <div class="row"><span>Identical in 100% of posts</span><span class="val green">98%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="98"></div></div>
         </div>
-        <div class="proof-stat">
-          <div class="num">1080p</div>
-          <div class="lbl">Cinema quality</div>
+        <div class="metric">
+          <p class="label">Looks Real</p>
+          <div class="row"><span>Followers feel it's "off"</span><span class="val red">15%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="15"></div></div>
         </div>
-        <div class="proof-stat">
-          <div class="num">60s</div>
-          <div class="lbl">Per generation</div>
+        <div class="metric">
+          <p class="label">Looks Real</p>
+          <div class="row"><span>Believable, real person</span><span class="val green">96%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="96"></div></div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BENEFITS -->
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">
-        What you <span class="cyan">unlock</span> instantly
-      </h2>
-      <p class="section-sub">
-        Full access through our private panel — no limits, no tricks.
-      </p>
-
-      <div class="benefits-grid">
-        <div class="benefit-item">
-          <div class="benefit-icon">♾️</div>
-          <div>
-            <h4>Unlimited Generations</h4>
-            <p>Create 5, 50 or 500 videos a day. No cap. No credits. No card on file.</p>
-          </div>
+        <div class="metric">
+          <p class="label">Sales / Trust</p>
+          <div class="row"><span>DMs go cold, no sales</span><span class="val red">12%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="12"></div></div>
         </div>
-        <div class="benefit-item">
-          <div class="benefit-icon">🎥</div>
-          <div>
-            <h4>1080p Cinematic Quality</h4>
-            <p>The same Veo 3.1 model used by Hollywood studios — straight to your screen.</p>
-          </div>
-        </div>
-        <div class="benefit-item">
-          <div class="benefit-icon">🔊</div>
-          <div>
-            <h4>Native Audio + Lip Sync</h4>
-            <p>Veo 3.1 generates audio synced to the lips. Your influencer talks with a natural voice.</p>
-          </div>
-        </div>
-        <div class="benefit-item">
-          <div class="benefit-icon">⚡</div>
-          <div>
-            <h4>No Queue, No Wait</h4>
-            <p>Permanent priority on our infrastructure. Generations in 60-90 seconds.</p>
-          </div>
-        </div>
-        <div class="benefit-item">
-          <div class="benefit-icon">🎬</div>
-          <div>
-            <h4>Videos up to 60s</h4>
-            <p>With chained extension system — perfect for full Reels, TikToks and Shorts.</p>
-          </div>
-        </div>
-        <div class="benefit-item">
-          <div class="benefit-icon">🔐</div>
-          <div>
-            <h4>Lifetime Access</h4>
-            <p>One payment. Forever. No risk of Google raising the price tomorrow.</p>
-          </div>
-        </div>
-        <div class="benefit-item">
-          <div class="benefit-icon">📚</div>
-          <div>
-            <h4>50 Optimized Veo Prompts</h4>
-            <p>Ready-made templates that get the best out of Veo 3.1 — viral Reels, UGC, lifestyle.</p>
-          </div>
-        </div>
-        <div class="benefit-item">
-          <div class="benefit-icon">💼</div>
-          <div>
-            <h4>Commercial License</h4>
-            <p>The videos are yours. Use them on your own accounts, client accounts, monetize without restriction.</p>
-          </div>
+        <div class="metric">
+          <p class="label">Sales / Trust</p>
+          <div class="row"><span>Followers trust &amp; buy</span><span class="val green">100%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="100"></div></div>
         </div>
       </div>
+      <p class="demo-caption">↑ This single difference is what separates an amateur account from a professional one that sells.</p>
     </div>
   </section>
 
@@ -860,28 +896,28 @@
   <section class="section">
     <div class="container">
       <h2 class="section-title">
-        How does the <span class="cyan">unlimited access</span> work?
+        How the <span class="cyan">face-lock</span> works
       </h2>
-      <p class="section-sub">3 steps. No installs. No credit card linked to Google.</p>
+      <p class="section-sub">3 simple steps. No tech skills. You can apply it in the next 10 minutes.</p>
 
       <div class="steps-grid">
         <div class="step-card">
           <div class="step-num">1</div>
-          <div class="step-icon">🔑</div>
-          <h4>You receive your access</h4>
-          <p>After payment, you receive credentials to our private panel connected directly to Veo 3.1.</p>
+          <div class="step-icon">📥</div>
+          <h4>Open the guide</h4>
+          <p>Instant access right after checkout. Short, visual, straight to the point — no fluff.</p>
         </div>
         <div class="step-card">
           <div class="step-num">2</div>
-          <div class="step-icon">✍️</div>
-          <h4>You write your prompt</h4>
-          <p>Paste any of the 300 prompts you already own. The panel is optimized for Veo 3.1.</p>
+          <div class="step-icon">🔒</div>
+          <h4>Lock the face</h4>
+          <p>Follow the screenshots to “anchor” your influencer's face so it never drifts again.</p>
         </div>
         <div class="step-card">
           <div class="step-num">3</div>
-          <div class="step-icon">📥</div>
-          <h4>You download the video</h4>
-          <p>In 60-90 seconds your video is ready in 1080p, with audio, ready to publish.</p>
+          <div class="step-icon">📸</div>
+          <h4>Post with confidence</h4>
+          <p>Generate post after post with the same face — a believable, professional, sellable persona.</p>
         </div>
       </div>
     </div>
@@ -891,141 +927,90 @@
   <section class="section">
     <div class="container">
       <h2 class="section-title">
-        Summary of the <span class="cyan">VEO 3.1 UNLIMITED</span> package
+        Add the <span class="cyan">Facial Consistency Guide</span> now
       </h2>
 
       <div class="stack-box">
         <div class="stack-row">
-          <span class="name">Lifetime access to Veo 3.1</span>
-          <span class="val">$2,988/year</span>
-        </div>
-        <div class="stack-row">
-          <span class="name">50 optimized Veo prompts</span>
+          <span class="name">The “Face-Lock” Method (step-by-step)</span>
           <span class="val">$47.00</span>
         </div>
         <div class="stack-row">
-          <span class="name">Private panel with no queues</span>
-          <span class="val">$97.00</span>
+          <span class="name">Screenshot-by-screenshot walkthrough</span>
+          <span class="val">$27.00</span>
         </div>
         <div class="stack-row">
-          <span class="name">Native audio + lip sync</span>
-          <span class="val">$67.00</span>
+          <span class="name">Pro vs amateur consistency secrets</span>
+          <span class="val">$37.00</span>
         </div>
         <div class="stack-row">
-          <span class="name">Commercial license</span>
-          <span class="val">$197.00</span>
+          <span class="name">Lifetime updates</span>
+          <span class="val">$17.00</span>
         </div>
         <div class="stack-total">
           <span class="lbl">Total value</span>
-          <span class="val-old">$3,396 USD</span>
+          <span class="val-old">$128 USD</span>
         </div>
         <div class="stack-final">
-          <p class="lbl2">⚡ Today, only on this page</p>
-          <div class="price">$47<small> USD</small></div>
-          <p class="note">One-time payment. No subscription. Lifetime access.</p>
-          <span class="saving">You save $3,349 — 98% OFF</span>
+          <p class="lbl2">⚡ Today only, on this page</p>
+          <div class="price">$17.90<small> USD</small></div>
+          <p class="note">One-time payment. Added to your current order. Lifetime access.</p>
+          <span class="saving">You save $110 — 86% OFF</span>
         </div>
       </div>
 
       <!-- CTA -->
       <div class="cta-wrap">
         <a href="#" class="cta-btn" id="ctaAdd">
-          ✓ YES, UNLOCK VEO 3.1 UNLIMITED <span class="arrow">→</span>
+          ✓ YES, LOCK IN MY INFLUENCER'S FACE <span class="arrow">→</span>
         </a>
         <div class="cta-secure">
           <span>🔒 Secure payment</span>
           <span>⚡ Instant access</span>
           <span>🛡️ 7-day guarantee</span>
         </div>
-        <a class="no-thanks" id="noThanks">No thanks, I'd rather pay Google $249/month</a>
+        <a class="no-thanks" id="noThanks">No thanks, I'll keep posting a different face every time</a>
       </div>
     </div>
   </section>
 
-  <!-- GUARANTEE -->
-  <section class="section">
-    <div class="container">
-      <div class="guarantee">
-        <div class="guarantee-badge">7d</div>
-        <div>
-          <h4>Unconditional 7-Day Guarantee</h4>
-          <p>
-            Try unlimited access to Veo 3.1 for a full 7 days. Generate all the videos you want —
-            if for any reason you're not satisfied, we'll refund 100% of your money, no questions asked,
-            no forms, no drama. But we promise: nobody has asked for a refund after generating
-            their first video in 1080p.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ -->
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">Frequently asked questions</h2>
-
-      <div class="faq-list">
-        <details class="faq-item">
-          <summary>Is it really unlimited or are there hidden limits?</summary>
-          <p>It's truly unlimited. No monthly quotas, no hidden "fair use policy", no credit card linked. You generate all the videos you want, whenever you want, for life.</p>
-        </details>
-        <details class="faq-item">
-          <summary>How is this price possible if Google charges $249/month?</summary>
-          <p>We have access through an enterprise partnership that allows us to offer the model at a cost shared between members. Instead of charging a monthly subscription, we monetize with a single lifetime payment. It's a model similar to how group tools like Canva for Teams or Adobe Workspace work.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Is it legal? Will I get banned?</summary>
-          <p>100% legal. We operate through enterprise accounts authorized by Google. Your use is completely safe — the videos you generate are yours with full commercial license.</p>
-        </details>
-        <details class="faq-item">
-          <summary>What video quality can I generate?</summary>
-          <p>Veo 3.1 in 1080p (Full HD) with native synced audio. Videos up to 60 seconds per generation, with extension system to create longer chained videos.</p>
-        </details>
-        <details class="faq-item">
-          <summary>When do I get access?</summary>
-          <p>Immediately after payment. You receive an email with credentials to the private panel in less than 60 seconds. Your first video can be ready in the next 5 minutes.</p>
-        </details>
-        <details class="faq-item">
-          <summary>Does it work with the 300 prompts I just bought?</summary>
-          <p>Yes, perfectly. The 300 prompts are optimized for generation models like Veo 3.1, Sora and Kling. With unlimited access you can run ALL the prompts without worrying about credits.</p>
-        </details>
-        <details class="faq-item">
-          <summary>What if I want to cancel?</summary>
-          <p>There's nothing to cancel — it's a one-time payment. After 7 days the access is 100% yours for life. If you request a refund in the first 7 days, we return your money and revoke the access.</p>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <!-- FINAL CTA -->
-  <section class="final-cta">
-    <div class="container">
-      <h2>This page <span style="color:var(--accent)">does NOT</span> come back.</h2>
-      <p>
-        If you close it or click "no thanks", the access to Veo 3.1 Unlimited is gone. To get it later,
-        you'd have to pay $249/month to Google directly — or $97 per month on our public plan.
-        Only TODAY, on this page, it's $47 one-time payment.
+  <!-- DECLINE / DOWNSELL POPUP -->
+  <div class="modal-overlay" id="declineModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-flag">⚠️ Wait — read this first</div>
+      <h3 class="modal-title" id="modalTitle">
+        Without this, you'll only use <span class="modal-num">70%</span> of the prompts you just bought
+      </h3>
+      <p class="modal-text">
+        Most of your <strong>300+ prompts</strong> generate a <strong>new face every time</strong>.
+        Without the Face-Lock method, roughly <strong>3 out of every 10 images</strong> come out as a
+        “different person” — unusable for a real, believable account.
       </p>
-
-      <div class="cta-wrap">
-        <a href="#" class="cta-btn" id="ctaAdd2">
-          ✓ UNLOCK VEO 3.1 FOR $47 <span class="arrow">→</span>
-        </a>
-        <div class="cta-secure">
-          <span>🔒 Secure payment</span>
-          <span>⚡ Instant access</span>
-          <span>🛡️ 7-day guarantee</span>
+      <div class="modal-bar-wrap">
+        <div class="modal-bar-row">
+          <span>Without the guide</span><span class="modal-bar-val red">70% usable</span>
         </div>
-        <a class="no-thanks" id="noThanks2">No thanks, I'll lose this offer forever</a>
+        <div class="modal-bar"><div class="modal-bar-fill red" style="width:70%"></div></div>
+        <div class="modal-bar-row" style="margin-top:12px">
+          <span>With the guide</span><span class="modal-bar-val green">100% usable</span>
+        </div>
+        <div class="modal-bar"><div class="modal-bar-fill green" style="width:100%"></div></div>
       </div>
+      <p class="modal-text" style="margin-top:18px">
+        For a single <strong>$17.90</strong>, you unlock the full power of the pack you already paid for.
+      </p>
+      <a href="#" class="cta-btn" id="modalAccept" style="animation:none">
+        ✓ YES, UNLOCK 100% OF MY PROMPTS <span class="arrow">→</span>
+      </a>
+      <a class="no-thanks" id="modalDecline">No thanks, I'll only use 70% of my prompts</a>
     </div>
-  </section>
+  </div>
 
   <!-- FOOTER -->
   <footer class="footer">
     <p>© gustagoat.ia — All rights reserved.</p>
-    <p style="margin-top:8px">Veo 3.1 is a trademark of Google. We operate as an authorized reseller through enterprise access.</p>
+    <p style="margin-top:8px">This is a one-time offer available only on this page as part of your current order.</p>
     <p style="margin-top:8px"><a href="#">Terms</a> · <a href="#">Privacy</a> · <a href="#">Contact</a></p>
   </footer>
 
@@ -1044,24 +1029,76 @@
       setInterval(tick, 1000);
     })();
 
+    // ===== ANIMATE PROGRESS BARS ON SCROLL =====
+    (function(){
+      const grid = document.querySelector('.ba-grid');
+      if (!grid) return;
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            document.querySelectorAll('.progress-fill.waiting').forEach(bar => {
+              bar.style.width = bar.dataset.width + '%';
+              bar.classList.remove('waiting');
+            });
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.3 });
+      obs.observe(grid);
+    })();
+
     // ===== CTAs =====
-    // CONFIG: replace these links with your checkout / success page URLs
-    const URL_ACCEPT  = 'https://pay.hotmart.com/YOUR_CHECKOUT_HERE?bid=veo-unlimited'; // accept upsell
-    const URL_DECLINE = '/upsell-motion-clone.html'; // decline → goes to next upsell (Motion Clone)
+    // CONFIG: replace these links with your real one-click checkout / next step
+    const URL_ACCEPT  = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept upsell
+    const URL_DECLINE = '/thank-you.html'; // decline → next step (next upsell or members/thank-you page)
 
     function bindCta(id, url, fbEvent){
       const el = document.getElementById(id);
       if (!el) return;
       el.addEventListener('click', function(e){
         e.preventDefault();
-        if (window.fbq) fbq('track', fbEvent, { content_name: 'Upsell Veo 3.1 Unlimited', value: 47.00, currency: 'USD' });
+        if (window.fbq) fbq('track', fbEvent, { content_name: 'Upsell Facial Consistency Guide', value: 17.90, currency: 'USD' });
         window.location.href = url;
       });
     }
     bindCta('ctaAdd', URL_ACCEPT, 'AddToCart');
-    bindCta('ctaAdd2', URL_ACCEPT, 'AddToCart');
-    bindCta('noThanks', URL_DECLINE, 'Lead');
-    bindCta('noThanks2', URL_DECLINE, 'Lead');
+    bindCta('modalAccept', URL_ACCEPT, 'AddToCart');
+
+    // ===== DECLINE → DOWNSELL POPUP =====
+    (function(){
+      const modal   = document.getElementById('declineModal');
+      const noThanks = document.getElementById('noThanks');
+      const closeBtn = document.getElementById('modalClose');
+      const decline  = document.getElementById('modalDecline');
+      if (!modal) return;
+
+      function openModal(e){
+        if (e) e.preventDefault();
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden','false');
+        document.body.classList.add('modal-open');
+        if (window.fbq) fbq('track', 'Lead', { content_name: 'Decline Popup Shown', value: 17.90, currency: 'USD' });
+      }
+      function closeModal(){
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden','true');
+        document.body.classList.remove('modal-open');
+      }
+
+      // First "no thanks" → show popup instead of leaving
+      if (noThanks) noThanks.addEventListener('click', openModal);
+
+      // X / overlay click → just close (stays on the upsell page)
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
+
+      // Final decline inside popup → leave to next step
+      if (decline) decline.addEventListener('click', function(e){
+        e.preventDefault();
+        if (window.fbq) fbq('track', 'Lead', { content_name: 'Upsell Declined (70%)', value: 0, currency: 'USD' });
+        window.location.href = URL_DECLINE;
+      });
+    })();
   </script>
 
 </body>

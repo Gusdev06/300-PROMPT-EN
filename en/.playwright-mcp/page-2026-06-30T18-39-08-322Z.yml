@@ -1,0 +1,155 @@
+- generic [active] [ref=f4e1]:
+  - generic [ref=f4e2]:
+    - text: ⚠️ WAIT — Your order is NOT complete yet. This one-time offer expires in
+    - generic [ref=f4e3]: 09:59
+  - generic [ref=f4e5]:
+    - generic [ref=f4e6]: One-time add-on — new customers only
+    - heading "WAIT! Before you go to your members area, lock in your influencer's face" [level=1] [ref=f4e8]:
+      - generic [ref=f4e9]: WAIT!
+      - text: Before you go to your members area,
+      - text: lock in your influencer's face
+    - paragraph [ref=f4e10]:
+      - strong [ref=f4e11]: 90% of beginners
+      - text: create amazing photos… but a different face shows up in every post. The result? It looks like a different person each time — and nobody believes she's “real”.
+      - strong [ref=f4e12]: Goodbye followers. Goodbye sales.
+      - text: The Facial Consistency Guide fixes this forever — step by step, with screenshots.
+    - generic [ref=f4e13]:
+      - generic [ref=f4e14]:
+        - heading "Without the Guide" [level=3] [ref=f4e15]
+        - img "Inconsistent influencer face — hair and features change in every shot" [ref=f4e17]
+        - generic [ref=f4e18]: A different face every time
+      - generic [ref=f4e19]:
+        - heading "With the Guide" [level=3] [ref=f4e20]
+        - img "The same influencer face kept consistent across many poses and expressions" [ref=f4e22]
+        - generic [ref=f4e23]: The same face, every single post
+    - generic [ref=f4e24]:
+      - generic [ref=f4e25]:
+        - paragraph [ref=f4e26]: Face Consistency
+        - generic [ref=f4e27]:
+          - generic [ref=f4e28]: Changes every generation
+          - generic [ref=f4e29]: 10%
+      - generic [ref=f4e31]:
+        - paragraph [ref=f4e32]: Face Consistency
+        - generic [ref=f4e33]:
+          - generic [ref=f4e34]: Identical in 100% of posts
+          - generic [ref=f4e35]: 98%
+      - generic [ref=f4e37]:
+        - paragraph [ref=f4e38]: Looks Real
+        - generic [ref=f4e39]:
+          - generic [ref=f4e40]: Followers feel it's "off"
+          - generic [ref=f4e41]: 15%
+      - generic [ref=f4e43]:
+        - paragraph [ref=f4e44]: Looks Real
+        - generic [ref=f4e45]:
+          - generic [ref=f4e46]: Believable, real person
+          - generic [ref=f4e47]: 96%
+      - generic [ref=f4e49]:
+        - paragraph [ref=f4e50]: Sales / Trust
+        - generic [ref=f4e51]:
+          - generic [ref=f4e52]: DMs go cold, no sales
+          - generic [ref=f4e53]: 12%
+      - generic [ref=f4e55]:
+        - paragraph [ref=f4e56]: Sales / Trust
+        - generic [ref=f4e57]:
+          - generic [ref=f4e58]: Followers trust & buy
+          - generic [ref=f4e59]: 100%
+    - paragraph [ref=f4e61]: ↑ This single difference is what separates an amateur account from a professional one that sells.
+  - generic [ref=f4e63]:
+    - heading "How the face-lock works" [level=2] [ref=f4e64]
+    - paragraph [ref=f4e65]: 3 simple steps. No tech skills. You can apply it in the next 10 minutes.
+    - generic [ref=f4e66]:
+      - generic [ref=f4e67]:
+        - generic [ref=f4e68]: "1"
+        - generic [ref=f4e69]: 📥
+        - heading "Open the guide" [level=4] [ref=f4e70]
+        - paragraph [ref=f4e71]: Instant access right after checkout. Short, visual, straight to the point — no fluff.
+      - generic [ref=f4e72]:
+        - generic [ref=f4e73]: "2"
+        - generic [ref=f4e74]: 🔒
+        - heading "Lock the face" [level=4] [ref=f4e75]
+        - paragraph [ref=f4e76]: Follow the screenshots to “anchor” your influencer's face so it never drifts again.
+      - generic [ref=f4e77]:
+        - generic [ref=f4e78]: "3"
+        - generic [ref=f4e79]: 📸
+        - heading "Post with confidence" [level=4] [ref=f4e80]
+        - paragraph [ref=f4e81]: Generate post after post with the same face — a believable, professional, sellable persona.
+  - generic [ref=f4e83]:
+    - heading "Add the Facial Consistency Guide now" [level=2] [ref=f4e84]
+    - generic [ref=f4e85]:
+      - generic [ref=f4e86]:
+        - generic [ref=f4e87]: The “Face-Lock” Method (step-by-step)
+        - generic [ref=f4e88]: $47.00
+      - generic [ref=f4e89]:
+        - generic [ref=f4e90]: Screenshot-by-screenshot walkthrough
+        - generic [ref=f4e91]: $27.00
+      - generic [ref=f4e92]:
+        - generic [ref=f4e93]: Pro vs amateur consistency secrets
+        - generic [ref=f4e94]: $37.00
+      - generic [ref=f4e95]:
+        - generic [ref=f4e96]: Lifetime updates
+        - generic [ref=f4e97]: $17.00
+      - generic [ref=f4e98]:
+        - generic [ref=f4e99]: Total value
+        - generic [ref=f4e100]: $128 USD
+      - generic [ref=f4e101]:
+        - paragraph [ref=f4e102]: ⚡ Today only, on this page
+        - generic [ref=f4e103]: $17 USD
+        - paragraph [ref=f4e104]: One-time payment. Added to your current order. Lifetime access.
+        - generic [ref=f4e105]: You save $111 — 86% OFF
+    - generic [ref=f4e106]:
+      - link "✓ YES, LOCK IN MY INFLUENCER'S FACE →" [ref=f4e107] [cursor=pointer]:
+        - /url: "#"
+        - text: ✓ YES, LOCK IN MY INFLUENCER'S FACE
+        - generic [ref=f4e108]: →
+      - generic [ref=f4e109]:
+        - generic [ref=f4e110]: 🔒 Secure payment
+        - generic [ref=f4e111]: ⚡ Instant access
+        - generic [ref=f4e112]: 🛡️ 7-day guarantee
+      - link "No thanks, I'll keep posting a different face every time" [ref=f4e113] [cursor=pointer]:
+        - /url: http://localhost:8765/upsell-facial-consistency.html?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=&sck=
+  - generic [ref=f4e116]:
+    - generic [ref=f4e117]: 7d
+    - generic [ref=f4e118]:
+      - heading "7-Day Money-Back Guarantee" [level=4] [ref=f4e119]
+      - paragraph [ref=f4e120]: Apply the face-lock method for 7 full days. If your influencer's face isn't perfectly consistent — or you're not happy for any reason — email us and we'll refund 100% of your money. No forms, no drama. The risk is entirely on us.
+  - generic [ref=f4e122]:
+    - heading "Frequently asked questions" [level=2] [ref=f4e123]
+    - generic [ref=f4e124]:
+      - group [ref=f4e125]:
+        - generic "Do I need any technical skills? +" [ref=f4e126] [cursor=pointer]
+      - group [ref=f4e127]:
+        - generic "Does this work with the prompts I just bought? +" [ref=f4e128] [cursor=pointer]
+      - group [ref=f4e129]:
+        - generic "Will the face really stay identical? +" [ref=f4e130] [cursor=pointer]
+      - group [ref=f4e131]:
+        - generic "When do I get access? +" [ref=f4e132] [cursor=pointer]
+      - group [ref=f4e133]:
+        - generic "Why is it only $17 here? +" [ref=f4e134] [cursor=pointer]
+      - group [ref=f4e135]:
+        - generic "What if it doesn't work for me? +" [ref=f4e136] [cursor=pointer]
+  - generic [ref=f4e138]:
+    - heading "This page will NOT show again." [level=2] [ref=f4e139]
+    - paragraph [ref=f4e140]: If you close it or click “no thanks”, the Facial Consistency Guide disappears at this price. Don't go back to posting a different face every time — lock it in now for a single $17 payment.
+    - generic [ref=f4e141]:
+      - link "✓ ADD THE GUIDE FOR $17 →" [ref=f4e142] [cursor=pointer]:
+        - /url: "#"
+        - text: ✓ ADD THE GUIDE FOR $17
+        - generic [ref=f4e143]: →
+      - generic [ref=f4e144]:
+        - generic [ref=f4e145]: 🔒 Secure payment
+        - generic [ref=f4e146]: ⚡ Instant access
+        - generic [ref=f4e147]: 🛡️ 7-day guarantee
+      - link "No thanks, I'll lose this offer forever" [ref=f4e148] [cursor=pointer]:
+        - /url: http://localhost:8765/upsell-facial-consistency.html?utm_source=organic&utm_campaign=&utm_medium=&utm_content=&utm_term=&xcod=&sck=
+  - contentinfo [ref=f4e149]:
+    - paragraph [ref=f4e150]: © gustagoat.ia — All rights reserved.
+    - paragraph [ref=f4e151]: This is a one-time offer available only on this page as part of your current order.
+    - paragraph [ref=f4e152]:
+      - link "Terms" [ref=f4e153] [cursor=pointer]:
+        - /url: "#"
+      - text: ·
+      - link "Privacy" [ref=f4e154] [cursor=pointer]:
+        - /url: "#"
+      - text: ·
+      - link "Contact" [ref=f4e155] [cursor=pointer]:
+        - /url: "#"
