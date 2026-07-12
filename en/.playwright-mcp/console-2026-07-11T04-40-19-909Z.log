@@ -1,0 +1,143 @@
+[      59ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[      59ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     259ms] [LOG] buttons [button#next.cta-btn.pulse] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     260ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[     260ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[     282ms] [LOG] scrolling 37 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     316ms] [LOG] scrolling 41 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     916ms] [LOG] scrolling 54 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     950ms] [LOG] scrolling 114 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     952ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[     952ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38669)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38164)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37909)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38565)
+[     983ms] [LOG] scrolling 236 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1018ms] [LOG] scrolling 406 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1843ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1844ms] [LOG] check can iniate checkout:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1844ms] [LOG] check can send lead:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1844ms] [LOG] check can send add to cart:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1850ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2260ms] [LOG] buttons [button.opt.yes, button.opt.no, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2929ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2929ms] [LOG] check can iniate checkout:  
+           
+           ✅  Yes, she already pays me
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2929ms] [LOG] check can send lead:  
+           
+           ✅  Yes, she already pays me
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2930ms] [LOG] check can send add to cart:  
+           
+           ✅  Yes, she already pays me
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    4261ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button.opt, button#next.cta-btn, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5043ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5043ms] [LOG] check can iniate checkout:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5043ms] [LOG] check can send lead:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5043ms] [LOG] check can send add to cart:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5158ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5158ms] [LOG] check can iniate checkout:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5158ms] [LOG] check can send lead:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5158ms] [LOG] check can send add to cart:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5741ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5741ms] [LOG] check can iniate checkout:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5741ms] [LOG] check can send lead:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    5742ms] [LOG] check can send add to cart:  
+           
+           My images aren't consistent (face changes)
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6395ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6395ms] [LOG] check can iniate checkout:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6395ms] [LOG] check can send lead:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6395ms] [LOG] check can send add to cart:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6883ms] [LOG] scrolling 20 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6916ms] [LOG] scrolling 55 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6950ms] [LOG] scrolling 281 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6983ms] [LOG] scrolling 673 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    7017ms] [LOG] scrolling 972 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    7050ms] [LOG] scrolling 1211.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    7917ms] [LOG] scrolling 329 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    7950ms] [LOG] scrolling 323.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    7983ms] [LOG] scrolling 299.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8017ms] [LOG] scrolling 217.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8050ms] [LOG] scrolling 130 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8083ms] [LOG] scrolling 83 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8117ms] [LOG] scrolling 54.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8149ms] [LOG] scrolling 35.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8183ms] [LOG] scrolling 22 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8217ms] [LOG] scrolling 12.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8249ms] [LOG] scrolling 6.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8260ms] [LOG] buttons [button#gen.cta-btn.pulse, button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8284ms] [LOG] scrolling 2.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8317ms] [LOG] scrolling 0.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8350ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8516ms] [LOG] scrolling 55 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8549ms] [LOG] scrolling 226 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8583ms] [LOG] scrolling 329 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    9260ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    9260ms] [LOG] check can iniate checkout:  ▶  GENERATE VIDEO FROM THIS IMAGE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    9260ms] [LOG] check can send lead:  ▶  GENERATE VIDEO FROM THIS IMAGE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    9260ms] [LOG] check can send add to cart:  ▶  GENERATE VIDEO FROM THIS IMAGE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    9265ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   10260ms] [LOG] buttons [button#gen.cta-btn.pulse, button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12260ms] [LOG] buttons [button#gen.cta-btn.pulse, button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12592ms] [LOG] scrolling 6 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12616ms] [LOG] scrolling 22 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12649ms] [LOG] scrolling 127 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12683ms] [LOG] scrolling 258 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12717ms] [LOG] scrolling 373.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13983ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14261ms] [LOG] buttons [button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   22261ms] [LOG] buttons [button#cYes.opt.yes, button#cNo.opt.no, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   24977ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   24977ms] [LOG] check can iniate checkout:  ✅  Yes, let's do it @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   24977ms] [LOG] check can send lead:  ✅  Yes, let's do it @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   24977ms] [LOG] check can send add to cart:  ✅  Yes, let's do it @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   26261ms] [LOG] buttons [] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   28261ms] [LOG] buttons [button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0

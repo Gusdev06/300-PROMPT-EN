@@ -1,0 +1,13 @@
+- generic [ref=f14e2]:
+  - generic [ref=f14e3]: gustagoat.ia
+  - generic [ref=f14e8]:
+    - generic [ref=f14e9]: ⏱ 2-minute quiz
+    - heading [level=1] [ref=f14e10]:
+      - text: Ever tried to generate images like
+      - emphasis [ref=f14e11]: this
+      - text: in Nano Banana Pro or GPT Image 2 — and got blocked by "content restrictions"?
+    - paragraph [ref=f14e12]: Discover in under 2 minutes the exact method I use to bypass every restriction and generate 300+ 100% uncensored images.
+    - button "Tap to undress" [ref=f14e13] [cursor=pointer]:
+      - generic: 👆 Tap to undress
+    - button "Show me how →" [ref=f14e14] [cursor=pointer]
+    - paragraph [ref=f14e15]: No signup required · 100% free to start

@@ -1,0 +1,16 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]: gustagoat.ia
+    - generic [ref=f3e5]: Proof
+  - generic [ref=f3e78]:
+    - generic [ref=f3e79]: Wait — look at this
+    - heading "What if I told you this image was generated in ChatGPT?" [level=1] [ref=f3e80]
+    - paragraph [ref=f3e81]: Most people say "no way, ChatGPT would block that." And they're right — with the wrong prompt.
+    - generic [ref=f3e82]:
+      - generic [ref=f3e83]: GENERATED IN CHATGPT
+      - img "AI influencer generated in ChatGPT" [ref=f3e84]
+    - paragraph [ref=f3e85]: Created with a prompt ChatGPT doesn't flag as sexual content.
+    - generic [ref=f3e86]: AFTER POST-PROCESSING
+    - paragraph [ref=f3e89]: After generating the image, I run it through a 100% free AI that removes the clothing — then turn it into video. That's the exact system inside the pack.
+    - button "SHOW ME HOW YOU DID THIS →" [ref=f3e90] [cursor=pointer]
+    - button "← Back" [ref=f3e91] [cursor=pointer]

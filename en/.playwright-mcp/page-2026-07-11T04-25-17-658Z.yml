@@ -1,0 +1,12 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: gustagoat.ia
+    - generic [ref=e5]: Question 4
+  - generic [ref=e54]:
+    - generic [ref=e55]: "Path: getting started"
+    - heading "Have you ever been blocked trying to generate more explicit content?" [level=1] [ref=e56]
+    - generic [ref=e57]:
+      - button "Yes — it happens every single time" [ref=e58] [cursor=pointer]
+      - button "No — I've never even tried +18 content" [ref=e60] [cursor=pointer]
+    - button "← Back" [ref=e62] [cursor=pointer]
+    - paragraph [ref=e63]: Tap an option to continue

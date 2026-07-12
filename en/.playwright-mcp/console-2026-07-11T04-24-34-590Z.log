@@ -1,0 +1,256 @@
+[     144ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     145ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     701ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8791/favicon.ico:0
+[     872ms] [LOG] buttons [button.opt.yes, button.opt.no] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     876ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[     877ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[    8880ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[    8883ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38439)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37966)
+[   16031ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   16032ms] [LOG] check can iniate checkout:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   16032ms] [LOG] check can send lead:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   16032ms] [LOG] check can send add to cart:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   16874ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button#next.cta-btn, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   26262ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   26262ms] [LOG] check can iniate checkout:  
+           
+           I don't know where to start
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   26262ms] [LOG] check can send lead:  
+           
+           I don't know where to start
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   26262ms] [LOG] check can send add to cart:  
+           
+           I don't know where to start
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   32028ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   32029ms] [LOG] check can iniate checkout:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   32029ms] [LOG] check can send lead:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   32029ms] [LOG] check can send add to cart:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   32874ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button.opt, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   37044ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   37044ms] [LOG] check can iniate checkout:  
+           
+           None yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   37045ms] [LOG] check can send lead:  
+           
+           None yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   37045ms] [LOG] check can send add to cart:  
+           
+           None yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   38874ms] [LOG] buttons [button.opt, button.opt, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49427ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49427ms] [LOG] check can iniate checkout:  
+           
+           Yes — it happens every single time
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49428ms] [LOG] check can send lead:  
+           
+           Yes — it happens every single time
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   49428ms] [LOG] check can send add to cart:  
+           
+           Yes — it happens every single time
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   50874ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54076ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54076ms] [LOG] check can iniate checkout:  
+           
+           $1,000 – $5,000
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54076ms] [LOG] check can send lead:  
+           
+           $1,000 – $5,000
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54076ms] [LOG] check can send add to cart:  
+           
+           $1,000 – $5,000
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   54874ms] [LOG] buttons [button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57614ms] [LOG] scrolling 20 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57639ms] [LOG] scrolling 62 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57672ms] [LOG] scrolling 166 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57706ms] [LOG] scrolling 245 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57739ms] [LOG] scrolling 287 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57772ms] [LOG] scrolling 361 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57806ms] [LOG] scrolling 432 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57839ms] [LOG] scrolling 501 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57873ms] [LOG] scrolling 577 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57906ms] [LOG] scrolling 644 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57939ms] [LOG] scrolling 699 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   57973ms] [LOG] scrolling 745 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58006ms] [LOG] scrolling 784 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58039ms] [LOG] scrolling 817 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58106ms] [LOG] scrolling 824 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58139ms] [LOG] scrolling 830 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58173ms] [LOG] scrolling 845 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58206ms] [LOG] scrolling 872 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58424ms] [LOG] scrolling 895 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58589ms] [LOG] scrolling 897 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58622ms] [LOG] scrolling 920 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58656ms] [LOG] scrolling 933 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58689ms] [LOG] scrolling 963 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58722ms] [LOG] scrolling 972 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58755ms] [LOG] scrolling 974 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58789ms] [LOG] scrolling 975 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   58823ms] [LOG] scrolling 977 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   59397ms] [LOG] scrolling 990 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   59422ms] [LOG] scrolling 1008 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   59456ms] [LOG] scrolling 1048 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   59489ms] [LOG] scrolling 1095 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   59522ms] [LOG] scrolling 1173 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   59556ms] [LOG] scrolling 1211.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60197ms] [LOG] scrolling 1210.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60221ms] [LOG] scrolling 1208.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60256ms] [LOG] scrolling 1186.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60288ms] [LOG] scrolling 1126 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60322ms] [LOG] scrolling 1046 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60356ms] [LOG] scrolling 990 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60389ms] [LOG] scrolling 892 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60422ms] [LOG] scrolling 803 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60455ms] [LOG] scrolling 716 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60489ms] [LOG] scrolling 624 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60523ms] [LOG] scrolling 544 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60631ms] [LOG] scrolling 541 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60656ms] [LOG] scrolling 539 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60690ms] [LOG] scrolling 536 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60723ms] [LOG] scrolling 535 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60856ms] [LOG] scrolling 534 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60889ms] [LOG] scrolling 513 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60923ms] [LOG] scrolling 449 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60956ms] [LOG] scrolling 380 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   60990ms] [LOG] scrolling 291 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61023ms] [LOG] scrolling 192 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61056ms] [LOG] scrolling 97 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   61089ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   62222ms] [LOG] scrolling 3 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   62255ms] [LOG] scrolling 4 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   62289ms] [LOG] scrolling 5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63389ms] [LOG] scrolling 9 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63422ms] [LOG] scrolling 12 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63456ms] [LOG] scrolling 20 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63488ms] [LOG] scrolling 21 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63523ms] [LOG] scrolling 22 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63664ms] [LOG] scrolling 21 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63689ms] [LOG] scrolling 20 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63722ms] [LOG] scrolling 18 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63756ms] [LOG] scrolling 12 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63789ms] [LOG] scrolling 1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   63822ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   65222ms] [LOG] scrolling 41 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   65256ms] [LOG] scrolling 331 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   65289ms] [LOG] scrolling 693 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   65323ms] [LOG] scrolling 1015 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   65356ms] [LOG] scrolling 1211.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   66289ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   66874ms] [LOG] buttons [] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   68873ms] [LOG] buttons [button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71386ms] [LOG] link clicked v JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71386ms] [LOG] check is checkout link:  http://localhost:8791/index.html#offer @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71387ms] [LOG] canSendIc false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71387ms] [LOG] check can send lead:  BUILD MY +18 MODEL NOW → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71387ms] [LOG] canSendLead false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71387ms] [LOG] check can send add to cart:  BUILD MY +18 MODEL NOW → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71387ms] [LOG] canAddToCart false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71508ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   71508ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72116ms] [LOG] buttons [button.hero-arrow.prev, button.hero-arrow.next, button.hero-dot.active, button.hero-dot, button.hero-dot, button.hero-dot] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72118ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[   72118ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[   72216ms] [LOG] scrolling 8540.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72218ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[   72219ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38669)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38164)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37909)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38565)
+[   72240ms] [LOG] scrolling 8723.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72273ms] [LOG] scrolling 8887.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72307ms] [LOG] scrolling 9035.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72340ms] [LOG] scrolling 9168.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72373ms] [LOG] scrolling 9289 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72406ms] [LOG] scrolling 9397 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72440ms] [LOG] scrolling 9495 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72473ms] [LOG] scrolling 9583 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72507ms] [LOG] scrolling 9662 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72540ms] [LOG] scrolling 9733 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   72573ms] [LOG] scrolling 9797 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   73003ms] [LOG] scrolling 10125.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   73719ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   73719ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   73736ms] [LOG] buttons [button.opt.yes, button.opt.no] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   73742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[   73743ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[   81742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[   81743ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38439)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37966)

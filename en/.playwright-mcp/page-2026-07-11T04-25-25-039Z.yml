@@ -1,0 +1,14 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - generic [ref=e4]: gustagoat.ia
+    - generic [ref=e5]: Question 5
+  - generic [ref=e64]:
+    - generic [ref=e65]: Almost there
+    - heading "How much would you like to make in the next 27 days?" [level=1] [ref=e66]
+    - generic [ref=e67]:
+      - button "$0 – $500" [ref=e68] [cursor=pointer]
+      - button "$500 – $1,000" [ref=e70] [cursor=pointer]
+      - button "$1,000 – $5,000" [ref=e72] [cursor=pointer]
+      - button "$5,000+" [ref=e74] [cursor=pointer]
+    - button "← Back" [ref=e76] [cursor=pointer]
+    - paragraph [ref=e77]: Tap an option to continue

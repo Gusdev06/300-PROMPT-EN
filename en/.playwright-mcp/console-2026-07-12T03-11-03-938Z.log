@@ -1,0 +1,130 @@
+[    3393ms] [WARNING] The resource https://scripts.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/players/6a52fa112cb96ed43fe414eb/v4/player.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[    3393ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[    3394ms] [WARNING] The resource https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[    3394ms] [WARNING] The resource https://scripts.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/players/6a52f8952cb96ed43fe413e4/v4/player.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[    3394ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[    7683ms] [LOG] ApiCompat: loaded @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[    7686ms] [LOG] VTurb :: v4.19.0 JSHandle@node @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1000
+[    7688ms] [LOG] VTurb :: v4.19.0 JSHandle@node @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1000
+[    7696ms] [WARNING] A preload for 'https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:775
+[    7696ms] [WARNING] A preload for 'https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:775
+[    8612ms] [WARNING] [33m[WARNING]:[0m HlsVideo: [gap-controller]: [Playback stalling at @0 due to low buffer ({"len":…:[{"start":0,"end":3.870532}],"bufferedIndex":0})] @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[    8613ms] [WARNING] [33m[WARNING]:[0m HlsVideo: Non-fatal error encountered {type: mediaError, details: bufferStalledError, fatal: false, error: Error: Playback stalling at @0 due to low buffer ({"len":3.870532,"start":0,"end":3.870532,"buffere…, buffer: 3.870532} @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[   12085ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[   12085ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[   15869ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[   15869ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[   40917ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[   40917ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  100911ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  100912ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  220916ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  220916ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  581613ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://vt-h-1.b-cdn.net/x:0
+[  581613ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://vt-h-1.b-cdn.net/x:0
+[  581654ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://vt-h-1.b-cdn.net/x:0
+[  581654ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://vt-h-1.b-cdn.net/x:0
+[  582019ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  582078ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  582079ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  582105ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  582140ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  582140ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  582140ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  582141ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  582142ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  582142ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  582145ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  582145ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  582883ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  582911ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  582946ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  582946ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  584492ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  584494ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  584496ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  584519ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  584520ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  584523ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  584552ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  584552ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  584553ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  584553ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  584556ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  584556ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  587558ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  587558ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  587702ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  587727ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  587759ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  587760ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  590761ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  590761ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  594110ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  594112ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: Failed to fetch @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  594115ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  594133ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  594134ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: Failed to fetch @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  594137ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  594167ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  594168ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: Failed to fetch @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  594168ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  594169ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: Failed to fetch @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  594171ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  594171ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  594251ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  594251ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  594252ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  594252ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  594255ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  594255ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  594659ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  594660ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  595469ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  595470ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  595470ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  595471ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  595473ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  595473ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  597077ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  597077ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  600079ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  600079ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  600286ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  600287ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  600287ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  600288ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  600290ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  600291ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  603293ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  603293ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  744508ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  744510ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: Failed to fetch @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  744513ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  744513ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: Failed to fetch @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  744514ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  744514ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  744593ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  744595ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  745003ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  745004ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  745004ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  745005ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  745008ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  745008ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  745813ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  745814ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://vt-h-1.b-cdn.net/x:0
+[  747424ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  747424ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  747425ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://a.vturb.com/x:0
+[  747425ms] [ERROR] [31m[ERROR]:[0m Analytics Services - Hermes: All Analytics URLs have failed @ https://scripts.converteai.net/lib/js/smartplayer-wc/v4/smartplayer.js:1
+[  747429ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  747429ms] [ERROR] Failed to load resource: net::ERR_INTERNET_DISCONNECTED @ https://sentry.io/api/4509130195468288/envelope/:0
+[  750430ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  750430ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  753945ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[  753945ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[ 1055754ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[ 1055754ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[ 1354430ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52f890d71bd640bbb2a65d/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0
+[ 1354430ms] [WARNING] The resource https://cdn.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/6a52fa0e3d8ea0afcdc8b377/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:8848/quiz.html:0

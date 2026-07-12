@@ -1,0 +1,15 @@
+- generic [active] [ref=f22e1]:
+  - generic [ref=f22e2]: Launch price ends in 15:00 · $12.99 instead of $39
+  - generic [ref=f22e4]:
+    - generic [ref=f22e5]: gustagoat.ia
+    - generic [ref=f22e10]:
+      - generic [ref=f22e11]: ⏱ 2-minute quiz
+      - heading [level=1] [ref=f22e12]:
+        - text: Ever tried to generate images like
+        - emphasis [ref=f22e13]: this
+        - text: in Nano Banana Pro or GPT Image 2 — and got blocked by "content restrictions"?
+      - paragraph [ref=f22e14]: Discover in under 2 minutes the exact method I use to bypass every restriction and generate 300+ 100% uncensored images.
+      - button "Tap to undress" [ref=f22e15] [cursor=pointer]:
+        - generic: 👆 Tap to undress
+      - button "Show me how →" [ref=f22e16] [cursor=pointer]
+      - paragraph [ref=f22e17]: No signup required · 100% free to start

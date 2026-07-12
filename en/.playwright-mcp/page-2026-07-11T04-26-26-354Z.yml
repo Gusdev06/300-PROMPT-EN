@@ -1,0 +1,15 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]: gustagoat.ia
+    - generic [ref=f3e5]: Question 2
+  - generic [ref=f3e19]:
+    - generic [ref=f3e20]: "Path: getting started"
+    - heading "What's holding you back from making money with AI OFM?" [level=1] [ref=f3e21]
+    - paragraph [ref=f3e22]: Select all that apply.
+    - generic [ref=f3e23]:
+      - button "I don't know where to start" [active] [ref=f3e24] [cursor=pointer]
+      - button "I have a model but can't keep her consistent" [ref=f3e27] [cursor=pointer]
+      - button "I don't know how to monetize" [ref=f3e30] [cursor=pointer]
+      - button "I don't know where to generate +18 content" [ref=f3e33] [cursor=pointer]
+    - button "CONTINUE" [ref=f3e36] [cursor=pointer]
+    - button "← Back" [ref=f3e37] [cursor=pointer]

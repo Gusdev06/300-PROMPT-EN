@@ -1,0 +1,24 @@
+[   80594ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   81407ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   82026ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   82524ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   82825ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   82959ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   88808ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   89291ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   90325ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   90541ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   90676ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)
+[   99124ms] ReferenceError: toggleReveal is not defined
+    at HTMLDivElement.onclick (http://localhost:8848/quiz.html:618:148)

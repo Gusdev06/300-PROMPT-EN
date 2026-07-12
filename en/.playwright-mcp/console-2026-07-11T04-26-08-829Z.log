@@ -1,0 +1,103 @@
+[      27ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[      27ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     243ms] [LOG] buttons [button.opt.yes, button.opt.no] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     244ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[     244ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[    8247ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[    8247ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38439)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37966)
+[   11305ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   11305ms] [LOG] check can iniate checkout:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   11305ms] [LOG] check can send lead:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   11305ms] [LOG] check can send add to cart:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12244ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button#next.cta-btn, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   16504ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   16504ms] [LOG] check can iniate checkout:  
+           
+           I don't know where to start
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   16504ms] [LOG] check can send lead:  
+           
+           I don't know where to start
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   16504ms] [LOG] check can send add to cart:  
+           
+           I don't know where to start
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21636ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21636ms] [LOG] check can iniate checkout:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21637ms] [LOG] check can send lead:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21637ms] [LOG] check can send add to cart:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   22244ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button.opt, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27105ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27105ms] [LOG] check can iniate checkout:  
+           
+           None yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27106ms] [LOG] check can send lead:  
+           
+           None yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27106ms] [LOG] check can send add to cart:  
+           
+           None yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   28244ms] [LOG] buttons [button.opt, button.opt, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   35955ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   35955ms] [LOG] check can iniate checkout:  
+           
+           Yes — it happens every single time
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   35955ms] [LOG] check can send lead:  
+           
+           Yes — it happens every single time
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   35956ms] [LOG] check can send add to cart:  
+           
+           Yes — it happens every single time
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   36244ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   45019ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   45019ms] [LOG] check can iniate checkout:  
+           
+           $1,000 – $5,000
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   45019ms] [LOG] check can send lead:  
+           
+           $1,000 – $5,000
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   45019ms] [LOG] check can send add to cart:  
+           
+           $1,000 – $5,000
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   46244ms] [LOG] buttons [button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[  314577ms] [WARNING] Error with Feature-Policy header: Unrecognized feature: '*'. @ :0
+[  316420ms] [INFO] Banner not shown: beforeinstallpromptevent.preventDefault() called. The page must call beforeinstallpromptevent.prompt() to show the banner. @ https://excalidraw.com/:0

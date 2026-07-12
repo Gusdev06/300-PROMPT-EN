@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>¡ESPERA! Fija el rostro de tu influencer | gustagoat.ia</title>
+  <meta name="robots" content="noindex,nofollow" />
+
+  <!-- Meta Pixel -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1068021188891348');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent', { content_name: 'Upsell Facial Consistency Guide', content_type: 'product', value: 17.90, currency: 'USD' });
+  </script>
+
+  <!-- UTMify -->
+  <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-subids async defer></script>
+  <script>
+    window.pixelId = "6a308246efea7a08ff488a76";
+    var a = document.createElement("script");
+    a.setAttribute("async", "");
+    a.setAttribute("defer", "");
+    a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+    document.head.appendChild(a);
+  </script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    html { scroll-behavior: smooth }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+      line-height: 1.5;
+    }
+    .container { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+    .apple-emoji { font-family: "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif }
+
+    /* PALETTE FACIAL CONSISTENCY: violet/magenta = identity / premium */
+    :root {
+      --accent: hsl(270,90%,65%);
+      --accent-2: hsl(320,90%,62%);
+      --gold: hsl(45,100%,55%);
+      --green: #00A13C;
+      --red: hsl(0,84%,60%);
+    }
+
+    /* ===== TOP ALERT BAR ===== */
+    .alert-bar {
+      background: linear-gradient(90deg, hsl(0,84%,55%), hsl(20,90%,55%));
+      color: #fff;
+      text-align: center;
+      padding: 10px 16px;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 4px 20px rgba(0,0,0,.5);
+    }
+    .alert-bar .timer {
+      display: inline-block;
+      background: rgba(0,0,0,.35);
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 6px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 48px 0 32px;
+      text-align: center;
+      position: relative;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(168,85,247,.14), transparent 70%);
+      pointer-events: none;
+    }
+    .hero-flag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(168,85,247,.12);
+      border: 1px solid rgba(168,85,247,.4);
+      color: var(--accent);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-flag-dot {
+      width: 6px; height: 6px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: pulse 1.4s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 1; transform: scale(1) }
+      50% { opacity: .35; transform: scale(.85) }
+    }
+    .hero h1 {
+      font-size: clamp(1.85rem, 5vw, 3.2rem);
+      font-weight: 900;
+      letter-spacing: -.03em;
+      line-height: 1.05;
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero h1 .stop {
+      color: hsl(0,84%,60%);
+      display: block;
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
+      margin-bottom: 6px;
+    }
+    .hero h1 .accent {
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: #bbb;
+      max-width: 640px;
+      margin: 0 auto 28px;
+      line-height: 1.55;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-sub strong { color: #fff; font-weight: 700; }
+
+    /* ===== BEFORE-AFTER GRID (same structure as main page) ===== */
+    .ba-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    @media(min-width:768px){ .ba-grid { gap: 24px; } }
+    .ba-stack {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    @media(min-width:768px){ .ba-stack { gap: 24px; } }
+    .ba-block { display: grid; gap: 10px; }
+    .ba-grid h3, .ba-block h3 {
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      font-weight: 900;
+      text-align: center;
+    }
+    .ba-grid h3.red, .ba-block h3.red { color: hsl(0,84%,60%); }
+    .ba-grid h3.green, .ba-block h3.green { color: #9EEB47; }
+    .ba-grid .subtitle, .ba-block .subtitle {
+      text-align: center;
+      font-weight: 700;
+      font-size: .875rem;
+      color: #b3b3b3;
+    }
+    .ba-fail {
+      aspect-ratio: 3/4;
+      width: 100%;
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: clamp(12px,3vw,20px);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: clamp(8px,1.5vw,12px);
+      border: 1px solid #2a2a2a;
+      overflow: hidden;
+    }
+    .ba-fail .icon {
+      width: clamp(28px,7vw,38px); height: clamp(28px,7vw,38px);
+      border: 2px solid #b0b0b0;
+      border-radius: 6px;
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 900; color: #b0b0b0;
+      font-size: clamp(1rem,3vw,1.4rem); line-height: 1; flex-shrink: 0;
+    }
+    .ba-fail p { color: #d4d4d4; line-height: 1.4; margin: 0; }
+    .ba-fail .t1 { font-size: clamp(.85rem,2.2vw,1rem); font-weight: 500; }
+    .ba-fail .t2 { font-size: clamp(.75rem,2vw,.95rem); font-weight: 400; }
+    .ba-img-cell img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+    }
+    .metric { display: flex; flex-direction: column; gap: 4px; }
+    .metric .label { font-weight: 700; font-size: .875rem; }
+    .metric .row { display: flex; justify-content: space-between; align-items: center; }
+    .metric .row span { font-size: .75rem; color: #b3b3b3; }
+    .metric .row .val { font-weight: 700; }
+    .metric .row .val.red { color: hsl(0,84%,60%); }
+    .metric .row .val.green { color: #9EEB47; }
+    .progress-bar { width: 100%; height: 12px; border-radius: 9999px; background: hsl(0,0%,15%); overflow: hidden; }
+    .progress-fill { height: 100%; border-radius: 9999px; transition: width 1.2s cubic-bezier(.4,0,.2,1); }
+    .progress-fill.red { background: hsl(0,84%,60%); }
+    .progress-fill.green { background: #9EEB47; }
+    .progress-fill.waiting { width: 0 !important; }
+    .demo-caption {
+      text-align: center;
+      font-size: .8rem;
+      color: #777;
+      margin: 28px auto 40px;
+      font-style: italic;
+      max-width: 640px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ===== SECTION DEFAULT ===== */
+    .section { padding: 36px 0; }
+    .section-title {
+      font-size: clamp(1.4rem, 3.5vw, 2rem);
+      font-weight: 900;
+      letter-spacing: -.02em;
+      line-height: 1.15;
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .section-title .red { color: var(--red); }
+    .section-title .cyan { color: var(--accent); }
+    .section-title .gold { color: var(--gold); }
+    .section-sub {
+      text-align: center;
+      color: #aaa;
+      font-size: 1rem;
+      max-width: 600px;
+      margin: 0 auto 28px;
+    }
+
+    /* ===== COMPARISON TABLE ===== */
+    .compare {
+      max-width: 760px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    @media(min-width:760px){
+      .compare { grid-template-columns: 1fr 1fr; }
+    }
+    .compare-card {
+      border-radius: 14px;
+      padding: 22px 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    .compare-card.bad {
+      background: linear-gradient(180deg, hsl(0,0%,6%), hsl(0,0%,3%));
+      border: 1px solid hsl(0,0%,15%);
+    }
+    .compare-card.good {
+      background: linear-gradient(180deg, rgba(168,85,247,.08), rgba(168,85,247,.02));
+      border: 2px solid var(--accent);
+      box-shadow: 0 12px 40px rgba(168,85,247,.15);
+    }
+    .compare-card.good::before {
+      content: 'WITH THE GUIDE';
+      position: absolute;
+      top: 12px; right: 12px;
+      background: var(--accent);
+      color: #000;
+      font-size: .6rem;
+      letter-spacing: .1em;
+      font-weight: 900;
+      padding: 3px 8px;
+      border-radius: 4px;
+    }
+    .compare-card h4 {
+      font-size: .92rem;
+      font-weight: 800;
+      letter-spacing: .02em;
+      margin-bottom: 6px;
+      color: #ccc;
+      text-transform: uppercase;
+    }
+    .compare-card.good h4 { color: var(--accent); }
+    .compare-card .big-price {
+      font-size: 1.7rem;
+      font-weight: 900;
+      letter-spacing: -.02em;
+      line-height: 1.1;
+      margin-bottom: 4px;
+    }
+    .compare-card.bad .big-price { color: hsl(0,84%,65%); }
+    .compare-card.good .big-price { color: #fff; }
+    .compare-card .desc {
+      font-size: .85rem;
+      color: #aaa;
+      margin-bottom: 14px;
+    }
+    .compare-list {
+      list-style: none;
+      display: grid;
+      gap: 8px;
+    }
+    .compare-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      font-size: .85rem;
+      color: #ccc;
+      line-height: 1.4;
+    }
+    .compare-list li::before {
+      content: '';
+      flex-shrink: 0;
+      width: 18px; height: 18px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: .7rem;
+      font-weight: 900;
+      margin-top: 1px;
+    }
+    .compare-card.bad .compare-list li::before {
+      content: '✕';
+      background: rgba(220,38,38,.15);
+      color: hsl(0,84%,65%);
+    }
+    .compare-card.good .compare-list li::before {
+      content: '✓';
+      background: rgba(168,85,247,.18);
+      color: var(--accent);
+    }
+
+    /* ===== BENEFITS GRID ===== */
+    .benefits-grid {
+      max-width: 800px;
+      margin: 0 auto;
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 1fr;
+    }
+    @media(min-width:680px){
+      .benefits-grid { grid-template-columns: 1fr 1fr; }
+    }
+    .benefit-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      background: hsl(0,0%,5%);
+      border: 1px solid hsl(0,0%,15%);
+      border-radius: 12px;
+      padding: 18px;
+    }
+    .benefit-icon {
+      flex-shrink: 0;
+      width: 42px; height: 42px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      box-shadow: 0 6px 16px rgba(168,85,247,.25);
+    }
+    .benefit-item h4 {
+      font-size: .98rem;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+    .benefit-item p {
+      font-size: .82rem;
+      color: #aaa;
+      line-height: 1.5;
+    }
+
+    /* ===== PROOF BAR ===== */
+    .proof-bar {
+      max-width: 720px;
+      margin: 28px auto 0;
+      background: linear-gradient(135deg, rgba(255,193,7,.05), rgba(255,193,7,.01));
+      border: 1px solid rgba(255,193,7,.2);
+      border-radius: 12px;
+      padding: 18px 22px;
+      display: flex;
+      gap: 24px;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+    .proof-stat .num {
+      font-size: 1.6rem;
+      font-weight: 900;
+      color: var(--gold);
+      letter-spacing: -.02em;
+      line-height: 1;
+    }
+    .proof-stat .lbl {
+      font-size: .72rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-weight: 700;
+      margin-top: 4px;
+    }
+
+    /* ===== HOW IT WORKS ===== */
+    .steps-grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: 1fr;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    @media(min-width:760px){
+      .steps-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    .step-card {
+      background: hsl(0,0%,6%);
+      border: 1px solid hsl(0,0%,15%);
+      border-radius: 12px;
+      padding: 22px 18px;
+      text-align: center;
+      position: relative;
+    }
+    .step-card .step-num {
+      position: absolute;
+      top: -14px; left: 50%;
+      transform: translateX(-50%);
+      width: 32px; height: 32px;
+      background: var(--accent);
+      color: #000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: .9rem;
+    }
+    .step-card .step-icon { font-size: 2rem; margin: 8px 0 10px; }
+    .step-card h4 { font-size: 1rem; font-weight: 800; margin-bottom: 6px; }
+    .step-card p { font-size: .82rem; color: #aaa; line-height: 1.45; }
+
+    /* ===== VALUE STACK ===== */
+    .stack-box {
+      max-width: 560px;
+      margin: 32px auto 0;
+      background: hsl(0,0%,5%);
+      border: 1px solid hsl(0,0%,15%);
+      border-radius: 14px;
+      padding: 24px;
+    }
+    .stack-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px 0;
+      font-size: .9rem;
+      border-bottom: 1px dashed hsl(0,0%,15%);
+    }
+    .stack-row:last-of-type { border-bottom: none; }
+    .stack-row .name { color: #ccc; }
+    .stack-row .val { color: #888; text-decoration: line-through; font-variant-numeric: tabular-nums; }
+    .stack-total {
+      margin-top: 12px;
+      padding-top: 14px;
+      border-top: 2px solid hsl(0,0%,25%);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .stack-total .lbl {
+      font-size: .82rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-weight: 700;
+    }
+    .stack-total .val-old {
+      font-size: 1.4rem;
+      color: #666;
+      text-decoration: line-through;
+      font-weight: 800;
+    }
+    .stack-final {
+      text-align: center;
+      margin-top: 20px;
+      padding: 18px;
+      background: linear-gradient(135deg, rgba(168,85,247,.12), rgba(168,85,247,.03));
+      border: 1px solid rgba(168,85,247,.35);
+      border-radius: 10px;
+    }
+    .stack-final .lbl2 {
+      font-size: .72rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+    .stack-final .price {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: -.03em;
+      line-height: 1;
+    }
+    .stack-final .price small { font-size: 1rem; color: #aaa; font-weight: 600; }
+    .stack-final .note { font-size: .78rem; color: #aaa; margin-top: 6px; }
+    .stack-final .saving {
+      display: inline-block;
+      margin-top: 10px;
+      background: rgba(0,161,60,.15);
+      color: #4ade80;
+      font-size: .78rem;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 4px;
+      letter-spacing: .02em;
+    }
+
+    /* ===== CTA ===== */
+    .cta-wrap { max-width: 560px; margin: 32px auto 0; text-align: center; }
+    .cta-btn {
+      display: block;
+      width: 100%;
+      background: linear-gradient(180deg, #00C84B, #00A13C);
+      color: #fff;
+      text-align: center;
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      font-weight: 900;
+      letter-spacing: .01em;
+      padding: 20px 24px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 8px 24px rgba(0,161,60,.4), inset 0 1px 0 rgba(255,255,255,.2);
+      transition: all .2s;
+      animation: cta-pulse 2.4s ease-in-out infinite;
+      text-transform: uppercase;
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(0,161,60,.55), inset 0 1px 0 rgba(255,255,255,.25);
+    }
+    .cta-btn:active { transform: translateY(0); }
+    @keyframes cta-pulse {
+      0%,100% { box-shadow: 0 8px 24px rgba(0,161,60,.4), inset 0 1px 0 rgba(255,255,255,.2); }
+      50% { box-shadow: 0 8px 30px rgba(0,161,60,.65), inset 0 1px 0 rgba(255,255,255,.2); }
+    }
+    .cta-btn .arrow {
+      display: inline-block;
+      margin-left: 6px;
+      transition: transform .2s;
+    }
+    .cta-btn:hover .arrow { transform: translateX(4px); }
+
+    .cta-secure {
+      margin-top: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      font-size: .72rem;
+      color: #777;
+      flex-wrap: wrap;
+    }
+    .cta-secure span { display: inline-flex; align-items: center; gap: 4px; }
+
+    .no-thanks {
+      display: block;
+      margin: 18px auto 0;
+      color: #666;
+      font-size: .78rem;
+      text-align: center;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: color .2s;
+    }
+    .no-thanks:hover { color: #999; }
+
+    /* ===== GUARANTEE ===== */
+    .guarantee {
+      max-width: 680px;
+      margin: 40px auto 0;
+      background: linear-gradient(135deg, rgba(255,193,7,.06), rgba(255,193,7,.01));
+      border: 1px solid rgba(255,193,7,.25);
+      border-radius: 14px;
+      padding: 22px;
+      display: flex;
+      gap: 18px;
+      align-items: center;
+    }
+    .guarantee-badge {
+      flex-shrink: 0;
+      width: 72px; height: 72px;
+      background: linear-gradient(135deg, var(--gold), hsl(35,100%,50%));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      font-weight: 900;
+      color: #000;
+      box-shadow: 0 6px 20px rgba(255,193,7,.3);
+    }
+    .guarantee h4 { font-size: 1.05rem; font-weight: 800; margin-bottom: 4px; }
+    .guarantee p { font-size: .85rem; color: #bbb; line-height: 1.5; }
+    @media(max-width:520px){
+      .guarantee { flex-direction: column; text-align: center; }
+    }
+
+    /* ===== FAQ ===== */
+    .faq-list {
+      max-width: 720px;
+      margin: 0 auto;
+      display: grid;
+      gap: 8px;
+    }
+    .faq-item {
+      background: hsl(0,0%,5%);
+      border: 1px solid hsl(0,0%,15%);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .faq-item summary {
+      padding: 16px 18px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: .92rem;
+      color: #fff;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after {
+      content: '+';
+      font-size: 1.4rem;
+      color: var(--accent);
+      transition: transform .2s;
+      flex-shrink: 0;
+    }
+    .faq-item[open] summary::after { content: '−'; }
+    .faq-item p {
+      padding: 0 18px 16px;
+      font-size: .87rem;
+      color: #bbb;
+      line-height: 1.55;
+    }
+
+    /* ===== FINAL CTA ===== */
+    .final-cta {
+      padding: 48px 0 40px;
+      text-align: center;
+    }
+    .final-cta h2 {
+      font-size: clamp(1.4rem, 3vw, 2rem);
+      font-weight: 900;
+      letter-spacing: -.02em;
+      margin-bottom: 10px;
+    }
+    .final-cta p {
+      color: #aaa;
+      font-size: .95rem;
+      max-width: 540px;
+      margin: 0 auto 24px;
+    }
+
+    /* ===== DECLINE / DOWNSELL MODAL ===== */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.82);
+      backdrop-filter: blur(6px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 100;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-box {
+      position: relative;
+      width: 100%;
+      max-width: 440px;
+      background: linear-gradient(180deg, hsl(0,0%,9%), hsl(0,0%,5%));
+      border: 1px solid rgba(168,85,247,.35);
+      border-radius: 18px;
+      padding: 30px 24px 26px;
+      text-align: center;
+      box-shadow: 0 30px 80px rgba(0,0,0,.7), 0 0 0 1px rgba(168,85,247,.1);
+      animation: modal-in .25s ease;
+    }
+    @keyframes modal-in {
+      from { opacity: 0; transform: translateY(16px) scale(.97); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .modal-close {
+      position: absolute;
+      top: 12px; right: 14px;
+      background: none;
+      border: none;
+      color: #777;
+      font-size: 1.8rem;
+      line-height: 1;
+      cursor: pointer;
+      transition: color .2s;
+    }
+    .modal-close:hover { color: #fff; }
+    .modal-flag {
+      display: inline-block;
+      font-size: .68rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: hsl(0,84%,65%);
+      background: rgba(220,38,38,.12);
+      border: 1px solid rgba(220,38,38,.3);
+      padding: 5px 12px;
+      border-radius: 999px;
+      margin-bottom: 14px;
+    }
+    .modal-title {
+      font-size: clamp(1.25rem, 4vw, 1.6rem);
+      font-weight: 900;
+      letter-spacing: -.02em;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .modal-title .modal-num { color: hsl(0,84%,62%); }
+    .modal-text {
+      font-size: .9rem;
+      color: #bbb;
+      line-height: 1.55;
+    }
+    .modal-text strong { color: #fff; }
+    .modal-bar-wrap {
+      margin-top: 18px;
+      text-align: left;
+      background: hsl(0,0%,4%);
+      border: 1px solid hsl(0,0%,14%);
+      border-radius: 12px;
+      padding: 16px;
+    }
+    .modal-bar-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: .78rem;
+      color: #aaa;
+      margin-bottom: 6px;
+    }
+    .modal-bar-val { font-weight: 800; }
+    .modal-bar-val.red { color: hsl(0,84%,62%); }
+    .modal-bar-val.green { color: #9EEB47; }
+    .modal-bar {
+      width: 100%;
+      height: 10px;
+      border-radius: 999px;
+      background: hsl(0,0%,15%);
+      overflow: hidden;
+    }
+    .modal-bar-fill { height: 100%; border-radius: 999px; }
+    .modal-bar-fill.red { background: hsl(0,84%,60%); }
+    .modal-bar-fill.green { background: #9EEB47; }
+    .modal-box .cta-btn { margin-top: 22px; }
+    body.modal-open { overflow: hidden; }
+
+    /* ===== FOOTER ===== */
+    .footer {
+      text-align: center;
+      padding: 32px 16px 24px;
+      border-top: 1px solid hsl(0,0%,10%);
+      color: #555;
+      font-size: .75rem;
+      line-height: 1.6;
+    }
+    .footer a { color: #777; }
+  </style>
+</head>
+
+<body>
+
+  <!-- ALERT BAR -->
+  <div class="alert-bar">
+    ⚠️ ESPERA — Tu pedido aún NO está completo. Esta oferta única expira en <span class="timer" id="timer">09:59</span>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero-flag">
+        <span class="hero-flag-dot"></span>
+        Complemento único — solo para nuevos clientes
+      </span>
+      <h1>
+        <span class="stop">¡ESPERA!</span>
+        Sin la Guía de Consistencia, tus prompts<br/>
+        solo entregan <span class="accent">el 60% de su poder</span>
+      </h1>
+      <p class="hero-sub">
+        <strong>El 90% de los principiantes</strong> crea fotos increíbles… pero en cada post aparece un rostro distinto.
+        ¿El resultado? Parece una persona diferente cada vez — y nadie cree que sea “real”.
+        <br/><br/>
+        <strong>Adiós seguidores. Adiós ventas.</strong> La Guía de Consistencia Facial arregla esto para siempre —
+        paso a paso, con capturas de pantalla.
+      </p>
+
+      <!-- BEFORE / AFTER -->
+      <div class="ba-stack">
+        <div class="ba-block">
+          <h3 class="red">Sin la Guía</h3>
+          <div class="ba-img-cell">
+            <img src="Design sem nome.png" alt="Rostro inconsistente — el cabello y los rasgos cambian en cada toma" loading="lazy" />
+          </div>
+          <div class="subtitle">Un rostro diferente cada vez</div>
+        </div>
+        <div class="ba-block">
+          <h3 class="green">Con la Guía</h3>
+          <div class="ba-img-cell">
+            <img src="categoria-expressoes.webp" alt="El mismo rostro de la influencer mantenido consistente en muchas poses y expresiones" loading="lazy" />
+          </div>
+          <div class="subtitle">El mismo rostro, en cada post</div>
+        </div>
+      </div>
+
+      <div class="ba-grid" style="margin-top:24px">
+        <!-- Metrics -->
+        <div class="metric">
+          <p class="label">Consistencia del Rostro</p>
+          <div class="row"><span>Cambia en cada generación</span><span class="val red">10%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="10"></div></div>
+        </div>
+        <div class="metric">
+          <p class="label">Consistencia del Rostro</p>
+          <div class="row"><span>Idéntico en el 100% de los posts</span><span class="val green">98%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="98"></div></div>
+        </div>
+        <div class="metric">
+          <p class="label">Se Ve Real</p>
+          <div class="row"><span>Los seguidores notan algo "raro"</span><span class="val red">15%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="15"></div></div>
+        </div>
+        <div class="metric">
+          <p class="label">Se Ve Real</p>
+          <div class="row"><span>Creíble, persona real</span><span class="val green">96%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="96"></div></div>
+        </div>
+        <div class="metric">
+          <p class="label">Ventas / Confianza</p>
+          <div class="row"><span>Los DMs se enfrían, sin ventas</span><span class="val red">12%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="12"></div></div>
+        </div>
+        <div class="metric">
+          <p class="label">Ventas / Confianza</p>
+          <div class="row"><span>Los seguidores confían y compran</span><span class="val green">100%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="100"></div></div>
+        </div>
+      </div>
+      <p class="demo-caption">↑ Esta única diferencia es lo que separa una cuenta amateur de una profesional que vende.</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">
+        Cómo funciona el <span class="cyan">bloqueo de rostro</span>
+      </h2>
+      <p class="section-sub">3 pasos simples. Sin conocimientos técnicos. Puedes aplicarlo en los próximos 10 minutos.</p>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-icon">📥</div>
+          <h4>Abre la guía</h4>
+          <p>Acceso instantáneo justo después de la compra. Corta, visual y al grano — sin relleno.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-icon">🔒</div>
+          <h4>Fija el rostro</h4>
+          <p>Sigue las capturas para “anclar” el rostro de tu influencer y que nunca más cambie.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-icon">📸</div>
+          <h4>Publica con confianza</h4>
+          <p>Genera post tras post con el mismo rostro — una persona creíble, profesional y que vende.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUE STACK -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">
+        Agrega la <span class="cyan">Guía de Consistencia Facial</span> ahora
+      </h2>
+
+      <div class="stack-box">
+        <div class="stack-row">
+          <span class="name">El Método “Bloqueo de Rostro” (paso a paso)</span>
+          <span class="val">$47.00</span>
+        </div>
+        <div class="stack-row">
+          <span class="name">Guía con capturas, pantalla por pantalla</span>
+          <span class="val">$27.00</span>
+        </div>
+        <div class="stack-row">
+          <span class="name">Secretos de consistencia pro vs amateur</span>
+          <span class="val">$37.00</span>
+        </div>
+        <div class="stack-row">
+          <span class="name">Actualizaciones de por vida</span>
+          <span class="val">$17.00</span>
+        </div>
+        <div class="stack-total">
+          <span class="lbl">Valor total</span>
+          <span class="val-old">$128 USD</span>
+        </div>
+        <div class="stack-final">
+          <p class="lbl2">⚡ Hoy solo, en esta página</p>
+          <div class="price">$17.90<small> USD</small></div>
+          <p class="note">Pago único. Se agrega a tu pedido actual. Acceso de por vida.</p>
+          <span class="saving">Ahorras $110 — 86% OFF</span>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-wrap">
+        <a href="#" class="cta-btn" id="ctaAdd">
+          ✓ SÍ, QUIERO FIJAR EL ROSTRO DE MI INFLUENCER <span class="arrow">→</span>
+        </a>
+        <div class="cta-secure">
+          <span>🔒 Pago seguro</span>
+          <span>⚡ Acceso instantáneo</span>
+          <span>🛡️ Garantía de 7 días</span>
+        </div>
+        <a class="no-thanks" id="noThanks">No gracias, seguiré publicando un rostro diferente cada vez</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- DECLINE / DOWNSELL POPUP -->
+  <div class="modal-overlay" id="declineModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Cerrar">&times;</button>
+      <div class="modal-flag">⚠️ Espera — lee esto primero</div>
+      <h3 class="modal-title" id="modalTitle">
+        Sin esto, solo usarás el <span class="modal-num">60%</span> de los prompts que acabas de comprar
+      </h3>
+      <p class="modal-text">
+        La mayoría de tus <strong>300+ prompts</strong> generan un <strong>rostro distinto cada vez</strong>.
+        Sin el método de Bloqueo de Rostro, alrededor de <strong>4 de cada 10 imágenes</strong> salen como una
+        “persona diferente” — inservibles para una cuenta real y creíble.
+      </p>
+      <div class="modal-bar-wrap">
+        <div class="modal-bar-row">
+          <span>Sin la guía</span><span class="modal-bar-val red">60% aprovechable</span>
+        </div>
+        <div class="modal-bar"><div class="modal-bar-fill red" style="width:60%"></div></div>
+        <div class="modal-bar-row" style="margin-top:12px">
+          <span>Con la guía</span><span class="modal-bar-val green">100% aprovechable</span>
+        </div>
+        <div class="modal-bar"><div class="modal-bar-fill green" style="width:100%"></div></div>
+      </div>
+      <p class="modal-text" style="margin-top:18px">
+        Por solo <strong>$17.90</strong>, desbloqueas todo el poder del pack que ya pagaste.
+      </p>
+      <a href="#" class="cta-btn" id="modalAccept" style="animation:none">
+        ✓ SÍ, DESBLOQUEAR EL 100% DE MIS PROMPTS <span class="arrow">→</span>
+      </a>
+      <a class="no-thanks" id="modalDecline">No gracias, solo usaré el 60% de mis prompts</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© gustagoat.ia — Todos los derechos reservados.</p>
+    <p style="margin-top:8px">Esta es una oferta única disponible solo en esta página como parte de tu pedido actual.</p>
+    <p style="margin-top:8px"><a href="#">Términos</a> · <a href="#">Privacidad</a> · <a href="#">Contacto</a></p>
+  </footer>
+
+  <script>
+    // ===== TIMER =====
+    (function(){
+      const timerEl = document.getElementById('timer');
+      let totalSeconds = 9 * 60 + 59;
+      function tick(){
+        const m = String(Math.floor(totalSeconds / 60)).padStart(2,'0');
+        const s = String(totalSeconds % 60).padStart(2,'0');
+        if (timerEl) timerEl.textContent = m + ':' + s;
+        if (totalSeconds > 0) totalSeconds--;
+      }
+      tick();
+      setInterval(tick, 1000);
+    })();
+
+    // ===== ANIMATE PROGRESS BARS ON SCROLL =====
+    (function(){
+      const grid = document.querySelector('.ba-grid');
+      if (!grid) return;
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            document.querySelectorAll('.progress-fill.waiting').forEach(bar => {
+              bar.style.width = bar.dataset.width + '%';
+              bar.classList.remove('waiting');
+            });
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.3 });
+      obs.observe(grid);
+    })();
+
+    // ===== CTAs =====
+    // CONFIG: replace these links with your real one-click checkout / next step
+    const URL_ACCEPT  = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept upsell
+    const URL_DECLINE = 'https://www.promptsgoat.com/es/thank-you.html'; // decline → thank-you page
+
+    function bindCta(id, url, fbEvent){
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.addEventListener('click', function(e){
+        e.preventDefault();
+        if (window.fbq) fbq('track', fbEvent, { content_name: 'Upsell Facial Consistency Guide', value: 17.90, currency: 'USD' });
+        window.location.href = url;
+      });
+    }
+    bindCta('ctaAdd', URL_ACCEPT, 'AddToCart');
+    bindCta('modalAccept', URL_ACCEPT, 'AddToCart');
+
+    // ===== DECLINE → DOWNSELL POPUP =====
+    (function(){
+      const modal   = document.getElementById('declineModal');
+      const noThanks = document.getElementById('noThanks');
+      const closeBtn = document.getElementById('modalClose');
+      const decline  = document.getElementById('modalDecline');
+      if (!modal) return;
+
+      function openModal(e){
+        if (e) e.preventDefault();
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden','false');
+        document.body.classList.add('modal-open');
+        if (window.fbq) fbq('track', 'Lead', { content_name: 'Decline Popup Shown', value: 17.90, currency: 'USD' });
+      }
+      function closeModal(){
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden','true');
+        document.body.classList.remove('modal-open');
+      }
+
+      // First "no thanks" → show popup instead of leaving
+      if (noThanks) noThanks.addEventListener('click', openModal);
+
+      // X / overlay click → just close (stays on the upsell page)
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
+
+      // Final decline inside popup → leave to next step
+      if (decline) decline.addEventListener('click', function(e){
+        e.preventDefault();
+        if (window.fbq) fbq('track', 'Lead', { content_name: 'Upsell Declined (60%)', value: 0, currency: 'USD' });
+        window.location.href = URL_DECLINE;
+      });
+    })();
+  </script>
+
+</body>
+</html>

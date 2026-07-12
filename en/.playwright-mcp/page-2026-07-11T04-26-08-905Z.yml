@@ -1,0 +1,12 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]: gustagoat.ia
+    - generic [ref=f3e5]: Question 1
+  - generic [ref=f3e8]:
+    - generic [ref=f3e9]: 2-minute quiz
+    - heading "Do you already have an AI influencer that makes you money every month?" [level=1] [ref=f3e10]
+    - paragraph [ref=f3e11]: Answer honestly — your result path changes based on this.
+    - generic [ref=f3e12]:
+      - button "✅ Yes, she already pays me" [ref=f3e13] [cursor=pointer]
+      - button "❌ No, not yet" [ref=f3e15] [cursor=pointer]
+    - paragraph [ref=f3e17]: Tap an option to continue

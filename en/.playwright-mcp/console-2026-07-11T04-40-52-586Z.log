@@ -1,0 +1,132 @@
+[      66ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[      66ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     258ms] [LOG] buttons [button#next.cta-btn.pulse] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     259ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[     259ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[     908ms] [LOG] scrolling 77 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     940ms] [LOG] scrolling 370 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     943ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[     944ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38669)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38164)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37909)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38565)
+[     974ms] [LOG] scrolling 406 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1967ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1967ms] [LOG] check can iniate checkout:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1967ms] [LOG] check can send lead:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1967ms] [LOG] check can send add to cart:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1973ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2260ms] [LOG] buttons [button.opt.yes, button.opt.no, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2900ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2900ms] [LOG] check can iniate checkout:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2900ms] [LOG] check can send lead:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    2900ms] [LOG] check can send add to cart:  
+           
+           ❌  No, not yet
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    4259ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button#next.cta-btn, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8259ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8968ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8968ms] [LOG] check can iniate checkout:  
+           
+           $500 – $1,000 / mo
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8968ms] [LOG] check can send lead:  
+           
+           $500 – $1,000 / mo
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    8969ms] [LOG] check can send add to cart:  
+           
+           $500 – $1,000 / mo
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   10259ms] [LOG] buttons [button.opt.sel, button.opt, button.opt, button.opt, button.opt, button#next.cta-btn, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12157ms] [LOG] scrolling 17 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12190ms] [LOG] scrolling 73 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12224ms] [LOG] scrolling 149 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12257ms] [LOG] scrolling 318 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12258ms] [LOG] buttons [button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12290ms] [LOG] scrolling 481 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12890ms] [LOG] scrolling 494 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12924ms] [LOG] scrolling 558 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12957ms] [LOG] scrolling 677 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12990ms] [LOG] scrolling 804 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13023ms] [LOG] scrolling 931 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13057ms] [LOG] scrolling 1056 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13091ms] [LOG] scrolling 1174 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13123ms] [LOG] scrolling 1211.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13823ms] [LOG] scrolling 329 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13924ms] [LOG] scrolling 323.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13957ms] [LOG] scrolling 298 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13990ms] [LOG] scrolling 218.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14024ms] [LOG] scrolling 130 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14058ms] [LOG] scrolling 83 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14091ms] [LOG] scrolling 54.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14124ms] [LOG] scrolling 35.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14158ms] [LOG] scrolling 22 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14191ms] [LOG] scrolling 12.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14224ms] [LOG] scrolling 6.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14257ms] [LOG] scrolling 2.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14258ms] [LOG] buttons [button#gen.cta-btn.pulse, button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14290ms] [LOG] scrolling 0.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   14323ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17624ms] [LOG] scrolling 4 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17658ms] [LOG] scrolling 10 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17690ms] [LOG] scrolling 27 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17723ms] [LOG] scrolling 37 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17757ms] [LOG] scrolling 47 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17790ms] [LOG] scrolling 55 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17823ms] [LOG] scrolling 64 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17856ms] [LOG] scrolling 75 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17889ms] [LOG] scrolling 81 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17923ms] [LOG] scrolling 104 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17957ms] [LOG] scrolling 120 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   17989ms] [LOG] scrolling 136 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   18024ms] [LOG] scrolling 155 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   18057ms] [LOG] scrolling 175 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   18091ms] [LOG] scrolling 195 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   18123ms] [LOG] scrolling 214 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   18157ms] [LOG] scrolling 224 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   19335ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   19336ms] [LOG] check can iniate checkout:  ▶  GENERATE VIDEO FROM THIS IMAGE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   19336ms] [LOG] check can send lead:  ▶  GENERATE VIDEO FROM THIS IMAGE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   19336ms] [LOG] check can send add to cart:  ▶  GENERATE VIDEO FROM THIS IMAGE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   19357ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   20258ms] [LOG] buttons [button#gen.cta-btn.pulse, button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21790ms] [LOG] scrolling 5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21823ms] [LOG] scrolling 51 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21857ms] [LOG] scrolling 195 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   21890ms] [LOG] scrolling 373.5 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   22259ms] [LOG] buttons [button#gen.cta-btn.pulse, button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   22757ms] [LOG] scrolling 0 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   24259ms] [LOG] buttons [button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   26259ms] [LOG] buttons [button#cYes.opt.yes, button#cNo.opt.no, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27516ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27516ms] [LOG] check can iniate checkout:  ✅  Yes, let's do it @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27517ms] [LOG] check can send lead:  ✅  Yes, let's do it @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27517ms] [LOG] check can send add to cart:  ✅  Yes, let's do it @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   28259ms] [LOG] buttons [] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0

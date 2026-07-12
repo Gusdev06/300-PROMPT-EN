@@ -1,0 +1,15 @@
+- generic [ref=f3e2]:
+  - generic [ref=f3e3]:
+    - generic [ref=f3e4]: gustagoat.ia
+    - generic [ref=f3e5]: Question 3
+  - generic [ref=f3e38]:
+    - generic [ref=f3e39]: "Path: getting started"
+    - heading "Which tool have you tried to generate images with?" [level=1] [ref=f3e40]
+    - generic [ref=f3e41]:
+      - button "Nano Banana Pro" [ref=f3e42] [cursor=pointer]
+      - button "Nano Banana 2" [ref=f3e44] [cursor=pointer]
+      - button "GPT Image 2" [ref=f3e46] [cursor=pointer]
+      - button "Z-Image" [ref=f3e48] [cursor=pointer]
+      - button "None yet" [ref=f3e50] [cursor=pointer]
+    - button "← Back" [ref=f3e52] [cursor=pointer]
+    - paragraph [ref=f3e53]: Tap an option to continue

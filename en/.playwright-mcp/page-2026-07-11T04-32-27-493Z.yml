@@ -1,0 +1,16 @@
+- generic [ref=f6e2]:
+  - generic [ref=f6e3]:
+    - generic [ref=f6e4]: gustagoat.ia
+    - generic [ref=f6e5]: Question 3
+  - generic [ref=f6e33]:
+    - generic [ref=f6e34]: "Path: scaling"
+    - heading "What's stopping you from earning more today?" [level=1] [ref=f6e35]
+    - paragraph [ref=f6e36]: Select all that apply.
+    - generic [ref=f6e37]:
+      - button "Instagram keeps banning my accounts" [active] [ref=f6e38] [cursor=pointer]
+      - button "My images aren't consistent (face changes)" [ref=f6e41] [cursor=pointer]
+      - button "My model doesn't look attractive enough" [ref=f6e44] [cursor=pointer]
+      - button "I don't know tools that create +18 content" [ref=f6e47] [cursor=pointer]
+      - button "My reels don't go viral" [ref=f6e50] [cursor=pointer]
+    - button "CONTINUE" [ref=f6e53] [cursor=pointer]
+    - button "← Back" [ref=f6e54] [cursor=pointer]

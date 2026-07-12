@@ -1,0 +1,75 @@
+[      42ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[      42ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1146ms] [LOG] buttons [button.opt.yes, button.opt.no] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    1153ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[    1154ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[    6811ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6811ms] [LOG] check can iniate checkout:  
+           
+           ✅  Yes, she already pays me
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6811ms] [LOG] check can send lead:  
+           
+           ✅  Yes, she already pays me
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    6812ms] [LOG] check can send add to cart:  
+           
+           ✅  Yes, she already pays me
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    7148ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[    9152ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[    9152ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38439)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37966)
+[   12792ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12793ms] [LOG] check can iniate checkout:  
+           
+           $1,000 – $5,000 / mo
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12793ms] [LOG] check can send lead:  
+           
+           $1,000 – $5,000 / mo
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   12793ms] [LOG] check can send add to cart:  
+           
+           $1,000 – $5,000 / mo
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   13148ms] [LOG] buttons [button.opt, button.opt, button.opt, button.opt, button.opt, button#next.cta-btn, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   22591ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   22591ms] [LOG] check can iniate checkout:  
+           
+           Instagram keeps banning my accounts
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   22591ms] [LOG] check can send lead:  
+           
+           Instagram keeps banning my accounts
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   22591ms] [LOG] check can send add to cart:  
+           
+           Instagram keeps banning my accounts
+          @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   28708ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   28708ms] [LOG] check can iniate checkout:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   28708ms] [LOG] check can send lead:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   28708ms] [LOG] check can send add to cart:  CONTINUE @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   29149ms] [LOG] buttons [button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   77147ms] [LOG] buttons [] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   79149ms] [LOG] buttons [button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0

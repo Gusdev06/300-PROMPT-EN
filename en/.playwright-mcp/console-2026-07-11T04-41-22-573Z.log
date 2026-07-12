@@ -1,0 +1,38 @@
+[      60ms] [LOG] Tracker Meta version 1.6.1 @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[      60ms] [LOG] Tracker.inited?: false @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     315ms] [LOG] buttons [button#next.cta-btn.pulse] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[     317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[     317ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30025)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28968)
+[    8319ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:3001/tracking/v1/events:0
+[    8319ms] Uncaught (in promise) TypeError: Failed to fetch
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20157)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17787)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:17532)
+    at event (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:20081)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30589)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:29166)
+    at l (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:28911)
+    at track (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:30436)
+    at <anonymous> (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:38439)
+    at r (https://cdn.utmify.com.br/scripts/pixel/pixel.js:0:37966)
+[   27035ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27035ms] [LOG] check can iniate checkout:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27035ms] [LOG] check can send lead:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   27035ms] [LOG] check can send add to cart:  START THE QUIZ → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   28316ms] [LOG] buttons [button#gen.cta-btn.pulse, button#next.cta-btn.pulse, button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   29068ms] [LOG] button clicked pixel JSHandle@node @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   29068ms] [LOG] check can iniate checkout:  I WANT TO DO THIS → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   29069ms] [LOG] check can send lead:  I WANT TO DO THIS → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   29069ms] [LOG] check can send add to cart:  I WANT TO DO THIS → @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   30316ms] [LOG] buttons [] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
+[   32317ms] [LOG] buttons [button#back.back] @ https://cdn.utmify.com.br/scripts/pixel/pixel.js:0
