@@ -937,7 +937,7 @@
 <body>
   <!-- ANNOUNCE BAR (countdown) -->
   <div class="announce-bar">
-    <span class="pulse-dot"></span>El precio de lanzamiento termina en <b id="cdTimer">15:00</b> &middot; <b>$12.90</b> en vez de $39
+    <span class="pulse-dot"></span>El precio de lanzamiento termina en <b id="cdTimer">15:00</b> &middot; <b>$12.99</b> en vez de $39
   </div>
 
   <div class="quiz">
@@ -1226,7 +1226,7 @@
           </a>
 
           <!-- COMPLETE PLAN -->
-          <a href="https://checkout.centerpag.com/pay/PPU38CQDJP6" class="offer-card featured" style="text-decoration:none" onclick="trackCheckout(12.90)">
+          <a href="https://checkout.centerpag.com/pay/PPU38CQDJP6" class="offer-card featured" style="text-decoration:none" onclick="trackCheckout(12.99)">
             <div class="offer-badge">⭐ MÁS POPULAR</div>
             <img class="offer-banner" src="https://perfectpay-files.s3.us-east-2.amazonaws.com/app/img/plan/PPPBEQL0/pplqqpjntimageheaderpathoutput_0_5_1.png" alt="AI OnlyFans Model Kit" loading="eager" />
             <div class="offer-items">
@@ -1285,7 +1285,7 @@
             <div class="offer-cta">
               <p class="total-value" style="margin-bottom:8px">Valor total: <b>$329 USD</b> — hoy por:</p>
               <p style="color:hsl(0,84%,60%);text-decoration:line-through;font-weight:700;margin-bottom:4px">desde $39 USD</p>
-              <p class="offer-price">$12.90 USD</p>
+              <p class="offer-price">$12.99 USD</p>
               <p style="color:#999;font-size:.8rem;margin-bottom:16px">pago único — menos que un café</p>
               <span class="cta-btn" style="max-width:100%">QUIERO EL MODELO +18 COMPLETO</span>
               <p style="color:#666;font-size:.7rem;margin-top:12px">Acceso inmediato tras confirmar el pago</p>
@@ -1357,7 +1357,7 @@
     /* ═══════════ CONFIG — edit price & checkout here ═══════════ */
     const OFFER = {
       priceOld: '$39',
-      priceNew: '$12.90 USD',
+      priceNew: '$12.99 USD',
       checkout: 'https://checkout.centerpag.com/pay/PPU38CQDJP6'
       // Basic $6.99 alternative: 'https://checkout.centerpag.com/pay/PPU38CQDJP8'
     };
@@ -1481,9 +1481,9 @@
 
     /* OFFER */
     function initOffer() {
-      fbq && fbq('track', 'ViewContent', { content_name: 'AI OFM Quiz Offer', value: 12.90, currency: 'USD' });
+      fbq && fbq('track', 'ViewContent', { content_name: 'AI OFM Quiz Offer', value: 12.99, currency: 'USD' });
       // PIT — high-intent event to optimize creatives by cost-per-offer-reached
-      fbq && fbq('trackCustom', 'ReachedOffer', { value: 12.90, currency: 'USD' });
+      fbq && fbq('trackCustom', 'ReachedOffer', { value: 12.99, currency: 'USD' });
     }
 
     function trackCheckout(value) {
