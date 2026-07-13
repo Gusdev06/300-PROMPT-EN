@@ -17,7 +17,8 @@
     }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1068021188891348');
     fbq('track', 'PageView');
-  </script>
+    fbq('track', 'ViewContent', { content_name: 'AI OFM Quiz Offer', content_type: 'product', value: 12.99, currency: 'USD' });
+</script>
   <noscript><img height="1" width="1" style="display:none"
       src="https://www.facebook.com/tr?id=1068021188891348&ev=PageView&noscript=1" /></noscript>
 
@@ -1472,7 +1473,7 @@
 
     /* OFFER */
     function initOffer() {
-      fbq && fbq('track', 'ViewContent', { content_name: 'AI OFM Quiz Offer', value: 12.99, currency: 'USD' });
+      // ViewContent agora dispara no load (no <head>), igual à index.
       // PIT — high-intent event to optimize creatives by cost-per-offer-reached
       fbq && fbq('trackCustom', 'ReachedOffer', { value: 12.99, currency: 'USD' });
     }
