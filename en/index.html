@@ -2688,6 +2688,7 @@
 
           <!-- BASIC PLAN -->
           <a href="https://checkout.centerpag.com/pay/PPU38CQCKMF"
+            onclick="fbq && fbq('track','InitiateCheckout',{content_name:'Basic Plan',value:6.99,currency:'USD'})"
             class="offer-card basic" style="text-decoration:none">
             <div class="offer-header">
               <h2>BASIC PLAN</h2>
@@ -2756,6 +2757,7 @@
 
           <!-- COMPLETE PLAN -->
           <a href="https://checkout.centerpag.com/pay/PPU38CQCKMH" class="offer-card featured"
+            onclick="fbq && fbq('track','InitiateCheckout',{content_name:'Complete Plan',value:12.99,currency:'USD'})"
             style="text-decoration:none">
             <div class="offer-badge">⭐ MOST POPULAR</div>
             <img class="offer-banner"
@@ -2996,6 +2998,23 @@
       track.addEventListener('mouseleave', () => { dragging = false; track.style.cursor = 'grab' });
       track.style.cursor = 'grab';
 
+    })();
+
+    /* HIGH-INTENT — fire ReachedOffer once when the offer section becomes visible */
+    (function () {
+      var offer = document.getElementById('offer');
+      if (!offer || !('IntersectionObserver' in window)) return;
+      var fired = false;
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (en) {
+          if (en.isIntersecting && !fired) {
+            fired = true;
+            fbq && fbq('trackCustom', 'ReachedOffer', { value: 12.99, currency: 'USD' });
+            io.disconnect();
+          }
+        });
+      }, { threshold: 0.4 });
+      io.observe(offer);
     })();
   </script>
 
