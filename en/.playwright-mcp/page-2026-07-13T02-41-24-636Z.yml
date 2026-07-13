@@ -1,0 +1,15 @@
+- generic [ref=f39e2]:
+  - generic [ref=f39e3]: gustagoat.ia
+  - generic [ref=f39e7]:
+    - generic [ref=f39e8]:
+      - generic [ref=f39e9]: ⏱ Quiz de 2 minutos
+      - heading [level=1] [ref=f39e10]:
+        - text: ¿Ya intentaste generar imágenes como
+        - emphasis [ref=f39e11]: esta
+        - text: en Nano Banana Pro o GPT Image 2 — y te bloquearon por "restricciones de contenido"?
+      - paragraph [ref=f39e12]: Descubre en menos de 2 minutos el método exacto que uso para saltarme todas las restricciones y generar 300+ imágenes 100% sin censura.
+      - button "Tap to undress" [ref=f39e13] [cursor=pointer]:
+        - generic: 👆 Toca para desnudar
+      - button "Muéstrame cómo →" [ref=f39e14] [cursor=pointer]
+      - paragraph [ref=f39e15]: Sin registro · 100% gratis para empezar
+    - text: + + + + + + + + +
