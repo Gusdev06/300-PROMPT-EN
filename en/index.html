@@ -2132,6 +2132,18 @@
     </div>
   </section>
 
+  <!-- HERO CTA (above-the-fold offer anchor) -->
+  <section style="background:linear-gradient(180deg,#000,hsl(199,70%,7%));padding:4px 0 32px">
+    <div class="container text-center">
+      <p style="font-size:1.1rem;font-weight:700;margin-bottom:6px">Get the full pack for
+        <span style="color:hsl(0,84%,60%);text-decoration:line-through">$39</span>
+        <span style="color:#00AFF0;font-weight:900;font-size:1.4rem">$12.99 USD</span>
+      </p>
+      <p style="color:#9acbe6;font-size:.8rem;margin-bottom:16px">One-time payment · Instant access · 7-day guarantee</p>
+      <a href="#offer" class="cta-btn">UNLOCK MY +18 MODEL NOW →</a>
+    </div>
+  </section>
+
   <!-- PAIN -->
   <section style="background:#000;padding:32px 0 40px">
     <div class="container" style="max-width:640px">
@@ -2466,7 +2478,7 @@
     <div class="container text-center">
       <p style="font-size:1.25rem;font-weight:700;margin-bottom:16px">All of this for <span
           style="color:hsl(0,84%,60%);text-decoration:line-through">$39</span> <span
-          style="color:#00AFF0;font-weight:900;font-size:1.5rem">$6.99 USD</span></p>
+          style="color:#00AFF0;font-weight:900;font-size:1.5rem">$12.99 USD</span></p>
       <a href="#offer" class="cta-btn">I WANT MY +18 MODEL NOW</a>
     </div>
   </section>
@@ -2561,9 +2573,9 @@
         <p class="sub">All with the same face you created. Ultra-realistic images, video with real motion, and uncensored content.</p>
       </div>
       <div class="reveal from-up grid-ex">
-        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-1.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
-        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-2.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
-        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-3.mp4" autoplay muted loop playsinline preload="metadata"></video></div>
+        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-1.mp4" poster="assets/thumb-0.webp" autoplay muted loop playsinline preload="metadata"></video></div>
+        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-2.mp4" poster="assets/thumb-1.webp" autoplay muted loop playsinline preload="metadata"></video></div>
+        <div class="cell"><span class="vtag">▶ video</span><video src="assets/video-3.mp4" poster="assets/thumb-3.webp" autoplay muted loop playsinline preload="metadata"></video></div>
         <div class="cell"><img src="assets/thumb-0.webp" alt="example" loading="lazy" /></div>
         <div class="cell"><img src="assets/thumb-1.webp" alt="example" loading="lazy" /></div>
         <div class="cell"><img src="assets/thumb-3.webp" alt="example" loading="lazy" /></div>
@@ -2687,8 +2699,8 @@
         <div class="plans-grid">
 
           <!-- BASIC PLAN -->
-          <a href="https://checkout.centerpag.com/pay/PPU38CQCKMF"
-            onclick="fbq && fbq('track','InitiateCheckout',{content_name:'Basic Plan',value:6.99,currency:'USD'})"
+          <a href="https://checkout.centerpag.com/pay/PPU38CQCKMF" data-ckt="basic"
+            onclick="fbq && fbq('track','InitiateCheckout',{content_name:'Basic Plan',content_category:'ckt_'+(window.CKT_VARIANT||'A'),value:6.99,currency:'USD'})"
             class="offer-card basic" style="text-decoration:none">
             <div class="offer-header">
               <h2>BASIC PLAN</h2>
@@ -2756,8 +2768,8 @@
           </a>
 
           <!-- COMPLETE PLAN -->
-          <a href="https://checkout.centerpag.com/pay/PPU38CQCKMH" class="offer-card featured"
-            onclick="fbq && fbq('track','InitiateCheckout',{content_name:'Complete Plan',value:12.99,currency:'USD'})"
+          <a href="https://checkout.centerpag.com/pay/PPU38CQCKMH" data-ckt="complete" class="offer-card featured"
+            onclick="fbq && fbq('track','InitiateCheckout',{content_name:'Complete Plan',content_category:'ckt_'+(window.CKT_VARIANT||'A'),value:12.99,currency:'USD'})"
             style="text-decoration:none">
             <div class="offer-badge">⭐ MOST POPULAR</div>
             <img class="offer-banner"
@@ -3015,6 +3027,56 @@
         });
       }, { threshold: 0.4 });
       io.observe(offer);
+    })();
+  </script>
+
+  <!-- STICKY BUY BAR (LPV→IC lever) -->
+  <a href="#offer" id="stickyBuy" onclick="try{fbq&&fbq('trackCustom','ClickStickyCTA')}catch(e){}"
+     style="position:fixed;left:0;right:0;bottom:0;z-index:9999;display:flex;align-items:center;justify-content:center;gap:12px;
+            padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(0,0,0,.92);
+            border-top:1px solid rgba(0,175,240,.5);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+            text-decoration:none;transform:translateY(130%);transition:transform .35s cubic-bezier(.4,0,.2,1)">
+    <span style="display:flex;flex-direction:column;line-height:1.15">
+      <b style="color:#fff;font-size:.95rem;font-weight:900">Unlock my +18 model</b>
+      <span style="color:#9acbe6;font-size:.7rem">300+ prompts · 7-day guarantee</span>
+    </span>
+    <span style="background:linear-gradient(135deg,#00AFF0,#0088cc);color:#fff;font-weight:900;
+                 padding:12px 22px;border-radius:999px;font-size:.95rem;white-space:nowrap;
+                 box-shadow:0 4px 16px rgba(0,175,240,.5)">GET ACCESS →</span>
+  </a>
+  <script>
+    (function(){
+      var bar=document.getElementById('stickyBuy'); if(!bar) return;
+      var offer=document.getElementById('offer');
+      var offerVisible=false, scrolled=false;
+      function update(){ bar.style.transform=(scrolled && !offerVisible)?'translateY(0)':'translateY(130%)'; }
+      window.addEventListener('scroll',function(){ scrolled=window.scrollY>500; update(); },{passive:true});
+      if(offer && 'IntersectionObserver' in window){
+        new IntersectionObserver(function(es){ offerVisible=es[0].isIntersecting; update(); },{threshold:.25}).observe(offer);
+      }
+    })();
+  </script>
+
+  <!-- CHECKOUT A/B SPLIT 50/50 (isola o checkout como variável) -->
+  <script>
+    (function(){
+      // A = checkout atual (CenterPag) · B = checkout novo (mycheckoutt)
+      var A={ basic:'https://checkout.centerpag.com/pay/PPU38CQCKMF',
+              complete:'https://checkout.centerpag.com/pay/PPU38CQCKMH' };
+      var B={ basic:'https://pay.mycheckoutt.com/019f7845-08d3-7200-a2d5-63c886d8c090?ref=',
+              complete:'https://pay.mycheckoutt.com/019f7841-7b12-7149-a439-36915c4f374d?ref=' };
+      var KEY='ckt_variant', v;
+      try{ v=localStorage.getItem(KEY); }catch(e){}
+      if(v!=='A' && v!=='B'){ v = Math.random()<0.5 ? 'A' : 'B'; try{ localStorage.setItem(KEY,v); }catch(e){} }
+      window.CKT_VARIANT=v;
+      var set = (v==='B') ? B : A;
+      document.querySelectorAll('a[data-ckt]').forEach(function(a){
+        var plan=a.getAttribute('data-ckt');
+        if(set[plan]) a.setAttribute('href', set[plan]);
+      });
+      // marca a variante nos analytics pra leitura no Meta/GA (a venda é separada pela URL na UTMify)
+      try{ fbq && fbq('trackCustom','CheckoutVariant',{variant:v}); }catch(e){}
+      try{ gtag && gtag('event','checkout_variant',{variant:v}); }catch(e){}
     })();
   </script>
 
