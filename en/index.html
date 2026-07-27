@@ -3057,7 +3057,7 @@
     })();
   </script>
 
-  <!-- CHECKOUT A/B SPLIT 50/50 (isola o checkout como variável) -->
+  <!-- CHECKOUT — FORÇADO 100% A (CenterPag). Amanhã: trocar FORCE p/ 'B' pra rodar 100% mycheckoutt -->
   <script>
     (function(){
       // A = checkout atual (CenterPag) · B = checkout novo (mycheckoutt)
@@ -3065,9 +3065,14 @@
               complete:'https://checkout.centerpag.com/pay/PPU38CQCKMH' };
       var B={ basic:'https://pay.mycheckoutt.com/019f7845-08d3-7200-a2d5-63c886d8c090?ref=',
               complete:'https://pay.mycheckoutt.com/019f7841-7b12-7149-a439-36915c4f374d?ref=' };
+      // ▶ Para alternar: 'A' = só CenterPag · 'B' = só mycheckoutt · null = volta pro split 50/50
+      var FORCE='A';
       var KEY='ckt_variant', v;
-      try{ v=localStorage.getItem(KEY); }catch(e){}
-      if(v!=='A' && v!=='B'){ v = Math.random()<0.5 ? 'A' : 'B'; try{ localStorage.setItem(KEY,v); }catch(e){} }
+      if(FORCE==='A' || FORCE==='B'){ v=FORCE; try{ localStorage.setItem(KEY,v); }catch(e){} }
+      else {
+        try{ v=localStorage.getItem(KEY); }catch(e){}
+        if(v!=='A' && v!=='B'){ v = Math.random()<0.5 ? 'A' : 'B'; try{ localStorage.setItem(KEY,v); }catch(e){} }
+      }
       window.CKT_VARIANT=v;
       var set = (v==='B') ? B : A;
       document.querySelectorAll('a[data-ckt]').forEach(function(a){
