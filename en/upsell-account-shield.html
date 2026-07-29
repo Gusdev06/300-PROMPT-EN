@@ -27,9 +27,6 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
 
-  <!-- Mundpay Upsell one-click (redirecionamento) -->
-  <script src="https://upsell.mundpay.com/script-v2.js" defer async></script>
-
   <style>
     html { scroll-behavior: smooth }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
@@ -685,18 +682,51 @@
         </div>
       </div>
 
-      <!-- CTA — Mundpay one-click: renderiza os botões aceitar/recusar (aceitar→facial-consistency, recusar→thank-you, configurado no painel) -->
+      <!-- CTA -->
       <div class="cta-wrap">
-        <div data-mndpay-render="019fae31-7e45-73fa-a289-cb793b1fa921"></div>
+        <a href="https://checkout.centerpag.com/pay/PPU38CQEBQ7?upsell=true" class="cta-btn" id="ctaAdd">
+          ✅ ✓ YES, MAKE MY INSTAGRAM BULLETPROOF <span class="arrow">→</span>
+        </a>
         <div class="cta-secure">
           <span>🔒 Secure payment</span>
           <span>⚡ Instant access</span>
           <span>🛡️ 7-day guarantee</span>
         </div>
+        <a class="no-thanks" id="noThanks">❌ No thanks, I'll risk losing my account and starting from zero</a>
       </div>
     </div>
   </section>
 
+  <!-- EXIT INTENT POP-UP -->
+  <div class="modal-overlay" id="declineModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-flag">⚠️ Wait — read this first</div>
+      <h3 class="modal-title" id="modalTitle">
+        Without this, you are risking <span class="modal-num">100%</span> of the work you just put in.
+      </h3>
+      <p class="modal-text">
+        You have the perfect images and the prompts to build her. But if your account gets hit by a shadowban or disabled by Instagram tomorrow, none of it matters.
+      </p>
+      <div class="modal-bar-wrap">
+        <div class="modal-bar-row">
+          <span>Without the Playbook</span><span class="modal-bar-val red">High risk of losing everything</span>
+        </div>
+        <div class="modal-bar"><div class="modal-bar-fill red" style="width:90%"></div></div>
+        <div class="modal-bar-row" style="margin-top:16px">
+          <span>With the Playbook</span><span class="modal-bar-val green">100% peace of mind</span>
+        </div>
+        <div class="modal-bar"><div class="modal-bar-fill green" style="width:100%"></div></div>
+      </div>
+      <p class="modal-text" style="margin-top:20px">
+        For a single <strong>$24.90</strong>, you protect your entire new business from the algorithm.
+      </p>
+      <a href="https://checkout.centerpag.com/pay/PPU38CQEBQ7?upsell=true" class="cta-btn" id="modalAccept" style="animation:none">
+        ✅ ✓ YES, PROTECT MY ACCOUNT NOW <span class="arrow">→</span>
+      </a>
+      <a href="https://www.promptsgoat.com/en/upsell-facial-consistency.html" class="no-thanks" id="modalDecline">❌ No thanks, I like living dangerously with algorithm bans</a>
+    </div>
+  </div>
 
   <script>
     // ===== TIMER =====
@@ -731,6 +761,36 @@
       obs.observe(grid);
     })();
 
+
+    // ===== DECLINE → DOWNSELL POPUP =====
+    (function(){
+      const modal   = document.getElementById('declineModal');
+      const noThanks = document.getElementById('noThanks');
+      const closeBtn = document.getElementById('modalClose');
+      const decline  = document.getElementById('modalDecline');
+      if (!modal) return;
+
+      function openModal(e){
+        if (e) e.preventDefault();
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden','false');
+        document.body.classList.add('modal-open');
+      }
+      function closeModal(){
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden','true');
+        document.body.classList.remove('modal-open');
+      }
+
+      // First "no thanks" → show popup instead of leaving
+      if (noThanks) noThanks.addEventListener('click', openModal);
+
+      // X / overlay click → just close
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
+
+      // Final decline inside popup → leave to next step (handled by href attribute)
+    })();
   </script>
 
 </body>

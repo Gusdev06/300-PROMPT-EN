@@ -3057,7 +3057,7 @@
     })();
   </script>
 
-  <!-- CHECKOUT — FORÇADO 100% B (mycheckoutt/Mundpay). Teste anterior: 100% A (CenterPag/PerfectPay). Pra voltar ao split: FORCE=null -->
+  <!-- CHECKOUT — FORÇADO 100% A (CenterPag). Mundpay/mycheckoutt desativado. Pra voltar ao split: FORCE=null -->
   <script>
     (function(){
       // A = checkout atual (CenterPag) · B = checkout novo (mycheckoutt)
@@ -3066,7 +3066,7 @@
       var B={ basic:'https://pay.mycheckoutt.com/019f7845-08d3-7200-a2d5-63c886d8c090?ref=',
               complete:'https://pay.mycheckoutt.com/019f7841-7b12-7149-a439-36915c4f374d?ref=' };
       // ▶ Para alternar: 'A' = só CenterPag · 'B' = só mycheckoutt · null = volta pro split 50/50
-      var FORCE='B';
+      var FORCE='A';
       var KEY='ckt_variant', v;
       if(FORCE==='A' || FORCE==='B'){ v=FORCE; try{ localStorage.setItem(KEY,v); }catch(e){} }
       else {
