@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>WAIT! AI Instagram Survival Playbook</title>
+  <meta name="robots" content="noindex,nofollow" />
+  
+     <!-- UTMify UTMs -->
+  <script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
+
+  <!-- UTMify Pixel -->
+  <script>
+  window.pixelId = "6a32791a93ba8dd0d487b6bd";
+  var a = document.createElement("script");
+  a.setAttribute("async", "");
+  a.setAttribute("defer", "");
+  a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
+  document.head.appendChild(a);
+</script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <style>
+    html { scroll-behavior: smooth }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+      line-height: 1.5;
+    }
+    .container { max-width: 880px; margin: 0 auto; padding: 0 16px; }
+    
+    :root {
+      --accent: #00AFF0;
+      --accent-2: #9EEB47;
+      --gold: #FFB800;
+      --green: #00A13C;
+      --red: hsl(0,84%,60%);
+    }
+
+    /* ===== TOP ALERT BAR ===== */
+    .alert-bar {
+      background: linear-gradient(90deg, hsl(0,84%,55%), hsl(20,90%,55%));
+      color: #fff;
+      text-align: center;
+      padding: 10px 16px;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 4px 20px rgba(0,0,0,.5);
+    }
+    .alert-bar .timer {
+      display: inline-block;
+      background: rgba(0,0,0,.35);
+      padding: 2px 8px;
+      border-radius: 4px;
+      margin-left: 6px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      padding: 48px 0 32px;
+      text-align: center;
+      position: relative;
+    }
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 50% at 50% 0%, rgba(0,175,240,.14), transparent 70%);
+      pointer-events: none;
+    }
+    .hero-flag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0,175,240,.12);
+      border: 1px solid rgba(0,175,240,.4);
+      color: var(--accent);
+      font-size: .72rem;
+      font-weight: 800;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-flag-dot {
+      width: 6px; height: 6px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: pulse 1.4s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity: 1; transform: scale(1) }
+      50% { opacity: .35; transform: scale(.85) }
+    }
+    .hero h1 {
+      font-size: clamp(1.85rem, 4.5vw, 2.8rem);
+      font-weight: 900;
+      letter-spacing: -.03em;
+      line-height: 1.15;
+      margin-bottom: 24px;
+      position: relative;
+      z-index: 1;
+    }
+    .hero h1 .stop {
+      color: hsl(0,84%,60%);
+      display: block;
+      font-size: clamp(2.2rem, 6vw, 3.8rem);
+      margin-bottom: 6px;
+    }
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      color: #bbb;
+      max-width: 720px;
+      margin: 0 auto 36px;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-sub strong { color: #fff; font-weight: 700; }
+
+    /* ===== COMPARISON BLOCKS ===== */
+    .ba-stack {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      max-width: 100%;
+      margin: 0 auto 32px;
+      position: relative;
+      z-index: 1;
+    }
+    @media(min-width:768px){ .ba-stack { gap: 24px; } }
+    .ba-block { display: grid; gap: 10px; }
+    .ba-block h3 {
+      font-size: clamp(1.125rem, 2.5vw, 1.5rem);
+      font-weight: 900;
+      text-align: center;
+    }
+    .ba-block h3.red { color: hsl(0,84%,60%); }
+    .ba-block h3.green { color: #9EEB47; }
+    
+    .ba-img-cell {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid #2a2a2a;
+    }
+    .ba-img-cell.success {
+      border-color: #9EEB47;
+      box-shadow: 0 4px 20px rgba(158, 235, 71, 0.1);
+    }
+    .ba-img-cell img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .subtitle {
+      text-align: center;
+      font-weight: 700;
+      font-size: .95rem;
+      color: #ddd;
+    }
+
+    /* ===== METRICS GRID ===== */
+    .ba-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+    }
+    @media(min-width:768px){ .ba-grid { gap: 24px; } }
+    
+    .metric { display: flex; flex-direction: column; gap: 4px; }
+    .metric .label { font-weight: 700; font-size: .875rem; color: #fff; }
+    .metric .row { display: flex; justify-content: space-between; align-items: center; }
+    .metric .row span { font-size: .8rem; color: #b3b3b3; }
+    .metric .row .val { font-weight: 800; }
+    .metric .row .val.red { color: hsl(0,84%,60%); }
+    .metric .row .val.green { color: #9EEB47; }
+    .progress-bar { width: 100%; height: 12px; border-radius: 9999px; background: hsl(0,0%,15%); overflow: hidden; }
+    .progress-fill { height: 100%; border-radius: 9999px; transition: width 1.2s cubic-bezier(.4,0,.2,1); }
+    .progress-fill.red { background: hsl(0,84%,60%); }
+    .progress-fill.green { background: #9EEB47; }
+    .progress-fill.waiting { width: 0 !important; }
+    
+    .demo-caption {
+      text-align: center;
+      font-size: .85rem;
+      color: #999;
+      margin: 36px auto 40px;
+      font-style: italic;
+      max-width: 640px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* ===== SECTION DEFAULT ===== */
+    .section { padding: 48px 0; }
+    .section-title {
+      font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+      font-weight: 900;
+      letter-spacing: -.02em;
+      line-height: 1.15;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    .section-title .cyan { color: var(--accent); }
+    .section-sub {
+      text-align: center;
+      color: #aaa;
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto 36px;
+    }
+
+    /* ===== HOW IT WORKS ===== */
+    .steps-grid {
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 1fr;
+      max-width: 840px;
+      margin: 0 auto;
+    }
+    @media(min-width:760px){
+      .steps-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    .step-card {
+      background: hsl(0,0%,6%);
+      border: 1px solid hsl(0,0%,15%);
+      border-radius: 12px;
+      padding: 28px 20px;
+      text-align: center;
+      position: relative;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .step-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 30px rgba(0,175,240,0.1);
+      border-color: rgba(0,175,240,0.3);
+    }
+    .step-card .step-num {
+      position: absolute;
+      top: -16px; left: 50%;
+      transform: translateX(-50%);
+      width: 32px; height: 32px;
+      background: var(--accent);
+      color: #000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: .95rem;
+    }
+    .step-card .step-icon { font-size: 2.5rem; margin: 12px 0 16px; }
+    .step-card h4 { font-size: 1.1rem; font-weight: 800; margin-bottom: 10px; }
+    .step-card p { font-size: .9rem; color: #aaa; line-height: 1.5; }
+
+    /* ===== VALUE STACK ===== */
+    .stack-box {
+      max-width: 600px;
+      margin: 40px auto 0;
+      background: hsl(0,0%,5%);
+      border: 1px solid hsl(0,0%,15%);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+    }
+    .stack-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 0;
+      font-size: .95rem;
+      border-bottom: 1px dashed hsl(0,0%,15%);
+    }
+    .stack-row:last-of-type { border-bottom: none; }
+    .stack-row .name { color: #ddd; font-weight: 500; }
+    .stack-row .val { color: #888; text-decoration: line-through; font-variant-numeric: tabular-nums; }
+    
+    .stack-total {
+      margin-top: 16px;
+      padding-top: 18px;
+      border-top: 2px solid hsl(0,0%,25%);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .stack-total .lbl {
+      font-size: .9rem;
+      color: #888;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      font-weight: 800;
+    }
+    .stack-total .val-old {
+      font-size: 1.6rem;
+      color: #666;
+      text-decoration: line-through;
+      font-weight: 900;
+    }
+    
+    .stack-final {
+      text-align: center;
+      margin-top: 24px;
+      padding: 24px;
+      background: linear-gradient(135deg, rgba(0,175,240,.12), rgba(0,175,240,.03));
+      border: 1px solid rgba(0,175,240,.4);
+      border-radius: 12px;
+    }
+    .stack-final .lbl2 {
+      font-size: .8rem;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--accent);
+      font-weight: 900;
+      margin-bottom: 8px;
+    }
+    .stack-final .price {
+      font-size: 3.5rem;
+      font-weight: 900;
+      color: #fff;
+      letter-spacing: -.03em;
+      line-height: 1;
+    }
+    .stack-final .price small { font-size: 1.2rem; color: #aaa; font-weight: 600; }
+    .stack-final .note { font-size: .85rem; color: #aaa; margin-top: 10px; }
+    .stack-final .saving {
+      display: inline-block;
+      margin-top: 14px;
+      background: rgba(158,235,71,.15);
+      color: #4ade80;
+      font-size: .85rem;
+      font-weight: 900;
+      padding: 6px 14px;
+      border-radius: 6px;
+      letter-spacing: .02em;
+      text-transform: uppercase;
+    }
+
+    /* ===== CTA ===== */
+    .cta-wrap { max-width: 600px; margin: 36px auto 0; text-align: center; }
+    .cta-btn {
+      display: block;
+      width: 100%;
+      background: linear-gradient(180deg, #9EEB47, #7CC234);
+      color: #000;
+      text-align: center;
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      font-weight: 900;
+      letter-spacing: .01em;
+      padding: 22px 24px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 8px 24px rgba(158,235,71,.4), inset 0 1px 0 rgba(255,255,255,.2);
+      transition: all .2s;
+      animation: cta-pulse 2.4s ease-in-out infinite;
+      text-transform: uppercase;
+    }
+    .cta-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 32px rgba(158,235,71,.55), inset 0 1px 0 rgba(255,255,255,.25);
+    }
+    .cta-btn:active { transform: translateY(0); }
+    @keyframes cta-pulse {
+      0%,100% { box-shadow: 0 8px 24px rgba(158,235,71,.4), inset 0 1px 0 rgba(255,255,255,.2); }
+      50% { box-shadow: 0 8px 30px rgba(158,235,71,.65), inset 0 1px 0 rgba(255,255,255,.2); }
+    }
+    .cta-btn .arrow {
+      display: inline-block;
+      margin-left: 6px;
+      transition: transform .2s;
+    }
+    .cta-btn:hover .arrow { transform: translateX(4px); }
+
+    .cta-secure {
+      margin-top: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      font-size: .8rem;
+      color: #777;
+      flex-wrap: wrap;
+    }
+    .cta-secure span { display: inline-flex; align-items: center; gap: 6px; font-weight: 500; }
+
+    .no-thanks {
+      display: block;
+      margin: 24px auto 0;
+      color: #666;
+      font-size: .85rem;
+      text-align: center;
+      text-decoration: underline;
+      cursor: pointer;
+      transition: color .2s;
+    }
+    .no-thanks:hover { color: #999; }
+
+    /* ===== DECLINE / DOWNSELL MODAL ===== */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,.82);
+      backdrop-filter: blur(6px);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      z-index: 100;
+    }
+    .modal-overlay.open { display: flex; }
+    .modal-box {
+      position: relative;
+      width: 100%;
+      max-width: 480px;
+      background: linear-gradient(180deg, hsl(0,0%,9%), hsl(0,0%,5%));
+      border: 1px solid rgba(0,175,240,.35);
+      border-radius: 18px;
+      padding: 36px 30px 32px;
+      text-align: center;
+      box-shadow: 0 30px 80px rgba(0,0,0,.7), 0 0 0 1px rgba(0,175,240,.1);
+      animation: modal-in .25s ease;
+    }
+    @keyframes modal-in {
+      from { opacity: 0; transform: translateY(16px) scale(.97); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .modal-close {
+      position: absolute;
+      top: 14px; right: 18px;
+      background: none;
+      border: none;
+      color: #777;
+      font-size: 2rem;
+      line-height: 1;
+      cursor: pointer;
+      transition: color .2s;
+    }
+    .modal-close:hover { color: #fff; }
+    .modal-flag {
+      display: inline-block;
+      font-size: .75rem;
+      font-weight: 800;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: hsl(0,84%,65%);
+      background: rgba(220,38,38,.12);
+      border: 1px solid rgba(220,38,38,.3);
+      padding: 6px 14px;
+      border-radius: 999px;
+      margin-bottom: 18px;
+    }
+    .modal-title {
+      font-size: clamp(1.35rem, 4vw, 1.8rem);
+      font-weight: 900;
+      letter-spacing: -.02em;
+      line-height: 1.25;
+      margin-bottom: 16px;
+    }
+    .modal-title .modal-num { color: hsl(0,84%,62%); }
+    .modal-text {
+      font-size: .95rem;
+      color: #bbb;
+      line-height: 1.6;
+    }
+    .modal-text strong { color: #fff; }
+    
+    .modal-bar-wrap {
+      margin-top: 24px;
+      text-align: left;
+      background: hsl(0,0%,4%);
+      border: 1px solid hsl(0,0%,14%);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .modal-bar-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: .85rem;
+      color: #aaa;
+      margin-bottom: 8px;
+    }
+    .modal-bar-val { font-weight: 800; }
+    .modal-bar-val.red { color: hsl(0,84%,62%); }
+    .modal-bar-val.green { color: #9EEB47; }
+    .modal-bar {
+      width: 100%;
+      height: 12px;
+      border-radius: 999px;
+      background: hsl(0,0%,15%);
+      overflow: hidden;
+    }
+    .modal-bar-fill { height: 100%; border-radius: 999px; }
+    .modal-bar-fill.red { background: hsl(0,84%,60%); }
+    .modal-bar-fill.green { background: #9EEB47; }
+    
+    .modal-box .cta-btn { margin-top: 28px; }
+    body.modal-open { overflow: hidden; }
+  </style>
+</head>
+<body>
+
+  <!-- ALERT BAR -->
+  <div class="alert-bar">
+    ⚠️ WAIT — This is your final step. This one-time offer expires in <span class="timer" id="timer">09:59</span>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <span class="hero-flag">
+        <span class="hero-flag-dot"></span>
+        One-time add-on — new customers only
+      </span>
+      <h1>
+        <span class="stop">WAIT!</span>
+        You have the perfect AI influencer, but what happens if Instagram bans your account tomorrow?
+      </h1>
+      <p class="hero-sub">
+        <strong>90% of beginners</strong> build an amazing AI Influencer, get their first 10,000 followers... and then wake up to a "Your account has been suspended" message.
+        <br/><br/>
+        The result? Weeks of work gone in seconds. Shadowbans destroy your reach, the algorithm flags your content as "spam", and haters expose your account.
+        <br/><br/>
+        <strong>Goodbye followers. Goodbye income.</strong> The AI Instagram Survival Playbook fixes this forever — giving you the exact rules to stay safe, active, and monetized.
+      </p>
+
+      <!-- VSL -->
+      <div style="position:relative;z-index:1;margin:0 auto 36px;max-width:400px;">
+        <vturb-smartplayer id="vid-6a54558995728e097628d3e1" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"><div class="vturb-player-placeholder" style="position: relative; width: 100%; padding: 177.77777777777777% 0 0; z-index: 0; background-color: black;"></div></vturb-smartplayer>
+        <script type="text/javascript">
+          var s = document.createElement("script");
+          s.src = "https://scripts.converteai.net/8961d838-aff2-4dce-9b39-e84022d332ce/players/6a54558995728e097628d3e1/v4/player.js", s.async = !0, document.head.appendChild(s);
+        </script>
+      </div>
+
+      <!-- COMPARISON -->
+      <div class="ba-stack">
+        <div class="ba-block">
+          <h3 class="red">Without the Playbook</h3>
+          <div class="ba-img-cell">
+            <img src="semresultado.png" alt="Account banned or zero reach" loading="lazy" />
+          </div>
+          <div class="subtitle">Constant fear of bans and zero reach</div>
+        </div>
+        <div class="ba-block">
+          <h3 class="green">With the Playbook</h3>
+          <div class="ba-img-cell success">
+            <img src="comresultado.png" alt="Safe and growing account" loading="lazy" />
+          </div>
+          <div class="subtitle">A bulletproof account that grows safely</div>
+        </div>
+      </div>
+
+      <div class="ba-grid" style="margin-top:40px">
+        <!-- Metric 1 -->
+        <div class="metric">
+          <p class="label">Account Lifespan</p>
+          <div class="row"><span>Banned in 2 weeks</span><span class="val red">10%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="10"></div></div>
+        </div>
+        <div class="metric">
+          <p class="label">Account Lifespan</p>
+          <div class="row"><span>Safe and active for years</span><span class="val green">99%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="99"></div></div>
+        </div>
+        
+        <!-- Metric 2 -->
+        <div class="metric">
+          <p class="label">Algorithm Trust</p>
+          <div class="row"><span>Flagged as spam/AI</span><span class="val red">15%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="15"></div></div>
+        </div>
+        <div class="metric">
+          <p class="label">Algorithm Trust</p>
+          <div class="row"><span>Promoted organically</span><span class="val green">95%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="95"></div></div>
+        </div>
+
+        <!-- Metric 3 -->
+        <div class="metric">
+          <p class="label">Audience Perception</p>
+          <div class="row"><span>"Exposed as AI" in comments</span><span class="val red">20%</span></div>
+          <div class="progress-bar"><div class="progress-fill red waiting" data-width="20"></div></div>
+        </div>
+        <div class="metric">
+          <p class="label">Audience Perception</p>
+          <div class="row"><span>Seen as a real, engaged creator</span><span class="val green">100%</span></div>
+          <div class="progress-bar"><div class="progress-fill green waiting" data-width="100"></div></div>
+        </div>
+      </div>
+      <p class="demo-caption">↑ This single difference is what keeps your business generating money instead of starting from zero every month.</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">
+        How to <span class="cyan">bulletproof</span> your account
+      </h2>
+      <p class="section-sub">3 simple steps. Implement once. Post without fear.</p>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <div class="step-icon">📥</div>
+          <h4>Open the Playbook</h4>
+          <p>Instant access to the exact rules Instagram doesn't want you to know about AI content.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <div class="step-icon">🛡️</div>
+          <h4>Apply the "Anti-Ban" Shield</h4>
+          <p>Adjust your posting frequency, hashtags, and captions to bypass AI detectors.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <div class="step-icon">🚀</div>
+          <h4>Grow and Monetize</h4>
+          <p>Scale your account and secure your brand deals without ever worrying about waking up to a disabled page.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFFER STACK -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">
+        Add the <span class="cyan">AI Instagram Survival Playbook</span> now
+      </h2>
+
+      <div class="stack-box">
+        <div class="stack-row">
+          <span class="name">The "Anti-Ban" Posting Protocol</span>
+          <span class="val">$47.00</span>
+        </div>
+        <div class="stack-row">
+          <span class="name">Shadowban Evasion Secrets</span>
+          <span class="val">$27.00</span>
+        </div>
+        <div class="stack-row">
+          <span class="name">How to handle "Is this AI?" comments gracefully</span>
+          <span class="val">$37.00</span>
+        </div>
+        <div class="stack-row">
+          <span class="name">Lifetime updates (As the algorithm changes)</span>
+          <span class="val">$17.00</span>
+        </div>
+        <div class="stack-total">
+          <span class="lbl">Total value</span>
+          <span class="val-old">$128 USD</span>
+        </div>
+        <div class="stack-final">
+          <p class="lbl2">⚡ Today only, on this page</p>
+          <div class="price">$24.90<small> USD</small></div>
+          <p class="note">One-time payment. Added to your current order. Lifetime access.</p>
+          <span class="saving">You save $103 — 80% OFF</span>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="cta-wrap">
+        <a href="https://checkout.centerpag.com/pay/PPU38CQEBQ7?upsell=true" class="cta-btn" id="ctaAdd">
+          ✅ ✓ YES, MAKE MY INSTAGRAM BULLETPROOF <span class="arrow">→</span>
+        </a>
+        <div class="cta-secure">
+          <span>🔒 Secure payment</span>
+          <span>⚡ Instant access</span>
+          <span>🛡️ 7-day guarantee</span>
+        </div>
+        <a class="no-thanks" id="noThanks">❌ No thanks, I'll risk losing my account and starting from zero</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXIT INTENT POP-UP -->
+  <div class="modal-overlay" id="declineModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-flag">⚠️ Wait — read this first</div>
+      <h3 class="modal-title" id="modalTitle">
+        Without this, you are risking <span class="modal-num">100%</span> of the work you just put in.
+      </h3>
+      <p class="modal-text">
+        You have the perfect images and the prompts to build her. But if your account gets hit by a shadowban or disabled by Instagram tomorrow, none of it matters.
+      </p>
+      <div class="modal-bar-wrap">
+        <div class="modal-bar-row">
+          <span>Without the Playbook</span><span class="modal-bar-val red">High risk of losing everything</span>
+        </div>
+        <div class="modal-bar"><div class="modal-bar-fill red" style="width:90%"></div></div>
+        <div class="modal-bar-row" style="margin-top:16px">
+          <span>With the Playbook</span><span class="modal-bar-val green">100% peace of mind</span>
+        </div>
+        <div class="modal-bar"><div class="modal-bar-fill green" style="width:100%"></div></div>
+      </div>
+      <p class="modal-text" style="margin-top:20px">
+        For a single <strong>$24.90</strong>, you protect your entire new business from the algorithm.
+      </p>
+      <a href="https://checkout.centerpag.com/pay/PPU38CQEBQ7?upsell=true" class="cta-btn" id="modalAccept" style="animation:none">
+        ✅ ✓ YES, PROTECT MY ACCOUNT NOW <span class="arrow">→</span>
+      </a>
+      <a href="https://www.promptsgoat.com/in/upsell-facial-consistency.html" class="no-thanks" id="modalDecline">❌ No thanks, I like living dangerously with algorithm bans</a>
+    </div>
+  </div>
+
+  <script>
+    // ===== TIMER =====
+    (function(){
+      const timerEl = document.getElementById('timer');
+      let totalSeconds = 9 * 60 + 59;
+      function tick(){
+        const m = String(Math.floor(totalSeconds / 60)).padStart(2,'0');
+        const s = String(totalSeconds % 60).padStart(2,'0');
+        if (timerEl) timerEl.textContent = m + ':' + s;
+        if (totalSeconds > 0) totalSeconds--;
+      }
+      tick();
+      setInterval(tick, 1000);
+    })();
+
+    // ===== ANIMATE PROGRESS BARS ON SCROLL =====
+    (function(){
+      const grid = document.querySelector('.ba-grid');
+      if (!grid) return;
+      const obs = new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) {
+            document.querySelectorAll('.progress-fill.waiting').forEach(bar => {
+              bar.style.width = bar.dataset.width + '%';
+              bar.classList.remove('waiting');
+            });
+            obs.unobserve(e.target);
+          }
+        });
+      }, { threshold: 0.3 });
+      obs.observe(grid);
+    })();
+
+
+    // ===== DECLINE → DOWNSELL POPUP =====
+    (function(){
+      const modal   = document.getElementById('declineModal');
+      const noThanks = document.getElementById('noThanks');
+      const closeBtn = document.getElementById('modalClose');
+      const decline  = document.getElementById('modalDecline');
+      if (!modal) return;
+
+      function openModal(e){
+        if (e) e.preventDefault();
+        modal.classList.add('open');
+        modal.setAttribute('aria-hidden','false');
+        document.body.classList.add('modal-open');
+      }
+      function closeModal(){
+        modal.classList.remove('open');
+        modal.setAttribute('aria-hidden','true');
+        document.body.classList.remove('modal-open');
+      }
+
+      // First "no thanks" → show popup instead of leaving
+      if (noThanks) noThanks.addEventListener('click', openModal);
+
+      // X / overlay click → just close
+      if (closeBtn) closeBtn.addEventListener('click', closeModal);
+      modal.addEventListener('click', function(e){ if (e.target === modal) closeModal(); });
+
+      // Final decline inside popup → leave to next step (handled by href attribute)
+    })();
+  </script>
+
+</body>
+</html>
