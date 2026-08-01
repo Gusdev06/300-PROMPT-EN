@@ -295,15 +295,6 @@
         </div>
       </div>
 
-      <div class="field">
-        <div class="ico">🔑</div>
-        <div class="body">
-          <div class="lbl">Password</div>
-          <div class="val"><span class="mono" id="pwd">@aimodellab</span></div>
-        </div>
-        <button class="copy-btn" id="copyPwd" data-copy="@aimodellab">Copy</button>
-      </div>
-
       <a href="https://area-membros-gamma.vercel.app" target="_blank" rel="noopener" class="login-btn">
         Log in to my members area →
       </a>
@@ -317,8 +308,8 @@
         your access may still be processing.
       </p>
       <p>
-        Still can't get in? <strong>Reset your password</strong> on the login page (use the
-        “Forgot password / Reset password” option with the same email you used at checkout) and log in with the new one.
+        Just log in with the <strong>same email you used at checkout</strong> — no password needed.
+        Still can't get in after a few minutes? Reach out below and I'll sort it out for you.
       </p>
     </div>
 
@@ -335,20 +326,5 @@
     <p class="footer">Enjoy! 🚀 — © gustagoat.ia</p>
   </div>
 
-  <script>
-    // Copy password
-    (function(){
-      const btn = document.getElementById('copyPwd');
-      if (!btn) return;
-      btn.addEventListener('click', function(){
-        const text = btn.dataset.copy;
-        navigator.clipboard.writeText(text).then(function(){
-          btn.textContent = '✓ Copied';
-          btn.classList.add('done');
-          setTimeout(function(){ btn.textContent = 'Copy'; btn.classList.remove('done'); }, 2000);
-        });
-      });
-    })();
-  </script>
 </body>
 </html>
