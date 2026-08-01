@@ -1051,7 +1051,7 @@
     // CONFIG: replace these links with your real one-click checkout / next step
     const URL_ACCEPT   = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept full upsell ($17.90)
     const URL_DOWNSELL = 'https://checkout.centerpag.com/pay/PPU38CQEBPU?upsell=true';  // downsell core method ($9.99)
-    const URL_DECLINE  = 'https://www.promptsgoat.com/en/thank-you.html';              // decline → thank-you page
+    const URL_DECLINE  = 'https://www.promptsgoat.com/en/upsell-account-shield.html';  // decline → next upsell (Account Shield)
 
     function bindCta(id, url, fbEvent, name, value){
       const el = document.getElementById(id);
