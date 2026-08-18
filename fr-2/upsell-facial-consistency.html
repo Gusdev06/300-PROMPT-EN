@@ -18,6 +18,7 @@
     }(window, document, 'script', 'https://connect.facebook.net/fr_FR/fbevents.js');
     fbq('init', '2309964963110456');
     fbq('init', '1068021188891348');
+    fbq('init', '1223791793200733');
     fbq('track', 'PageView');
     fbq('track', 'ViewContent', { content_name: 'Upsell Facial Consistency Guide', content_type: 'product', value: 17.90, currency: 'EUR' });
   </script>
@@ -934,29 +935,19 @@
       <div class="stack-box">
         <div class="stack-row">
           <span class="name">La Méthode « Face-Lock » — photo + vidéo (pas à pas)</span>
-          <span class="val">47,00 €</span>
         </div>
         <div class="stack-row">
           <span class="name">Tuto capture d'écran par capture d'écran</span>
-          <span class="val">27,00 €</span>
         </div>
         <div class="stack-row">
           <span class="name">Les secrets de cohérence pro vs amateur</span>
-          <span class="val">37,00 €</span>
         </div>
         <div class="stack-row">
           <span class="name">Mises à jour à vie</span>
-          <span class="val">17,00 €</span>
-        </div>
-        <div class="stack-total">
-          <span class="lbl">Valeur totale</span>
-          <span class="val-old">128 €</span>
         </div>
         <div class="stack-final">
           <p class="lbl2">⚡ Aujourd'hui seulement, sur cette page</p>
-          <div class="price">17,90 €</div>
-          <p class="note">Paiement unique. Ajouté à ta commande actuelle. Accès à vie.</p>
-          <span class="saving">Tu économises 110 € — 86 % DE RÉDUC</span>
+          <p class="note">Ajouté à ta commande actuelle. Accès à vie.</p>
         </div>
       </div>
 
@@ -982,7 +973,7 @@
       <button class="modal-close" id="modalClose" aria-label="Fermer">&times;</button>
       <div class="modal-flag">👇 Attends — une option plus légère</div>
       <h3 class="modal-title" id="modalTitle">
-        Alors prends juste le <span class="modal-num" style="color:#9EEB47">Face-Lock essentiel</span> — pour 9,99 €
+        Alors prends juste le <span class="modal-num" style="color:#9EEB47">Face-Lock essentiel</span>
       </h3>
       <p class="modal-text">
         Peut-être que le pack pro complet n'est pas pour toi tout de suite, et c'est ok. Voici donc une offre plus légère : laisse tomber les
@@ -1000,11 +991,11 @@
         <div class="modal-bar"><div class="modal-bar-fill green" style="width:100%"></div></div>
       </div>
       <p class="modal-text" style="margin-top:18px">
-        Même méthode essentielle, moitié prix. <strong>9,99 €</strong> — paiement unique, ajouté à ta commande actuelle.
+        Même méthode essentielle. Ajouté à ta commande actuelle.
       </p>
       <!-- TODO: trocar por checkout em EUR antes de subir tráfego -->
       <a href="#" class="cta-btn" id="modalAccept" style="animation:none">
-        ✓ OUI, DONNE-MOI LE FACE-LOCK ESSENTIEL POUR 9,99 € <span class="arrow">→</span>
+        ✓ OUI, DONNE-MOI LE FACE-LOCK ESSENTIEL <span class="arrow">→</span>
       </a>
       <a class="no-thanks" id="modalDecline">Non merci, je préfère risquer qu'elle dérive en vidéo</a>
     </div>
@@ -1052,9 +1043,9 @@
 
     // ===== CTAs =====
     // CONFIG: replace these links with your real one-click checkout / next step
-    const URL_ACCEPT   = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept full upsell ($17.90)
-    const URL_DOWNSELL = 'https://checkout.centerpag.com/pay/PPU38CQEBPU?upsell=true';  // downsell core method ($9.99)
-    const URL_DECLINE  = 'https://www.promptsgoat.com/fr/upsell-account-shield.html';  // decline → next upsell (Account Shield)
+    const URL_ACCEPT   = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept full upsell
+    const URL_DOWNSELL = 'https://checkout.centerpag.com/pay/PPU38CQEBPU?upsell=true';  // downsell core method
+    const URL_DECLINE  = 'https://www.promptsgoat.com/fr-2/upsell-account-shield.html';  // decline → next upsell (Account Shield)
 
     function bindCta(id, url, fbEvent, name, value){
       const el = document.getElementById(id);

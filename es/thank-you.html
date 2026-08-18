@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
+  <!-- TODO(ES): copy clonada da /en em 2026-08-18. Traduzir todo o texto visivel para espanhol. Estrutura, precos (USD), checkouts e pixels ja estao corretos. -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Thank You! Your Access Is Ready | gustagoat.ia</title>
@@ -17,7 +18,6 @@
       t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
     }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '1068021188891348');
-    fbq('init', '2309964963110456');
     fbq('init', '1223791793200733');
     fbq('track', 'PageView');
     fbq('track', 'Purchase', { content_name: 'Order Complete', currency: 'USD', value: 0.00 });
@@ -297,15 +297,6 @@
         </div>
       </div>
 
-      <div class="field">
-        <div class="ico">🔑</div>
-        <div class="body">
-          <div class="lbl">Password</div>
-          <div class="val"><span class="mono" id="pwd">@aimodellab</span></div>
-        </div>
-        <button class="copy-btn" id="copyPwd" data-copy="@aimodellab">Copy</button>
-      </div>
-
       <a href="https://area-membros-gamma.vercel.app" target="_blank" rel="noopener" class="login-btn">
         Log in to my members area →
       </a>
@@ -319,8 +310,8 @@
         your access may still be processing.
       </p>
       <p>
-        Still can't get in? <strong>Reset your password</strong> on the login page (use the
-        “Forgot password / Reset password” option with the same email you used at checkout) and log in with the new one.
+        Just log in with the <strong>same email you used at checkout</strong> — no password needed.
+        Still can't get in after a few minutes? Reach out below and I'll sort it out for you.
       </p>
     </div>
 
@@ -337,20 +328,5 @@
     <p class="footer">Enjoy! 🚀 — © gustagoat.ia</p>
   </div>
 
-  <script>
-    // Copy password
-    (function(){
-      const btn = document.getElementById('copyPwd');
-      if (!btn) return;
-      btn.addEventListener('click', function(){
-        const text = btn.dataset.copy;
-        navigator.clipboard.writeText(text).then(function(){
-          btn.textContent = '✓ Copied';
-          btn.classList.add('done');
-          setTimeout(function(){ btn.textContent = 'Copy'; btn.classList.remove('done'); }, 2000);
-        });
-      });
-    })();
-  </script>
 </body>
 </html>

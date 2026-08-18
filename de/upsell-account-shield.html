@@ -6,6 +6,21 @@
   <title>WARTE! Das Instagram-Survival-Playbook für KI-Accounts</title>
   <meta name="robots" content="noindex,nofollow" />
   
+  <!-- Meta Pixel -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1068021188891348');
+    fbq('init', '1223791793200733');
+    fbq('track', 'PageView');
+    fbq('track', 'ViewContent', { content_name: 'Upsell Account Shield', content_type: 'product', value: 24.90, currency: 'EUR' });
+  </script>
+
      <!-- UTMify UTMs -->
   <script
   src="https://cdn.utmify.com.br/scripts/utms/latest.js"
@@ -656,29 +671,19 @@
       <div class="stack-box">
         <div class="stack-row">
           <span class="name">Das "Anti-Ban"-Posting-Protokoll</span>
-          <span class="val">€47,00</span>
         </div>
         <div class="stack-row">
           <span class="name">Shadowban-Umgehungs-Geheimnisse</span>
-          <span class="val">€27,00</span>
         </div>
         <div class="stack-row">
           <span class="name">Wie du "Ist das KI?"-Kommentare souverän konterst</span>
-          <span class="val">€37,00</span>
         </div>
         <div class="stack-row">
           <span class="name">Lebenslange Updates (wenn sich der Algorithmus ändert)</span>
-          <span class="val">€17,00</span>
-        </div>
-        <div class="stack-total">
-          <span class="lbl">Gesamtwert</span>
-          <span class="val-old">€128</span>
         </div>
         <div class="stack-final">
           <p class="lbl2">⚡ Nur heute, auf dieser Seite</p>
-          <div class="price">€24,90</div>
-          <p class="note">Einmalzahlung. Wird zu deiner aktuellen Bestellung hinzugefügt. Lebenslanger Zugang.</p>
-          <span class="saving">Du sparst €103 — 80% RABATT</span>
+          <p class="note">Wird zu deiner aktuellen Bestellung hinzugefügt. Lebenslanger Zugang.</p>
         </div>
       </div>
 
@@ -720,11 +725,11 @@
         <div class="modal-bar"><div class="modal-bar-fill green" style="width:100%"></div></div>
       </div>
       <p class="modal-text" style="margin-top:20px">
-        Okay — machen wir es zum No-Brainer. Schnapp dir die <strong>Survival-Kern-Checkliste</strong> für nur <strong>€9,90</strong> (einmalig). Die essenziellen Schritte, die deinen Account vor einer Sperre schützen — reduziert auf das Wesentliche.
+        Okay — machen wir es zum No-Brainer. Schnapp dir die <strong>Survival-Kern-Checkliste</strong>. Die essenziellen Schritte, die deinen Account vor einer Sperre schützen — reduziert auf das Wesentliche.
       </p>
       <!-- TODO: trocar por checkout em EUR antes de subir tráfego -->
       <a href="https://checkout.centerpag.com/pay/PPU38CQET8I?upsell=true" class="cta-btn" id="modalAccept" style="animation:none">
-        ✅ ✓ JA, FÜR NUR €9,90 HINZUFÜGEN <span class="arrow">→</span>
+        ✅ ✓ JA, ZU MEINER BESTELLUNG HINZUFÜGEN <span class="arrow">→</span>
       </a>
       <a href="https://www.promptsgoat.com/de/thank-you.html" class="no-thanks" id="modalDecline">❌ Nein danke, ich lebe lieber gefährlich mit Algorithmus-Sperren</a>
     </div>
@@ -763,6 +768,23 @@
       obs.observe(grid);
     })();
 
+
+
+    // ===== PIXEL: eventos de CTA =====
+    (function(){
+      function bindCta(id, fbEvent, name, value){
+        const el = document.getElementById(id);
+        if (!el) return;
+        el.addEventListener('click', function(e){
+          e.preventDefault();
+          const url = el.getAttribute('href');
+          if (window.fbq) fbq('track', fbEvent, { content_name: name, value: value, currency: 'EUR' });
+          window.location.href = url;
+        });
+      }
+      bindCta('ctaAdd', 'AddToCart', 'Upsell Account Shield', 24.90);
+      bindCta('modalAccept', 'AddToCart', 'Downsell Account Shield Checklist', 9.90);
+    })();
 
     // ===== DECLINE → DOWNSELL POPUP =====
     (function(){

@@ -934,29 +934,19 @@
       <div class="stack-box">
         <div class="stack-row">
           <span class="name">Die "Face-Lock"-Methode — Foto + Video (Schritt für Schritt)</span>
-          <span class="val">€47,00</span>
         </div>
         <div class="stack-row">
           <span class="name">Screenshot-für-Screenshot-Anleitung</span>
-          <span class="val">€27,00</span>
         </div>
         <div class="stack-row">
           <span class="name">Profi-vs-Amateur-Konsistenz-Geheimnisse</span>
-          <span class="val">€37,00</span>
         </div>
         <div class="stack-row">
           <span class="name">Lebenslange Updates</span>
-          <span class="val">€17,00</span>
-        </div>
-        <div class="stack-total">
-          <span class="lbl">Gesamtwert</span>
-          <span class="val-old">€128</span>
         </div>
         <div class="stack-final">
           <p class="lbl2">⚡ Nur heute, auf dieser Seite</p>
-          <div class="price">€17,90</div>
-          <p class="note">Einmalzahlung. Wird zu deiner aktuellen Bestellung hinzugefügt. Lebenslanger Zugang.</p>
-          <span class="saving">Du sparst €110 — 86% RABATT</span>
+          <p class="note">Wird zu deiner aktuellen Bestellung hinzugefügt. Lebenslanger Zugang.</p>
         </div>
       </div>
 
@@ -982,7 +972,7 @@
       <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
       <div class="modal-flag">👇 Warte — eine leichtere Option</div>
       <h3 class="modal-title" id="modalTitle">
-        Dann nimm nur den <span class="modal-num" style="color:#9EEB47">Face-Lock-Kern</span> — für €9,99
+        Dann nimm nur den <span class="modal-num" style="color:#9EEB47">Face-Lock-Kern</span>
       </h3>
       <p class="modal-text">
         Vielleicht ist das volle Profi-Paket gerade nichts für dich, und das ist völlig okay. Also hier ein leichterer Deal: Lass die
@@ -1000,11 +990,11 @@
         <div class="modal-bar"><div class="modal-bar-fill green" style="width:100%"></div></div>
       </div>
       <p class="modal-text" style="margin-top:18px">
-        Gleiche Kernmethode, halber Preis. <strong>€9,99</strong> — einmalig, zu deiner aktuellen Bestellung hinzugefügt.
+        Gleiche Kernmethode. Zu deiner aktuellen Bestellung hinzugefügt.
       </p>
       <!-- TODO: trocar por checkout em EUR antes de subir tráfego -->
       <a href="#" class="cta-btn" id="modalAccept" style="animation:none">
-        ✓ JA, GIB MIR DEN FACE-LOCK-KERN FÜR €9,99 <span class="arrow">→</span>
+        ✓ JA, GIB MIR DEN FACE-LOCK-KERN <span class="arrow">→</span>
       </a>
       <a class="no-thanks" id="modalDecline">Nein danke, ich riskiere lieber, dass sie im Video abdriftet</a>
     </div>
@@ -1052,8 +1042,8 @@
 
     // ===== CTAs =====
     // CONFIG: replace these links with your real one-click checkout / next step
-    const URL_ACCEPT   = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept full upsell ($17.90)
-    const URL_DOWNSELL = 'https://checkout.centerpag.com/pay/PPU38CQEBPU?upsell=true';  // downsell core method ($9.99)
+    const URL_ACCEPT   = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept full upsell
+    const URL_DOWNSELL = 'https://checkout.centerpag.com/pay/PPU38CQEBPU?upsell=true';  // downsell core method
     const URL_DECLINE  = 'https://www.promptsgoat.com/de/upsell-account-shield.html';  // decline → next upsell (Account Shield)
 
     function bindCta(id, url, fbEvent, name, value){

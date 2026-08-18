@@ -934,29 +934,19 @@
       <div class="stack-box">
         <div class="stack-row">
           <span class="name">The “Face-Lock” Method — photo + video (step-by-step)</span>
-          <span class="val">$47.00</span>
         </div>
         <div class="stack-row">
           <span class="name">Screenshot-by-screenshot walkthrough</span>
-          <span class="val">$27.00</span>
         </div>
         <div class="stack-row">
           <span class="name">Pro vs amateur consistency secrets</span>
-          <span class="val">$37.00</span>
         </div>
         <div class="stack-row">
           <span class="name">Lifetime updates</span>
-          <span class="val">$17.00</span>
-        </div>
-        <div class="stack-total">
-          <span class="lbl">Total value</span>
-          <span class="val-old">$128 USD</span>
         </div>
         <div class="stack-final">
           <p class="lbl2">⚡ Today only, on this page</p>
-          <div class="price">$17.90<small> USD</small></div>
-          <p class="note">One-time payment. Added to your current order. Lifetime access.</p>
-          <span class="saving">You save $110 — 86% OFF</span>
+          <p class="note">Added to your current order. Lifetime access.</p>
         </div>
       </div>
 
@@ -981,7 +971,7 @@
       <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
       <div class="modal-flag">👇 Wait — one lighter option</div>
       <h3 class="modal-title" id="modalTitle">
-        Then take just the <span class="modal-num" style="color:#9EEB47">core Face-Lock</span> — for $9.99
+        Then take just the <span class="modal-num" style="color:#9EEB47">core Face-Lock</span>
       </h3>
       <p class="modal-text">
         Maybe the full pro package isn't for you right now, and that's fine. So here's a lighter deal: skip the
@@ -999,10 +989,10 @@
         <div class="modal-bar"><div class="modal-bar-fill green" style="width:100%"></div></div>
       </div>
       <p class="modal-text" style="margin-top:18px">
-        Same core method, half the price. <strong>$9.99</strong> — one time, added to your current order.
+        Same core method. Added to your current order.
       </p>
       <a href="#" class="cta-btn" id="modalAccept" style="animation:none">
-        ✓ YES, GIVE ME THE CORE FACE-LOCK FOR $9.99 <span class="arrow">→</span>
+        ✓ YES, GIVE ME THE CORE FACE-LOCK <span class="arrow">→</span>
       </a>
       <a class="no-thanks" id="modalDecline">No thanks, I'll risk her drifting in video</a>
     </div>
@@ -1050,8 +1040,8 @@
 
     // ===== CTAs =====
     // CONFIG: replace these links with your real one-click checkout / next step
-    const URL_ACCEPT   = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept full upsell ($17.90)
-    const URL_DOWNSELL = 'https://checkout.centerpag.com/pay/PPU38CQEBPU?upsell=true';  // downsell core method ($9.99)
+    const URL_ACCEPT   = 'https://checkout.centerpag.com/pay/PPU38CQDLBD?upsell=true'; // accept full upsell
+    const URL_DOWNSELL = 'https://checkout.centerpag.com/pay/PPU38CQEBPU?upsell=true';  // downsell core method
     const URL_DECLINE  = 'https://www.promptsgoat.com/en/upsell-account-shield.html';  // decline → next upsell (Account Shield)
 
     function bindCta(id, url, fbEvent, name, value){
