@@ -2,10 +2,10 @@
 <html lang="es">
 
 <head>
-  <!-- TODO(ES): copy clonada da /en em 2026-08-18. Traduzir todo o texto visivel para espanhol. Estrutura, precos (USD), checkouts e pixels ja estao corretos. -->
+  <!-- Texto em espanhol desde 2026-10-24 (antes era a cópia da /en). Estrutura, preços (USD), checkouts e pixels inalterados. -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Thank You! Your Access Is Ready | gustagoat.ia</title>
+  <title>¡Gracias! Tu acceso está listo | The AI Model Lab</title>
   <meta name="robots" content="noindex,nofollow" />
 
   <!-- Meta Pixel -->
@@ -152,7 +152,7 @@
       font-size: .98rem;
       font-weight: 700;
       color: #fff;
-      word-break: break-all;
+      overflow-wrap: anywhere; /* quebra links longos sem partir palavras ("chec kout") */
     }
     .field .val a { color: var(--accent); text-decoration: none; }
     .field .val a:hover { text-decoration: underline; }
@@ -254,6 +254,17 @@
     .support-links a:hover { border-color: var(--accent); background: rgba(168,85,247,.1); }
     .support-links a.wa:hover { border-color: var(--green); background: rgba(0,200,75,.1); }
 
+    /* BÔNUS TAML (plataforma): mesma estrutura dos cards, acento vermelho da marca */
+    .card.taml { border: 1px solid rgba(225,29,42,.45); box-shadow: 0 16px 50px rgba(225,29,42,.14); }
+    .card.taml h2 { color: #ff5964; }
+    .card.taml .lead { font-size: .95rem; color: #d9d4cf; line-height: 1.6; margin: -6px 0 6px; }
+    .card.taml .lead strong { color: #fff; }
+    .card.taml .ico { background: rgba(225,29,42,.12); border-color: rgba(225,29,42,.3); }
+    .card.taml .val a { color: #ff5964; }
+    .login-btn.taml { background: linear-gradient(180deg, #e11d2a, #b3121a); box-shadow: 0 10px 30px rgba(225,29,42,.35), inset 0 1px 0 rgba(255,255,255,.2); }
+    .login-btn.taml:hover { box-shadow: 0 14px 38px rgba(225,29,42,.5), inset 0 1px 0 rgba(255,255,255,.25); }
+    .card.taml .tiny { margin-top: 12px; font-size: .8rem; color: #999; text-align: center; }
+
     .footer {
       text-align: center;
       margin-top: 36px;
@@ -269,18 +280,18 @@
     <!-- HEADER -->
     <div class="head">
       <div class="check"></div>
-      <h1>Thank you so much for your <span class="accent">purchase!</span> 🎉</h1>
-      <p>Your access is ready. Here's everything you need to log in.</p>
+      <h1>¡Muchas gracias por tu <span class="accent">compra!</span> 🎉</h1>
+      <p>Tu acceso está listo. Aquí tienes todo lo que necesitas para entrar.</p>
     </div>
 
     <!-- ACCESS CARD -->
     <div class="card highlight">
-      <h2>🔓 Your login details</h2>
+      <h2>🔓 Tus datos de acceso</h2>
 
       <div class="field">
         <div class="ico">🔗</div>
         <div class="body">
-          <div class="lbl">Access link</div>
+          <div class="lbl">Enlace de acceso</div>
           <div class="val"><a href="https://area-membros-gamma.vercel.app" target="_blank" rel="noopener">area-membros-gamma.vercel.app</a></div>
         </div>
       </div>
@@ -288,40 +299,67 @@
       <div class="field">
         <div class="ico">📧</div>
         <div class="body">
-          <div class="lbl">Email</div>
-          <div class="val">The same email you used at checkout</div>
+          <div class="lbl">Correo</div>
+          <div class="val">El mismo correo que usaste en el checkout</div>
         </div>
       </div>
 
       <a href="https://area-membros-gamma.vercel.app" target="_blank" rel="noopener" class="login-btn">
-        Log in to my members area →
+        Entrar a mi área de miembros →
       </a>
+    </div>
+
+    <!-- BONO TAML: cuenta en la plataforma + generaciones gratis (mismo correo del checkout) -->
+    <div class="card taml">
+      <h2>🎁 Tu bono: generaciones gratis en The AI Model Lab</h2>
+      <p class="lead">Tu compra también desbloquea un pack de <strong>generaciones gratis</strong> en la plataforma donde estos prompts cobran vida: fotos, cambio de rostro, probador virtual y un video de tu modelo de IA, sin instalar nada.</p>
+
+      <div class="field">
+        <div class="ico">🌐</div>
+        <div class="body">
+          <div class="lbl">Plataforma</div>
+          <div class="val"><a href="https://www.theaimodelab.com/es/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener">theaimodelab.com</a></div>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="ico">📧</div>
+        <div class="body">
+          <div class="lbl">Correo</div>
+          <div class="val">Regístrate con el mismo correo del checkout y el bono se activa solo</div>
+        </div>
+      </div>
+
+      <a href="https://www.theaimodelab.com/es/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener" class="login-btn taml">
+        Crear mi cuenta y activar el bono →
+      </a>
+      <p class="tiny">¿Ya tenías cuenta con ese correo? Escríbenos por WhatsApp y lo activamos a mano.</p>
     </div>
 
     <!-- HEADS UP -->
     <div class="note">
-      <h3>⚠️ Heads up</h3>
+      <h3>⚠️ Importante</h3>
       <p>
-        If the login doesn't work right away, please <strong>wait a few minutes and try again</strong> —
-        your access may still be processing.
+        Si el acceso no funciona de inmediato, <strong>espera unos minutos y vuelve a intentar</strong>:
+        tu acceso puede estar procesándose todavía.
       </p>
       <p>
-        Just log in with the <strong>same email you used at checkout</strong> — no password needed.
-        Still can't get in after a few minutes? Reach out below and I'll sort it out for you.
+        Entra con el <strong>mismo correo que usaste en el checkout</strong>, sin contraseña.
+        ¿Sigues sin poder entrar después de unos minutos? Escríbenos abajo y lo resolvemos.
       </p>
     </div>
 
     <!-- SUPPORT -->
     <div class="card support">
-      <h2>Still stuck? I've got you 🙌</h2>
-      <p class="sub">If you still can't log in after resetting, reach out and I'll sort it out for you personally.</p>
+      <h2>¿Sigues trabado? Te ayudamos 🙌</h2>
+      <p class="sub">Si después de unos minutos no logras entrar, escríbenos y lo resolvemos contigo.</p>
       <div class="support-links">
         <a href="mailto:theaimodelab@hotmail.com">📩 theaimodelab@hotmail.com</a>
         <a class="wa" href="https://wa.me/5511922198321" target="_blank" rel="noopener">📱 WhatsApp: +55 11 92219-8321</a>
       </div>
     </div>
 
-    <p class="footer">Enjoy! 🚀 — © gustagoat.ia</p>
+    <p class="footer">¡Disfruta! 🚀 — © The AI Model Lab</p>
   </div>
 
 </body>

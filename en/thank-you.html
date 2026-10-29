@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Thank You! Your Access Is Ready | gustagoat.ia</title>
+  <title>Thank You! Your Access Is Ready | The AI Model Lab</title>
   <meta name="robots" content="noindex,nofollow" />
 
   <!-- Meta Pixel -->
@@ -151,7 +151,7 @@
       font-size: .98rem;
       font-weight: 700;
       color: #fff;
-      word-break: break-all;
+      overflow-wrap: anywhere; /* breaks long links without splitting words ("chec kout") */
     }
     .field .val a { color: var(--accent); text-decoration: none; }
     .field .val a:hover { text-decoration: underline; }
@@ -253,6 +253,17 @@
     .support-links a:hover { border-color: var(--accent); background: rgba(168,85,247,.1); }
     .support-links a.wa:hover { border-color: var(--green); background: rgba(0,200,75,.1); }
 
+    /* TAML BONUS (platform): same card structure, brand red accent */
+    .card.taml { border: 1px solid rgba(225,29,42,.45); box-shadow: 0 16px 50px rgba(225,29,42,.14); }
+    .card.taml h2 { color: #ff5964; }
+    .card.taml .lead { font-size: .95rem; color: #d9d4cf; line-height: 1.6; margin: -6px 0 6px; }
+    .card.taml .lead strong { color: #fff; }
+    .card.taml .ico { background: rgba(225,29,42,.12); border-color: rgba(225,29,42,.3); }
+    .card.taml .val a { color: #ff5964; }
+    .login-btn.taml { background: linear-gradient(180deg, #e11d2a, #b3121a); box-shadow: 0 10px 30px rgba(225,29,42,.35), inset 0 1px 0 rgba(255,255,255,.2); }
+    .login-btn.taml:hover { box-shadow: 0 14px 38px rgba(225,29,42,.5), inset 0 1px 0 rgba(255,255,255,.25); }
+    .card.taml .tiny { margin-top: 12px; font-size: .8rem; color: #999; text-align: center; }
+
     .footer {
       text-align: center;
       margin-top: 36px;
@@ -297,6 +308,33 @@
       </a>
     </div>
 
+    <!-- TAML BONUS: platform account + free generations (same email as checkout) -->
+    <div class="card taml">
+      <h2>🎁 Your bonus: free generations on The AI Model Lab</h2>
+      <p class="lead">Your purchase also unlocks a pack of <strong>free generations</strong> on the platform where these prompts come to life: photos, face swap, virtual try-on and a video of your AI model, nothing to install.</p>
+
+      <div class="field">
+        <div class="ico">🌐</div>
+        <div class="body">
+          <div class="lbl">Platform</div>
+          <div class="val"><a href="https://www.theaimodelab.com/en/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en" target="_blank" rel="noopener">theaimodelab.com</a></div>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="ico">📧</div>
+        <div class="body">
+          <div class="lbl">Email</div>
+          <div class="val">Sign up with the same email you used at checkout and the bonus is applied automatically</div>
+        </div>
+      </div>
+
+      <a href="https://www.theaimodelab.com/en/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en" target="_blank" rel="noopener" class="login-btn taml">
+        Create my account and claim the bonus →
+      </a>
+      <p class="tiny">Already had an account with that email? Message us on WhatsApp and we'll activate it by hand.</p>
+    </div>
+
     <!-- HEADS UP -->
     <div class="note">
       <h3>⚠️ Heads up</h3>
@@ -320,7 +358,7 @@
       </div>
     </div>
 
-    <p class="footer">Enjoy! 🚀 — © gustagoat.ia</p>
+    <p class="footer">Enjoy! 🚀 — © The AI Model Lab</p>
   </div>
 
 </body>
