@@ -1,6 +1,8 @@
 {
   "trailingSlash": true,
   "redirects": [
-    { "source": "/", "destination": "/en/", "permanent": false }
+    { "source": "/", "destination": "/en/", "permanent": false },
+    { "source": "/es/quiz", "destination": "/es/quiz.html", "permanent": false },
+    { "source": "/pt/quiz", "destination": "/pt/quiz.html", "permanent": false }
   ]
 }
