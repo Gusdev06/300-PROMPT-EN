@@ -271,6 +271,23 @@
       color: #555;
       font-size: .75rem;
     }
+    /* UPSELL PRO: degrau do pack para o plano, só nesta tela. Acento dourado para se separar do bônus (vermelho) e do acesso (roxo). */
+        .card.upsell { border: 1px solid rgba(255,193,7,.4); box-shadow: 0 16px 50px rgba(255,193,7,.08); }
+    .card.upsell h2 { color: var(--gold); }
+    .card.upsell .lead { font-size: .95rem; color: #d9d4cf; line-height: 1.6; margin: -6px 0 14px; }
+    .card.upsell .lead strong { color: #fff; }
+    .perks { list-style: none; display: grid; gap: 10px; margin: 0 0 18px; }
+    .perks li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; font-size: .95rem; color: #ddd; }
+    .perks li::before { content: '✓'; color: var(--green); font-weight: 900; }
+    .perks strong { color: #fff; }
+    .upsell-timer { text-align: center; font-size: .82rem; color: #bbb; margin-bottom: 14px; }
+    .upsell-timer strong { color: var(--gold); font-variant-numeric: tabular-nums; }
+    .login-btn.upsell-btn { margin-top: 0; background: linear-gradient(180deg, #ffc82e, #e0a100); color: #1a1200; box-shadow: 0 10px 30px rgba(255,193,7,.28), inset 0 1px 0 rgba(255,255,255,.35); }
+    .login-btn.upsell-btn:hover { box-shadow: 0 14px 38px rgba(255,193,7,.42), inset 0 1px 0 rgba(255,255,255,.4); }
+    .login-btn.upsell-btn small { display: block; margin-top: 3px; font-size: .78rem; font-weight: 700; letter-spacing: 0; text-transform: none; opacity: .8; }
+    .upsell-alt { display: block; margin-top: 12px; text-align: center; padding: 15px 20px; border-radius: 12px; border: 1px solid hsl(0,0%,22%); background: hsl(0,0%,7%); color: #eee; font-weight: 800; font-size: .98rem; text-decoration: none; transition: border-color .2s, background .2s; }
+    .upsell-alt:hover { border-color: var(--gold); background: rgba(255,193,7,.08); }
+    .card.upsell .tiny { margin-top: 14px; font-size: .8rem; color: #999; text-align: center; }
   </style>
 </head>
 
@@ -292,7 +309,7 @@
         <div class="ico">🔗</div>
         <div class="body">
           <div class="lbl">Enlace de acceso</div>
-          <div class="val"><a href="https://area-membros-gamma.vercel.app" target="_blank" rel="noopener">area-membros-gamma.vercel.app</a></div>
+          <div class="val"><a href="https://academy.perfectpay.com.br" target="_blank" rel="noopener">academy.perfectpay.com.br</a></div>
         </div>
       </div>
 
@@ -300,11 +317,11 @@
         <div class="ico">📧</div>
         <div class="body">
           <div class="lbl">Correo</div>
-          <div class="val">El mismo correo que usaste en el checkout</div>
+          <div class="val">El mismo correo que usaste en el checkout (en el primer acceso, crea tu contraseña con el enlace que llegó a tu email)</div>
         </div>
       </div>
 
-      <a href="https://area-membros-gamma.vercel.app" target="_blank" rel="noopener" class="login-btn">
+      <a href="https://academy.perfectpay.com.br" target="_blank" rel="noopener" class="login-btn">
         Entrar a mi área de miembros →
       </a>
     </div>
@@ -318,7 +335,7 @@
         <div class="ico">🌐</div>
         <div class="body">
           <div class="lbl">Plataforma</div>
-          <div class="val"><a href="https://www.theaimodelab.com/es/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener">theaimodelab.com</a></div>
+          <div class="val"><a href="https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener">theaimodelab.com</a></div>
         </div>
       </div>
 
@@ -330,10 +347,26 @@
         </div>
       </div>
 
-      <a href="https://www.theaimodelab.com/es/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener" class="login-btn taml">
+      <a href="https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener" class="login-btn taml">
         Crear mi cuenta y activar el bono →
       </a>
       <p class="tiny">¿Ya tenías cuenta con ese correo? Escríbenos por WhatsApp y lo activamos a mano.</p>
+    </div>
+
+    <!-- UPSELL PRO: mesmo bloco do obrigado PT (funis/public/pos-compra/pt/thank-you.html), checkouts do plano Pro (API /plans). -->
+    <div class="card upsell" id="upsell">
+      <h2>⚡ Solo en esta pantalla: pásate al Pro</h2>
+      <p class="lead">El pack te dio los prompts. El Pro te da la <strong>modelo</strong>: la misma mujer en cada foto y en cada video, y tú al frente de la fila.</p>
+      <ul class="perks">
+        <li><span><strong>30.000 créditos al mes</strong> para foto, video y voz</span></li>
+        <li><span><strong>Black November:</strong> el doble de créditos el 1er mes, hasta el 30/11</span></li>
+        <li><span><strong>Mismo rostro en foto y video</strong>, tu modelo guardada en la cuenta</span></li>
+        <li><span><strong>Fila rápida</strong>: tu generación sale primero</span></li>
+      </ul>
+      <p class="upsell-timer">El anual sale con 42% off. El mensual lo cancelas cuando quieras.</p>
+      <a href="https://checkout.centerpag.com/pay/PPU38CQG711?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pro_anual_es" target="_blank" rel="noopener" class="login-btn upsell-btn" data-upsell="anual">Pro anual · 42% off<small>(US$ 279/año)</small></a>
+      <a href="https://checkout.centerpag.com/pay/PPU38CQDTOD?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pro_mensual_es" target="_blank" rel="noopener" class="upsell-alt" data-upsell="mensal">Pro mensual · US$ 39,90/mes</a>
+      <p class="tiny">Paga con el mismo correo de la compra · cancela cuando quieras</p>
     </div>
 
     <!-- HEADS UP -->
