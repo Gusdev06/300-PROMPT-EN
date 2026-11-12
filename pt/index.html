@@ -1311,7 +1311,7 @@
       right: 10px
     }
 
-    /* REVEAL SLIDE (tap to remove the clothes) */
+    /* REVEAL SLIDE (tap to compare) */
     .hero-reveal-slide {
       position: relative;
       width: 100%;
@@ -2084,28 +2084,33 @@
   <!-- HERO -->
   <section class="hero">
     <div class="container">
-      <div class="reveal from-up" style="margin-bottom:32px">
+      <div class="reveal from-up" style="margin-bottom:20px">
         <div class="text-center">
-          <h1>Comece seu negócio de <span class="highlight-yellow">OnlyFans</span> com IA <span class="highlight-yellow">esta semana</span> — <span class="highlight">300+ prompts</span> que fazem a parte difícil por você</h1>
-          <p class="subtitle">Existe uma IA SEM CENSURA que gera fotos e vídeos +18 hiper-realistas. Mas sem
-            os prompts certos, ela só cospe lixo ou bloqueia tudo. Aqui dentro você recebe os 300+ prompts que
-            transformam essa IA em uma criadora faturando 24/7 — enquanto seu rosto real nunca aparece.</p>
+          <h1>Comece seu negócio de <span class="highlight-yellow">criadora</span> com IA <span class="highlight-yellow">esta semana</span> — <span class="highlight">300+ prompts</span> que fazem a parte difícil por você</h1>
+          <p class="subtitle">Uma IA sem censura cria fotos +18 hiper-realistas. Estes 300+ prompts fazem ela funcionar.<br>Seu rosto real nunca aparece.</p>
         </div>
+      </div>
+      <!-- HERO OFFER (preço + CTA antes do carrossel) -->
+      <div class="text-center" style="margin-bottom:8px">
+        <p style="font-size:1rem;font-weight:700;margin-bottom:4px;line-height:1.4">Black November: a partir de <span style="color:#00AFF0;font-weight:900">R$ 19,90</span> &middot; Pack completo <span style="color:#00AFF0;font-weight:900;font-size:1.3rem">R$ 27,90</span> <span style="color:#999;font-weight:600">(era <s style="color:hsl(0,84%,60%)">R$ 79</s>)</span></p>
+        <p style="color:#9acbe6;font-size:.8rem;margin-bottom:14px">Pagamento único · Acesso imediato · Garantia de 7 dias</p>
+        <a href="#offer" class="cta-btn">DESBLOQUEAR MINHA MODELO +18 AGORA →</a>
+        <p style="margin-top:10px"><a href="#offer" style="color:#9acbe6;font-size:.85rem;text-decoration:underline">Ver o plano de R$ 19,90</a></p>
       </div>
       <div class="reveal from-up" data-delay="200">
         <div class="hero-carousel">
           <button class="hero-arrow prev" onclick="heroGoTo(window._heroIdx-1)">‹</button>
           <button class="hero-arrow next" onclick="heroGoTo(window._heroIdx+1)">›</button>
           <div class="hero-carousel-track" id="heroTrack">
-            <div class="hero-reveal-slide" id="heroRevealSlide" role="button" tabindex="0" aria-label="Toque para tirar a roupa">
-              <img id="heroRevealImg" decoding="async" src="/es/assets/4963395053896272996.jpg" alt="Revelação de influencer de IA">
+            <div class="hero-reveal-slide" id="heroRevealSlide" role="button" tabindex="0" aria-label="Toque para comparar">
+              <img id="heroRevealImg" decoding="async" fetchpriority="high" width="640" height="853" src="/es/assets/4963395053896272996.jpg" alt="Revelação de influencer de IA">
               <div class="hero-reveal-overlay">
-                <div class="hero-reveal-badge"><span class="apple-emoji">👆</span> Toque para despir</div>
+                <div class="hero-reveal-badge"><span class="apple-emoji">👆</span> Toque para comparar</div>
               </div>
             </div>
-            <img decoding="async" src="/es/assets/hero-carousel-1.webp" alt="Influencer de IA 1">
-            <img decoding="async" src="/es/assets/hero-carousel-2.webp" alt="Influencer de IA 2">
-            <img decoding="async" src="/es/assets/hero-carousel-3.webp" alt="Influencer de IA 3">
+            <img decoding="async" fetchpriority="low" src="/es/assets/hero-carousel-1.webp" alt="Influencer de IA 1">
+            <img decoding="async" fetchpriority="low" src="/es/assets/hero-carousel-2.webp" alt="Influencer de IA 2">
+            <img decoding="async" fetchpriority="low" src="/es/assets/hero-carousel-3.webp" alt="Influencer de IA 3">
           </div>
           <div class="hero-dots">
             <button class="hero-dot active" onclick="heroGoTo(0)"></button>
@@ -2118,16 +2123,6 @@
     </div>
   </section>
 
-  <!-- HERO CTA (above-the-fold offer anchor) -->
-  <section style="background:linear-gradient(180deg,#000,hsl(199,70%,7%));padding:4px 0 32px">
-    <div class="container text-center">
-      <p style="font-size:1.1rem;font-weight:700;margin-bottom:6px">Leve o pack completo por
-        <span style="color:hsl(0,84%,60%);text-decoration:line-through">R$ 79</span>
-        <span style="color:#00AFF0;font-weight:900;font-size:1.4rem">R$ 27,90</span></p>
-      <p style="color:#9acbe6;font-size:.8rem;margin-bottom:16px">Pagamento único · Acesso imediato · Garantia de 7 dias</p>
-      <a href="#offer" class="cta-btn">DESBLOQUEAR MINHA MODELO +18 AGORA →</a>
-    </div>
-  </section>
 
   <!-- PAIN -->
   <section style="background:#000;padding:32px 0 40px">
@@ -2150,7 +2145,7 @@
         </div>
         <div class="reveal from-right" data-delay="240" style="display:flex;align-items:flex-start;gap:12px;background:hsl(0,0%,5%);border:1px solid hsl(0,0%,15%);border-radius:10px;padding:14px">
           <span style="font-size:1.25rem;flex-shrink:0">⏰</span>
-          <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">Você perdeu semanas testando</strong> — enquanto outras pessoas já estão faturando +US$ 10 mil/mês no Fanvue com modelos de IA que não existem, e ninguém nunca vai ver o rosto real delas.</p>
+          <p style="font-size:.875rem;color:#ccc;line-height:1.5"><strong style="color:hsl(0,84%,60%)">Você perdeu semanas testando</strong> — enquanto outras pessoas já estão postando no Fanvue com modelos de IA que não existem, e ninguém nunca vai ver o rosto real delas.</p>
         </div>
       </div>
       <div class="reveal from-up" data-delay="300" style="margin-top:24px">
@@ -2234,7 +2229,7 @@
         </div>
         <div class="reveal from-right" data-delay="200">
           <div class="benefits-image">
-            <img decoding="async" src="/es/vendasfanvue.avif" alt="Vendas no Fanvue com uma modelo de IA" style="border-radius:16px;width:100%;max-width:400px">
+            <img loading="lazy" decoding="async" src="/es/vendasfanvue.avif" alt="Vendas no Fanvue com uma modelo de IA" style="border-radius:16px;width:100%;max-width:400px">
           </div>
         </div>
       </div>
@@ -2317,7 +2312,7 @@
             <p style="color:#d4d4d4;font-size:clamp(.75rem,2vw,.95rem);font-weight:400;line-height:1.4;margin:0">Esta geração pode violar nossas <span style="text-decoration:underline">políticas</span>. Tente um prompt diferente ou envie feedback</p>
           </div>
         </div>
-        <div class="reveal from-right"><img decoding="async" src="/es/assets/5831192964124839605.jpg" alt="Nosso prompt" style="aspect-ratio:3/4;width:100%;height:100%;object-fit:cover;border-radius:12px;display:block"></div>
+        <div class="reveal from-right"><img loading="lazy" decoding="async" src="/es/assets/5831192964124839605.jpg" alt="Nosso prompt" style="aspect-ratio:3/4;width:100%;height:100%;object-fit:cover;border-radius:12px;display:block"></div>
         <div class="reveal from-up" data-delay="200">
           <h3 class="red">Prompt Genérico</h3>
         </div>
@@ -2394,35 +2389,35 @@
       </div>
       <div class="cat-grid cat-grid-img" style="margin-top:32px">
         <div class="reveal from-up" data-delay="0">
-          <div class="cat-card-img"><img decoding="async" src="/es/newimages/thumb-0.webp" alt="Fotos de Perfil">
+          <div class="cat-card-img"><img loading="lazy" decoding="async" src="/es/newimages/thumb-0.webp" alt="Fotos de Perfil">
           </div>
         </div>
         <div class="reveal from-up" data-delay="50">
-          <div class="cat-card-img"><img decoding="async" src="/es/newimages/thumb-1.webp" alt="Vídeos UGC">
+          <div class="cat-card-img"><img loading="lazy" decoding="async" src="/es/newimages/thumb-1.webp" alt="Vídeos UGC">
           </div>
         </div>
         <div class="reveal from-up" data-delay="100">
-          <div class="cat-card-img"><img decoding="async" src="/es/newimages/thumb-3.webp" alt="Looks e Outfits">
+          <div class="cat-card-img"><img loading="lazy" decoding="async" src="/es/newimages/thumb-3.webp" alt="Looks e Outfits">
           </div>
         </div>
         <div class="reveal from-up" data-delay="150">
-          <div class="cat-card-img"><img decoding="async" src="/es/newimages/thumb-6.webp" alt="Cenários e Locações">
+          <div class="cat-card-img"><img loading="lazy" decoding="async" src="/es/newimages/thumb-6.webp" alt="Cenários e Locações">
           </div>
         </div>
         <div class="reveal from-up" data-delay="200">
-          <div class="cat-card-img"><img decoding="async" src="/es/newimages/output_0.png" alt="Com Produto Real">
+          <div class="cat-card-img"><img loading="lazy" decoding="async" src="/es/newimages/output_0.webp" alt="Com Produto Real">
           </div>
         </div>
         <div class="reveal from-up" data-delay="250">
-          <div class="cat-card-img"><img decoding="async" src="/es/newimages/thumb-5.webp" alt="Fitness e Saúde">
+          <div class="cat-card-img"><img loading="lazy" decoding="async" src="/es/newimages/thumb-5.webp" alt="Fitness e Saúde">
           </div>
         </div>
         <div class="reveal from-up" data-delay="300">
-          <div class="cat-card-img"><img decoding="async" src="/es/newimages/thumb-7.webp" alt="Expressões Faciais">
+          <div class="cat-card-img"><img loading="lazy" decoding="async" src="/es/newimages/thumb-7.webp" alt="Expressões Faciais">
           </div>
         </div>
         <div class="reveal from-up" data-delay="350">
-          <div class="cat-card-img cat-card-sensitive" onclick="this.classList.toggle('revealed')"><img decoding="async" src="/es/assets/a5134a1b-16d3-416c-bab2-d9d9ce37f05c.jpeg" alt="Nicho Hot">
+          <div class="cat-card-img cat-card-sensitive" onclick="this.classList.toggle('revealed')"><img loading="lazy" decoding="async" src="/es/assets/a5134a1b-16d3-416c-bab2-d9d9ce37f05c.jpeg" alt="Nicho Hot">
             <div class="cat-card-blur" aria-label="Mostrar conteúdo sensível">
               <div class="eye-btn" aria-hidden="true">👁</div>
               <p class="warn">Conteúdo sensível</p>
@@ -2541,7 +2536,7 @@
         <div class="cell"><img src="/es/assets/thumb-5.webp" alt="exemplo" loading="lazy"></div>
         <div class="cell"><img src="/es/assets/thumb-6.webp" alt="exemplo" loading="lazy"></div>
         <div class="cell"><img src="/es/assets/thumb-7.webp" alt="exemplo" loading="lazy"></div>
-        <div class="cell"><img src="/es/assets/output_0.png" alt="com produto" loading="lazy"></div>
+        <div class="cell"><img src="/es/assets/output_0.webp" alt="com produto" loading="lazy"></div>
         <div class="cell sensitive" onclick="this.classList.toggle('shown')">
           <img src="/es/assets/a5134a1b-16d3-416c-bab2-d9d9ce37f05c.jpeg" alt="conteúdo +18" loading="lazy">
           <div class="cell-veil"><div class="eye emoji">👁️</div>+18 · toque para ver</div>
@@ -2586,70 +2581,6 @@
     </div>
   </section>
 
-  <!-- SOCIAL PROOF — earnings screenshots -->
-  <section class="proof-section">
-    <div class="container">
-      <div class="reveal from-up">
-        <h2>Alunos reais. Ganhos reais no Fanvue.</h2>
-        <p class="sub">Criado com o sistema de dentro. Rostos ocultos, contas funcionando. É assim que parece quando funciona.</p>
-      </div>
-      <div class="proof-grid">
-        <div class="reveal from-left" data-delay="0">
-          <div class="proof-card">
-            <div class="head">
-              <div class="avatar">L</div>
-              <div>
-                <p class="name">Lucas M.</p>
-                <p class="meta"><span class="amount">US$ 8.062</span> no total · <span class="verified">✔ Fanvue</span></p>
-              </div>
-            </div>
-            <img class="proof-shot" decoding="async" src="/es/newimages/proof-1.png" alt="Painel de ganhos do Fanvue — US$ 8.062 no total">
-          </div>
-        </div>
-        <div class="reveal from-right" data-delay="80">
-          <div class="proof-card">
-            <div class="head">
-              <div class="avatar">R</div>
-              <div>
-                <p class="name">Ryan T.</p>
-                <p class="meta"><span class="amount">US$ 2.014</span> este mês · <span class="verified">✔ Fanvue</span></p>
-              </div>
-            </div>
-            <img class="proof-shot" decoding="async" src="/es/newimages/proof-2.png" alt="Painel de ganhos do Fanvue — US$ 2.014 este mês">
-          </div>
-        </div>
-        <div class="reveal from-left" data-delay="160">
-          <div class="proof-card">
-            <div class="head">
-              <div class="avatar">D</div>
-              <div>
-                <p class="name">Daniel K.</p>
-                <p class="meta"><span class="amount">US$ 10.621</span> no total · <span class="verified">✔ Fanvue</span></p>
-              </div>
-            </div>
-            <img class="proof-shot" decoding="async" src="/es/newimages/proof-3.png" alt="Painel de ganhos do Fanvue — US$ 10.621 no total">
-          </div>
-        </div>
-        <div class="reveal from-right" data-delay="240">
-          <div class="proof-card">
-            <div class="head">
-              <div class="avatar">M</div>
-              <div>
-                <p class="name">Marco V.</p>
-                <p class="meta"><span class="amount">US$ 81.000+</span> de saldo · <span class="verified">✔ Fanvue</span></p>
-              </div>
-            </div>
-            <img class="proof-shot" decoding="async" src="/es/newimages/proof-4.png" alt="Notificações de pagamento do Fanvue — US$ 81.000+ de saldo">
-          </div>
-        </div>
-      </div>
-      <div class="reveal from-up" data-delay="100">
-        <div class="proof-earnings">
-          <p>💰 Contas reais com modelos de IA faturam <b>US$ 1.000 a US$ 30.000/mês</b> no Fanvue e OnlyFans. O conteúdo é o gargalo, e é exatamente isso que esses 300+ prompts te entregam desde o primeiro dia.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- OFFER -->
   <section class="offer" id="offer">
@@ -2661,6 +2592,7 @@
           <a href="https://checkout.centerpag.com/pay/PPU38CQHGLL" data-ckt="basic" onclick="fbq &amp;&amp; fbq('track','InitiateCheckout',{content_name:'Basic Plan',content_category:'ckt_'+(window.CKT_VARIANT||'A'),value:19.90,currency: 'BRL'})" class="offer-card basic" style="text-decoration:none">
             <div class="offer-header">
               <h2>PLANO BÁSICO</h2>
+              <span style="display:inline-block;margin-top:6px;background:#FFB800;color:#000;font-size:.7rem;font-weight:900;letter-spacing:.05em;padding:4px 12px;border-radius:999px">BLACK NOVEMBER R$ 19,90</span>
             </div>
             <div class="offer-items">
               <div class="offer-item">
@@ -2721,13 +2653,14 @@
             <div class="offer-cta">
               <p class="offer-price">R$ 19,90</p>
               <span class="cta-btn" style="max-width:100%">QUERO O PLANO BÁSICO</span>
+              <p style="color:#666;font-size:.7rem;margin-top:12px">Pague com cartão ou Google Pay. Se o cartão for recusado, tente outro cartão ou o Google Pay.</p>
             </div>
           </a>
 
           <!-- COMPLETE PLAN -->
           <a href="https://checkout.centerpag.com/pay/PPU38CQHGLJ" data-ckt="complete" class="offer-card featured" onclick="fbq &amp;&amp; fbq('track','InitiateCheckout',{content_name:'Complete Plan',content_category:'ckt_'+(window.CKT_VARIANT||'A'),value:27.90,currency: 'BRL'})" style="text-decoration:none">
             <div class="offer-badge">⭐ MAIS VENDIDO</div>
-            <img class="offer-banner" src="/es/geraew-ai%20(1).jpg" alt="Pack 300+ Prompts +18 para Modelo de IA com IA SEM CENSURA" loading="eager">
+            <img class="offer-banner" src="/es/geraew-ai%20(1).jpg" alt="Pack 300+ Prompts +18 para Modelo de IA com IA SEM CENSURA" loading="lazy">
             <div class="offer-items">
               <div class="offer-item">
                 <div class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
@@ -2795,7 +2728,7 @@
               <p class="offer-price">R$ 27,90</p>
               <p style="color:#999;font-size:.8rem;margin-bottom:16px">pagamento único — menos que um café</p>
               <span class="cta-btn" style="max-width:100%">QUERO O PACK COMPLETO +18</span>
-              <p style="color:#666;font-size:.7rem;margin-top:12px">Acesso imediato após confirmação do pagamento</p>
+              <p style="color:#666;font-size:.7rem;margin-top:12px">Pague com cartão ou Google Pay. Se o cartão for recusado, tente outro cartão ou o Google Pay.</p>
             </div>
           </a>
 
@@ -2816,6 +2749,72 @@
           </div>
         </a>
         <script>(function(){var vs=document.querySelectorAll('#video-bump video');if(!vs.length)return;if(window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;function play(v){if(v.preload==='none')v.preload='auto';var p=v.play();if(p&&p.catch)p.catch(function(){});}if(!('IntersectionObserver' in window)){vs.forEach(play);return;}var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)play(e.target);else e.target.pause();});},{rootMargin:'200px 0px'});vs.forEach(function(v){io.observe(v);});})();</script>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF — earnings screenshots -->
+  <section class="proof-section">
+    <div class="container">
+      <div class="reveal from-up">
+        <h2>Alunos reais. Ganhos reais no Fanvue.</h2>
+        <p class="sub">Criado com o sistema de dentro. Rostos ocultos, contas funcionando. É assim que parece quando funciona.</p>
+        <p style="color:#9a9a9a;font-size:.75rem;font-style:italic;margin-top:8px;text-align:center">Resultados de exemplo, não são típicos.</p>
+      </div>
+      <div class="proof-grid">
+        <div class="reveal from-left" data-delay="0">
+          <div class="proof-card">
+            <div class="head">
+              <div class="avatar">L</div>
+              <div>
+                <p class="name">Lucas M.</p>
+                <p class="meta"><span class="amount">US$ 8.062</span> no total · <span class="verified">✔ Fanvue</span></p>
+              </div>
+            </div>
+            <img loading="lazy" class="proof-shot" decoding="async" src="/es/newimages/proof-1.png" alt="Painel de ganhos do Fanvue — US$ 8.062 no total">
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="80">
+          <div class="proof-card">
+            <div class="head">
+              <div class="avatar">R</div>
+              <div>
+                <p class="name">Ryan T.</p>
+                <p class="meta"><span class="amount">US$ 2.014</span> este mês · <span class="verified">✔ Fanvue</span></p>
+              </div>
+            </div>
+            <img loading="lazy" class="proof-shot" decoding="async" src="/es/newimages/proof-2.png" alt="Painel de ganhos do Fanvue — US$ 2.014 este mês">
+          </div>
+        </div>
+        <div class="reveal from-left" data-delay="160">
+          <div class="proof-card">
+            <div class="head">
+              <div class="avatar">D</div>
+              <div>
+                <p class="name">Daniel K.</p>
+                <p class="meta"><span class="amount">US$ 10.621</span> no total · <span class="verified">✔ Fanvue</span></p>
+              </div>
+            </div>
+            <img loading="lazy" class="proof-shot" decoding="async" src="/es/newimages/proof-3.png" alt="Painel de ganhos do Fanvue — US$ 10.621 no total">
+          </div>
+        </div>
+        <div class="reveal from-right" data-delay="240">
+          <div class="proof-card">
+            <div class="head">
+              <div class="avatar">M</div>
+              <div>
+                <p class="name">Marco V.</p>
+                <p class="meta"><span class="amount">US$ 81.000+</span> de saldo · <span class="verified">✔ Fanvue</span></p>
+              </div>
+            </div>
+            <img loading="lazy" class="proof-shot" decoding="async" src="/es/newimages/proof-4.png" alt="Notificações de pagamento do Fanvue — US$ 81.000+ de saldo">
+          </div>
+        </div>
+      </div>
+      <div class="reveal from-up" data-delay="100">
+        <div class="proof-earnings">
+          <p>💰 Contas reais com modelos de IA faturam <b>US$ 1.000 a US$ 30.000/mês</b> no Fanvue e OnlyFans. O conteúdo é o gargalo, e é exatamente isso que esses 300+ prompts te entregam desde o primeiro dia.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -3015,7 +3014,7 @@
       var offer=document.getElementById('offer');
       var offerVisible=false, scrolled=false;
       function update(){ bar.style.transform=(scrolled && !offerVisible)?'translateY(0)':'translateY(130%)'; }
-      window.addEventListener('scroll',function(){ scrolled=window.scrollY>500; update(); },{passive:true});
+      window.addEventListener('scroll',function(){ scrolled=window.scrollY>150; update(); },{passive:true});
       if(offer && 'IntersectionObserver' in window){
         new IntersectionObserver(function(es){ offerVisible=es[0].isIntersecting; update(); },{threshold:.25}).observe(offer);
       }
