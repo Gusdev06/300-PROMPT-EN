@@ -342,12 +342,15 @@
       <a id="tm-cta" href="https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener" class="login-btn taml">
         Crear mi cuenta y activar el bono →
       </a>
-      <p class="tiny">¿Ya tienes cuenta con este correo? Los bonos ya fueron añadidos, solo entra.</p>
+      <p class="tiny">¿Ya tienes cuenta con este correo? Los bonos ya fueron añadidos, solo <a id="tm-login" href="https://www.theaimodelab.com/es/login?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pack300-es" target="_blank" rel="noopener" style="color:#fff;font-weight:800">entra</a>.</p>
       <script>
       (function () {
         var base = 'https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es';
+        var loginBase = 'https://www.theaimodelab.com/es/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es';
         var cta = document.getElementById('tm-cta'), input = document.getElementById('tm-email-input'), hint = document.getElementById('tm-hint');
+        var login = document.getElementById('tm-login');
         if (!cta || !input) return;
+        var hintDefault = hint ? hint.textContent : '';
         function valid(v) { return v.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); }
         var known = '';
         try {
@@ -355,9 +358,15 @@
           var raw = (p.get('email') || p.get('customer_email') || '').trim();
           if (valid(raw)) known = raw;
         } catch (e) { known = ''; }
-        if (known) { input.value = known; hint.textContent = "Ya dejamos aquí el correo de tu compra. Puedes cambiarlo si hace falta."; }
-        function hrefFor(email) { return email ? base + '&email=' + encodeURIComponent(email) : base; }
-        function sync() { var v = input.value.trim(); cta.href = hrefFor(valid(v) ? v : known); input.removeAttribute('aria-invalid'); }
+        if (known) { hintDefault = "Ya dejamos aquí el correo de tu compra. Puedes cambiarlo si hace falta."; input.value = known; if (hint) hint.textContent = hintDefault; }
+        function hrefFor(email, from) { return email ? (from || base) + '&email=' + encodeURIComponent(email) : (from || base); }
+        function sync() {
+          var v = input.value.trim(), email = valid(v) ? v : known;
+          cta.href = hrefFor(email);
+          if (login) login.href = hrefFor(email, loginBase);
+          if (input.getAttribute('aria-invalid') && hint) hint.textContent = hintDefault;
+          input.removeAttribute('aria-invalid');
+        }
         input.addEventListener('input', sync);
         cta.addEventListener('click', function (ev) {
           var v = input.value.trim();

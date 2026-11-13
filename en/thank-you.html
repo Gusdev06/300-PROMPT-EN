@@ -341,12 +341,15 @@
       <a id="tm-cta" href="https://www.theaimodelab.com/en/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en" target="_blank" rel="noopener" class="login-btn taml">
         Create my account and claim the bonus →
       </a>
-      <p class="tiny">Already have an account with this email? The bonuses are already added, just log in.</p>
+      <p class="tiny">Already have an account with this email? The bonuses are already added, just <a id="tm-login" href="https://www.theaimodelab.com/en/login?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pack300-en" target="_blank" rel="noopener" style="color:#fff;font-weight:800">log in</a>.</p>
       <script>
       (function () {
         var base = 'https://www.theaimodelab.com/en/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en';
+        var loginBase = 'https://www.theaimodelab.com/en/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en';
         var cta = document.getElementById('tm-cta'), input = document.getElementById('tm-email-input'), hint = document.getElementById('tm-hint');
+        var login = document.getElementById('tm-login');
         if (!cta || !input) return;
+        var hintDefault = hint ? hint.textContent : '';
         function valid(v) { return v.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); }
         var known = '';
         try {
@@ -354,9 +357,15 @@
           var raw = (p.get('email') || p.get('customer_email') || '').trim();
           if (valid(raw)) known = raw;
         } catch (e) { known = ''; }
-        if (known) { input.value = known; hint.textContent = "We filled in the email from your purchase. Change it if you need to."; }
-        function hrefFor(email) { return email ? base + '&email=' + encodeURIComponent(email) : base; }
-        function sync() { var v = input.value.trim(); cta.href = hrefFor(valid(v) ? v : known); input.removeAttribute('aria-invalid'); }
+        if (known) { hintDefault = "We filled in the email from your purchase. Change it if you need to."; input.value = known; if (hint) hint.textContent = hintDefault; }
+        function hrefFor(email, from) { return email ? (from || base) + '&email=' + encodeURIComponent(email) : (from || base); }
+        function sync() {
+          var v = input.value.trim(), email = valid(v) ? v : known;
+          cta.href = hrefFor(email);
+          if (login) login.href = hrefFor(email, loginBase);
+          if (input.getAttribute('aria-invalid') && hint) hint.textContent = hintDefault;
+          input.removeAttribute('aria-invalid');
+        }
         input.addEventListener('input', sync);
         cta.addEventListener('click', function (ev) {
           var v = input.value.trim();
