@@ -272,6 +272,15 @@
       font-size: .75rem;
     }
     /* UPSELL PRO: degrau do pack para o plano, só nesta tela. Acento dourado para se separar do bônus (vermelho) e do acesso (roxo). */
+    .card.access { border: 1px solid hsl(0,0%,18%); }
+    .login-btn.secondary { background: hsl(0,0%,10%); border: 1px solid hsl(0,0%,24%); box-shadow: none; color: #eee; text-transform: none; font-size: .98rem; font-weight: 800; padding: 15px 20px; }
+    .login-btn.secondary:hover { border-color: rgba(168,85,247,.55); box-shadow: none; }
+    .tm-email { margin: 14px 0 4px; }
+    .tm-email label { display: block; font-size: .78rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: #bbb; margin-bottom: 6px; }
+    .tm-email input { width: 100%; box-sizing: border-box; padding: 14px 14px; border-radius: 12px; border: 1px solid hsl(0,0%,24%); background: hsl(0,0%,7%); color: #fff; font: inherit; font-size: 1rem; }
+    .tm-email input:focus { outline: none; border-color: #e11d2a; box-shadow: 0 0 0 3px rgba(225,29,42,.25); }
+    .tm-email input[aria-invalid="true"] { border-color: #ff5964; }
+    .tm-hint { margin: 6px 0 0; font-size: .82rem; color: #aaa; line-height: 1.5; }
         .card.upsell { border: 1px solid rgba(255,193,7,.4); box-shadow: 0 16px 50px rgba(255,193,7,.08); }
     .card.upsell h2 { color: var(--gold); }
     .card.upsell .lead { font-size: .95rem; color: #d9d4cf; line-height: 1.6; margin: -6px 0 14px; }
@@ -301,9 +310,68 @@
       <p>Tu acceso está listo. Aquí tienes todo lo que necesitas para entrar.</p>
     </div>
 
+    <!-- BONO TAML: cuenta en la plataforma + generaciones gratis (mismo correo del checkout) -->
+    <div class="card taml">
+      <h2>🎁 Tu bono: generaciones gratis en The AI Model Lab</h2>
+      <p class="lead">Tu compra también desbloquea un pack de <strong>generaciones gratis</strong> en la plataforma donde estos prompts cobran vida: fotos, cambio de rostro, probador virtual y un video de tu modelo de IA, sin instalar nada.</p>
+
+      <div class="field">
+        <div class="ico">🌐</div>
+        <div class="body">
+          <div class="lbl">Plataforma</div>
+          <div class="val"><a href="https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener">theaimodelab.com</a></div>
+        </div>
+      </div>
+
+      <div class="tm-email">
+        <label for="tm-email-input">Tu correo de la compra</label>
+        <input id="tm-email-input" type="email" inputmode="email" autocomplete="email" placeholder="tu@correo.com" maxlength="254">
+        <p class="tm-hint" id="tm-hint">Regístrate con este correo y el bono se activa solo.</p>
+      </div>
+
+      <!-- BÔNUS DO 8º DIA (cockpit suporte.pack_bonus_d8, dono 12/11): 2.000 créditos depois da garantia, só para compra ativa -->
+      <div class="field">
+        <div class="ico">🗓️</div>
+        <div class="body">
+          <div class="lbl">Bono de fidelidad del 8º día</div>
+          <div class="val"><strong>+2.000 créditos</strong> <strong data-bonus-d8>en 8 días</strong>: hasta 10 fotos sin censura o 5 videos cortos de tu modelo. Entran solos en la cuenta con el mismo correo (compras activas en esa fecha).</div>
+        </div>
+      </div>
+      <script>(function(){try{var d=new Date(Date.now()+8*864e5);var t='el '+('0'+d.getDate()).slice(-2)+'/'+('0'+(d.getMonth()+1)).slice(-2);var el=document.querySelectorAll('[data-bonus-d8]');for(var i=0;i<el.length;i++)el[i].textContent=t;}catch(e){}})();</script>
+
+      <a id="tm-cta" href="https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener" class="login-btn taml">
+        Crear mi cuenta y activar el bono →
+      </a>
+      <p class="tiny">¿Ya tienes cuenta con este correo? Los bonos ya fueron añadidos, solo entra.</p>
+      <script>
+      (function () {
+        var base = 'https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es';
+        var cta = document.getElementById('tm-cta'), input = document.getElementById('tm-email-input'), hint = document.getElementById('tm-hint');
+        if (!cta || !input) return;
+        function valid(v) { return v.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); }
+        var known = '';
+        try {
+          var p = new URLSearchParams(window.location.search);
+          var raw = (p.get('email') || p.get('customer_email') || '').trim();
+          if (valid(raw)) known = raw;
+        } catch (e) { known = ''; }
+        if (known) { input.value = known; hint.textContent = "Ya dejamos aquí el correo de tu compra. Puedes cambiarlo si hace falta."; }
+        function hrefFor(email) { return email ? base + '&email=' + encodeURIComponent(email) : base; }
+        function sync() { var v = input.value.trim(); cta.href = hrefFor(valid(v) ? v : known); input.removeAttribute('aria-invalid'); }
+        input.addEventListener('input', sync);
+        cta.addEventListener('click', function (ev) {
+          var v = input.value.trim();
+          if (v && !valid(v)) { ev.preventDefault(); input.setAttribute('aria-invalid', 'true'); hint.textContent = "Revisa el correo: parece que falta algo."; input.focus(); return; }
+          cta.href = hrefFor(v);
+        });
+        sync();
+      })();
+      </script>
+    </div>
+
     <!-- ACCESS CARD -->
-    <div class="card highlight">
-      <h2>🔓 Tus datos de acceso</h2>
+    <div class="card access">
+      <h2>📚 Tus prompts del Pack (área de miembros)</h2>
 
       <div class="field">
         <div class="ico">🔗</div>
@@ -321,46 +389,9 @@
         </div>
       </div>
 
-      <a href="https://academy.perfectpay.com.br" target="_blank" rel="noopener" class="login-btn">
-        Entrar a mi área de miembros →
+      <a href="https://academy.perfectpay.com.br" target="_blank" rel="noopener" class="login-btn secondary">
+        Abrir mi área de miembros →
       </a>
-    </div>
-
-    <!-- BONO TAML: cuenta en la plataforma + generaciones gratis (mismo correo del checkout) -->
-    <div class="card taml">
-      <h2>🎁 Tu bono: generaciones gratis en The AI Model Lab</h2>
-      <p class="lead">Tu compra también desbloquea un pack de <strong>generaciones gratis</strong> en la plataforma donde estos prompts cobran vida: fotos, cambio de rostro, probador virtual y un video de tu modelo de IA, sin instalar nada.</p>
-
-      <div class="field">
-        <div class="ico">🌐</div>
-        <div class="body">
-          <div class="lbl">Plataforma</div>
-          <div class="val"><a href="https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener">theaimodelab.com</a></div>
-        </div>
-      </div>
-
-      <div class="field">
-        <div class="ico">📧</div>
-        <div class="body">
-          <div class="lbl">Correo</div>
-          <div class="val">Regístrate con el mismo correo del checkout y el bono se activa solo</div>
-        </div>
-      </div>
-
-      <!-- BÔNUS DO 8º DIA (cockpit suporte.pack_bonus_d8, dono 12/11): 2.000 créditos depois da garantia, só para compra ativa -->
-      <div class="field">
-        <div class="ico">🗓️</div>
-        <div class="body">
-          <div class="lbl">Bono de fidelidad del 8º día</div>
-          <div class="val"><strong>+2.000 créditos</strong> <strong data-bonus-d8>en 8 días</strong>: hasta 10 fotos sin censura o 5 videos cortos de tu modelo. Entran solos en la cuenta con el mismo correo (compras activas en esa fecha).</div>
-        </div>
-      </div>
-      <script>(function(){try{var d=new Date(Date.now()+8*864e5);var t='el '+('0'+d.getDate()).slice(-2)+'/'+('0'+(d.getMonth()+1)).slice(-2);var el=document.querySelectorAll('[data-bonus-d8]');for(var i=0;i<el.length;i++)el[i].textContent=t;}catch(e){}})();</script>
-
-      <a href="https://www.theaimodelab.com/es/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-es" target="_blank" rel="noopener" class="login-btn taml">
-        Crear mi cuenta y activar el bono →
-      </a>
-      <p class="tiny">¿Ya tenías cuenta con ese correo? Escríbenos por WhatsApp y lo activamos a mano.</p>
     </div>
 
     <!-- UPSELL PRO: mesmo bloco do obrigado PT (funis/public/pos-compra/pt/thank-you.html), checkouts do plano Pro (API /plans). -->
@@ -376,6 +407,7 @@
       <p class="upsell-timer">El anual sale con 42% off. El mensual lo cancelas cuando quieras.</p>
       <a href="https://checkout.centerpag.com/pay/PPU38CQG711?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pro_anual_es" target="_blank" rel="noopener" class="login-btn upsell-btn" data-upsell="anual">Pro anual · 42% off<small>(US$ 279/año)</small></a>
       <a href="https://checkout.centerpag.com/pay/PPU38CQDTOD?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pro_mensual_es" target="_blank" rel="noopener" class="upsell-alt" data-upsell="mensal">Pro mensual · US$ 39,90/mes</a>
+      <p class="tiny">Crea tu cuenta con el correo de la compra (el bono de arriba) antes de pasarte al Pro, para que el plan caiga en la misma cuenta.</p>
       <p class="tiny">Paga con el mismo correo de la compra · cancela cuando quieras</p>
     </div>
 
