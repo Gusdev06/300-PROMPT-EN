@@ -3059,8 +3059,7 @@
     try{
       var u=new URL(a.href);
       if(!/(^|\.)(centerpag\.com|perfectpay\.com\.br|mycheckoutt\.com)$/.test(u.hostname)) return;
-      u.searchParams.set('src','aff_'+code); u.searchParams.set('utm_source','aff'); u.searchParams.set('utm_campaign',code);
-      if(!u.searchParams.get('utm_medium')) u.searchParams.set('utm_medium','pack');
+      u.searchParams.set('src','aff_'+code); // as utm_* ficam com a UTMify (o utm_source dela é o id do clique)
       a.href=u.toString();
     }catch(e){}
   }
