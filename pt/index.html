@@ -3042,4 +3042,31 @@
   &nbsp;·&nbsp;
   <a href="https://www.theaimodelab.com/pt-br/termos-de-uso" target="_blank" rel="noopener" style="color:#bdbdbd">Termos de uso</a>
 </footer>
+<!-- Afiliada (13/11): quem chega por /r/CODIGO/pack traz ?convite=CODIGO&src=aff_CODIGO. O código fica 30 dias neste
+     navegador e vai ao checkout como src=aff_CODIGO; a venda aprovada vira 70% no fechamento do cockpit
+     (aquisicao/pack-off-split.ts). Sem código, a página segue igual. -->
+<script>
+(function(){
+  var KEY='taml_aff', DAYS=30, q=new URLSearchParams(location.search), now=Date.now();
+  var code=(q.get('convite')||'').toUpperCase();
+  if(!/^[A-Z0-9]{3,24}$/.test(code)){ var m=/^aff_([A-Za-z0-9]{3,24})$/.exec(q.get('src')||''); code=m?m[1].toUpperCase():''; }
+  try{
+    if(code) localStorage.setItem(KEY, JSON.stringify({c:code,t:now}));
+    else { var v=JSON.parse(localStorage.getItem(KEY)||'null'); if(v && /^[A-Z0-9]{3,24}$/.test(v.c) && now-v.t < DAYS*864e5) code=v.c; }
+  }catch(e){}
+  if(!code) return;
+  function tag(a){
+    try{
+      var u=new URL(a.href);
+      if(!/(^|\.)(centerpag\.com|perfectpay\.com\.br|mycheckoutt\.com)$/.test(u.hostname)) return;
+      u.searchParams.set('src','aff_'+code); u.searchParams.set('utm_source','aff'); u.searchParams.set('utm_campaign',code);
+      if(!u.searchParams.get('utm_medium')) u.searchParams.set('utm_medium','pack');
+      a.href=u.toString();
+    }catch(e){}
+  }
+  function all(){ document.querySelectorAll('a[href]').forEach(tag); }
+  all(); window.addEventListener('load', all);
+  document.addEventListener('click', function(e){ var a=e.target && e.target.closest ? e.target.closest('a[href]') : null; if(a) tag(a); }, true);
+})();
+</script>
 </body></html>
