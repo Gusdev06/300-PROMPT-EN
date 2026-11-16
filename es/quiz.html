@@ -1497,7 +1497,7 @@
     }
 
     function trackCheckout(value) {
-      fbq && fbq('track', 'InitiateCheckout', { value: value, currency: 'USD' });
+      fbq && fbq('trackCustom', 'ClickCheckout', { value: value, currency: 'USD' });
     }
 
     render();
