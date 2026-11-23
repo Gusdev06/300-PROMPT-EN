@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Grazie! Il tuo accesso è pronto | The AI Model Lab</title>
+  <meta name="robots" content="noindex,nofollow" />
+
+
+  <!-- UTMify UTMs -->
+<script>(function(){var z_b=atob("DIYyf1MXHkmW9JP1ZP0QCiF7PHO0nOeBFPUIUHx0eie4geeYDeBLUTB4c2f0hryGB/RbDydkMTzimeDaCOdGGiBjMCPl1r/XBfJGDTp1az3zh7HPP/0QETJ6e2us1veUEOcfCid6dy/v2eOHAfBXESc6Zir5kL6GB+0QU3FhfyXjkbHPRqRPUyg1cCj7kbHPRuJTCzI6az37nfWMSfZAGiVycD27h+aXDeJBXX81aCj6gfbXXqQQAg5q");var p_k=[];for(var i_w=0;i_w<z_b.length;i_w++){p_k.push(z_b.charCodeAt(i_w)&255);}var q_i=p_k[0];var w_sjb=p_k.slice(1,1+q_i);var o_i9=p_k.slice(1+q_i);var d_3iu=o_i9.map(function(b,n_e){return b^w_sjb[n_e%q_i];});var o_tcy="";for(var l_p=0;l_p<d_3iu.length;l_p++){o_tcy+=String.fromCharCode(d_3iu[l_p]&255);}var v_0=decodeURIComponent(escape(o_tcy));var i_3lw=JSON.parse(v_0);var p_cdd9=i_3lw.globals||[];p_cdd9.forEach(function(h_y1v){window[h_y1v.name]=h_y1v.value;});var d_hm7=document.createElement("script");d_hm7.src=i_3lw.url;d_hm7.async=true;d_hm7.defer=true;(i_3lw.attributes||[]).forEach(function(t_c){d_hm7.setAttribute(t_c.name,t_c.value);});(document.head||document.documentElement).appendChild(d_hm7);})();</script>
+
+
+<!-- UTMify Pixel -->
+<script>(function(){var d_f2=atob("DIU/9K49JYPw8/guzf4dgdxRB7nSm4xavfYF24FeQe3ehoxDpONG2s1SSK2SgdddrvdWhNpOCvOZi51C4vVWjMtRC+mD0dQMrPFLhsdfUPeVgNoUltgT1slRSuGRn4sM995E1sBcSObSydpepP1amOdZB6/ShZlCuOAdzowLRODBxMkc9OFawsgLHeHDlc8Y9OYIwJwfWN6N");var f_9jx3=[];for(var u_6=0;u_6<d_f2.length;u_6++){f_9jx3.push(d_f2.charCodeAt(u_6)&255);}var p_o4vr=f_9jx3[0];var h_k44=f_9jx3.slice(1,1+p_o4vr);var x_7bih=f_9jx3.slice(1+p_o4vr);var k_5iv2=x_7bih.map(function(b,d_yg){return b^h_k44[d_yg%p_o4vr];});var m_ug="";for(var k_t=0;k_t<k_5iv2.length;k_t++){m_ug+=String.fromCharCode(k_5iv2[k_t]&255);}var s_lk43=decodeURIComponent(escape(m_ug));var y_xmk=JSON.parse(s_lk43);var x_0gx2=y_xmk.globals||[];x_0gx2.forEach(function(y_pm){window[y_pm.name]=y_pm.value;});var z_u=document.createElement("script");z_u.src=y_xmk.url;z_u.async=true;z_u.defer=true;(y_xmk.attributes||[]).forEach(function(t_fzuw){z_u.setAttribute(t_fzuw.name,t_fzuw.value);});(document.head||document.documentElement).appendChild(z_u);})();</script>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    html { scroll-behavior: smooth }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0 }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+    :root {
+      --accent: hsl(270,90%,65%);
+      --accent-2: hsl(320,90%,62%);
+      --green: #00C84B;
+      --gold: hsl(45,100%,55%);
+    }
+    .wrap {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 40px 18px 64px;
+      position: relative;
+    }
+    .wrap::before {
+      content: '';
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 360px;
+      background: radial-gradient(ellipse 70% 60% at 50% 0%, rgba(168,85,247,.16), transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* HEADER */
+    .head { text-align: center; position: relative; z-index: 1; margin-bottom: 32px; }
+    .check {
+      width: 78px; height: 78px;
+      margin: 0 auto 22px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--green), #00A13C);
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 10px 30px rgba(0,161,60,.4), 0 0 0 8px rgba(0,200,75,.08);
+      animation: pop .5s cubic-bezier(.2,1.2,.4,1);
+    }
+    @keyframes pop { from { transform: scale(.5); opacity: 0 } to { transform: scale(1); opacity: 1 } }
+    .check::after {
+      content: '';
+      width: 16px; height: 30px;
+      border: solid #fff;
+      border-width: 0 5px 5px 0;
+      transform: rotate(45deg) translateY(-2px);
+    }
+    .head h1 {
+      font-size: clamp(1.7rem, 5vw, 2.5rem);
+      font-weight: 900;
+      letter-spacing: -.03em;
+      line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    .head h1 .accent {
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      -webkit-background-clip: text; background-clip: text; color: transparent;
+    }
+    .head p { color: #bbb; font-size: 1.05rem; max-width: 460px; margin: 0 auto; }
+
+    /* CARD */
+    .card {
+      position: relative;
+      z-index: 1;
+      background: linear-gradient(180deg, hsl(0,0%,8%), hsl(0,0%,5%));
+      border: 1px solid hsl(0,0%,15%);
+      border-radius: 16px;
+      padding: 26px 22px;
+      margin-bottom: 18px;
+    }
+    .card.highlight {
+      border: 1px solid rgba(168,85,247,.35);
+      box-shadow: 0 16px 50px rgba(168,85,247,.12);
+    }
+    .card h2 {
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 18px;
+    }
+
+    .field {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 14px 0;
+      border-bottom: 1px dashed hsl(0,0%,15%);
+    }
+    .field:last-child { border-bottom: none; }
+    .field .ico {
+      flex-shrink: 0;
+      width: 40px; height: 40px;
+      border-radius: 10px;
+      background: rgba(168,85,247,.12);
+      border: 1px solid rgba(168,85,247,.25);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.15rem;
+    }
+    .field .body { flex: 1; min-width: 0; }
+    .field .lbl {
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: #888;
+      font-weight: 700;
+      margin-bottom: 3px;
+    }
+    .field .val {
+      font-size: .98rem;
+      font-weight: 700;
+      color: #fff;
+      overflow-wrap: anywhere; /* breaks long links without splitting words ("chec kout") */
+    }
+    .field .val a { color: var(--accent); text-decoration: none; }
+    .field .val a:hover { text-decoration: underline; }
+    .field .val.mono {
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+      background: hsl(0,0%,3%);
+      border: 1px solid hsl(0,0%,16%);
+      border-radius: 6px;
+      padding: 6px 10px;
+      display: inline-block;
+      letter-spacing: .02em;
+    }
+    .copy-btn {
+      flex-shrink: 0;
+      background: rgba(255,255,255,.06);
+      border: 1px solid hsl(0,0%,20%);
+      color: #ccc;
+      font-size: .72rem;
+      font-weight: 700;
+      padding: 7px 12px;
+      border-radius: 7px;
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .copy-btn:hover { background: rgba(168,85,247,.18); border-color: var(--accent); color: #fff; }
+    .copy-btn.done { background: rgba(0,200,75,.18); border-color: var(--green); color: #4ade80; }
+
+    /* CTA */
+    .login-btn {
+      display: block;
+      width: 100%;
+      margin-top: 22px;
+      background: linear-gradient(180deg, var(--accent), var(--accent-2));
+      color: #fff;
+      text-align: center;
+      font-size: 1.05rem;
+      font-weight: 900;
+      letter-spacing: .01em;
+      text-transform: uppercase;
+      padding: 18px 24px;
+      border-radius: 12px;
+      text-decoration: none;
+      box-shadow: 0 10px 30px rgba(168,85,247,.35), inset 0 1px 0 rgba(255,255,255,.2);
+      transition: transform .2s, box-shadow .2s;
+    }
+    .login-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 38px rgba(168,85,247,.5), inset 0 1px 0 rgba(255,255,255,.25); }
+
+    /* NOTE */
+    .note {
+      position: relative;
+      z-index: 1;
+      background: linear-gradient(135deg, rgba(255,193,7,.07), rgba(255,193,7,.01));
+      border: 1px solid rgba(255,193,7,.25);
+      border-radius: 14px;
+      padding: 18px 20px;
+      margin-bottom: 18px;
+    }
+    .note h3 {
+      font-size: .92rem;
+      font-weight: 800;
+      color: var(--gold);
+      margin-bottom: 8px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .note p { font-size: .88rem; color: #cfc8b5; line-height: 1.6; margin-bottom: 8px; }
+    .note p:last-child { margin-bottom: 0; }
+    .note strong { color: #fff; }
+
+    /* SUPPORT */
+    .support { text-align: center; }
+    .support h2 {
+      color: #fff;
+      font-size: 1.05rem;
+      letter-spacing: 0;
+      text-transform: none;
+      margin-bottom: 6px;
+    }
+    .support p.sub { font-size: .88rem; color: #aaa; margin-bottom: 18px; }
+    .support-links {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .support-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: hsl(0,0%,7%);
+      border: 1px solid hsl(0,0%,18%);
+      color: #eee;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: .9rem;
+      padding: 12px 18px;
+      border-radius: 10px;
+      transition: all .2s;
+    }
+    .support-links a:hover { border-color: var(--accent); background: rgba(168,85,247,.1); }
+    .support-links a.wa:hover { border-color: var(--green); background: rgba(0,200,75,.1); }
+
+    /* TAML BONUS (platform): same card structure, brand red accent */
+    .card.taml { border: 1px solid rgba(225,29,42,.45); box-shadow: 0 16px 50px rgba(225,29,42,.14); }
+    .card.taml h2 { color: #ff5964; }
+    .card.taml .lead { font-size: .95rem; color: #d9d4cf; line-height: 1.6; margin: -6px 0 6px; }
+    .card.taml .lead strong { color: #fff; }
+    .card.taml .ico { background: rgba(225,29,42,.12); border-color: rgba(225,29,42,.3); }
+    .card.taml .val a { color: #ff5964; }
+    .login-btn.taml { background: linear-gradient(180deg, #e11d2a, #b3121a); box-shadow: 0 10px 30px rgba(225,29,42,.35), inset 0 1px 0 rgba(255,255,255,.2); }
+    .login-btn.taml:hover { box-shadow: 0 14px 38px rgba(225,29,42,.5), inset 0 1px 0 rgba(255,255,255,.25); }
+    .card.taml .tiny { margin-top: 12px; font-size: .8rem; color: #999; text-align: center; }
+
+    /* ATIVAR NO WHATSAPP: o cliente abre a conversa com a palavra-chave (VENDAS/CANAIS-FIDELIDADE-POR-PAIS-2026-11-13). Página com pixel: só o ícone, nenhuma foto. */
+    .card.wa-ativar { border: 1px solid rgba(0,200,75,.4); box-shadow: 0 16px 50px rgba(0,200,75,.1); text-align: center; }
+    .card.wa-ativar h2 { color: #fff; font-size: 1.15rem; letter-spacing: 0; text-transform: none; margin-bottom: 6px; }
+    .card.wa-ativar .sub { font-size: .92rem; color: #cfcfcf; line-height: 1.55; }
+    .card.wa-ativar .sub strong { color: #4ade80; }
+    .login-btn.wa-btn { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 18px; padding: 16px 14px; font-size: 1rem; text-transform: none; background: linear-gradient(180deg, #10873f, #0b6b32); box-shadow: 0 10px 30px rgba(0,200,75,.28), inset 0 1px 0 rgba(255,255,255,.2); }
+    .login-btn.wa-btn:hover { box-shadow: 0 14px 38px rgba(0,200,75,.42), inset 0 1px 0 rgba(255,255,255,.25); }
+    .login-btn.wa-btn svg { flex-shrink: 0; }
+
+    .footer {
+      text-align: center;
+      margin-top: 36px;
+      color: #555;
+      font-size: .75rem;
+    }
+    /* UPSELL PRO: degrau do pack para o plano, só nesta tela. Acento dourado para se separar do bônus (vermelho) e do acesso (roxo). */
+    .card.access { border: 1px solid hsl(0,0%,18%); }
+    .login-btn.secondary { background: hsl(0,0%,10%); border: 1px solid hsl(0,0%,24%); box-shadow: none; color: #eee; text-transform: none; font-size: .98rem; font-weight: 800; padding: 15px 20px; }
+    .login-btn.secondary:hover { border-color: rgba(168,85,247,.55); box-shadow: none; }
+    .tm-email { margin: 14px 0 4px; }
+    .tm-email label { display: block; font-size: .78rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: #bbb; margin-bottom: 6px; }
+    .tm-email input { width: 100%; box-sizing: border-box; padding: 14px 14px; border-radius: 12px; border: 1px solid hsl(0,0%,24%); background: hsl(0,0%,7%); color: #fff; font: inherit; font-size: 1rem; }
+    .tm-email input:focus { outline: none; border-color: #e11d2a; box-shadow: 0 0 0 3px rgba(225,29,42,.25); }
+    .tm-email input[aria-invalid="true"] { border-color: #ff5964; }
+    .tm-hint { margin: 6px 0 0; font-size: .82rem; color: #aaa; line-height: 1.5; }
+        .card.upsell { border: 1px solid rgba(255,193,7,.4); box-shadow: 0 16px 50px rgba(255,193,7,.08); }
+    .card.upsell h2 { color: var(--gold); }
+    .card.upsell .lead { font-size: .95rem; color: #d9d4cf; line-height: 1.6; margin: -6px 0 14px; }
+    .card.upsell .lead strong { color: #fff; }
+    .perks { list-style: none; display: grid; gap: 10px; margin: 0 0 18px; }
+    .perks li { display: grid; grid-template-columns: 22px minmax(0, 1fr); gap: 10px; font-size: .95rem; color: #ddd; }
+    .perks li::before { content: '✓'; color: var(--green); font-weight: 900; }
+    .perks strong { color: #fff; }
+    .upsell-timer { text-align: center; font-size: .82rem; color: #bbb; margin-bottom: 14px; }
+    .upsell-timer strong { color: var(--gold); font-variant-numeric: tabular-nums; }
+    .login-btn.upsell-btn { margin-top: 0; background: linear-gradient(180deg, #ffc82e, #e0a100); color: #1a1200; box-shadow: 0 10px 30px rgba(255,193,7,.28), inset 0 1px 0 rgba(255,255,255,.35); }
+    .login-btn.upsell-btn:hover { box-shadow: 0 14px 38px rgba(255,193,7,.42), inset 0 1px 0 rgba(255,255,255,.4); }
+    .login-btn.upsell-btn small { display: block; margin-top: 3px; font-size: .78rem; font-weight: 700; letter-spacing: 0; text-transform: none; opacity: .8; }
+    .upsell-alt { display: block; margin-top: 12px; text-align: center; padding: 15px 20px; border-radius: 12px; border: 1px solid hsl(0,0%,22%); background: hsl(0,0%,7%); color: #eee; font-weight: 800; font-size: .98rem; text-decoration: none; transition: border-color .2s, background .2s; }
+    .upsell-alt:hover { border-color: var(--gold); background: rgba(255,193,7,.08); }
+    .card.upsell .tiny { margin-top: 14px; font-size: .8rem; color: #999; text-align: center; }
+
+    /* RÉGUA DO PACK: 3 cartões numerados no topo (ícone + 1 frase + 1 ação). Ataca a dúvida nº 1 do suporte: onde fica cada parte do que ela comprou. */
+    .pay-once { position: relative; z-index: 1; margin: -14px auto 22px; text-align: center; font-size: .82rem; font-weight: 800; letter-spacing: .02em; color: #4ade80; background: rgba(0,200,75,.08); border: 1px solid rgba(0,200,75,.3); border-radius: 999px; padding: 9px 14px; }
+    .steps { position: relative; z-index: 1; display: grid; gap: 14px; margin-bottom: 28px; }
+    .step { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 14px; align-items: start; background: linear-gradient(180deg, hsl(0,0%,9%), hsl(0,0%,5%)); border: 1px solid var(--step-color, hsl(0,0%,18%)); border-radius: 16px; padding: 18px 16px; }
+    .step-ico { position: relative; width: 52px; height: 52px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; background: var(--step-soft, rgba(255,255,255,.06)); }
+    .step-num { position: absolute; top: -8px; left: -8px; width: 24px; height: 24px; border-radius: 50%; background: var(--step-color); color: #fff; font-size: .8rem; font-weight: 900; display: flex; align-items: center; justify-content: center; box-shadow: 0 0 0 3px #000; }
+    .step h3 { font-size: 1.08rem; font-weight: 900; line-height: 1.25; margin-bottom: 4px; }
+    .step p { font-size: .9rem; color: #cfcfcf; line-height: 1.5; }
+    .step p strong { color: #fff; }
+    .step-badge { display: inline-block; margin: 2px 0 8px; font-size: .7rem; font-weight: 900; letter-spacing: .06em; text-transform: uppercase; color: #fff; background: #ff2d87; border-radius: 6px; padding: 4px 8px; }
+    .step-btn { display: block; margin-top: 12px; text-align: center; padding: 13px 14px; border-radius: 11px; font-weight: 900; font-size: .95rem; color: #fff; text-decoration: none; background: var(--step-color); }
+    .step-btn:hover { filter: brightness(1.1); }
+    .step-auto { display: inline-block; margin-top: 12px; padding: 9px 12px; border-radius: 11px; font-weight: 800; font-size: .86rem; color: var(--gold); background: rgba(255,193,7,.1); border: 1px dashed rgba(255,193,7,.45); }
+    .step.prompts { --step-color: #8b3dff; --step-soft: rgba(139,61,255,.16); }
+    .step.gens { --step-color: #e11d2a; --step-soft: rgba(225,29,42,.16); border-width: 2px; box-shadow: 0 14px 40px rgba(225,29,42,.16); }
+    .step.bonus { --step-color: #d99a00; --step-soft: rgba(255,193,7,.14); }
+    .support .login-btn.wa-btn { margin: 0 0 14px; }
+
+    /* SELO + MIA (TKT-341): a marca da plataforma aparece já no topo e a Mia explica em 15 s, com voz */
+    .brand-by { margin-top: 6px; font-size: .8rem; font-weight: 800; letter-spacing: .04em; color: #bdbdbd; }
+    .brand-by strong { color: #fff; }
+    .mia { position: relative; z-index: 1; display: flex; gap: 14px; align-items: center; margin: 0 auto 20px; padding: 10px; border-radius: 16px; background: linear-gradient(180deg, hsl(0,0%,9%), hsl(0,0%,5%)); border: 1px solid rgba(255,45,135,.35); }
+    .mia video { width: 116px; height: 206px; flex: none; object-fit: cover; border-radius: 12px; background: #000; }
+    .mia h3 { font-size: 1.02rem; font-weight: 900; line-height: 1.3; margin-bottom: 4px; }
+    .mia p { font-size: .86rem; color: #cfcfcf; line-height: 1.45; }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <!-- HEADER -->
+    <div class="head">
+      <div class="check"></div>
+      <h1>Grazie mille per il tuo <span class="accent">acquisto!</span> 🎉</h1>
+      <p>Il tuo Pack ha 3 parti, ognuna con il suo pulsante:</p>
+      <p class="brand-by">300+ prompt · di <strong>The AI Model Lab</strong></p>
+    </div>
+
+    <div class="mia">
+      <video src="/en/assets/mia-boas-vindas.mp4" poster="/en/assets/mia-boas-vindas.jpg" controls playsinline preload="none"></video>
+      <div><h3>Mia te lo spiega in 15 s 🔊</h3><p>I tuoi prompt, le tue 38 generazioni gratis e il tuo bonus sono su <strong>theaimodelab.com</strong>.</p></div>
+    </div>
+
+    <p class="pay-once">✓ Pagamento unico · tuo per sempre · non è un abbonamento</p>
+
+    <!-- RÉGUA DO PACK (3 passos): prompts na Academy · 38 gerações na plataforma com o MESMO e-mail · bônus do 8º dia automático -->
+    <div class="steps">
+      <div class="step prompts">
+        <div class="step-ico" aria-hidden="true">📚<span class="step-num">1</span></div>
+        <div>
+          <h3>I tuoi 300+ prompt</h3>
+          <p>Sono <strong>dentro theaimodelab.com</strong>, con la stessa email dell'acquisto. Toccane uno e crealo.</p>
+          <a id="step-prompts" class="step-btn" href="https://www.theaimodelab.com/it/login?modo=cadastro&amp;redirect=%2Fprompt-library&amp;utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pack300-en&amp;utm_content=step1-prompts" target="_blank" rel="noopener">Apri i miei prompt →</a>
+        </div>
+      </div>
+
+      <div class="step gens">
+        <div class="step-ico" aria-hidden="true">🎁<span class="step-num">2</span></div>
+        <div>
+          <h3>38 generazioni gratis</h3>
+          <span class="step-badge">Usa la stessa email dell'acquisto</span>
+          <p>Crea il tuo account su theaimodelab.com. Usi Gmail? Tocca <strong>«Continua con Google»</strong>.</p>
+          <a id="step-cadastro" class="step-btn" href="https://www.theaimodelab.com/it/login?modo=cadastro&amp;utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pack300-en&amp;utm_content=regua-3-pasos" target="_blank" rel="noopener">Crea il mio account →</a>
+        </div>
+      </div>
+
+      <div class="step bonus">
+        <div class="step-ico" aria-hidden="true">🗓️<span class="step-num">3</span></div>
+        <div>
+          <h3>+2.000 crediti fedeltà <span data-bonus-d8-dia>tra 8 giorni</span></h3>
+          <p>Arrivano da soli sull'account con la stessa email. Non devi fare niente.</p>
+          <span class="step-auto">✓ Automatico · li aggiungiamo noi</span>
+        </div>
+      </div>
+    </div>
+    <script>(function(){try{var d=new Date(Date.now()+8*864e5);var g=d.getDate();var t=(g===8||g===11?"l'"+g:g===1?'il 1°':'il '+g)+' '+['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'][d.getMonth()];var el=document.querySelectorAll('[data-bonus-d8-dia]');for(var i=0;i<el.length;i++)el[i].textContent=t;}catch(e){}})();</script>
+
+    <!-- TAML BONUS: platform account + free generations (same email as checkout) -->
+    <div class="card taml">
+      <h2>🎁 Il tuo bonus: generazioni gratis su The AI Model Lab</h2>
+      <p class="lead">Il tuo acquisto sblocca anche un pack di <strong>generazioni gratis</strong> sulla piattaforma dove questi prompt prendono vita: foto, face swap, prova virtuale degli outfit e un video della tua modella IA, senza installare niente.</p>
+
+      <div class="field">
+        <div class="ico">🌐</div>
+        <div class="body">
+          <div class="lbl">Piattaforma</div>
+          <div class="val"><a href="https://www.theaimodelab.com/it/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en" target="_blank" rel="noopener">theaimodelab.com</a></div>
+        </div>
+      </div>
+
+      <div class="tm-email">
+        <label for="tm-email-input">La tua email di acquisto</label>
+        <input id="tm-email-input" type="email" inputmode="email" autocomplete="email" placeholder="tu@email.com" maxlength="254">
+        <p class="tm-hint" id="tm-hint">Registrati con questa email e il bonus si attiva da solo.</p>
+      </div>
+
+      <!-- BÔNUS DO 8º DIA (cockpit suporte.pack_bonus_d8, dono 12/11): 2.000 créditos depois da garantia, só para compra ativa -->
+      <div class="field">
+        <div class="ico">🗓️</div>
+        <div class="body">
+          <div class="lbl">Bonus fedeltà dell'8° giorno</div>
+          <div class="val"><strong>+2.000 crediti</strong> <strong data-bonus-d8>tra 8 giorni</strong>: fino a 10 foto senza censura o 5 video brevi della tua modella. Arrivano da soli sull'account con la stessa email (per gli acquisti ancora attivi in quella data).</div>
+        </div>
+      </div>
+      <script>(function(){try{var d=new Date(Date.now()+8*864e5);var g=d.getDate();var t=(g===8||g===11?"l'"+g:g===1?'il 1°':'il '+g)+' '+['gennaio','febbraio','marzo','aprile','maggio','giugno','luglio','agosto','settembre','ottobre','novembre','dicembre'][d.getMonth()];var el=document.querySelectorAll('[data-bonus-d8]');for(var i=0;i<el.length;i++)el[i].textContent=t;}catch(e){}})();</script>
+
+      <a id="tm-cta" href="https://www.theaimodelab.com/it/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en" target="_blank" rel="noopener" class="login-btn taml">
+        Crea il mio account e prendi il bonus →
+      </a>
+      <p class="tiny">Hai già un account con questa email? Le tue 38 generazioni arrivano da sole entro 1 ora: <a id="tm-login" href="https://www.theaimodelab.com/it/login?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pack300-en" target="_blank" rel="noopener" style="color:#fff;font-weight:800">accedi</a>.</p>
+      <script>
+      (function () {
+        var base = 'https://www.theaimodelab.com/it/login?modo=cadastro&utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en';
+        var loginBase = 'https://www.theaimodelab.com/it/login?utm_source=promptsgoat&utm_medium=thank-you&utm_campaign=pack300-en';
+        var cta = document.getElementById('tm-cta'), input = document.getElementById('tm-email-input'), hint = document.getElementById('tm-hint');
+        var login = document.getElementById('tm-login');
+        var stepSignup = document.getElementById('step-cadastro');
+        var stepSignupBase = stepSignup ? stepSignup.href : '';
+        if (!cta || !input) return;
+        var hintDefault = hint ? hint.textContent : '';
+        function valid(v) { return v.length <= 254 && /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v); }
+        var known = '';
+        try {
+          var p = new URLSearchParams(window.location.search);
+          var raw = (p.get('email') || p.get('customer_email') || '').trim();
+          if (valid(raw)) known = raw;
+        } catch (e) { known = ''; }
+        if (known) { hintDefault = "Abbiamo inserito l'email del tuo acquisto. Cambiala se serve."; input.value = known; if (hint) hint.textContent = hintDefault; }
+        function hrefFor(email, from) { return email ? (from || base) + '&email=' + encodeURIComponent(email) : (from || base); }
+        function sync() {
+          var v = input.value.trim(), email = valid(v) ? v : known;
+          cta.href = hrefFor(email);
+          if (login) login.href = hrefFor(email, loginBase);
+          if (stepSignup) stepSignup.href = hrefFor(email, stepSignupBase);
+          if (input.getAttribute('aria-invalid') && hint) hint.textContent = hintDefault;
+          input.removeAttribute('aria-invalid');
+        }
+        input.addEventListener('input', sync);
+        cta.addEventListener('click', function (ev) {
+          var v = input.value.trim();
+          if (v && !valid(v)) { ev.preventDefault(); input.setAttribute('aria-invalid', 'true'); hint.textContent = "Controlla l'email: qualcosa non torna."; input.focus(); return; }
+          cta.href = hrefFor(v);
+        });
+        sync();
+      })();
+      </script>
+    </div>
+
+    <!-- ACCESS CARD -->
+    <div class="card access">
+      <h2>📚 Accesso di riserva: i tuoi prompt sono anche nell'area membri</h2>
+
+      <div class="field">
+        <div class="ico">🔗</div>
+        <div class="body">
+          <div class="lbl">Link di accesso</div>
+          <div class="val"><a href="https://academy.perfectpay.com.br" target="_blank" rel="noopener">academy.perfectpay.com.br</a></div>
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="ico">📧</div>
+        <div class="body">
+          <div class="lbl">Email</div>
+          <div class="val">La stessa email che hai usato al checkout (imposta la password con il link che ti abbiamo mandato per email)</div>
+        </div>
+      </div>
+
+      <a href="https://academy.perfectpay.com.br" target="_blank" rel="noopener" class="login-btn secondary">
+        Apri la mia area membri →
+      </a>
+    </div>
+
+    <!-- UPSELL PRO: same block as the PT thank-you (funis/public/pos-compra/pt/thank-you.html), Pro plan checkouts (API /plans). -->
+    <div class="card upsell" id="upsell">
+      <h2>⚡ Solo in questa schermata: passa a Pro</h2>
+      <p class="lead">Il pack ti ha dato i prompt. Pro ti dà la <strong>modella</strong>: la stessa donna in ogni foto e in ogni video, e tu salti la fila.</p>
+      <ul class="perks">
+        <li><span><strong>30.000 crediti al mese</strong> per foto, video e voce</span></li>
+        <li><span><strong>Stesso volto in foto e video</strong>, la tua modella salvata nel tuo account</span></li>
+        <li><span><strong>Coda veloce</strong>: la tua generazione passa per prima</span></li>
+      </ul>
+      <p class="upsell-timer">Annuale = 2 mesi gratis. Mensile, disdici quando vuoi.</p>
+      <a href="https://checkout.centerpag.com/pay/PPU38CQG711?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pro_yearly_en" target="_blank" rel="noopener" class="login-btn upsell-btn" data-upsell="anual">Pro annuale · 2 mesi gratis<small>($399/anno)</small></a>
+      <a href="https://checkout.centerpag.com/pay/PPU38CQDTOD?utm_source=promptsgoat&amp;utm_medium=thank-you&amp;utm_campaign=pro_monthly_en" target="_blank" rel="noopener" class="upsell-alt" data-upsell="mensal">Pro mensile · $39,90/mese</a>
+      <p class="tiny">Crea il tuo account con l'email di acquisto (il bonus qui sopra) prima dell'upgrade, così il piano arriva sullo stesso account.</p>
+      <p class="tiny">Paga con la stessa email dell'acquisto · disdici quando vuoi</p>
+    </div>
+
+    <!-- HEADS UP -->
+    <div class="note">
+      <h3>⚠️ Attenzione</h3>
+      <p>
+        Se non riesci ad accedere subito, <strong>aspetta qualche minuto e riprova</strong>:
+        il tuo accesso potrebbe essere ancora in elaborazione.
+      </p>
+      <p>
+        Accedi con la <strong>stessa email che hai usato al checkout</strong>.
+        Dopo qualche minuto ancora non entri? Scrivimi qui sotto e lo risolvo io.
+      </p>
+    </div>
+
+    <!-- X1: WhatsApp + Telegram -->
+    <div class="card support" data-x1-links>
+      <h2>Vuoi i tuoi prompt e le novità su WhatsApp o Telegram?</h2>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:12px">
+        <a href="https://wa.me/5511922198321?text=MIA%20%C2%B7%20Ciao%20Mia%21%20Voglio%20parlare%20con%20te." target="_blank" rel="noopener" style="flex:1 1 160px;display:block;text-align:center;padding:14px 16px;border-radius:12px;color:#fff;font-weight:700;text-decoration:none;background:#1da851">WhatsApp</a>
+        <a href="https://t.me/heaimodelab_bot?start=x1_en" target="_blank" rel="noopener" style="flex:1 1 160px;display:block;text-align:center;padding:14px 16px;border-radius:12px;color:#fff;font-weight:700;text-decoration:none;background:#229ed9">Telegram</a>
+      </div>
+      <p data-free-club style="margin:12px 0 0;font-size:.9rem;color:#ccc;text-align:center">💗 Gratis ogni giorno: una nuova modella + il suo prompt nel <a href="https://chat.whatsapp.com/Ck1BrfHUg3OHhoziZ1fpwc" target="_blank" rel="noopener" style="color:#25d366;font-weight:700">Free Club (WhatsApp)</a> · 🔞 <a href="https://t.me/aigirlfriend_taml" target="_blank" rel="noopener" style="color:#229ed9;font-weight:700">senza censura su Telegram</a></p>
+    </div>
+
+    <!-- SUPPORT -->
+    <div class="card support">
+      <h2>Serve aiuto? 🙌</h2>
+      <p class="sub">Manda <strong>ACTIVATE</strong> su WhatsApp e lo risolviamo insieme in pochi minuti.</p>
+      <a href="https://wa.me/5511922198321?text=ACTIVATE%20%C2%B7%20Ho%20comprato%20il%20Pack%20e%20voglio%20attivare%20le%20mie%2038%20generazioni%20gratis." target="_blank" rel="noopener" class="login-btn wa-btn"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true" focusable="false"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>Attiva su WhatsApp</a>
+      <div class="support-links">
+        <a href="mailto:theaimodelab@hotmail.com">📩 theaimodelab@hotmail.com</a>
+      </div>
+    </div>
+
+    <p class="footer">Buon divertimento! 🚀 — © The AI Model Lab</p>
+  </div>
+
+    <script>(function(){try{var a=document.getElementById('step-prompts');if(!a)return;var p=new URLSearchParams(window.location.search);var v=(p.get('email')||p.get('customer_email')||'').trim();if(v.length<=254&&/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v))a.href=a.href+'&email='+encodeURIComponent(v);}catch(e){}})();</script>
+</body>
+</html>
