@@ -2069,6 +2069,8 @@
   <div style="height:2px;width:100%;background:linear-gradient(to right,transparent,#00AFF0,transparent)"></div>
 
   <!-- HERO -->
+  <!-- A/B de chamada C12 (23/11): 50/50 por cookie, variante em utm_term (ab_head_a|b) no checkout; QA ?abhead=a|b. Desligar = reverter este commit. -->
+  <script src="/shared/ab-head.js?v=c12a" data-pagina="pg-es" data-endpoint="https://funis-production.up.railway.app/ab/c12"></script>
   <section class="hero">
     <div class="container">
       <div class="reveal from-up" style="margin-bottom:20px">
@@ -2077,7 +2079,7 @@
 
 
             Empieza tu negocio de <span class="highlight-yellow">creadora</span> con IA <span class="highlight-yellow">esta semana</span> — <span class="highlight">300+ prompts</span> que hacen la parte difícil por ti
-          </h1>
+          </h1><script>(function(){try{var ab=window.tamlAbHead;var h=document.querySelector('section.hero h1');if(ab&&ab.copy&&h){var c=ab.copy;var y=document.createElement('span');y.className='highlight-yellow';y.textContent=c.em;var s=document.createElement('span');s.className='highlight';s.textContent=c.s;h.textContent='';h.appendChild(document.createTextNode(c.h+' '));h.appendChild(y);h.appendChild(document.createTextNode(' \u2014 '));h.appendChild(s);}document.addEventListener('DOMContentLoaded',function(){var a=document.querySelectorAll('a[data-ckt]');for(var i=0;i<a.length;i++)if(!a[i].hasAttribute('data-cta'))a[i].setAttribute('data-cta','conta');});}catch(e){}})();</script>
           <p class="subtitle">Una IA sin censura crea fotos hiperrealistas. Estos 300+ prompts hacen que funcione.<br />Tu cara real nunca aparece.</p>
         </div>
       </div>
